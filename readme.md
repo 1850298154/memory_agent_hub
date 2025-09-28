@@ -14,9 +14,16 @@ https://github.com/mem0ai/mem0
 https://github.com/orgs/OpenSPG/discussions/52
 
 ![alt text](zfig/readme/image.png)
+![alt text](zfig/readme/image-1.png)
 
+KAG客户端 使用方式：
+https://github.com/1850298154/KagTest
 
-
+## 如何基于语义相似性分割文本
+RAG分割文档的几种方式：
+1. 基于语义相似性的分割文本
+https://python.langchain.ac.cn/docs/how_to/semantic-chunker/
+2. 其他（基于固定长度、基于滑动窗口、基于标题等）
 
 # 知名服务商
 
