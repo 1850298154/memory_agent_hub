@@ -15,9 +15,14 @@ https://github.com/orgs/OpenSPG/discussions/52
 
 ![alt text](zfig/readme/image.png)
 ![alt text](zfig/readme/image-1.png)
+![alt text](zfig/readme/image-2.png)
 
 KAG客户端 使用方式：
 https://github.com/1850298154/KagTest
+
+参考 HippoRAG
+https://github.com/OSU-NLP-Group/HippoRAG
+https://dl.acm.org/doi/10.5555/3737916.3739818
 
 ## 如何基于语义相似性分割文本
 RAG分割文档的几种方式：
