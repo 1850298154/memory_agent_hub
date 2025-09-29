@@ -30,6 +30,11 @@ RAG分割文档的几种方式：
 https://python.langchain.ac.cn/docs/how_to/semantic-chunker/
 2. 其他（基于固定长度、基于滑动窗口、基于标题等）
 
+
+## 基于hnswlib的向量索引(2年前更新)
+https://github.com/nmslib/hnswlib
+
+
 # 知名服务商
 
 ---
