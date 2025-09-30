@@ -34,6 +34,9 @@ https://python.langchain.ac.cn/docs/how_to/semantic-chunker/
 ## 基于hnswlib的向量索引(2年前更新)
 https://github.com/nmslib/hnswlib
 
+## stream vq 生成式召回
+https://zhuanlan.zhihu.com/p/1955356511661458958
+
 
 # 知名服务商
 
