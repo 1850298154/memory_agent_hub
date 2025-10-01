@@ -46,6 +46,8 @@ https://github.com/nmslib/hnswlib
 ## stream vq 生成式召回
 https://zhuanlan.zhihu.com/p/1955356511661458958
 
+## ai学术搜索
+官网地址是：https://lumina.sh，可直接访问使用这款免费学术搜索引擎。
 
 # 知名服务商
 
