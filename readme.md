@@ -5,6 +5,12 @@
 ---
 
 
+## MINE Context
+万物皆可上下文， 挖掘上下文
+https://github.com/volcengine/MineContext/tree/main?tab=readme-ov-file
+https://github.com/volcengine/MineContext/blob/main/README_zh.md
+
+
 ## mem0 2025年9月27日持续更新github
 基于graph+rag的mem0
 https://github.com/mem0ai/mem0
