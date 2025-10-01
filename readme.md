@@ -4,6 +4,9 @@
 
 ---
 
+## es agent
+基于 Langchain 的 Elasticsearch Agent 对文档的搜索
+https://elasticstack.blog.csdn.net/article/details/136253286
 
 ## MINE Context
 万物皆可上下文， 挖掘上下文
