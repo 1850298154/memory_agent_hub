@@ -49,6 +49,10 @@ https://zhuanlan.zhihu.com/p/1955356511661458958
 ## ai学术搜索
 官网地址是：https://lumina.sh，可直接访问使用这款免费学术搜索引擎。
 
+## 长文本提取结构化信息
+项目 GitHub 地址：github.com/google/LangExtract  
+PyPI 安装命令：pip install langextract
+
 # 知名服务商
 
 ---
