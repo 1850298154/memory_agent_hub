@@ -53,6 +53,11 @@ https://zhuanlan.zhihu.com/p/1955356511661458958
 项目 GitHub 地址：github.com/google/LangExtract  
 PyPI 安装命令：pip install langextract
 
+
+## 非结构化转结构化，用于微调等
+Easy Workspace工具，它能自动将PDF、Word等非结构化数据转化为结构化微调训练数据。通过三步流程：数据标准化、内容提取分割、生成问答对，帮助企业高效完成大模型微调，显著降低人工成本。
+
+
 # 知名服务商
 
 ---
