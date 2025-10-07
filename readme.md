@@ -3,6 +3,9 @@
 
 ---
 
+## 腾讯 tree graphrag （2025年9月）
+https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
+
 ## awesome-ai-memory 汇聚memory相关项目
 https://github.com/topoteretes/awesome-ai-memory
 
