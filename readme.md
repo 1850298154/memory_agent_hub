@@ -62,6 +62,8 @@ https://zhuanlan.zhihu.com/p/1955356511661458958
 https://liuhuanyong.github.io/
 
 ## 唐国梁Tommy : rag + llm + es
+https://github.com/TGLTommy?tab=repositories
+
 https://www.youtube.com/@TGLTommy
 
 唐国梁Tommy官方网站
