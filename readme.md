@@ -51,6 +51,19 @@ https://zhuanlan.zhihu.com/p/1955356511661458958
 ## 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员
 https://liuhuanyong.github.io/
 
+## 唐国梁Tommy : rag + llm + es
+https://www.youtube.com/@TGLTommy
+
+唐国梁Tommy官方网站
+tgltommy.com
+
+微信公众号
+tgltommy.com/p/official-wechat
+
+bilibili
+space.bilibili.com/474347248
+
+
 ## 长文本提取结构化信息
 项目 GitHub 地址：github.com/google/LangExtract  
 PyPI 安装命令：pip install langextract
