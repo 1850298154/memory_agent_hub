@@ -90,6 +90,9 @@ PyPI 安装命令：pip install langextract
 ## 非结构化转结构化，用于微调等
 Easy Workspace工具，它能自动将PDF、Word等非结构化数据转化为结构化微调训练数据。通过三步流程：数据标准化、内容提取分割、生成问答对，帮助企业高效完成大模型微调，显著降低人工成本。
 
+## MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）
+https://www.53ai.com/news/LargeLanguageModel/2024061171948.html
+
 # 知名服务商
 
 ---
