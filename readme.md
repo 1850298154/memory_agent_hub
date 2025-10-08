@@ -48,6 +48,8 @@ RAG分割文档的几种方式：
 https://python.langchain.ac.cn/docs/how_to/semantic-chunker/
 2. 其他（基于固定长度、基于滑动窗口、基于标题等）
 
+## 各种向量数据库对比
+https://www.cnblogs.com/crazymakercircle/p/18867143
 
 ## 基于hnswlib的向量索引(2年前更新)
 https://github.com/nmslib/hnswlib
@@ -57,6 +59,10 @@ https://zhuanlan.zhihu.com/p/1955356511661458958
 
 ## ai学术搜索
 官网地址是：https://lumina.sh，可直接访问使用这款免费学术搜索引擎。
+
+## nlp etc.
+https://www.geeksforgeeks.org/category/nlp/
+
 
 ## 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等
 https://liuhuanyong.github.io/
