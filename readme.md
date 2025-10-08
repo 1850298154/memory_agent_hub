@@ -3,6 +3,16 @@
 
 ---
 
+## 腾讯 tree graphrag （2025年9月）
+https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
+
+
+## 自己用milvus+neo4j实现graphrag
+https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/advanced_rag/langgraph-graphrag-agent-local.ipynb
+
+## awesome-ai-memory 汇聚memory相关项目
+https://github.com/topoteretes/awesome-ai-memory
+
 ## es agent
 基于 Langchain 的 Elasticsearch Agent 对文档的搜索
 https://elasticstack.blog.csdn.net/article/details/136253286
@@ -48,7 +58,7 @@ https://zhuanlan.zhihu.com/p/1955356511661458958
 ## ai学术搜索
 官网地址是：https://lumina.sh，可直接访问使用这款免费学术搜索引擎。
 
-## 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员
+## 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等
 https://liuhuanyong.github.io/
 
 ## 唐国梁Tommy : rag + llm + es
