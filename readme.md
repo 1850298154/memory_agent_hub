@@ -95,13 +95,13 @@ https://www.53ai.com/news/LargeLanguageModel/2024061171948.html
 
 ## ai coding
 
-Roo Code
+Roo Code  最早
 
-Cline
+Cline 代码比roo code仓库的更规范
 
-Kilo
+Kilo 继承前两者
 
-Metamove
+Metamove 字节内部
 
 
 
