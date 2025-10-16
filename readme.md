@@ -93,6 +93,18 @@ Easy Workspace工具，它能自动将PDF、Word等非结构化数据转化为�
 ## MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）
 https://www.53ai.com/news/LargeLanguageModel/2024061171948.html
 
+## ai coding
+
+Roo Code  最早
+
+Cline 代码比roo code仓库的更规范
+
+Kilo 继承前两者
+
+Metamove 字节内部
+
+
+
 # 知名服务商
 
 ---
