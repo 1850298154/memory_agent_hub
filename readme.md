@@ -2,6 +2,8 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+## mem 推移学习，自我改进
+官网：docs.letta.com/
 
 ## 腾讯 tree graphrag （2025年9月）
 https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
