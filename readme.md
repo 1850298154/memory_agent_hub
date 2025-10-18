@@ -2,6 +2,10 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+
+## ai混合搜索 meili
+开源ai混合搜索引擎是 Meilisearch，GitHub 地址是 github.com/meilisearch/meilisearch。它基于 Rust 实现，支持混合搜索，GitHub 已获 53.7k 星标。
+
 ## mem 推移学习，自我改进
 官网：docs.letta.com/
 
