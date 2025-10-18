@@ -3,6 +3,8 @@
 
 ---
 
+## Supabase
+作为开源项目，支持通过Docker或源码在本地自行部署，既提供云端托管也满足私有化需求。
 
 ## 高质量rag
 项目地址是 https://github.com/deepset-ai/haystack
