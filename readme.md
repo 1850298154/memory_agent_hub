@@ -2,6 +2,8 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+## 视频转文字
+项目GitHub地址：https://github.com/wendy7756/AI-Video-Transcriber
 
 ## 音视频2文本
 这款开源工具叫AI-Media2Doc，能将音视频一键转成小红书、公众号等风格的文档。它支持本地部署，数据都存在自己电脑，隐私有保障。适合一人公司做知识管理和内容创作，已在GitHub收获2.5k star，值得一试。
