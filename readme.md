@@ -2,6 +2,11 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+## GitHub代码检索
+git-mpc和，
+context7背后是各种开发框架，它针对所有github仓库
+
+
 ## 视频转文字
 项目GitHub地址：https://github.com/wendy7756/AI-Video-Transcriber
 
