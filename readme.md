@@ -49,6 +49,11 @@ https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
 ## 自己用milvus+neo4j实现graphrag
 https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/advanced_rag/langgraph-graphrag-agent-local.ipynb
 
+## 微软 graphRAG
+标准 GraphRAG： 效果最好，图谱信息最丰富，但最贵最慢。
+FastGraphRAG： 速度快，成本低，但图谱信息相对简单。
+LazyGraphRAG (懒人版/省钱版)： 这是个新趋势。它在索引阶段只做最少的工作，大部分 LLM 的计算任务推迟到你真正提问的时候再做。这样前期成本大大降低，特别适合超大数据集或预算有限的情况。
+
 ## awesome-ai-memory 汇聚memory相关项目
 https://github.com/topoteretes/awesome-ai-memory
 
