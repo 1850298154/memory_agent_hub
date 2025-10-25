@@ -2,6 +2,11 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+
+## MonkeyOCR
+GitHub搜索"Yuliang-Liu/MonkeyOCR"即可。本地部署后，直接上传图片或PDF，能秒速提取文字表格公式，输出Markdown或Excel格式，适合处理各类文档且保护数据安全。
+
+
 ## GitHub代码检索
 git-mpc和，
 context7背后是各种开发框架，它针对所有github仓库
