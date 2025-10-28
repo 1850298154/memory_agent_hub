@@ -54,6 +54,21 @@ Haystack是生产级RAG框架，在GitHub有22.9k星标。它支持200多个大�
 ## 腾讯 tree graphrag （2025年9月）
 https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
 
+## Graphiti vs GraphRAG 对比
+
+| 方面 | GraphRAG | Graphiti |
+| --- | --- | --- |
+| 主要用途 | 静态文档摘要 | 动态数据管理 |
+| 数据处理 | 批处理导向 | 连续增量更新 |
+| 知识结构 | 实体集群和社区摘要 | 情景数据、语义实体、社区 |
+| 检索方法 | 顺序 LLM 摘要 | 混合语义、关键词和基于图的搜索 |
+| 适应性 | 低 | 高 |
+| 时间处理 | 基本时间戳跟踪 | 显式双时态跟踪 |
+| 矛盾处理 | LLM 驱动的摘要判断 | 时间边缘失效 |
+| 查询延迟 | 秒到几十秒 | 通常亚秒延迟 |
+| 自定义实体类型 | 否 | 是，可自定义 |
+| 可扩展性 | 中等 | 高，针对大型数据集优化 |
+
 
 ## 自己用milvus+neo4j实现graphrag
 https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/advanced_rag/langgraph-graphrag-agent-local.ipynb
