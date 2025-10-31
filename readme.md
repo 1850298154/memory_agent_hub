@@ -6,6 +6,13 @@
 ## langchain graphrag
 > ProgramData > anaconda3 > envs > transformer > Lib > site-packages > langchain.graphrag > indexing > graph_generation > entity.relationship.extraction > e extractor.py
 
+## G-memory, Arcmemo, reasoning bank
+三篇论文
+
+
+## embedding model 天梯
+https://huggingface.co/spaces/mteb/leaderboard
+https://zhuanlan.zhihu.com/p/24604344712
 
 ## MonkeyOCR
 GitHub搜索"Yuliang-Liu/MonkeyOCR"即可。本地部署后，直接上传图片或PDF，能秒速提取文字表格公式，输出Markdown或Excel格式，适合处理各类文档且保护数据安全。
