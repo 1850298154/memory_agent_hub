@@ -239,3 +239,10 @@ https://mp.weixin.qq.com/s/0l6TP8DjArNwulMfFNlw1A
 
 ### 马士兵飞书面经
 https://kwz55xptfhg.feishu.cn/wiki/F9odwJL5NiOc7vkscm5cC2nAnIh
+
+# 基础
+## 统计学自学指南 stats-self-learning
+
+https://xuankaiwang.github.io/
+
+
