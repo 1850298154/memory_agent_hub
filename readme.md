@@ -6,6 +6,23 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+## Graph-Base Agent基于任务图的Agent框架
+本文提出图基智能体规划（GAP）框架，突破传统顺序执行范式，通过依赖图建模实现子任务的动态并行/串行调度。
+	
+关键技术
+依赖感知的子任务图分解
+两阶段训练（监督微调+强化学习）
+基于MHQA构建的图规划轨迹数据集
+	
+性能优势
+效率提升：智能并行化减少40%工具调用延迟（实验数据）
+准确率改进：多跳问答任务F1值提升15%以上
+泛化能力：可扩展至需要多工具协作的复杂场景
+	
+应用价值
+为金融分析、医疗诊断等需要多源工具协同的领域提供新范式，显著降低AI系统响应时间。
+地址:https://arxiv.org/abs/2510.25320
+
 ## A-Mem: Agentic Memory for LLM Agents
 https://github.com/WujiangXu/A-mem-sys
 
