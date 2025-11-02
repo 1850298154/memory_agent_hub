@@ -135,6 +135,15 @@ https://elasticstack.blog.csdn.net/article/details/136253286
 https://github.com/volcengine/MineContext/tree/main?tab=readme-ov-file
 https://github.com/volcengine/MineContext/blob/main/README_zh.md
 
+## 拼好rag
+https://mp.weixin.qq.com/s/c0KC--EO9tuJuaadlujobg
+
+https://github.com/1517005260/graph-rag-agent/blob/master/assets/start.md
+
+https://github.com/1517005260/graph-rag-agent
+
+https://deepwiki.com/1517005260/graph-rag-agent/2-core-architecture
+
 
 ## mem0 2025年9月27日持续更新github
 基于graph+rag的mem0
