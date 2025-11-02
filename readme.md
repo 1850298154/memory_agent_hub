@@ -231,10 +231,13 @@ https://mp.weixin.qq.com/s/0l6TP8DjArNwulMfFNlw1A
 
 ### 飞书文档
 
+> 一站式AI产品经理入门指南
 > https://v11enp9ok1h.feishu.cn/wiki/KiIvwdFOciiqqNkwKzTcmn88ndL
 
+> AI 活雷锋
 > https://kwz55xptfhg.feishu.cn/wiki/T5oew0kY4in3EIk1Wlfc3oIGnhe
 
+> AI产品经理行业资料库（持续更新）
 > https://gxvezr0dpem.feishu.cn/docx/BE1YdDKeOoNZcvxeidccwJ65nnc
 
 ### 马士兵飞书面经
