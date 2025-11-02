@@ -3,6 +3,12 @@
 
 ---
 
+## 综述
+《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
+
+## LightMem
+一种受人类记忆启发的轻量级和高效的内存框架，通过选择性过滤、组织和巩固信息，显著提高了LLMs在长上下文和多轮交互场景中的表现，同时大幅降低了计算成本。未来的工作包括加速离线更新、集成知识图谱和多模态记忆机制，以及探索参数化和非参数化记忆组件的协同机制。
+
 ## langchain graphrag
 > ProgramData > anaconda3 > envs > transformer > Lib > site-packages > langchain.graphrag > indexing > graph_generation > entity.relationship.extraction > e extractor.py
 
@@ -132,6 +138,15 @@ https://elasticstack.blog.csdn.net/article/details/136253286
 https://github.com/volcengine/MineContext/tree/main?tab=readme-ov-file
 https://github.com/volcengine/MineContext/blob/main/README_zh.md
 
+## 拼好rag
+https://mp.weixin.qq.com/s/c0KC--EO9tuJuaadlujobg
+
+https://github.com/1517005260/graph-rag-agent/blob/master/assets/start.md
+
+https://github.com/1517005260/graph-rag-agent
+
+https://deepwiki.com/1517005260/graph-rag-agent/2-core-architecture
+
 
 ## mem0 2025年9月27日持续更新github
 基于graph+rag的mem0
@@ -242,3 +257,10 @@ https://mp.weixin.qq.com/s/0l6TP8DjArNwulMfFNlw1A
 
 ### 马士兵飞书面经
 https://kwz55xptfhg.feishu.cn/wiki/F9odwJL5NiOc7vkscm5cC2nAnIh
+
+# 基础
+## 统计学自学指南 stats-self-learning
+
+https://xuankaiwang.github.io/
+
+
