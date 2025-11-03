@@ -6,6 +6,9 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+##
+项目地址是 https://github.com/JerryZLiu/Dayflow，展示了这个开源日报工具
+
 ##  可信AI Agent相关论文(DPO)
 ![img](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://juejin.cn&size=32
 
