@@ -6,6 +6,9 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+## 基于多模态信息抽取的菜品知识图谱构建
+https://tech.meituan.com/2024/05/17/cross-modal-ingredient-level-dataset.html
+
 ##  可信AI Agent相关论文(DPO)
 ![img](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://juejin.cn&size=32
 
