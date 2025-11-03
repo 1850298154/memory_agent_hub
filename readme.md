@@ -6,6 +6,8 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+## Agentic RAG新范式！天大&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍
+
 ## 日报神器，记录你的一天 Dayflow
 项目地址是
  https://github.com/JerryZLiu/Dayflow
