@@ -175,6 +175,8 @@ https://elasticstack.blog.csdn.net/article/details/136253286
 https://github.com/volcengine/MineContext/tree/main?tab=readme-ov-file
 https://github.com/volcengine/MineContext/blob/main/README_zh.md
 
+字节开源AI助手MineContext，是一款能主动工作的"数字外脑"。它自动分析你电脑上的文档、网页等内容，实时生成待办清单和每日摘要，不像普通AI等你提问。所有数据都存储在本地不上传云端，既保护隐私又能帮你摆脱信息碎片化困扰，工作学习效率提升明显。
+
 ## 拼好rag
 https://mp.weixin.qq.com/s/c0KC--EO9tuJuaadlujobg
 
