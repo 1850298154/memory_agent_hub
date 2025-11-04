@@ -9,6 +9,19 @@
 ## 基于多模态信息抽取的菜品知识图谱构建
 https://tech.meituan.com/2024/05/17/cross-modal-ingredient-level-dataset.html
 
+## 谷歌 vs 微软 deepresearch
+ https://mp.weixin.qq.com/s/e_1dGQRLfc_fGAZrQEsLVw
+## Reasoning with Sampling: Your Base Model is Smarter Than You Think
+哈佛团队的"Power Sampling"方法很妙：只需改变基座模型的采样分布（从常规改为幂分布），就能大幅提升推理能力。它不依赖强化学习、无需额外训练，连校验器都不用，却让Qwen2-5-Math-7B模型在数学任务准确率从49.6%跃升至74.8%，编程任务更是从21.3%飙升到73.2%——不仅逼近强化学习效果，还避免了多样性坍缩问题。这证明基础模型本身已蕴含强大推理潜力，只是被传统采样方式束缚住了。
+
+## Agentic RAG新范式！天大&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍
+
+## 日报神器，记录你的一天 Dayflow
+项目地址是
+ https://github.com/JerryZLiu/Dayflow
+
+，展示了这个开源日报工具
+
 ##  可信AI Agent相关论文(DPO)
 ![img](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://juejin.cn&size=32
 
