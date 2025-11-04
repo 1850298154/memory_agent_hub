@@ -9,6 +9,27 @@
 ## 基于多模态信息抽取的菜品知识图谱构建
 https://tech.meituan.com/2024/05/17/cross-modal-ingredient-level-dataset.html
 
+## ragflow 已经支持 知识图谱
+Construct knowledge graph
+
+https://ragflow.io/docs/dev/construct_knowledge_graph
+
+## LightRAG
+港大团队开源LightRAG：知识图谱+双层检索，复杂问答准确率飙升30%
+
+LightRAG的主要优势包括：
+
+- 高效的知识图谱构建：LightRAG通过图结构差异分析实现增量更新算法，显著降低了计算开销，使知识库维护更加高效。
+- 双层检索机制：该系统结合了低层次（具体实体和属性）和高层次（广泛主题和概念）的检索策略，满足了不同类型的查询需求，提高了检索的全面性和多样性。
+- 快速适应动态数据：LightRAG能够在新数据到来时快速整合，无需重建整个知识库，确保系统在动态环境中保持高效和准确。
+
+https://link.zhihu.com/?target=https%3A//github.com/HKUDS/LightRAG
+
+https://zhuanlan.zhihu.com/p/1892140189524156837
+
+## llm agent 综述
+https://hustai.github.io/zh/posts/reasoning/LATS.html
+
 ## 谷歌 vs 微软 deepresearch
  https://mp.weixin.qq.com/s/e_1dGQRLfc_fGAZrQEsLVw
 ## Reasoning with Sampling: Your Base Model is Smarter Than You Think
