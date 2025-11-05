@@ -6,6 +6,14 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+## Prop RAG 
+https://github.com/ReLink-Inc/PropRAG
+核心创新：以"命题"为基础知识单元，通过无LLM的在线束搜索实现高效多跳推理
+技术特点：
+- 命题知识单元：将文档分解为语义丰富的命题，作为检索和推理的基本单位
+- 束搜索算法：采用高效的束搜索在命题路径上进行多步推理，无需在线调用LLM
+- 推理路径发现：能够自动发现和构建多步推理链，支持复杂问题解答
+
 ## 基于多模态信息抽取的菜品知识图谱构建
 https://tech.meituan.com/2024/05/17/cross-modal-ingredient-level-dataset.html
 
