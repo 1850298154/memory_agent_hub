@@ -6,6 +6,15 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+## LightMem：像人脑一样高效的记忆系统
+https://dailypapers.org/paper/2510.18866
+	
+🧠 核心方法
+LightMem采用三阶段架构：
+1️⃣ 感官记忆： 轻量级压缩和主题过滤，快速去除冗余信息。
+2️⃣ 短期记忆： 主题感知整合，生成更结构化的记忆单元。
+3️⃣ 长期记忆： 引入“睡眠时间更新”机制，将昂贵的记忆维护操作解耦到离线并行执行，大幅降低在线延迟。
+
 ## Prop RAG 
 https://github.com/ReLink-Inc/PropRAG
 核心创新：以"命题"为基础知识单元，通过无LLM的在线束搜索实现高效多跳推理
