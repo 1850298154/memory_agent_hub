@@ -15,6 +15,15 @@ LightMem采用三阶段架构：
  短期记忆： 主题感知整合，生成更结构化的记忆单元。
  长期记忆： 引入“睡眠时间更新”机制，将昂贵的记忆维护操作解耦到离线并行执行，大幅降低在线延迟。
 
+## llm训练
+必读系列，Huggingface 出品的 LLM 训练手册非常详细的介绍了完整的 LLM 训练流程，包括训练指南（是否需要预训练）、预训练、后训练、基础设施
+
+主要以他们自己训练的 SmolLM3 这个 3B 模型为例子
+
+手册包含了他们训练模型过程中对一系列决策、发现和死胡同的梳理，全是实践经验。
+
+https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook
+
 ## Prop RAG 
 https://github.com/ReLink-Inc/PropRAG
 核心创新：以"命题"为基础知识单元，通过无LLM的在线束搜索实现高效多跳推理
