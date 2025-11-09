@@ -40,6 +40,11 @@ Construct knowledge graph
 
 https://ragflow.io/docs/dev/construct_knowledge_graph
 
+## flashrag     
+人大开源
+
+https://github.com/RUC-NLPIR/FlashRAG
+
 ## LightRAG
 港大团队开源LightRAG：知识图谱+双层检索，复杂问答准确率飙升30%
 
