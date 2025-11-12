@@ -6,6 +6,22 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+Agent改造爆火项目，自动生成股票舆情报告！ 改造后项目地址：https://gitee.com/SeniorAgentTeam/bettafish-stock.git 不到两周狂揽2万Star的开源舆情分析平台，只需输入一句话，智能体就能自动爬取全网数据（微博、知乎、GitHub、抖音、小红书、官媒等），最后由Report Agent生成完整分析报告。 报告内容包含舆情发展脉络、传播分析、风险评估与应对策略，自动导出PDF。 
+
+其中的5个智能体分工如下：
+
+1. Insight Engine：负责私有数据库挖掘，处理企业内部业务数据，实现公私域数据融合
+
+2. Media Engine：专注多模态内容分析，爬取抖音/快手/小红书的视频图文，还能解析搜索引擎中的天气卡、日历卡、股票卡等结构化信息
+
+3. Query Engine：执行精准信息搜索，覆盖微博/知乎/GitHub等13+社媒平台，广泛采集用户评论和公开舆情
+
+4. Forum Engine：担任"辩论主持人"，协调各Agent进行链式思维碰撞，避免单一模型局限
+
+5. Report Engine：整合所有数据生成最终报告，包含舆情脉络、传播分析、风险评估等完整框架
+
+这套系统通过五方协作，实现了从数据采集到深度分析的全流程自动化。
+
 ## LightMem：像人脑一样高效的记忆系统
 https://dailypapers.org/paper/2510.18866
 	
