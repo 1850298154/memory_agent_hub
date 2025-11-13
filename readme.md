@@ -6,6 +6,9 @@
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
+## 1亿篇论文组成知识星球
+https://github.com/context-labs/aella-data-explorer#:~:text=Interactive%20visualization%20and%20exploration%20of%20scientific%20papers%20from,project%20is%20a%20collaboration%20between%20Inference.net%20and%20LAION.
+
 ## multi ai agent game
 https://mp.weixin.qq.com/s/b005axpuXFno5h7gfC5DMg
 
