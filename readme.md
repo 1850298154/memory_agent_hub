@@ -3,10 +3,148 @@
 
 ---
 
+
+
+## 2025年11月14最新
+- **AI Memory 项目完整对照表**
+- 一、🔥开源记忆框架推荐
+  - 1 MemOS
+    - 团队：记忆张量 + 上海交大等
+    - 类型：记忆操作系统
+    - 核心：三层架构 + 记忆调度
+    - 特点：工业级标准化封装（MemCube）
+    - 性能：准确率提升 38.97%，Token 消耗降低 60.95%
+    - 适用场景：企业级生产环境
+    - 发布时间：2025 年 7 月
+  - 2 Mem0
+    - 团队：YC 支持创业公司
+    - 类型：混合存储框架
+    - 核心：向量 + 键值 + 图存储
+    - 特点：响应 1.44 秒，7k tokens/对话
+    - 适用：企业多场景应用
+    - Stars：22k+
+  - 3 Zep (Graphiti)
+    - 团队：YC 2024 冬季批次
+    - 类型：时序知识图谱
+    - 特点：关系追踪准确率 94.8%，DMR 基准 98.2%
+    - 场景：复杂多会话关系管理
+  - 4 Letta (MemGPT)
+    - 来源：UC Berkeley
+    - 特点：分层内存 + 可视化 ADE 界面
+    - 适用：学术与代理框架开发
+  - 5 Cognee
+    - 特点：图 + 向量混合架构，ECL 知识管道
+    - 准确率：92.5%（优于传统 RAG）
+    - 适用：知识密集型场景
+  - 其他代表：
+    - LangMem（LangChain 官方 SDK）
+    - Memoripy（人类记忆模拟）
+    - Memori（企业集成引擎）
+    - Memory（图数据库驱动）
+    - Julep AI（AI 工作流平台）
+- 二、🧠 MCP 记忆服务器生态
+  - 1 OpenMemory MCP（Mem0 官方）
+    - 技术：本地优先 + 标准化 API
+    - 优点：完全离线、零云同步
+    - 场景：隐私敏感场景、跨工具协作
+  - 2 Supermemory MCP
+    - 支持跨 LLM 平台共享记忆
+    - 场景：ChatGPT、Claude、Gemini 混合使用者
+  - 3 CaviraOSS OpenMemory
+    - 优点：速度提升 2-3 倍，成本降低 6-10 倍
+    - 场景：性能优先的企业环境
+  - 4 Basic Memory
+    - 存储：Markdown + 知识图谱
+    - 优点：兼容 Obsidian
+    - 适用：个人知识管理
+- 三、🏢 商业产品的记忆功能
+  - ChatGPT Memory（OpenAI）
+    - 自动预加载 + 时间戳记忆
+    - 跨对话持久保存
+    - 用户可随时删除
+    - ✅ 全量开放中
+  - Claude Memory（Anthropic）
+    - 工具调用 + 原始对话引用
+    - 团队版增强，安全测试完善
+  - Gemini Memory（Google）
+    - 功能未完全上线，仍在测试中
+- 四、💻 桌面与独立应用
+  - Memorr.ai
+    - 平台：Mac / Windows
+    - 技术：RAG + 可视化记忆画布
+    - 特点：永久记忆、本地加密
+    - 场景：长对话用户
+- 五、🎓 学术研究与创新架构
+  - Memory Taxonomy 2025（爱丁堡大学+港中文）：三大记忆分类与六种操作
+  - 3DLLM-MEM（UCLA+Google）：3D 环境长时记忆，用于机器人
+  - MIRIX（UCSD+NYU）：多模态多智能体记忆系统
+  - Larimar：大脑启发架构，分布式情景记忆
+  - MemoryOS（北邮团队）：三级分层记忆架构
+- 六、📊 评估基准
+  - LoCoMo（ACL 2024）：长期对话记忆
+  - LongMemEval：时序推理能力测试
+  - DMR（MemGPT 团队）：多会话深度记忆检索
+- 七、🧩 技术架构对比
+  - 架构类型对比：
+    - 向量检索：高效快速
+    - 图数据库：关系建模最强
+    - 混合架构：性能平衡
+    - 操作系统级：调度优化显著
+    - 代理框架型：灵活度高
+  - 代表项目：
+    - Mem0（混合）
+    - Zep（图时序）
+    - MemOS（系统级）
+    - Cognee（混合）
+    - Letta（代理框架）
+- 八、🧭 选择建议矩阵
+  - 个人助手：ChatGPT Memory / Claude Memory
+  - 专业开发：LangMem / Cognee / Mem0
+  - 企业生产：MemOS / Zep / Memori
+  - 隐私场景：OpenMemory MCP / Memoripy
+  - 跨工具协作：Supermemory MCP
+  - 复杂工作流：Julep AI
+  - 学术研究：Letta (MemGPT)
+- 九、🚀 性能数据对比（简化版）
+  - MemOS：准确率 +38.97%，Token -60.95%
+  - Cognee：准确率 92.5%
+  - Zep：DMR 98.2%
+  - Mem0：LoCoMo 68.5%，响应 1.44s
+  - OpenMemory (CaviraOSS)：2-3 倍更快，6-10 倍成本优势
+- 十、🔗 集成生态对比
+  - LangChain / LangGraph / CrewAI / AutoGen / MCP
+  - ✅ MemOS、Mem0、Zep、Cognee、LangMem 均深度集成 LangChain
+  - ✅ OpenMemory、Supermemory 专注 MCP 生态
+- 十一、📂 数据存储架构
+  - MemOS：全栈（向量+图+关系+键值）
+  - Zep / Cognee / Memory：图+向量混合
+  - Memori：SQLite 本地轻量方案
+  - Basic Memory：Markdown 文件存储
+- 十二、⚖️ 开源协议与商业模式
+  - Apache 2.0：Mem0, Zep, Cognee, Letta, Julep
+  - MIT：LangMem, Memoripy
+  - 商业版：MemOS, Memori
+  - 云服务支持：Mem0, Zep, Julep
+- 十三、📈 技术趋势总结（2025）
+  - 1 架构趋势：图 + 向量混合成主流，记忆系统操作系统化
+  - 2 标准化：MCP 成为事实标准
+  - 3 隐私优先：数据主权与本地控制成刚需
+  - 4 性能优化：Token 成本降低 60%，速度提升 3 倍
+  - 5 生态融合：LangChain / LangGraph / MCP 多平台互通
+- 十四、🌳 快速选择指南
+  - 想要“零配置”：选 ChatGPT Memory
+  - 追求隐私安全：选 Memoripy / Basic Memory
+  - 开发实验：选 LangMem / Cognee / Mem0
+  - 企业生产：选 MemOS / Zep / Memori
+  - 跨工具协作：选 Supermemory MCP
+  - 工作流自动化：选 Julep AI
+
+# 2025年11月13之前汇总
+
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
-## context-labs / aella-data-explorer 1亿篇论文组成知识星球
+## context-labs / aella-data-explorer 1亿篇论文组成知识图谱KG
 https://github.com/context-labs/aella-data-explorer#:~:text=Interactive%20visualization%20and%20exploration%20of%20scientific%20papers%20from,project%20is%20a%20collaboration%20between%20Inference.net%20and%20LAION.
 
 ## multi ai agent game
