@@ -5,7 +5,7 @@
 
 
 
-## 2025年11月14最新
+## 2025年11月13最新
 - **AI Memory 项目完整对照表**
 - 一、🔥开源记忆框架推荐
   - 1 MemOS
@@ -139,7 +139,7 @@
   - 跨工具协作：选 Supermemory MCP
   - 工作流自动化：选 Julep AI
 
-# 2025年11月13之前汇总
+## 之后是2025年11月13之前汇总
 
 ## 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
