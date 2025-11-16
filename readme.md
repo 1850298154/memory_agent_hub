@@ -502,6 +502,69 @@ Metamove 字节内部
 
 
 
+# ai agent 架构、新闻DIY、产品汇总
+## ai agent 架构
+
+### roma 等（字节aime，分析计划树agent）
+MECE分析法，全称Mutually Exclusive Collectively Exhaustive，中文意思是“相互独立，完全穷尽”。 也就是对于一个重大的议题，能够做到不重叠、不遗漏的分类，而且能够借此有效把握问题的核心，并解决问题的方法。
+
+优点：并发度，丰富度，发散性
+缺点：关联度，交叉度，逻辑性
+
+### 数分+营销
+专属AI股神 TradingAgents-CN，专门为中文用户设计，支持本土化操作。它能智能分析趋势，提供精准的建议
+
+
+## 其他人 ai hub
+
+🔥更多大模型教程：https://github.com/echonoshy/cgft-llm
+
+
+https://github.com/Shubhamsaboo/awesome-llm-apps
+
+ashishpatel26/500-A1-Agents-Projects
+
+sindresorhus/awesome
+
+## 令人启发的产品
+
+
+### 用知识卡片，轻松建立知识体系
+Rabbithole.chat
+### 教育
+https://www.aihub.cn/tools/study/gauth/
+
+### 学术
+Findin AI是AI学术工具，能显著提升科研效率。
+
+
+
+## ai agent 新闻频道
+
+
+### aihub (外国日报)
+https://www.aihub.cn/tools/study/gauth
+
+
+### ai 技术新闻（英国）
+https://ai.plainenglish.io/forgetting-in-ai-agent-memory-systems-7049181798c4
+
+### github ai  (外国日报论坛)
+Discover and explore top open-source AI tools and projects—updated daily.
+
+https://www.sourcepulse.org/
+
+https://www.sourcepulse.org/projects/1844761
+
+### ai tool navigation (中国一站式)
+
+https://aitool.zyqok.com/
+
+https://aitool.zyqok.com/digest/2024/0402/RAGOnMedicalKG-%E5%8C%BB%E8%8D%AF%E9%A2%86%E5%9F%9FKG+%E5%A4%A7%E6%A8%A1%E5%9E%8BRAG%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%BA%90%E5%85%BC%E7%9C%8B20240329%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%BF%9B%E5%B1%95%E6%97%A9%E6%8A%A5/
+
+
+
+
 # 知名服务商
 
 ---
