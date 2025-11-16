@@ -148,6 +148,11 @@
 
 项目地址：https://github.com/hljoren/sufficientcontext
 
+## EverMemOS
+陈天桥团队发布了EverMemOS，这是个开源的AI"记忆增强器"。它让AI告别"金鱼脑"，能长期记住信息、连贯思考，真正理解上下文。
+
+EverMemOS深度整合MCP作为核心接口层，实现Cursor和Claude等工具间的记忆同步。比如能自动关联你上周查过的资料，这才是真正的"持久灵魂"，配置指南在GitHub仓库就能找到。
+
 
 ## 之后是2025年11月13之前汇总
 
