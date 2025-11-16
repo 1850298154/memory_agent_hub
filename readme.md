@@ -142,7 +142,11 @@
 ##  谷歌新研究定义"充分上下文"：
 上下文需能推导出答案而非仅相关。发现即使上下文充足，大模型仍有14%-25%错误率。提出选择性生成框架，使模型准确率提升2-10%。
 
-谷歌团队发表在ICLR 2025的新研究《Sufficient Context: A New Lens on Retrieval Augmented Generation Systems》，首次提出「充分上下文」（Sufficient Context）的核心概念，为这个行业痛点提供了全新解法，甚至能让Gemini、GPT等主流模型的正确回答率提升2-10%。论文地址：https://arxiv.org/pdf/2411.06037项目地址：https://github.com/hljoren/sufficientcontext
+谷歌团队发表在ICLR 2025的新研究《Sufficient Context: A New Lens on Retrieval Augmented Generation Systems》，首次提出「充分上下文」（Sufficient Context）的核心概念，为这个行业痛点提供了全新解法，甚至能让Gemini、GPT等主流模型的正确回答率提升2-10%。
+
+论文地址：https://arxiv.org/pdf/2411.06037
+
+项目地址：https://github.com/hljoren/sufficientcontext
 
 
 ## 之后是2025年11月13之前汇总
