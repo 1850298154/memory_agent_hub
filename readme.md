@@ -139,6 +139,10 @@
   - 跨工具协作：选 Supermemory MCP
   - 工作流自动化：选 Julep AI
 
+## 微软 agent
+https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/refs%2Fheads%2Fmain/translations%2Ftw%2FREADME.md
+
+
 ##  谷歌新研究定义"充分上下文"：
 上下文需能推导出答案而非仅相关。发现即使上下文充足，大模型仍有14%-25%错误率。提出选择性生成框架，使模型准确率提升2-10%。
 
