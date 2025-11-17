@@ -592,6 +592,9 @@ https://aitool.zyqok.com/digest/2024/0402/RAGOnMedicalKG-%E5%8C%BB%E8%8D%AF%E9%A
 ## 阿里 mem0 milvus
 https://mp.weixin.qq.com/s/0l6TP8DjArNwulMfFNlw1A
 
+mem0技术与架构拆解图 上篇笔记介绍了外挂记忆系统的... http://xhslink.com/o/4Kv1JF4WfUE 
+Copy and open Xiaohongshu to view the full post！
+
 
 # 面试指南
 
