@@ -3,6 +3,8 @@
 
 ---
 
+## agent evolver
+阿里通义实验室推出的AgentEvolver开源项目，能让AI智能体在闲置时自主生成任务、执行并进化。项目链接：https://github.com/modelscope/AgentEvolver
 
 
 ## 2025年11月13最新
