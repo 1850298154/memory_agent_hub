@@ -2,6 +2,27 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+## Improving Language Agents through BREW
+
+
+微软：“经验”酿成“知识”让智能体聪明
+
+BREW：把“经验”酿成“知识”——让语言智能体越用越聪明
+问题 大模型智能体每次任务都从“零”开始，重复探索、API 冗余；权重级优化（PPO/GRPO）代价高、黑盒且难增量更新。
+
+思路 不碰模型权重，而是持续蒸馏轨迹经验，构建可解释、模块化、可检索的知识库（KB），把“记忆”变成显式、可控的优化杠杆。
+
+技术路线
+
+Reflector-Agent：用人类规则+任务评分从轨迹中提取「概念-洞察」对，语义去重后得到元概念集合。
+Integrator-Agent：为每个元概念维护独立文档，形成分区式 KB，支持精准更新与检索。
+
+Expand-and-Gather MCTS：把 KB 精炼视为「文档状态空间搜索」，并行探索、全局同步，兼顾正确性与可检索性双目标奖励。
+推理阶段：top-k 检索注入 prompt，零额外训练成本。
+
+结果 在 OSWorld、τ²-Bench、SpreadsheetBench 三大真实环境上，任务成功率绝对提升 10–20 %，执行步数/对话轮次减少 10–15 %，计算开销与基座模型持平，显著优于现有记忆基线。
+意义 首次将“智能体优化”转化为“可解释 KB 的状态搜索”，提供轻量、透明、可扩展的新范式，为长周期、高一致性、可审计的自主系统奠定基础。
+
 ## llm各种框架和论文，4000+⭐
 https://github.com/DSXiangLi/DecryptPrompt/blob/refs%2Fheads%2Fmain/%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6.MD
 ## agent evolver
