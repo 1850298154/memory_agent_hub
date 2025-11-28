@@ -2,6 +2,21 @@
 # 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 
 ---
+
+## PostgreSQL == 
+```
+  InfluxDB(TimescaleDB) +  # 时序数据库：TimescaleDB（官方核心时序插件）
+  Milvus(pgvector) +       # 向量数据库：pgvector（PostgreSQL官方生态向量插件）
+  Neo4j(pgRouting + pg_graph) +  # 图数据库/空间路由：pgRouting（地理路由）+ pg_graph（原生图处理）
+  Redis(pg_repack + pg_cron + redis_fdw) +  # 缓存/定时任务：redis_fdw（Redis双向访问）+ pg_repack（数据优化）+ pg_cron（定时任务）
+  SQL(原生PostgreSQL) +    # 关系型SQL：PostgreSQL原生SQL引擎（兼容SQL:2016）
+  Elasticsearch(PGroonga + pg_bigm + tsvector/tsquery) +  # 搜索引擎：PGroonga（全文检索）+ pg_bigm（模糊匹配）+ 原生tsvector（文本索引）
+  MongoDB(jsonb + pg_json_schema + mongodb_fdw)  # 文档数据库：jsonb（原生JSONB类型）+ pg_json_schema（JSON校验）+ mongodb_fdw（MongoDB互通）
+```
+[postgres新功能 ai ](https://supabase.com/blog/postgres-new)
+[postgres chat db](https://database.build/)
+[postgres 新功能 ai 集成](https://blog.adyog.com/2024/09/14/exploring-postgres-new-in-browser-postgres-with-ai-integration/)
+
 ## agent memory方向主要有2个：
 ```
 模型驱动：深入模型底层动刀，从根本上增强其记忆能力。
