@@ -108,6 +108,17 @@
 
 ---
 
+## TOON conveys the same information with fewer tokens
+
+TOON的核心是简化数据结构：先定义字段名(users[id,name,role])，再按行列数据(1,Alice,admin)。应用时去掉JSON的花括号和重复键名，保留必要分隔符。转回JSON只需将表格式数据还原为键值对结构，比如把"2,Bob,user"对应填充到role字段下。这种格式既节省token又提升AI解析效率。
+
+查看原始对比结果图，toon大幅提高，相比json（几乎最差）
+
+https://github.com/Said-MZ/toon-converter/blob/refs%2Fheads%2Fmain/Toon.md
+
+https://github.com/jerrylususu/bookmark-collection
+
+
 ## 1.1. 2025年11月13截止之前的memory 方案汇总对比
 - **AI Memory 项目完整对照表**
 - 一、🔥开源记忆框架推荐
