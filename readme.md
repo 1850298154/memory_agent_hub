@@ -4,6 +4,8 @@
 ---
 
 ## 长记忆开源方案update
+graphiti是主要做图 memobase主要为了陪伴和个人助手场景设计
+
 Memobase最近支持了event功能，可以记录用户记忆变动的时间发生顺序.
 	
 结合完全可定制的二级标签系统，大家可以使用memobase profile和event构建出灵活的长记忆AI
