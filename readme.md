@@ -252,16 +252,17 @@
 PostgreSQL 凭借丰富的插件生态，能够一站式替代时序数据库、向量数据库、图数据库、缓存、搜索引擎、文档数据库等多种专用数据库。以下是精准的插件对应关系补全，兼顾功能匹配度和生产级可用性：
 
 ### 1.2.2. 完整对应清单
-替代数据库      | 插件                                          | 说明    
+替代数据库      | 插件 （索引）                                         | 说明    
 ----------------|--------------------------------------------------|------------------------------
-**InfluxDB** |  (TimescaleDB)                                 | 时序数据库：TimescaleDB（官方核心时序插件）
-**Milvus** |  (pgvector)                                      | 向量数据库：pgvector（PostgreSQL官方生态向量插件）
-**Neo4j** |  (pgRouting + pg_graph)                           | 图数据库/空间路由：pgRouting（地理路由）+ pg_graph（原生图处理）
-**Redis** |  (pg_repack + pg_cron + redis_fdw)                | 缓存/定时任务：redis_fdw（Redis双向访问）+ pg_repack（数据优化）+ pg_cron（定时任务）
-**SQL** |  (原生PostgreSQL)                                   | 关系型SQL：PostgreSQL原生SQL引擎（兼容SQL:2016）
-**Elasticsearch** |  (PGroonga + pg_bigm + tsvector/tsquery)  | 搜索引擎：PGroonga（全文检索）+ pg_bigm（模糊匹配）+ 原生tsvector（文本索引）
-**MongoDB** |  (jsonb + pg_json_schema + mongodb_fdw)         | 文档数据库：jsonb（原生JSONB类型）+ pg_json_schema（JSON校验）+ mongodb_fdw（MongoDB互通）
-**定时任务数据库** |(pg_cron + pg_timetable + pgAgent + pg_jobmon)  | 定时任务/调度数据库
+**InfluxDB** |  (TimescaleDB / BRIN)                                 | 时序数据库：TimescaleDB（官方核心时序插件） + BRIN（轻量级时序索引）
+**Milvus** |  (pgvector)                                            | 向量数据库：pgvector（PostgreSQL官方生态向量插件）
+**Neo4j** |  (pgRouting + pg_graph)                                 | 图数据库/空间路由：pgRouting（地理路由）+ pg_graph（原生图处理）
+**Redis** |  (pg_repack + pg_cron + redis_fdw)                      | 缓存/定时任务：redis_fdw（Redis双向访问）+ pg_repack（数据优化）+ pg_cron（定时任务）
+**SQL** |  (原生PostgreSQL = B-Link树 )                               | 关系型SQL：PostgreSQL原生SQL引擎（兼容SQL:2016）：B-Link树索引 数字文本
+**Elasticsearch** |  (PGroonga + pg_bigm + tsvector/tsquery / GIN)  | 搜索引擎：PGroonga（全文检索）+ pg_bigm（模糊匹配）+ 原生tsvector（文本索引） + GIN（通用索引）
+**MongoDB** |  (jsonb + pg_json_schema + mongodb_fdw)                 | 文档数据库：jsonb（原生JSONB类型）+ pg_json_schema（JSON校验）+ mongodb_fdw（MongoDB互通）
+**定时任务数据库** |(pg_cron + pg_timetable + pgAgent + pg_jobmon)      | 定时任务/调度数据库 ：pg_cron（轻量级定时任务）+ pg_timetable（复杂调度）+ pgAgent（图形化调度）+ pg_jobmon（任务监控）
+**地理位置** |(GIST)                                                  | 地理位置索引：GIST（通用空间索引），支持点、线、多边形等空间数据，可与pgRouting等插件配合使用。
 
 
 ### 1.2.3. 关键插件详解（生产级选型）
