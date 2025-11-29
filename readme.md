@@ -328,7 +328,9 @@ PostgreSQL 凭借丰富的插件生态，能够一站式替代时序数据库、
 ```
 
 ## 1.4. 长记忆开源方案update
-graphiti是主要做图 memobase主要为了陪伴和个人助手场景设计
+graphiti是主要做图。 [graphiti 播客](https://www.cnblogs.com/zzz77zz/articles/19026839)
+
+memobase主要为了陪伴和个人助手场景设计
 
 Memobase最近支持了event功能，可以记录用户记忆变动的时间发生顺序.
 	
