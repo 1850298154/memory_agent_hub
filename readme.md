@@ -243,6 +243,13 @@
   - 跨工具协作：选 Supermemory MCP
   - 工作流自动化：选 Julep AI
 
+##  pageindex
+地址：https://github.com/VictifyAl/PageIndex
+
+在处理专业长文档时，你是否对向量数据库的检索准确性感到沮丧？传统基于向量的检索增强生成（RAG）系统依赖语义相似性，而非真正的相关性。然而，相似性并不等同于相关性，我们在检索中真正需要的是相关性，而这需要推理。为了解决这一问题，VectifyAI 推出了 PageIndex，一个基于推理的 RAG 系统，它能为长文档构建树状索引，并通过该索引进行检索。
+
+
+
 ## 1.2. PostgreSQL == 多合一数据库：用插件替代专用数据库
 ### 1.2.1. 官网
 - [postgres新功能 ai ](https://supabase.com/blog/postgres-new)
