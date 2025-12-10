@@ -3,6 +3,9 @@
 ---
 - [1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合](#1-介绍-llmragagentmemoryretrievalkg-等相关技术的融合)
   - [1.1. 2025年11月13截止之前的memory 方案汇总对比](#11-2025年11月13截止之前的memory-方案汇总对比)
+  - [读论文+github 神器 deepwiki](#读论文github-神器-deepwiki)
+  - [verl](#verl)
+  - [pageindex](#pageindex)
   - [1.2. PostgreSQL == 多合一数据库：用插件替代专用数据库](#12-postgresql--多合一数据库用插件替代专用数据库)
     - [1.2.1. 官网](#121-官网)
     - [1.2.2. 完整对应清单](#122-完整对应清单)
@@ -243,10 +246,20 @@
   - 跨工具协作：选 Supermemory MCP
   - 工作流自动化：选 Julep AI
 
+## 读论文+github 神器 deepwiki
+首页： [deepwiki](https://deepwiki.com/)
+
+## verl
+[verl](https://mp.weixin.qq.com/s/KllfYqWI5ljqd1YtPEViTA)
+
+- 定位：veRL（Volcano Engine Reinforcement Learning）是字节跳动火山引擎于 2024 年底开源的分布式大模型强化学习训练框架。其设计目标是将 RLHF 的科研实现转化为可规模化部署的生产级系统。
+- 核心功能：veRL 的核心模块包括 Rollout 生成器、奖励建模器、策略更新器、分布式调度器。它支持多种算法，如 PPO、DPO、DAPO （Dynamic Alignment Policy Optimization）和 GRPO，并通过异步管线方式加速训练。其架构借鉴了工业级 RL 系统（如 DeepMind Acme、OpenAI RLHF pipeline），可在数百张 GPU 上同时运行。
+- 技术特点与用途：veRL 面向企业和研究机构的“大规模模型后训练”场景。其分布式框架支持任务并行、异步更新和奖励缓存机制，可显著降低 GPU 闲置率。其 DAPO 算法被广泛用于 Qwen 系列模型中，以优化推理稳定性与语言一致性。
+
 ##  pageindex
 地址：https://github.com/VictifyAl/PageIndex
 
-在处理专业长文档时，你是否对向量数据库的检索准确性感到沮丧？传统基于向量的检索增强生成（RAG）系统依赖语义相似性，而非真正的相关性。然而，相似性并不等同于相关性，我们在检索中真正需要的是相关性，而这需要推理。为了解决这一问题，VectifyAI 推出了 PageIndex，一个基于推理的 RAG 系统，它能为长文档构建树状索引，并通过该索引进行检索。
+在处理专业长文档时，传统基于向量的检索增强生成（RAG）系统依赖语义相似性，而非真正的相关性。然而，相似性并不等同于相关性，我们在检索中真正需要的是相关性，而这需要推理。为了解决这一问题，VectifyAI 推出了 PageIndex，一个基于推理的 RAG 系统，它能为长文档构建树状索引，并通过该索引进行检索。
 
 
 
