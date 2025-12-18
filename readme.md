@@ -246,6 +246,124 @@
   - 跨工具协作：选 Supermemory MCP
   - 工作流自动化：选 Julep AI
 
+## obsidian 做个人 memory
+设计思路和项目地址：
+https://github.com/kingkongshot/prompts/blob/refs%2Fheads%2Fmain/prompts%2Fclaude%2Fagents%2Fmemory-network-builder.md
+
+
+memory-network-builder 生成和使用方法总结：
+
+一、怎么生成的？
+memory-network-builder 是为组织和建立记忆（知识）网络而设计的模板/Agent规范。它的生成流程为：
+
+1. 遇到新的信息、决策或学习时，由用户或系统触发。
+2. 由专门的 Memory Network Architect 负责，根据内容提炼核心结论。
+3. 确定记忆类型（决策decision、实现implementation、学习learning、概念concept、问题issue）。
+4. 起一个结论式的中文标题。
+5. 用规定的 Markdown 格式描述，结构包含 id、type、title、created（日期）、tags、上下文链接、核心内容和关键文件等。
+6. 维护与其他记忆之间的关系（通过[[memory-id]]格式链接）。
+7. 每条记忆（Memory Unit）单独存储于项目根目录的 memory/ 文件夹下，文件名为标题+ .md。
+
+二、怎么使用的？
+1. 日常项目中遇到新决策、新问题、新经验时，按照规范提炼为独立记忆。
+2. 根据类型分类，起标题、填写内容。
+3. 结构化存储，及时补全与上下文（其他记忆）之间的关联。
+4. 推动团队形成“知识原子化+网状关联式”存档，便于知识追溯、复用与演化。
+
+三、具体例子：如何运作
+
+假设项目中遇到一个新结论：团队决定“使用 JWT 而不是 Session 做认证”。
+
+操作流程与输出：
+
+1. 提炼结论：用 JWT 替代 Session。
+2. 类型判定：decision（决策类）。
+3. 起标题：“使用 JWT 而不是 Session 做认证”
+4. 生成 id：“use-jwt-for-auth”
+5. 填写 Markdown：
+
+```markdown
+---
+id: use-jwt-for-auth
+type: decision
+title: 使用 JWT 而不是 Session 做认证
+created: 2025-12-18
+tags: [authentication, jwt, session, security]
+---
+
+### 例子：使用 JWT 而不是 Session 做认证
+
+#### 一句话说明
+> 认证系统决定采用 JWT，舍弃传统 Session，实现跨服务无状态登录。
+
+## 上下文链接
+- 基于：[[auth-requirements]]
+- 导致：[[jwt-auto-refresh-issue]]
+- 相关：[[session-storage-comparison]]
+
+#### 核心内容
+选择 JWT 的原因包括：便于微服务架构下无状态扩展，客户端可自持 Token，减少服务端状态保存压力。分析过程中权衡了安全性和易用性，最终做出此结论。
+
+#### 关键文件
+- `src/auth/jwt.ts` - 认证实现
+- `docs/auth.md` - 认证设计文档
+```
+
+6. 存到 memory/使用 JWT 而不是 Session 做认证.md
+
+最终，整个团队可以通过浏览 memory 文件夹和记忆间的网状链接，迅速理解历史决策、概念和实现细节，避免重复思考和知识丢失。
+
+结果是什么？
+- 项目沉淀了结构化、易检索、强关联的知识网络。
+- 新成员容易快速接手项目，追溯历史决策。
+- 知识以“原子结论”为单位，便于持续演化和推理。
+
+
+Obsidian 支持大部分 语法memory-network-builder 模板中的“特殊语法”，并且可以用于构建知识图谱。下面详细说明：
+
+#### 1. 支持哪些特殊语法？
+
+- **YAML Frontmatter（如 `--- ... ---`）**  
+  Obsidian 可以识别每条 Memory 最上方的 YAML 区块，便于后续做属性查询和自动化管理。
+
+- **Markdown 标准语法**  
+  memory-network-builder 的内容均为标准 Markdown 格式，Obsidian 100% 支持。
+
+- **双中括号链接 `[[xxx]]` （Wiki Link）**  
+  Obsidian 的核心功能之一。  
+  - 能直接创建页面之间的链接，通过 `[[前置的决策或概念]]`、`[[相关内容]]` 让知识节点之间互相关联。
+  - 支持未创建页面的“悬挂链接”，日后可补充完善。
+
+- **标签（tags 字段或 `#标签`）**  
+  Obsidian 支持标签，可以用来聚合和检索相关主题内容。
+
+#### 2. 如何形成知识图谱？
+
+- Obsidian 自动分析所有内部链接（即 [[xxx]] 这种格式）并生成“知识图谱”视图。  
+- 在 Obsidian 中打开 Graph View，就可以可视化展示所有页面的关联关系，以及哪些内容链接到了共同的节点。
+- 只要每条 Memory 都按照模板规范、写好 Frontmatter、填写链接，Obsidian 会自动把它们组织成网状结构，方便导航和溯源。
+
+#### 3. 具体例子说明
+
+假设你有三条 Memory：
+- [[使用 JWT 而不是 Session 做认证]]
+- [[JWT 自动刷新机制设计]]
+- [[认证系统的性能问题]]
+
+它们互相之间像这样链接：
+
+A 的上下文链接里 `导致：[[JWT 自动刷新机制设计]]`  
+B 的相关里 `相关：[[认证系统的性能问题]]`
+
+在 Obsidian 的 Graph View 里，你会看到这三条知识像网络一样连在一起，从 A 延伸到 B，再指向 C。点击任一节点，可以很快跳转、上下深度浏览相关结论。
+
+---
+
+**总结**  
+只要严格采用 memory-network-builder 的 Markdown 模板，Obsidian 就能完美兼容，并借助其强大的图谱能力，实现高效的知识关联和网络化沉淀。
+
+
+
 ## 1.2. 读论文+github 神器 deepwiki
 首页： [deepwiki](https://deepwiki.com/)
 
