@@ -545,6 +545,8 @@ https://langchain-doc.cn/v1/python/deepagents/middleware.html#%E6%96%87%E4%BB%B6
 ## 1.20. todolist middleware
 https://deepwiki.com/langchain-ai/deepagents/2.5-planning-with-todolistmiddleware
 
+https://deepwiki.com/search/todolisttodolistagentagenttodo_6c3c8606-7ea0-421a-bb06-9f62292b31ff
+
 
 ## 1.21. 舆情分析
 Agent自动生成舆情报告！ 项目地址：https://gitee.com/SeniorAgentTeam/bettafish-stock.git 不到两周狂揽2万Star的开源舆情分析平台，只需输入一句话，智能体就能自动爬取全网数据（微博、知乎、GitHub、抖音、小红书、官媒等），最后由Report Agent生成完整分析报告。 报告内容包含舆情发展脉络、传播分析、风险评估与应对策略，自动导出PDF。 
