@@ -112,6 +112,19 @@
 
 ---
 
+## “AgentGuide” from adongwanai
+https://github.com/adongwanai/AgentGuide
+
+该仓库“AgentGuide”由 adongwanai 创建，主要内容是 AI Agent 开发与大模型相关的知识与实战资料。核心包括：
+
+- AI Agent 开发指南
+- LangGraph 实战教程
+- 高级 RAG（检索增强生成）
+- 大模型转行经验与面试指南（算法工程师/大模型岗位/面试题库）
+- 强化学习和数据合成
+
+特色标签涵盖 ai-agent、llm、interview、multi-agent、rag 等内容。仓库包含丰富的实战和教程，对想了解和进入 AI 大模型与 Agent 方向有很大价值。
+
 ## 智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》
 
 核心围绕智能体记忆的形式、功能、动态机制三大维度展开，系统梳理了当前研究现状并指明未来方向。
