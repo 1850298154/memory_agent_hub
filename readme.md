@@ -112,6 +112,8 @@
 
 ---
 
+## LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659
+
 ## “AgentGuide” from adongwanai
 https://github.com/adongwanai/AgentGuide
 
