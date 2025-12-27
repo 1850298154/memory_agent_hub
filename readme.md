@@ -2,6 +2,7 @@
 # 1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 ---
 - [1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合](#1-介绍-llmragagentmemoryretrievalkg-等相关技术的融合)
+  - [DeepAnalyze：自主数据科学中的代理大型语言模型 （人大+清华）](#deepanalyze自主数据科学中的代理大型语言模型-人大清华)
   - [LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659](#llm在游戏中应用的综述-httpsarxivorgpdf240218659)
   - [“AgentGuide” from adongwanai](#agentguide-from-adongwanai)
   - [智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》](#智能体记忆的综述论文memory-in-the-age-of-ai-agents-a-survey)
@@ -118,6 +119,11 @@
 
 
 ---
+
+## DeepAnalyze：自主数据科学中的代理大型语言模型 （人大+清华）
+项目地址：
+[DeepAnalyze](https://github.com/DataClasse/deepanalyze)
+
 
 ## LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659
 
@@ -653,6 +659,7 @@ https://deepwiki.com/langchain-ai/deepagents/2.5-planning-with-todolistmiddlewar
 
 https://deepwiki.com/search/todolisttodolistagentagenttodo_6c3c8606-7ea0-421a-bb06-9f62292b31ff
 - [1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合](#1-介绍-llmragagentmemoryretrievalkg-等相关技术的融合)
+  - [DeepAnalyze：自主数据科学中的代理大型语言模型 （人大+清华）](#deepanalyze自主数据科学中的代理大型语言模型-人大清华)
   - [LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659](#llm在游戏中应用的综述-httpsarxivorgpdf240218659)
   - [“AgentGuide” from adongwanai](#agentguide-from-adongwanai)
   - [智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》](#智能体记忆的综述论文memory-in-the-age-of-ai-agents-a-survey)
