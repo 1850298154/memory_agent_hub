@@ -117,7 +117,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
-
+## agent memory paper github collection
+https://github.com/Shichun-Liu/Agent-Memory-Paper-List
 
 ## agent skill
 https://github.com/agentskills/agentskills
