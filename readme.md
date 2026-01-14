@@ -118,6 +118,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
   - 
 
+
+##  agentic 训练
+https://mp.weixin.qq.com/s/mLpaek5BMWx3gWSC_UhIhw
+
 ## Manus context summary
 
 1. 围绕KV-Cache设计：以KV-cache命中率为核心指标，通过保持提示前缀稳定、上下文仅追加、明确标记缓存断点提升效率，降低延迟与成本。
