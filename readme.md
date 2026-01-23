@@ -118,6 +118,8 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
   - 
 
+##  RVA.ai
+一个把AI技能可视化成3D沙盘的管理平台，能像玩星际争霸一样指挥你的智能体团队。
 
 ##  agentic 训练
 https://mp.weixin.qq.com/s/mLpaek5BMWx3gWSC_UhIhw
