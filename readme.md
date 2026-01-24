@@ -132,8 +132,10 @@ Claude Code的官方开源地址是：https://github.com/anthropics/claude-code 
 Claude Code这类工具的成本藏在细节里。最烧钱的不是订阅费，而是Token消耗黑洞——比如系统提示每次固定消耗2-3万Token，上下文滚雪球会让简单任务变天价。聪明用法是：简单任务切Haiku模型，用/compact压缩上下文，关键任务拆解成小步骤。真正省成本的关键，是把AI当协作者而非全自动工具，人类把控核心设计，AI跑重复劳动。
 
 
-##  RVA.ai
+## ralv.ai  /  RVA.ai。
 一个把AI技能可视化成3D沙盘的管理平台，能像玩星际争霸一样指挥你的智能体团队。
+
+类似功能工具如沙盘引擎可在Indienova平台下载，VOXL需通过GitHub获取。注意部分链接可能变动，请以最新信息为准。
 
 ##  agentic 训练
 https://mp.weixin.qq.com/s/mLpaek5BMWx3gWSC_UhIhw
