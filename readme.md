@@ -118,6 +118,9 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
   - 
 
+## skill.empjs.dev
+一款专注于技能体系可视化管理的工具，能直观呈现技能间的关联与层级关系。
+
 ## skill沙盘集合
 AI战略沙盘3D界面暂无公开仓库；
 
