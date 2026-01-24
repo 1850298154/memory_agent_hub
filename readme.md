@@ -116,7 +116,14 @@
     - [4.0.2. 马士兵飞书](#402-马士兵飞书)
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
-  - 
+
+
+## coding skill 集合
+https://github.com/vercel-labs/agent-skills。使用时只需运行命令`npx skills add vercel-labs/agent-skills`，就能安装这4000+种coding技能。视频里展示的是在OpenCode工具中操作的演示界面。
+
+
+
+
 
 ## skill.empjs.dev
 一款专注于技能体系可视化管理的工具，能直观呈现技能间的关联与层级关系。
