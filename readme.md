@@ -128,6 +128,33 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## OpenViking：面向 Agent 的上下文数据库
+
+- 定位：火山引擎开源的面向AI Agent的上下文数据库，旨在解决Agent上下文管理难题。
+- 核心痛点解决：攻克上下文无序割裂、长程任务Token成本高、朴素RAG检索局限、上下文难观测调试、记忆资产难沉淀等问题。
+- 设计理念：以“文件系统范式”为核心，将记忆、资源、技能统一抽象为文件，通过虚拟文件系统组织。
+- 三大核心抽象：记忆（Memory）、资源（Resource）、能力（Skill）。
+- 核心特性：
+- 分层加载（L0摘要/L1概述/L2详情），降低Token消耗；
+- 目录递归检索，融合向量与目录定位，提升检索精准度；
+- 检索轨迹可视化，实现决策过程白盒化；
+- 会话自动管理与自迭代，支持记忆复利增长。
+- 快速上手：通过 pip install openviking 安装，配置模型API密钥（支持火山引擎、OpenAI等），编写Python脚本即可实现写入、检索、读取等操作。
+- 开源共建：GitHub仓库https://github.com/volcengine/OpenViking，支持Star、反馈与代码贡献。
+- 开发团队：字节跳动Viking团队，有向量数据库、知识库等多年技术积累
+
+##  ms agent  with skill
+- 定位：轻量级框架，赋能智能体自主探索能力，支持MCP（Model Calling Protocol）。
+- 核心功能：通用多智能体交互（含工具调用）、深度研究（Agentic Insight）、代码生成（含Code Scratch）、文档研究（Doc Research）、长短时记忆支持。
+- 关键更新：v1.3.0支持代码草稿、记忆功能、RAY加速文档提取等；v1.2.0支持多平台报告分享与多格式导出；v1.1.0新增文档研究、通用网页搜索等。
+- 安装方式：支持PyPI安装（基础功能/深度研究功能）和源码安装，旧版本（≤v0.8.0）需通过modelscope-agent安装。
+- 快速启动：需配置ModelScope API密钥，支持MCP协议交互、记忆功能调用、深度研究等场景的示例代码。
+- 特色模块：Agentic Insight（多模态深度研究）、Doc Research（文档分析与报告生成）、Code Scratch（复杂代码项目生成，含前端/后端）。
+- 部署与兼容：支持本地运行、ModelScope Studio部署，兼容OpenAI SDK、Anthropic API格式，提供免费LLM推理调用。
+- 许可证：基于Apache License 2.0协议。
+ 
+
+
 ## 1.1. coding skill 集合
 https://github.com/vercel-labs/agent-skills。使用时只需运行命令`npx skills add vercel-labs/agent-skills`，就能安装这4000+种coding技能。视频里展示的是在OpenCode工具中操作的演示界面。
 
