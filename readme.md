@@ -154,6 +154,12 @@
 - 许可证：基于Apache License 2.0协议。
  
 
+## open devin
+开源 Agent 项目	尝试通过开源模型模仿 Devin 的工作流，但其地图功能尚处于早期。
+
+https://github.com/OpenHands/OpenHands?tab=readme-ov-file
+
+https://github.com/AI-App/OpenDevin.OpenDevin
 
 ## 1.1. coding skill 集合
 https://github.com/vercel-labs/agent-skills。使用时只需运行命令`npx skills add vercel-labs/agent-skills`，就能安装这4000+种coding技能。视频里展示的是在OpenCode工具中操作的演示界面。
