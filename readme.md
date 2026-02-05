@@ -131,6 +131,13 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+## “Thinking Claude”，作者 Richards Tu（涂津豪）。
+https://mp.weixin.qq.com/s?search_click_id=17521138378444464305-1770325307001-0232252465&__biz=MzkwMzYzMTc5NA==&mid=2247493779&idx=1&sn=f7eed2a0cf95642b9820569bed71c979&chksm=c14f62d182620ea168d92f656bd7fd98d33faa11a5801993261e7caf5ec32878a1eac956bb98#rd
+
+
+
+
 ## The Startup Graveyard
 汇集了900多家倒闭公司案例，网址 loot-drop.vercel.app 。
 https://loot-drop.vercel.app/
