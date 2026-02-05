@@ -131,6 +131,11 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## The Startup Graveyard
+汇集了900多家倒闭公司案例，网址 loot-drop.vercel.app 。
+https://loot-drop.vercel.app/
+这个"创业坟墓"收集了900多家失败企业案例，在AI时代或许能找到新机会。
+
 ## Clawbot skill 700+
 项目是VoltAgent维护的"awesome-openclaw-skills"，GitHub地址：https://github.com/VoltAgent/awesome-openclaw-skills
 
