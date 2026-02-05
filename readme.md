@@ -131,6 +131,9 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Clawbot skill 700+
+项目是VoltAgent维护的"awesome-openclaw-skills"，GitHub地址：https://github.com/VoltAgent/awesome-openclaw-skills
+
 ## 1.1. OpenViking：面向 Agent 的上下文数据库
 
 - 定位：火山引擎开源的面向AI Agent的上下文数据库，旨在解决Agent上下文管理难题。
