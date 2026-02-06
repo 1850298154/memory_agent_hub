@@ -2,6 +2,9 @@
 # 1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 ---
 - [1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合](#1-介绍-llmragagentmemoryretrievalkg-等相关技术的融合)
+  - [“Thinking Claude”，作者 Richards Tu（涂津豪）。](#thinking-claude作者-richards-tu涂津豪)
+  - [The Startup Graveyard](#the-startup-graveyard)
+  - [Clawbot skill 700+](#clawbot-skill-700)
   - [1.1. OpenViking：面向 Agent 的上下文数据库](#11-openviking面向-agent-的上下文数据库)
   - [1.2. ms agent  with skill](#12-ms-agent--with-skill)
   - [1.3. open devin](#13-open-devin)
@@ -133,9 +136,9 @@
 
 
 ## “Thinking Claude”，作者 Richards Tu（涂津豪）。
-https://mp.weixin.qq.com/s?search_click_id=17521138378444464305-1770325307001-0232252465&__biz=MzkwMzYzMTc5NA==&mid=2247493779&idx=1&sn=f7eed2a0cf95642b9820569bed71c979&chksm=c14f62d182620ea168d92f656bd7fd98d33faa11a5801993261e7caf5ec32878a1eac956bb98#rd
 
-
+[原文版本管理](https://github.com/richards199999/Thinking-Claude/tree/main/model_instructions)
+[其他博主解说](https://mp.weixin.qq.com/s?search_click_id=17521138378444464305-1770325307001-0232252465&__biz=MzkwMzYzMTc5NA==&mid=2247493779&idx=1&sn=f7eed2a0cf95642b9820569bed71c979&chksm=c14f62d182620ea168d92f656bd7fd98d33faa11a5801993261e7caf5ec32878a1eac956bb98#rd)
 
 
 ## The Startup Graveyard
