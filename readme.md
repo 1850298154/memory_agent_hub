@@ -2,6 +2,10 @@
 # 1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 ---
 - [1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合](#1-介绍-llmragagentmemoryretrievalkg-等相关技术的融合)
+  - [github官方mcp'](#github官方mcp)
+  - [all mcp list](#all-mcp-list)
+  - [devin mcp 生态链接](#devin-mcp-生态链接)
+  - [pip install mcp](#pip-install-mcp)
   - [“Thinking Claude”，作者 Richards Tu（涂津豪）。](#thinking-claude作者-richards-tu涂津豪)
   - [The Startup Graveyard](#the-startup-graveyard)
   - [Clawbot skill 700+](#clawbot-skill-700)
@@ -132,6 +136,44 @@
     - [4.0.2. 马士兵飞书](#402-马士兵飞书)
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
+
+
+## github官方mcp'
+[中文简介](https://juejin.cn/post/7497435020443238426)
+[github office mcp](https://github.com/github/github-mcp-server/blob/495c0cb4/README.md#L148-L153)
+
+## [all mcp list](https://github.com/yzfly/Awesome-MCP-ZH)
+
+[MCP Servers 市场](https://lobehub.com/zh/mcp?category=developer)
+
+
+## devin mcp 生态链接
+官网讲解
+
+https://docs.devin.ai/work-with-devin/devin-mcp
+
+类似产品：
+[gitmcp](https://ai-bot.cn/gitmcp/)
+
+GitMCP的项目地址
+
+项目官网：https://gitmcp.io/
+
+GitHub仓库：https://github.com/idosal/git-mcp
+
+
+## pip install mcp  
+MCP 客户端、服务端 简介
+
+    https://zhuanlan.zhihu.com/p/1939376580968292383
+pip install mcp 官方文档
+    
+    https://pypi.org/project/mcp/#session-properties-and-methods
+    
+    https://github.com/modelcontextprotocol/python-sdk
+    https://deepwiki.com/modelcontextprotocol/python-sdk
+
+    https://deepwiki.com/search/mcptooltool_3d154dc8-2a7a-4728-86f4-b02972d75a68?mode=fast
 
 
 
