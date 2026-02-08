@@ -145,6 +145,8 @@
 ## 1.1. joyagent 一个全能ai助手
 开源地址是 https://github.com/jd-opensource/joyagent-jdgenie
 
+[deepwiki](https://deepwiki.com/jd-opensource/joyagent-jdgenie)
+
 JoyAgent是京东开源的企业级智能体，能直接处理数据分析、报告撰写、PPT生成等复杂任务。最大特点是完全本地部署、不依赖云平台，开箱即用，包含多种专业子智能体，已在京东内部经过1.4万+智能体实战检验。
 
 
