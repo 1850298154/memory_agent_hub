@@ -140,7 +140,21 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## PromptX 史诗级加强变成新的项目叫RoleX 
 
+彻底革命架构，现完全支持国产Agent 国产模型，上下文占用量降级了80%以上。
+​
+​{
+  "mcpServers": {
+    "rolex": {
+      "command": "npx",
+      "args": ["-y", "@rolexjs/mcp-server"]
+    }
+  }
+}
+
+
+RoleX是PromptX的升级项目，主打AI角色与组织管理系统。核心功能包括：创造角色(born)、建立组织(found)、传授知识(teach)、管理成员(hire/fire)和查看全貌(directory)。系统采用"MCP协议"，上下文占用量降低80%以上。视频展示了实际应用场景：用户创建"财务管家"角色，系统自动为其注入中级财务管理知识体系（含货币时间价值、投资决策等7大维度），并纳入Deeppractice组织。该角色具备专业财务分析能力，可提供预算管理、投资评估等服务，体现AI在垂直领域深度应用的新方向。
 
 ## 1.1. joyagent 一个全能ai助手
 开源地址是 https://github.com/jd-opensource/joyagent-jdgenie
