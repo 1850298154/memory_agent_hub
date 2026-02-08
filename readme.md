@@ -133,7 +133,11 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## Claude-Mem开源项目
 
+GitHub地址：https://github.com/thedotmck/claude-mem
+
+Claude-Mem是一款登顶GitHub热榜的开源记忆系统，专为Claude Code编程助手设计。它通过本地事件驱动架构自动捕获编码操作，利用SQLite与Chroma向量数据库实现混合检索。核心优势在于"三层渐进式披露"策略，可节省95% token并提升工具调用上限20倍，支持自然语言查询项目历史，显著提高AI编程效率。用户可通过插件市场一键安装。
 
 ## 豆包gui agent
 GitHub项目地址是https://github.com/bytedance/UI-TARS-desktop
