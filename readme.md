@@ -2,7 +2,10 @@
 # 1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合
 ---
 - [1. 介绍 LLM、RAG、Agent、Memory、Retrieval、KG 等相关技术的融合](#1-介绍-llmragagentmemoryretrievalkg-等相关技术的融合)
-  - [github官方mcp'](#github官方mcp)
+  - [joyagent 一个全能ai助手](#joyagent-一个全能ai助手)
+  - [Claude-Mem开源项目](#claude-mem开源项目)
+  - [豆包gui agent](#豆包gui-agent)
+  - [github官方mcp](#github官方mcp)
   - [all mcp list](#all-mcp-list)
   - [devin mcp 生态链接](#devin-mcp-生态链接)
   - [pip install mcp](#pip-install-mcp)
@@ -138,7 +141,23 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
-## github官方mcp'
+
+## joyagent 一个全能ai助手
+开源地址是 https://github.com/jd-opensource/joyagent-jdgenie
+
+JoyAgent是京东开源的企业级智能体，能直接处理数据分析、报告撰写、PPT生成等复杂任务。最大特点是完全本地部署、不依赖云平台，开箱即用，包含多种专业子智能体，已在京东内部经过1.4万+智能体实战检验。
+
+
+## Claude-Mem开源项目
+
+GitHub地址：https://github.com/thedotmck/claude-mem
+
+Claude-Mem是一款登顶GitHub热榜的开源记忆系统，专为Claude Code编程助手设计。它通过本地事件驱动架构自动捕获编码操作，利用SQLite与Chroma向量数据库实现混合检索。核心优势在于"三层渐进式披露"策略，可节省95% token并提升工具调用上限20倍，支持自然语言查询项目历史，显著提高AI编程效率。用户可通过插件市场一键安装。
+
+## 豆包gui agent
+GitHub项目地址是https://github.com/bytedance/UI-TARS-desktop
+
+## github官方mcp
 [中文简介](https://juejin.cn/post/7497435020443238426)
 [github office mcp](https://github.com/github/github-mcp-server/blob/495c0cb4/README.md#L148-L153)
 
@@ -174,7 +193,6 @@ pip install mcp 官方文档
     https://deepwiki.com/modelcontextprotocol/python-sdk
 
     https://deepwiki.com/search/mcptooltool_3d154dc8-2a7a-4728-86f4-b02972d75a68?mode=fast
-
 
 
 ## “Thinking Claude”，作者 Richards Tu（涂津豪）。
