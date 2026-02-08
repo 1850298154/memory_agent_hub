@@ -135,6 +135,9 @@
 
 
 
+## 豆包gui agent
+GitHub项目地址是https://github.com/bytedance/UI-TARS-desktop
+
 ## “Thinking Claude”，作者 Richards Tu（涂津豪）。
 
 [原文版本管理](https://github.com/richards199999/Thinking-Claude/tree/main/model_instructions)
