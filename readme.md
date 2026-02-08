@@ -142,6 +142,9 @@
 
 ## PromptX 史诗级加强变成新的项目叫RoleX 
 
+ https://github.com/deepractice/promptx
+
+
 彻底革命架构，现完全支持国产Agent 国产模型，上下文占用量降级了80%以上。
 ​
 ​{
