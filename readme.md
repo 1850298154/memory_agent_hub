@@ -148,6 +148,28 @@
 
 
 
+
+
+## 开源PPT工具
+项目地址是：https://github.com/Anionex/banana-slides
+
+
+## Anthropic   开源
+github.com/affaan-m/everything-claude-code
+
+
+Anthropic 黑客马拉松的冠军把他的看家底牌开源了。这不是那种只有两行代码的Demo，而是他打磨了 10 个月的生产环境全套配置。这套配置里面什么都有：agents、skills、hooks、commands、rules 等，基本把 Claude Code 能折腾到的地方全折腾了一遍。不管是直接当插件装，还是进去“抄作业”拆借模块，都非常值。总算有人把这东西在生产环境怎么用给说明白了。
+
+## Crawlee项目
+GitHub地址
+https://github.com/apify/crawlee
+
+Crawlee这类工具确实大大提高了爬虫的隐蔽性，通过模拟真实用户行为和IP轮换降低被封概率。但技术对抗永远是动态的——没有绝对"防不住"的爬虫，也没有绝对"防得住"的网站，双方都在持续升级攻防手段。
+
+## 新闻热点聚合
+项目开源地址：https://github.com/hipcityreg/situation-monitor
+
+
 ## situation-monitor
 一款开源免费的全球资讯聚合工具，将新闻、金融市场和加密货币数据整合到一个实时dashboard。它具备全网情报雷达功能，能秒级追踪全球突发新闻；集成FinHub数据监控核心资产波动；提供美联储专题板块；支持在数十种资讯类别中自定义面板。用户无需切换多个APP，即可告别信息差，一屏掌握天下事。
 
