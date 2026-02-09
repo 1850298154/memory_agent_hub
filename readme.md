@@ -142,6 +142,12 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Anthropic   开源
+github.com/affaan-m/everything-claude-code
+
+
+Anthropic 黑客马拉松的冠军把他的看家底牌开源了。这不是那种只有两行代码的Demo，而是他打磨了 10 个月的生产环境全套配置。这套配置里面什么都有：agents、skills、hooks、commands、rules 等，基本把 Claude Code 能折腾到的地方全折腾了一遍。不管是直接当插件装，还是进去“抄作业”拆借模块，都非常值。总算有人把这东西在生产环境怎么用给说明白了。
+
 ## Crawlee项目
 GitHub地址
 https://github.com/apify/crawlee
