@@ -2,6 +2,9 @@
 # 1. 2026年AI Agent相关开源项目、新闻DIY、产品汇总
 ---
 - [1. 2026年AI Agent相关开源项目、新闻DIY、产品汇总](#1-2026年ai-agent相关开源项目新闻diy产品汇总)
+  - [situation-monitor](#situation-monitor)
+  - [开源项目"planning-with-files"](#开源项目planning-with-files)
+  - [MediaCrawler](#mediacrawler)
   - [1.1. PromptX 史诗级加强变成新的项目叫RoleX](#11-promptx-史诗级加强变成新的项目叫rolex)
   - [1.2. joyagent 一个全能ai助手](#12-joyagent-一个全能ai助手)
   - [1.3. Claude-Mem开源项目](#13-claude-mem开源项目)
