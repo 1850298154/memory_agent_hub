@@ -143,9 +143,19 @@
 
 
 
+
+
+
+
+
 ## 开源项目"planning-with-files"
+
 受Manus启发，通过将任务规划与推理过程记录到本地Markdown文件中，解决了AI处理复杂任务时的上下文丢失和目标漂移问题。它采用三文件模式（任务规划、研究成果、进度日志），使AI即使经过数百次工具调用后仍能保持对核心目标的清晰认知。该项目刚开源一周就获得近7k stars，已成为GitHub热门项目。
 
+
+## MediaCrawler
+
+项目地址是：https://github.com/NanmiCoder/MediaCrawler，这个支持多平台数据采集的开源工具已在GitHub收获43.6k stars。
 
 ## 1.1. PromptX 史诗级加强变成新的项目叫RoleX 
 
