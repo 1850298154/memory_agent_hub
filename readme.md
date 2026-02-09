@@ -142,6 +142,15 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+
+
+
+
+## 开源PPT工具
+项目地址是：https://github.com/Anionex/banana-slides
+
+
 ## Anthropic   开源
 github.com/affaan-m/everything-claude-code
 
