@@ -141,6 +141,12 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+## 开源项目"planning-with-files"
+受Manus启发，通过将任务规划与推理过程记录到本地Markdown文件中，解决了AI处理复杂任务时的上下文丢失和目标漂移问题。它采用三文件模式（任务规划、研究成果、进度日志），使AI即使经过数百次工具调用后仍能保持对核心目标的清晰认知。该项目刚开源一周就获得近7k stars，已成为GitHub热门项目。
+
+
 ## 1.1. PromptX 史诗级加强变成新的项目叫RoleX 
 
  https://github.com/deepractice/promptx
