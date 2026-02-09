@@ -150,6 +150,15 @@
 
 
 
+## BMAD-METHOD
+GitHub上3万star的开源项目，能一键配置21个AI角色组成开发团队，涵盖产品经理写PRD、架构师设计系统、开发测试全流程协作。
+
+BMAD-METHOD的GitHub地址：github.com/bmad-code-org/BMAD-METHOD
+
+BMAD-METHOD是个3万Star的开源神器，专为单人开发者打造。它能一键配置21个AI角色，从产品经理写PRD到测试人员做质检，覆盖需求分析、架构设计、编码测试全流程。输入npx bmad-method install即可体验这套AI敏捷开发体系。
+
+
+
 
 ## Humanizer-zh  专治AI写作"套路感"
 github.com/op7418/Humanizer-zh
