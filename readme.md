@@ -142,7 +142,14 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Crawlee项目
+GitHub地址
+https://github.com/apify/crawlee
 
+Crawlee这类工具确实大大提高了爬虫的隐蔽性，通过模拟真实用户行为和IP轮换降低被封概率。但技术对抗永远是动态的——没有绝对"防不住"的爬虫，也没有绝对"防得住"的网站，双方都在持续升级攻防手段。
+
+## 新闻热点聚合
+项目开源地址：https://github.com/hipcityreg/situation-monitor
 
 
 ## situation-monitor
