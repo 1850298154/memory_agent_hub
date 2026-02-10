@@ -152,6 +152,21 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+
+
+## Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。
+
+第一条"测试即导航"：测试套件是人机唯一可靠接口，验证器必须近乎完美，否则Claude会"聪明地"解决错误问题——就像你给司机错误目的地，他反而开得更快。
+
+第二条"设身处地"：人类能刷千行日志，但AI会被淹没，解决方案是日志只留关键行（必须含ERROR标识），测试默认开-fast模式跑1%样本，还要强制Agent写交接文档。
+
+
+第三条"分治创造并行"：面对Linux内核这类巨量任务，用GCC当基准，让它处理99%文件，只留1%给AI排查，把单体任务拆成可并行微任务。
+
+最后"角色专业化"：与其让所有Agent重复造轮子，不如分工——有人专删冗余代码，有人专注性能优化，甚至专设"Rust视角批判者"提升代码质量。本质上，这套方法论把人类软件工程经验转化成了AI协作基础设施。
+
+
 ##  1.1. everything-claude-code 包括agents、skills、hooks、commands、rules等
 https://github.com//affaan-m/everything-claude-code
 
