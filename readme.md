@@ -167,6 +167,12 @@
 最后"角色专业化"：与其让所有Agent重复造轮子，不如分工——有人专删冗余代码，有人专注性能优化，甚至专设"Rust视角批判者"提升代码质量。本质上，这套方法论把人类软件工程经验转化成了AI协作基础设施。
 
 
+
+## MoneyClaw 金融炒股
+开源地址：https://github.com/MindDock/moneyclaw-py
+
+项目特点：这是一个垂直金融领域的AI Agent系统，核心创新在于将LLM分层架构固化到交易场景。它通过四层模型自动切换机制（规则引擎→本地Ollama→DeepSeek→GPT/Claude）优化token消耗，单月LLM成本控制在20美元以内。系统支持策略插件化开发、7x24小时自动执行，并内置单笔交易限额、每日亏损熔断等风控机制，目前已集成股票分红提醒、加密货币定投等实用策略模板。
+
 ##  1.1. everything-claude-code 包括agents、skills、hooks、commands、rules等
 https://github.com//affaan-m/everything-claude-code
 
