@@ -153,6 +153,9 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning
 
+## GitHub上的spec-kit项目
+地址是github.com/github/spec-kit。它与Superpowers的核心差异在于：spec-kit采用规范驱动开发（先定需求规范再编码），有严格的四阶段流程；Superpowers则是技能驱动，通过模块化技能组合实现AI开发。前者适合团队协作项目，后者更适合快速原型开发。
+
 
 ## Anthropic的《长时间运行智能体的有效调度编排框架》一文，AI据此自主构建了这套开发系统。
 
