@@ -151,9 +151,12 @@
     - [4.0.1. 飞书文档](#401-飞书文档)
     - [4.0.2. 马士兵飞书](#402-马士兵飞书)
 - [5. 基础](#5-基础)
-  - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
+  - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning
 
 
+## trustmrr.com/special-categories/openclaw
+
+一个专门追踪OpenClaw生态创业项目的平台。它把54家基于开源框架OpenClaw做的AI项目按真实收入排名，能看到哪些方向最赚钱——比如1MinuteClaw支持一键部署，QuickClaw专注手机端应用，SimpleClaw月收入超3万美金。页面左侧可以直接按办公/客服等场景筛选，点进项目能查技术细节和收入曲线，创业者还能提交自己的项目到数据库里。直接打开网站就能用搜索框找特定工具，不用注册就能看基础数据。
 
 ## 可信引用，谷歌LangExtract已开源
 
