@@ -155,7 +155,9 @@
 
 
 
+## 可信引用，谷歌LangExtract已开源
 
+项目地址：https://github.com/google/langextract。这是一个基于LLM的Python库，专注于从非结构化文本中提取结构化信息，并支持源文本精确定位和交互式可视化。
 
 ## 1.1. Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。
 
