@@ -153,6 +153,15 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning
 
+
+
+
+
+
+## SkillsMP
+一个聚合开源Agent Skills的社区平台。官网地址是https://skillsmp.com，中文版可通过https://skillsmp.com/zh访问。这个平台整理了超10万个基于SKILL.md标准的开源技能，支持按分类和热度筛选。
+
+
 ##  claude code 监控
 三条安装命令：
 /plugin marketplace add jarrodwatts/claude-hud
