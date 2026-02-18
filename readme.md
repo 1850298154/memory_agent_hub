@@ -155,7 +155,8 @@
 
 
 
-
+## Obsidian-skills
+已在GitHub开源，CEO亲自发布，目前获得6.9K星标。
 
 ## 龙虾一键
 
