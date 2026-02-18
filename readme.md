@@ -156,6 +156,20 @@
 
 
 
+
+
+## 🦞龙虾
+
+三个关键安装命令：
+1. clawhub install tavily-search（联网）
+
+2. clawhub install find-skills（技能查询）
+
+3. clawhub install proactive-agent-1-2-4（自动迭代）
+
+邮件收发技能的安装命令是：clawhub install imap-smtp-email
+
+
 ## 把这指令给他！让龙虾变身贾维斯！#OpenClaw#Sora2#clawdbot#AI#Moltbot
 
 执行全局初始化指令：
