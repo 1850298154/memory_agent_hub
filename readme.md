@@ -156,6 +156,11 @@
 
 
 
+## skill 精
+skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（审核过的精品技能商店），skills.sh（实时热度排行榜）。
+
+
+
 
 ## linshenkx/prompt-optimizer
 
