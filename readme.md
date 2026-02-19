@@ -156,6 +156,18 @@
 
 
 
+## 上传任意ai像素画都可以直接导出真像素图
+
+
+https://theamusing.github.io/perfectPixel_webdemo/
+
+分享免费网页工具，把ai生成的像素画自动变成真像素的
+
+
+
+
+https://m.bilibili.com/video/BV1ieZ8B9EvS?buvid=YE4EB8E242A2E3CE4743BF8439EE6B257FA2&from_spmid=search.search-result.0.0&is_story_h5=false&mid=Xx8dbqCsv7Q3Gh5j7vggOA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=05469E6E-4D1F-4B51-BBD6-7B6F71637180&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1771469080&unique_k=80Pu72t&up_id=3690997556971552
+
 
 ## 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结
 
