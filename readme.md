@@ -180,6 +180,9 @@
 2. 研发 OpenClaw-China 的时间和动机 01:26
 3. OpenClaw-China 的设计开发思路 02:05
     1. 让 AI 阅读 Openclaw 源代码，整理开发指南
+       1. openClaw源码，他的核心系统 如何与插件对接
+       2. 在源码中查看外接插件的文档
+       3. 总结自带的TT渠道实现的代码架构与实现逻辑
     2. 让 AI 联网搜索，整理钉钉接口文档
     3. 让 AI 辅助编程开发
 4. Prompt engineering 04:32
