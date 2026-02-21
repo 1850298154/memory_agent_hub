@@ -176,7 +176,7 @@
 
 NotebookLM Skills AgentSkills ClaudeCode
 
-
+帮我安装这个ClaudeCode skill，地址是
 https://github.com/teng-lin/notebooklm-py
 
 
