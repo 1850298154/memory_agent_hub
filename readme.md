@@ -172,6 +172,12 @@
 
 
 
+## NotebookLM Skill让你直接拥有满级知识库！
+
+NotebookLM Skills AgentSkills ClaudeCode
+
+
+https://github.com/teng-lin/notebooklm-py
 
 
 
