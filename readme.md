@@ -171,6 +171,8 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 港大开源Nanobot
+仅3479行代码实现Clawdbot核心功能（后者43万行），已获14k星标。覆盖7×24市场分析、智能日程等场景，添加新模型仅需两步，支持飞书等渠道且可本地部署。
 
 
 ##　open spec
