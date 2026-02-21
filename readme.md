@@ -175,7 +175,11 @@
 
 
 
+## Automaton 能让AI通过预设程序管理加密货币钱包并接收任务报酬
 
+但"自动赚钱"是程序化操作，所有行为都在人类设定框架内运行，AI并无自主意识。钱包创建和交易均需预先授权。
+
+Automaton开源项目地址：https://github.com/Conway-Research/automaton
 
 
 ## LEAN是QuantConnect开源的量化交易引擎
