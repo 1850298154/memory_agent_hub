@@ -172,6 +172,18 @@
 
 
 
+## Claude Code 工具
+
+🎯 全能型：claude-hud — 功能最全，Agent/Todo/工具全监控
+
+💰 省钱党：claude-code-usage-bar — 专注预算管理，燃烧率预测
+
+🎨 颜值党：ccstatusline — Powerline 风格，多主题支持
+
+⚡ 性能党：claudia-statusline — Rust 编写，快如闪电
+
+📊 数据党：ClaudeCode_status_bar — 带仪表盘，可视化最强
+
 ## superclaude
 0门槛编程的上下文工程开源框架，实现了智能体AI Agent、computer use等研发门槛降到了0，每个公司都可管理vibe coding研发过程#superclaude #claudecode #computeruse #上下文工程 #contextengineering #上下文工程师
 
