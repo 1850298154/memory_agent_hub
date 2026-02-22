@@ -181,6 +181,7 @@ Fabric：别再手写 Prompt 了！网络安全大神开源的‘人生模式库
 我们每天都在重复造轮子：写周报、总结视频、提取金句。网络安全大神 Daniel Miessler 开源的 Fabric 不是一个 Agent，而是一个AI 工作流的模式库（Pattern Library）。它把几千个经过验证的最佳 Prompt 封装成了命令行工具。它是用来‘增强人类（Augmenting Humans）’的。
 
 
+Fabric项目的GitHub地址是：https://github.com/danielmiessler/Fabric，目前已获得37.3k stars。
 
 
 ## NotebookLM Skill让你直接拥有满级知识库！
