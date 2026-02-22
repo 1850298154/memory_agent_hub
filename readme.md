@@ -171,6 +171,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+## superclaude
+0门槛编程的上下文工程开源框架，实现了智能体AI Agent、computer use等研发门槛降到了0，每个公司都可管理vibe coding研发过程#superclaude #claudecode #computeruse #上下文工程 #contextengineering #上下文工程师
+
 ## analyst claude code 逆向
 
 
