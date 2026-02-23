@@ -171,6 +171,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## FastCode 
+的 GitHub 仓库地址是 https://github.com/HKUDS/FastCode
+
+
 
 ## Claude Code 工具
 
