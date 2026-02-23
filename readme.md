@@ -171,6 +171,11 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。
+
+直接在VS Code扩展市场搜索安装即可，完全免费开源。
+
+
 ## FastCode 
 的 GitHub 仓库地址是 https://github.com/HKUDS/FastCode
 
