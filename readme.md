@@ -171,6 +171,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## GitHub热榜第一的开源项目Next AI Drawio
+
+能通过AI指令一键生成架构图、流程图和思维导图，支持动画效果及手绘图优化，所有内容均可直接编辑导出。
+
 ## VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。
 
 直接在VS Code扩展市场搜索安装即可，完全免费开源。
