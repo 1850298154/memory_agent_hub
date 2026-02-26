@@ -171,6 +171,8 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## anthropics / knowledge-work-plugins
+
 ## 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用
 
 
