@@ -171,6 +171,18 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用
+
+
+
+World Monitor（世界监控器）。以前觉得没用就没分享，今天有空稍微写一点。它的GitHub仓库星标已经涨到11.9k+，被无数人称为“穷人版BloombergTerminal+CNN战情室”。它能实时聚合150+新闻源、35+地图图层，追踪全球冲突、220+军事基地、军用飞机、海军舰艇、核设施、海底电缆……甚至还能用AI自动生成情报简报和国家不稳定指数（CII）！最关键的是：完全免费、开源、支持本地运行、无需订阅。无论是地缘政治爱好者、投资者、OSINT玩家，还是普通想了解世界的你，都能一键拥有专业级情报工具。
+
+项目地址：https://github.com/koala73/worldmonitor
+
+
+在线体验（强烈建议立刻打开）：https://worldmonitor.app（世界版） | https://tech.worldmonitor.app（科技版） | https://finance.worldmonitor.app（金融版）
+
+
 ## GitHub热榜第一的开源项目Next AI Drawio
 
 能通过AI指令一键生成架构图、流程图和思维导图，支持动画效果及手绘图优化，所有内容均可直接编辑导出。
