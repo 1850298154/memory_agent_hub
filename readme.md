@@ -179,6 +179,10 @@
 https://github.com/abhigyanpatwari/GitNexus
 
 
+也可访问 gitnexus.vercel.app 使用在线版。
+
+
+
 ## agent reach
 项目地址：github.com/Panniantong/Agent-Reach。原理是本地部署的代理工具，让AI Agent无需API费用即可直接访问推特、B站等平台内容，通过模拟浏览器行为实现自动登录和结构化内容解析，保护隐私且自带诊断功能。
 
