@@ -171,6 +171,13 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+## bounty-hunter-skill 直接让 openclaw 变成了全自动打工人。
+
+
+它不仅能监控赏金任务，还能通过 Smart ROI 系统计算成本，自动接单、写代码、提交测试证据。
+
+
 ## Claude code➕figma协作，可见即所得的协作模式。
 figma给一个URL给到Claude code，两个玩意儿就能实时协同：给CC讲需求，CC给提示词，copy给figma，figma实时生成，CC就能直接进入开发，挺好的协作模式。
 
