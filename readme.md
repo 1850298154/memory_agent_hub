@@ -172,6 +172,9 @@
 
 
 
+## 试试这个 跨更多cli 
+npm install -g stigmergy
+
 ## gemini_cli_skill
 它把Google的Gemini CLI封装成了Claude Code的一个Skill，让Claude可以在需要的时候"召唤"Gemini来帮忙干活。
 
