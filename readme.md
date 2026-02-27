@@ -170,6 +170,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## agent reach
+项目地址：github.com/Panniantong/Agent-Reach。原理是本地部署的代理工具，让AI Agent无需API费用即可直接访问推特、B站等平台内容，通过模拟浏览器行为实现自动登录和结构化内容解析，保护隐私且自带诊断功能。
 
 ## anthropics / knowledge-work-plugins
 
