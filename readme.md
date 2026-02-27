@@ -171,6 +171,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Claude code➕figma协作，可见即所得的协作模式。
+figma给一个URL给到Claude code，两个玩意儿就能实时协同：给CC讲需求，CC给提示词，copy给figma，figma实时生成，CC就能直接进入开发，挺好的协作模式。
+
+
 ## GitNexus 开源代码可视化工具
 
 能将项目转换为交互式知识图谱，展示函数依赖和调用链关系。完全浏览器运行，采用Graph RAG技术让AI精准理解代码架构。项目地址
