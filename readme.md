@@ -171,6 +171,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## git-city项目
+把GitHub变成3D城市：开发者=楼房，贡献量=建筑高度，仓库数=地基宽度，星标数=窗户亮度。项目开源，地址是github.com/srizzon/git-city，可以输入自己的用户名生成专属城市。
+
+
 
 ## 试试这个 跨更多cli 
 npm install -g stigmergy
