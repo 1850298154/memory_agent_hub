@@ -170,6 +170,15 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## GitNexus 开源代码可视化工具
+
+能将项目转换为交互式知识图谱，展示函数依赖和调用链关系。完全浏览器运行，采用Graph RAG技术让AI精准理解代码架构。项目地址
+
+
+https://github.com/abhigyanpatwari/GitNexus
+
+
 ## agent reach
 项目地址：github.com/Panniantong/Agent-Reach。原理是本地部署的代理工具，让AI Agent无需API费用即可直接访问推特、B站等平台内容，通过模拟浏览器行为实现自动登录和结构化内容解析，保护隐私且自带诊断功能。
 
