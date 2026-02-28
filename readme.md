@@ -170,6 +170,23 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+
+
+现在，Hugging Face 官方正式推出 Skills 技能库——
+GitHub 星数已突破 5,200+，成为构建 AI 智能体的新一代基础设施。
+它不是又一个SDK，而是一套标准化、可互操作、自包含的AI技能包，
+覆盖 模型训练、数据集管理、评估、云任务、论文发布 等核心ML工作流，
+只需一句指令：“使用 HF model trainer skill 微调 Llama-3-8B”
+你的编码Agent就会自动加载完整工具链、参数校验、成本估算与监控逻辑，
+将复杂操作简化为自然语言命令。项目完全开源，兼容主流Agent平台，GitHub 地址：https://github.com/huggingface/skills
+
+
+Hugging Face Skills 如何重塑Agent开发？✅ 标准化技能格式（Agent Skill Spec）每个技能是一个独立文件夹，含 SKILL.md（YAML元数据 + 使用指南）支持 Claude Code / OpenAI Codex / Gemini CLI / Cursor 四大平台无平台支持？直接使用通用 AGENTS.md 作为后备方案✅ 开箱即用的核心技能技能名称功能典型指令hugging-face-cli执行 hf CLI 命令“下载 my-model 到本地
+
+
+
 ## 如何高效vibe coding
 https://mp.weixin.qq.com/s/xQvSuhGXvawPsW_cWXxnbA
 
