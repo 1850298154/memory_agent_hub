@@ -171,6 +171,9 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Gemini Voyager
+可通过两种方式安装：1.访问官网voyager.nagi.fun获取安装指南；2.在GitHub搜索"Nagi-ovo/gemini-voyager"下载扩展程序。这是专为Chrome等浏览器开发的插件，安装后即可在Gemini界面使用其去水印、文件夹管理等功能。
+
 ## worldmonitor
 GitHub上获2万+星标的开源情报工具，能一键聚合全球要闻，通过3D地图实时监控热点事件。自动过滤99%噪音，专注高价值信息，目前完全免费，已成信息差狙击利器。
 
