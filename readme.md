@@ -170,6 +170,9 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 成为行业最强的AI影视工具
+
+我觉得，这个野心不是空谈。从技术架构到产品思路，waoowaoo都展现出了专业级的水准。虽然目前还是beta版本，虽然只有一个人在维护，但 4 天 6.8K Star 已经说明了一切：社区的眼睛是雪亮的。一个人，一台电脑，一个想法，就能创作出属于自己的影视作品。这，就是AI时代给创作者最好的礼物。感兴趣的朋友，可以去GitHub上看看，蹲个star支持下。这个项目值得大家关注。GitHub地址：https://github.com/waoowaooAI/waoowaoo
 
 ## Gemini Voyager
 可通过两种方式安装：1.访问官网voyager.nagi.fun获取安装指南；2.在GitHub搜索"Nagi-ovo/gemini-voyager"下载扩展程序。这是专为Chrome等浏览器开发的插件，安装后即可在Gemini界面使用其去水印、文件夹管理等功能。
