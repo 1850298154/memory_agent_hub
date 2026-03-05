@@ -198,6 +198,19 @@
 
 
 
+
+## 微软Agent-Lightning是开源强化学习框架，三大亮点：
+
+1. 零代码改造：无需修改原有智能体逻辑
+2. 训练-运行解耦：GPU集群专注训练，客户端轻量执行
+3. 轨迹级聚合：将多轮对话整合为连续样本，提升训练效率30%
+
+已在SQL生成、文档检索等场景验证效果，GitHub已开源。需要某部分详细说明可随时告诉我。
+
+
+Agent-Lightning的开源地址是：https://github.com/microsoft/agent-lightning。这是微软研究院官方发布的项目仓库，开发者可直接访问查看代码和技术文档。
+
+
 ## 项目GitHub地址：https://github.com/deanpeters/product-manager-skills
 
 ## skills.lc技能仓库 什么都有
