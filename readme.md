@@ -198,7 +198,9 @@
 
 
 
+## 项目GitHub地址：https://github.com/deanpeters/product-manager-skills
 
+## skills.lc技能仓库 什么都有
 
 ## 1.1. 学术论文ai
 https://www.aminer.cn/v2/intelsearch?conv_id=cae2b918-16d6-11f1-a844-925c7300803c
