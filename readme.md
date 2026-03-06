@@ -197,7 +197,13 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Obsidian Canvas Skill集成到Gemini CLI。
 
+关键操作：  
+1️⃣ 源码地址：github.com/kepano/obsidian-skills（含json-canvas目录）  
+2️⃣ 安装搬运工具：gemini install skill-porter  
+3️⃣ 在CLI输入提示词，填写skill名称+GitHub地址即可转换安装  
+重启后输入"生成无限画布"等指令即可使用。所有操作基于Gemini官方能力，无额外下载链接。
 
 ## 微软Agent-Lightning是开源强化学习框架，三大亮点：
 
