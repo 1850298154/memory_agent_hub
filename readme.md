@@ -197,6 +197,9 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## AI创作者平台是自托管工具
+集成写作、生图、视频和PPT生成，支持一键多平台发布。项目地址：https://github.com/gongxings/ai-creator
+
 ## Obsidian Canvas Skill集成到Gemini CLI。
 
 关键操作：  
