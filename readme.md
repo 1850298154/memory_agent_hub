@@ -196,6 +196,15 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## Agent基础能力skill：
+find-skills, skill-creator, using-superpowers, subagent-driven, agent-tools  
+写作思考：copywriting, systematic-debugging, content-strategy, marketing-ideas, social-content  
+设计视觉：web-design, ui-ux-pro, canvas-design, tailwind-design, algorithmic-art  
+编程构建：vercel-react, remotion, agent-browser, next, test-driven  
+营销增长：audit-website, seo-audit, product-marketing, page-cro  
+办公文档：pdf, docx, xlsx, pptx
+
 ## 实现评论区自动回复 + 后台消息自动回复，加上加粉引导 + 话术 + 防封策略都是全自动化的
 
 如果人工回复跟不上，可以把人工回复跟不上，这个工具把 80–95% 的常规对话自动化，结合大模型，就像真人回复一样
