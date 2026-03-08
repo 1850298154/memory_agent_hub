@@ -196,6 +196,16 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## 仅用600多行代码全自动训练大模型
+
+AI大神卡帕西发布Agent开源神级项目：单个GPU就能跑  写个Markdown 智能体接管
+
+
+
+项目地址：github.com/karpathy/autoresearch
+
+
 ## 500+agent
 https://github.com/nishpatel26/500-AI-Agents-Projects
 
