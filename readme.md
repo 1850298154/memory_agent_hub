@@ -196,6 +196,9 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 500+agent
+https://github.com/nishpatel26/500-AI-Agents-Projects
+
 
 ## Agent基础能力skill：
 find-skills, skill-creator, using-superpowers, subagent-driven, agent-tools  
