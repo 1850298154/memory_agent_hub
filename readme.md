@@ -197,6 +197,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 6个Claude Code必备MCP插件
+
+1.Filesystem MCP-自动读写文件改代码；2.SequentialThinking-提升逻辑推理能力；3.GitHub MCP-管理开源项目；4.Chrome DevTools-控制浏览器自动化；5.Context7-获取最新文档防踩坑；6.Memos-云端记忆系统。覆盖开发全流程，显著提升效率。
+
 ## AI创作者平台是自托管工具
 集成写作、生图、视频和PPT生成，支持一键多平台发布。项目地址：https://github.com/gongxings/ai-creator
 
