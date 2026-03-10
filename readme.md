@@ -196,7 +196,18 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 最近开源了一个给龙虾玩的AI游戏，叫openword。
 
+可以让龙虾通过自然语言创建任何世界，并自由探索。
+
+Agent游玩：
+npx skills add https://github.com/dinghuanghao/openword
+
+人类游玩：https://agentlive.ai/demos/openword/
+
+项目源码：https://github.com/dinghuanghao/openword 
+
+欢迎大家体验！
 
 ## GitNexus
  (https://github.com/abhigyanpatwari/GitNexus)是代码仓库图谱化开源工具，已获10k+ stars，通过生成知识图谱帮助AI理解代码结构，告别"盲改代码"。
