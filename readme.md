@@ -197,6 +197,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+## GitNexus
+ (https://github.com/abhigyanpatwari/GitNexus)是代码仓库图谱化开源工具，已获10k+ stars，通过生成知识图谱帮助AI理解代码结构，告别"盲改代码"。
+
 ## 仅用600多行代码全自动训练大模型
 
 AI大神卡帕西发布Agent开源神级项目：单个GPU就能跑  写个Markdown 智能体接管
