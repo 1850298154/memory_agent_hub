@@ -196,6 +196,9 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## Clawith是OpenClaw团队版开源项目
+让AI组成协作团队：每个"数字员工"有独立身份、记忆和技能，能自主分工合作。项目地址：github.com/dataelement/clawith
+
 ##Shannon是Keygraph开发的AI自动化渗透测试工具，专攻Web和API安全检测。
 
 项目开源托管在GitHub（KeygraphHQ/shannon），已获3.1万星，能自动扫描源码、验证漏洞并生成带PoC的报告，支持本地部署。
