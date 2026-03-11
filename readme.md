@@ -196,6 +196,13 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## WorldMonitor
+的
+GitHub地址：https://github.com/koala73/worldmonitor  
+在线体验版可访问 https://worldmonitor.app
+
+
 ## 最近开源了一个给龙虾玩的AI游戏，叫openword。
 
 可以让龙虾通过自然语言创建任何世界，并自由探索。
