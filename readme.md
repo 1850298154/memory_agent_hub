@@ -197,6 +197,8 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## GitNexus是零服务器代码智能引擎，能在浏览器中自动生成可交互的代码知识图谱，支持直接提问了解项目架构，代码仅在本地解析无上传风险。GitHub地址：https://github.com/abhigyanpatwari/GitNexus
+
 
 ## Cloudflare的Browser Rendering API
 提供免费额度供基础使用，超出后按浏览器实际运行时长计费。企业级需求建议直接查阅官方文档或联系销售获取定制方案。
