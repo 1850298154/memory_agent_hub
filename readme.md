@@ -197,6 +197,14 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## memskill
+📂 开源链接：https://github.com/ViktorAxelsen/MemSkill
+
+📄 论文原文：https://arxiv.org/abs/2602.02474
+
+✨ 一句话点评：MemSkill 真正把“记忆操作”从固定流程升级为可学习、可进化技能，首次系统性实现了记忆策略层面的自进化闭环——Agent 不只是学会使用记忆，而是学会如何不断改进自己的记忆方式。这可能是通向长期自主 Agent 的关键一步。
+
+
 ## GitNexus是零服务器代码智能引擎，能在浏览器中自动生成可交互的代码知识图谱，支持直接提问了解项目架构，代码仅在本地解析无上传风险。GitHub地址：https://github.com/abhigyanpatwari/GitNexus
 
 
