@@ -197,6 +197,15 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+##  《基于知识蒸留和强化学习的自然语言转SQL》 
+SwanLab官网:https://swanlab.cn 
+
+SwanLab开源仓库:https://github.com/swanhubx/swanlab 
+
+魔搭社区:https://modelscope.cn 
+
+
+
 ## memskill
 📂 开源链接：https://github.com/ViktorAxelsen/MemSkill
 
