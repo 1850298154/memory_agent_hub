@@ -196,6 +196,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 学废大模型蒸馏术：一步一步训练DeepSeek R1
+https://mp.weixin.qq.com/s/0d4AO8eGQpfPU_V6d_X_qg
 
 ##  《基于知识蒸留和强化学习的自然语言转SQL》 
 
