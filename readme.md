@@ -198,6 +198,9 @@
 
 
 ##  《基于知识蒸留和强化学习的自然语言转SQL》 
+
+https://mp.weixin.qq.com/s/W6AcqSN1dKktEhMwZ5hj6g
+
 SwanLab官网:https://swanlab.cn 
 
 SwanLab开源仓库:https://github.com/swanhubx/swanlab 
