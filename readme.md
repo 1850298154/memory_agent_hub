@@ -197,6 +197,22 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+## Excalidraw项目
+GitHub地址是：https://github.com/excalidraw/excalidraw。这个开源手绘白板工具在GitHub已获11.5万star，支持流程图/架构图绘制，MIT协议可商用。
+
+
 ## Claude 手册
 项目GitHub地址：https://github.com/zebbern/claude-code-guide
 
