@@ -197,6 +197,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+##Karpathy开源的"AutoResearch"项目
+
+实现了AI递归自我改进：人类只需在program.md用自然语言设定目标（如"提升模型速度"），AI便自动修改train.py中的模型参数，通过5分钟一轮的训练测试，依据val_loss指标自动保留有效改进或回滚失败尝试。项目包含三个核心组件——prepare.py（固定数据环境）、train.py（AI可修改的实验区）和program.md（人类指令区），使单GPU设备也能运行。这一机制让AI能在24小时内完成百次迭代优化，实现"今日AI改进模型，明日改进自身改进能力"的指数级进化，标志着普通人可参与的硅基智能爆发时代到来。项目GitHub已获850万次关注。
+
 ## 蒸馏
 代码链接（github）：https://github.com/wyf3/llm_related/tree/main/knowledge_distillation_llm_cross_tokenizer
 代码链接（网盘）：https://pan.quark.cn/s/bbe39968b937
