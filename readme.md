@@ -197,6 +197,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 蒸馏
+代码链接（github）：https://github.com/wyf3/llm_related/tree/main/knowledge_distillation_llm_cross_tokenizer
+代码链接（网盘）：https://pan.quark.cn/s/bbe39968b937
+
 ## 蒸馏agent code
 https://mp.weixin.qq.com/s/Uoe9blDgU8lIgifE1bxtQw
 
