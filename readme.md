@@ -196,6 +196,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## PUA
+项目GitHub地址：https://github.com/tanweai/pua。
 
 ##Karpathy开源的"AutoResearch"项目
 
