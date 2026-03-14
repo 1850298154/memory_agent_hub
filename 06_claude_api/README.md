@@ -1,6 +1,6 @@
 # Claude Code API 多轮流式调用
 
-将 Claude Code CLI 封装为 Python API，支持多轮对话和流式输出。
+将 Claude Code CLI 封装为 Python API，支持多轮对话、流式输出和自动执行模式。
 
 ## 目录结构
 
@@ -9,6 +9,16 @@
 ├── README.md              # 本文档
 └── claude_code_api.py     # Python API 封装
 ```
+
+## 功能特性
+
+| 功能 | 说明 |
+|------|------|
+| 多轮对话 | 通过 `session-id` 保持同一会话上下文 |
+| 流式输出 | 实时返回 Claude 响应 |
+| 自动执行模式 | 跳过权限确认，自动执行工具 |
+| 工具限制 | 可指定允许使用的工具 |
+| 会话管理 | 查看/列出会话信息 |
 
 ## Claude Code 文件路径
 
@@ -50,16 +60,25 @@ C:\Users\{username}\.claude\
 │       └── claude-plugins-official\
 └── skills\
     └── excalidraw-diagram-generator\
+
+Git Bash 路径（Windows 自动检测）:
+D:\software\git\install\Git\usr\bin\bash.exe
 ```
 
 ## 安装要求
 
 - Python 3.7+
 - Claude Code CLI 已安装并配置
+- Windows 需要 Git Bash
 
 ```bash
 # 检查 Claude Code 是否安装
 claude --version
+
+# Windows 需要设置 Git Bash 路径（自动检测或手动设置）
+# 自动检测：代码会自动查找 Git 安装目录下的 bash.exe
+# 手动设置：设置环境变量 CLAUDE_CODE_GIT_BASH_PATH
+export CLAUDE_CODE_GIT_BASH_PATH="D:\\software\\git\\install\\Git\\usr\\bin\\bash.exe"
 ```
 
 ## 使用方法
@@ -107,6 +126,21 @@ python claude_code_api.py -p "解释一下这个项目的结构"
 ```bash
 python claude_code_api.py --session-id "my-session-id" -p "继续上一个问题"
 ```
+
+### 5. 自动执行模式（跳过权限确认）
+
+```bash
+# 方式1: 使用演示脚本
+python claude_code_api.py --demo-auto
+
+# 方式2: 命令行参数
+python claude_code_api.py --dangerously-skip-permissions -p "写一个 hello.py 并执行它"
+
+# 方式3: 限制允许的工具
+python claude_code_api.py --dangerously-skip-permissions --allowed-tools "Bash,Write" -p "你的问题"
+```
+
+**警告**: 自动执行模式会跳过所有权限确认，仅在信任的环境（沙箱/隔离环境）中使用！
 
 ## Python 代码示例
 
@@ -192,21 +226,65 @@ for event in api.ask("写一个快速排序算法"):
         # 处理交互请求
 ```
 
+### 自动执行模式
+
+```python
+from claude_code_api import ClaudeCodeAPI
+
+# 创建自动执行模式的 API 实例
+api = ClaudeCodeAPI(
+    skip_permissions=True,           # 跳过权限确认
+    allowed_tools=["Bash", "Write"]  # 可选：限制允许的工具
+)
+
+# 让 Claude 写代码并执行
+for _ in api.ask("""
+    请执行以下任务：
+    1. 创建一个 fibonacci.py 文件
+    2. 写入斐波那契数列的实现
+    3. 运行并测试输出
+"""):
+    pass
+```
+
+### CLI 直接调用自动执行
+
+```python
+import subprocess
+import json
+
+# 直接使用 claude CLI 的自动执行模式
+result = subprocess.run([
+    "claude", "-p",
+    "写一个 hello.py 并运行它",
+    "--dangerously-skip-permissions",
+    "--output-format", "json"
+], capture_output=True, text=True)
+
+print(result.stdout)
+```
+
 ## CLI 参数说明
 
 ```
-usage: claude_code_api.py [-h] [--demo] [--interactive] [--session-id SESSION_ID] [--prompt PROMPT]
+usage: claude_code_api.py [-h] [--demo] [--demo-auto] [--interactive] [--session-id SESSION_ID]
+                          [--prompt PROMPT] [--dangerously-skip-permissions] [--allowed-tools TOOLS]
 
 Claude Code API 多轮流式调用
 
 optional arguments:
   -h, --help            show this help message and exit
-  --demo                运行演示
+  --demo                运行基础演示
+  --demo-auto           运行自动执行模式演示
   --interactive, -i     交互模式
   --session-id SESSION_ID
                         指定会话 ID
   --prompt PROMPT, -p PROMPT
                         单次提问
+  --dangerously-skip-permissions
+                        跳过权限确认（自动执行模式）
+  --allowed-tools TOOLS
+                        允许的工具列表，逗号分隔，如: Bash,Edit,Write
 ```
 
 ## 流式输出格式
@@ -253,6 +331,21 @@ optional arguments:
 3. **超时处理**：默认超时 300 秒，可通过 `timeout` 参数调整
 
 4. **Windows 路径**：代码已处理 Windows 路径格式兼容
+
+5. **自动执行模式风险**：
+   - 仅在沙箱/隔离环境中使用
+   - 建议使用 `--allowed-tools` 限制工具范围
+   - 避免在包含敏感数据的环境中启用
+   - Claude 可能执行删除、修改等破坏性操作
+
+## 权限模式对比
+
+| 模式 | CLI 参数 | 说明 |
+|------|---------|------|
+| 默认模式 | (无) | 每个工具调用需要用户确认 |
+| 自动执行 | `--dangerously-skip-permissions` | 自动执行所有工具 |
+| 工具限制 | `--allowed-tools Bash,Write` | 只允许指定工具 |
+| 组合使用 | 两者结合 | 自动执行但只限于指定工具 |
 
 ## 相关资源
 
