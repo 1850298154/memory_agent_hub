@@ -239,7 +239,9 @@
 
 ## 1.1. Excalidraw项目 excalidraw-diagram
 GitHub地址是：https://github.com/excalidraw/excalidraw。这个开源手绘白板工具在GitHub已获11.5万star，支持流程图/架构图绘制，MIT协议可商用。
-
+[excalidraw-diagram-skill](https://skillsmp.com/zh/skills/github-awesome-copilot-skills-excalidraw-diagram-generator-skill-md)
+[github](https://github.com/excalidraw/excalidraw)
+[deepwiki](https://deepwiki.com/search/api_6fb5a483-8ba1-4a1f-89dd-ffd2c8102920?mode=fast)
 [在线](https://excalidraw.com/)
 
 ## 1.2. Claude 手册
