@@ -234,8 +234,10 @@
 
 
 
+## Sirchmunk，不做 Embedding，不建向量库
+https://mp.weixin.qq.com/s/Y651G97uOXSVKGPa6EdU4w
 
-
+RAG这事，可能真要变天了。阿里刚开源了 Sirchmunk，不做 Embedding，不建向量库，文件扔进去直接搜。大家好，我是AI学习的老章。它最狠的不是少了一步，而是把传统 RAG 最折腾的切块、索引、ETL 这套流程，基本都绕过去了。核心做法是多阶段搜索，加上蒙特卡洛证据采样，再配合自进化知识簇，越搜越聪明。对于代码库、文档库这种更新快、格式又杂的场景，这套思路很有杀伤力。更关键的是，它还内置了 MCP、CLI 和 Web UI，能直接接 Claude 和 Cursor。#rag
 
 ## 1.1. Excalidraw项目 excalidraw-diagram
 GitHub地址是：https://github.com/excalidraw/excalidraw。这个开源手绘白板工具在GitHub已获11.5万star，支持流程图/架构图绘制，MIT协议可商用。
