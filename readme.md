@@ -197,6 +197,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Claude 手册
+项目GitHub地址：https://github.com/zebbern/claude-code-guide
+
+
 ## ai各种项目
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
