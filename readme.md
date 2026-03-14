@@ -2,178 +2,206 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合
 ---
 - [1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合](#1-2026-swarm-agent-年swarm-agent-agent-team-ai-codingskillmemoryevolveagentic-rl-等-ai-agent集合)
-  - [1.1. 学术论文ai](#11-学术论文ai)
-  - [1.2. 成为行业最强的AI影视工具](#12-成为行业最强的ai影视工具)
-  - [1.3. Gemini Voyager](#13-gemini-voyager)
-  - [1.4. worldmonitor](#14-worldmonitor)
-  - [1.5. Hugging Face 官方正式推出 Skills 技能库——](#15-hugging-face-官方正式推出-skills-技能库)
-  - [1.6. 如何高效vibe coding](#16-如何高效vibe-coding)
-  - [1.7. git-city项目](#17-git-city项目)
-  - [1.8. 试试这个 跨更多cli ](#18-试试这个跨更多cli)
-  - [1.9. gemini\_cli\_skill](#19-gemini_cli_skill)
-  - [1.10. bounty-hunter-skill 直接让 openclaw 变成了全自动打工人。](#110-bounty-hunter-skill-直接让-openclaw-变成了全自动打工人)
-  - [1.11. Claude code➕figma协作，可见即所得的协作模式。](#111-claude-codefigma协作可见即所得的协作模式)
-  - [1.12. GitNexus 开源代码可视化工具](#112-gitnexus-开源代码可视化工具)
-  - [1.13. agent reach](#113-agent-reach)
-  - [1.14. anthropics / knowledge-work-plugins](#114-anthropics--knowledge-work-plugins)
-  - [1.15. 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用](#115-免费开源的全球战情室来了ai驱动的实时情报仪表盘人人都能用)
-  - [1.16. GitHub热榜第一的开源项目Next AI Drawio](#116-github热榜第一的开源项目next-ai-drawio)
-  - [1.17. VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。](#117-vs-code的pixel-agents插件能将claude-code的ai代理以像素小人形式可视化)
-  - [1.18. FastCode](#118-fastcode)
-  - [1.19. Claude Code 工具](#119-claude-code-工具)
-  - [1.20. superclaude](#120-superclaude)
-  - [1.21. analyst claude code 逆向](#121-analyst-claude-code-逆向)
-  - [1.22. Fabric](#122-fabric)
-  - [1.23. NotebookLM Skill让你直接拥有满级知识库！](#123-notebooklm-skill让你直接拥有满级知识库)
-  - [1.24. Automaton 能让AI通过预设程序管理加密货币钱包并接收任务报酬](#124-automaton-能让ai通过预设程序管理加密货币钱包并接收任务报酬)
-  - [1.25. LEAN是QuantConnect开源的量化交易引擎](#125-lean是quantconnect开源的量化交易引擎)
-  - [1.26. 港大开源Nanobot](#126-港大开源nanobot)
-  - [1.27. OpenClaw-China](#127-openclaw-china)
-  - [1.28. "骡子跑"（MuleRun）平台](#128-骡子跑mulerun平台)
-  - [1.29. 上传任意ai像素画都可以直接导出真像素图](#129-上传任意ai像素画都可以直接导出真像素图)
-  - [1.30. 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结](#130-马斯克掀桌x算法全开源6小时16k星社交黑箱时代终结)
-  - [1.31. Obsidian-skills](#131-obsidian-skills)
-  - [1.32. 龙虾一键](#132-龙虾一键)
-  - [1.33. skill 精](#133-skill-精)
-  - [1.34. linshenkx/prompt-optimizer](#134-linshenkxprompt-optimizer)
-  - [1.35. Happy App](#135-happy-app)
-  - [1.36. 🦞龙虾](#136-龙虾)
-  - [1.37. 把这指令给他！让龙虾变身贾维斯！#OpenClaw#Sora2#clawdbot#AI#Moltbot](#137-把这指令给他让龙虾变身贾维斯openclawsora2clawdbotaimoltbot)
-  - [1.38. SkillsMP](#138-skillsmp)
-  - [1.39. claude code 监控](#139-claude-code-监控)
-  - [1.40. GitHub上的spec-kit项目](#140-github上的spec-kit项目)
-  - [1.41. Anthropic的《长时间运行智能体的有效调度编排框架》一文，AI据此自主构建了这套开发系统。](#141-anthropic的长时间运行智能体的有效调度编排框架一文ai据此自主构建了这套开发系统)
-  - [1.42. trustmrr.com/special-categories/openclaw](#142-trustmrrcomspecial-categoriesopenclaw)
-  - [1.43. 可信引用，谷歌LangExtract已开源](#143-可信引用谷歌langextract已开源)
-  - [1.44. Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。](#144-claude写c编译器的团队烧掉2万美金做agent-teams实验后的4条硬核经验)
-  - [1.45. MoneyClaw 金融炒股](#145-moneyclaw-金融炒股)
-  - [1.46. everything-claude-code 包括agents、skills、hooks、commands、rules等](#146-everything-claude-code-包括agentsskillshookscommandsrules等)
-  - [1.47. BMAD-METHOD 一键配置21个AI角色组成开发团队](#147-bmad-method-一键配置21个ai角色组成开发团队)
-  - [1.48. Humanizer-zh  专治AI写作"套路感"](#148-humanizer-zh--专治ai写作套路感)
-  - [1.49. 开源PPT工具](#149-开源ppt工具)
-  - [1.50. Anthropic   开源](#150-anthropic---开源)
-  - [1.51. Crawlee项目](#151-crawlee项目)
-  - [1.52. 新闻热点聚合](#152-新闻热点聚合)
-  - [1.53. situation-monitor](#153-situation-monitor)
-  - [1.54. 开源项目"planning-with-files"](#154-开源项目planning-with-files)
-  - [1.55. MediaCrawler](#155-mediacrawler)
-  - [1.56. PromptX 史诗级加强变成新的项目叫RoleX](#156-promptx-史诗级加强变成新的项目叫rolex)
-  - [1.57. joyagent 一个全能ai助手](#157-joyagent-一个全能ai助手)
-  - [1.58. Claude-Mem开源项目](#158-claude-mem开源项目)
-  - [1.59. 豆包gui agent](#159-豆包gui-agent)
-  - [1.60. github官方mcp](#160-github官方mcp)
-  - [1.61. all mcp list](#161-all-mcp-list)
-  - [1.62. devin mcp 生态链接](#162-devin-mcp-生态链接)
-  - [1.63. pip install mcp](#163-pip-install-mcp)
-  - [1.64. “Thinking Claude”，作者 Richards Tu（涂津豪）。](#164-thinking-claude作者-richards-tu涂津豪)
-  - [1.65. The Startup Graveyard](#165-the-startup-graveyard)
-  - [1.66. Clawbot skill 700+](#166-clawbot-skill-700)
-  - [1.67. OpenViking：面向 Agent 的上下文数据库](#167-openviking面向-agent-的上下文数据库)
-  - [1.68. ms agent  with skill](#168-ms-agent--with-skill)
-  - [1.69. open devin](#169-open-devin)
-  - [1.70. coding skill 集合](#170-coding-skill-集合)
-  - [1.71. skill.empjs.dev](#171-skillempjsdev)
-  - [1.72. skill沙盘集合](#172-skill沙盘集合)
-  - [1.73. ralv.ai  /  RVA.ai。](#173-ralvai----rvaai)
-  - [1.74. agentic 训练](#174-agentic-训练)
-  - [1.75. Manus context summary](#175-manus-context-summary)
-  - [1.76. agent memory paper github collection](#176-agent-memory-paper-github-collection)
-  - [1.77. agent skill](#177-agent-skill)
-  - [1.78. 25年最后总结-大模型手把手及相关开源社区](#178-25年最后总结-大模型手把手及相关开源社区)
-  - [1.79. Manus是一款在人工智能领域具有突破性意义的通用AI智能体产品，其“厉害”之处主要体现在以下几个方面：](#179-manus是一款在人工智能领域具有突破性意义的通用ai智能体产品其厉害之处主要体现在以下几个方面)
-  - [1.80. DeepAnalyze：自主数据科学中的代理大型语言模型](#180-deepanalyze自主数据科学中的代理大型语言模型)
-  - [1.81. LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659](#181-llm在游戏中应用的综述-httpsarxivorgpdf240218659)
-  - [1.82. “AgentGuide” from adongwanai](#182-agentguide-from-adongwanai)
-  - [1.83. 智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》](#183-智能体记忆的综述论文memory-in-the-age-of-ai-agents-a-survey)
-  - [1.84. 2025年11月13截止之前的memory 方案汇总对比](#184-2025年11月13截止之前的memory-方案汇总对比)
-  - [1.85. obsidian 做个人 memory](#185-obsidian-做个人-memory)
-      - [1.85.0.1. 支持哪些特殊语法？](#18501-支持哪些特殊语法)
-      - [1.85.0.2. 如何形成知识图谱？](#18502-如何形成知识图谱)
-      - [1.85.0.3. 具体例子说明](#18503-具体例子说明)
-  - [1.86. 读论文+github 神器 deepwiki](#186-读论文github-神器-deepwiki)
-  - [1.87. verl](#187-verl)
-  - [1.88. pageindex](#188-pageindex)
-  - [1.89. PostgreSQL == 多合一数据库：用插件替代专用数据库](#189-postgresql--多合一数据库用插件替代专用数据库)
-    - [1.89.1. 官网](#1891-官网)
-    - [1.89.2. 完整对应清单](#1892-完整对应清单)
-    - [1.89.3. 关键插件详解（生产级选型）](#1893-关键插件详解生产级选型)
-      - [1.89.3.1. 替代 InfluxDB（时序数据库）](#18931-替代-influxdb时序数据库)
-      - [1.89.3.2. 替代 Milvus（向量数据库）](#18932-替代-milvus向量数据库)
-      - [1.89.3.3. 替代 Neo4j（图数据库）+ pgRouting（地理路由）](#18933-替代-neo4j图数据库-pgrouting地理路由)
-      - [1.89.3.4. 替代 Redis（缓存/高性能读写）](#18934-替代-redis缓存高性能读写)
-      - [1.89.3.5. 替代 Elasticsearch（全文检索/搜索引擎）](#18935-替代-elasticsearch全文检索搜索引擎)
-      - [1.89.3.6. 替代 MongoDB（文档数据库）](#18936-替代-mongodb文档数据库)
-    - [1.89.4. 补充说明](#1894-补充说明)
-  - [1.90. agent memory方向主要有2个：](#190-agent-memory方向主要有2个)
-  - [1.91. 长记忆开源方案update](#191-长记忆开源方案update)
-  - [1.92. Improving Language Agents through BREW](#192-improving-language-agents-through-brew)
-  - [1.93. llm各种框架和论文，4000+⭐](#193-llm各种框架和论文4000)
-  - [1.94. agent evolver](#194-agent-evolver)
-  - [1.95. 微软 agent](#195-微软-agent)
-  - [1.96. 谷歌新研究定义"充分上下文"：](#196-谷歌新研究定义充分上下文)
-  - [1.97. EverMemOS](#197-evermemos)
-  - [1.98. MCP 生态链接](#198-mcp-生态链接)
-  - [1.99. 之后是2025年11月13之前汇总](#199-之后是2025年11月13之前汇总)
-  - [1.100. 综述](#1100-综述)
-  - [1.101. context-labs / aella-data-explorer 1亿篇论文组成知识图谱KG](#1101-context-labs--aella-data-explorer-1亿篇论文组成知识图谱kg)
-  - [1.102. multi ai agent game](#1102-multi-ai-agent-game)
-  - [1.103. langchain 中间件](#1103-langchain-中间件)
-  - [1.104. todolist middleware](#1104-todolist-middleware)
-  - [1.105. 舆情分析](#1105-舆情分析)
-  - [1.106. LightMem：像人脑一样高效的记忆系统](#1106-lightmem像人脑一样高效的记忆系统)
-  - [1.107. llm训练](#1107-llm训练)
-  - [1.108. Prop RAG](#1108-prop-rag)
-  - [1.109. 基于多模态信息抽取的菜品知识图谱构建](#1109-基于多模态信息抽取的菜品知识图谱构建)
-  - [1.110. ragflow 已经支持 知识图谱](#1110-ragflow-已经支持-知识图谱)
-  - [1.111. flashrag](#1111-flashrag)
-  - [1.112. LightRAG](#1112-lightrag)
-  - [1.113. llm agent 综述](#1113-llm-agent-综述)
-  - [1.114. 谷歌 vs 微软 deepresearch](#1114-谷歌-vs-微软-deepresearch)
-  - [1.115. Reasoning with Sampling: Your Base Model is Smarter Than You Think](#1115-reasoning-with-sampling-your-base-model-is-smarter-than-you-think)
-  - [1.116. Agentic RAG新范式！天大\&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍](#1116-agentic-rag新范式天大小红书提出decex-rag剪枝搜索扩展提速6倍)
-  - [1.117. 日报神器，记录你的一天 Dayflow](#1117-日报神器记录你的一天-dayflow)
-  - [1.118. 可信AI Agent相关论文(DPO)](#1118-可信ai-agent相关论文dpo)
-  - [1.119. Graph-Base Agent基于任务图的Agent框架](#1119-graph-base-agent基于任务图的agent框架)
-  - [1.120. A-Mem: Agentic Memory for LLM Agents](#1120-a-mem-agentic-memory-for-llm-agents)
-  - [1.121. logic rag](#1121-logic-rag)
-  - [1.122. LightMem](#1122-lightmem)
-  - [1.123. langchain graphrag](#1123-langchain-graphrag)
-  - [1.124. G-memory, Arcmemo, reasoning bank](#1124-g-memory-arcmemo-reasoning-bank)
-  - [1.125. embedding model 天梯](#1125-embedding-model-天梯)
-  - [1.126. MonkeyOCR](#1126-monkeyocr)
-  - [1.127. GitHub代码检索](#1127-github代码检索)
-  - [1.128. 视频转文字](#1128-视频转文字)
-  - [1.129. 音视频2文本](#1129-音视频2文本)
-  - [1.130. 爬虫数据采集圣器](#1130-爬虫数据采集圣器)
-  - [1.131. ai伴侣](#1131-ai伴侣)
-  - [1.132. metaGPT](#1132-metagpt)
-  - [1.133. unsloth](#1133-unsloth)
-  - [1.134. ai 知识库](#1134-ai-知识库)
-  - [1.135. 高质量rag](#1135-高质量rag)
-  - [1.136. ai混合搜索 meili](#1136-ai混合搜索-meili)
-  - [1.137. mem 推移学习，自我改进](#1137-mem-推移学习自我改进)
-  - [1.138. 腾讯 tree graphrag （2025年9月）](#1138-腾讯-tree-graphrag-2025年9月)
-  - [1.139. Graphiti vs GraphRAG 对比](#1139-graphiti-vs-graphrag-对比)
-  - [1.140. 自己用milvus+neo4j实现graphrag](#1140-自己用milvusneo4j实现graphrag)
-  - [1.141. 微软 graphRAG](#1141-微软-graphrag)
-  - [1.142. awesome-ai-memory 汇聚memory相关项目](#1142-awesome-ai-memory-汇聚memory相关项目)
-  - [1.143. es agent](#1143-es-agent)
-  - [1.144. MINE Context](#1144-mine-context)
-  - [1.145. 拼好rag](#1145-拼好rag)
-  - [1.146. mem0 2025年9月27日持续更新github](#1146-mem0-2025年9月27日持续更新github)
-  - [1.147. 蚂蚁 KAG](#1147-蚂蚁-kag)
-  - [1.148. 如何基于语义相似性分割文本](#1148-如何基于语义相似性分割文本)
-  - [1.149. 各种向量数据库对比](#1149-各种向量数据库对比)
-  - [1.150. 基于hnswlib的向量索引(2年前更新)](#1150-基于hnswlib的向量索引2年前更新)
-  - [1.151. stream vq 生成式召回](#1151-stream-vq-生成式召回)
-  - [1.152. ai学术搜索](#1152-ai学术搜索)
-  - [1.153. nlp etc.](#1153-nlp-etc)
-  - [1.154. 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等](#1154-知识图谱---北京大学大数据分析与应用技术国家工程实验室成员--包括各种知识图谱抽取检索neo4jmongodb等)
-  - [1.155. 唐国梁Tommy : rag + llm + es](#1155-唐国梁tommy--rag--llm--es)
-  - [1.156. 长文本提取结构化信息](#1156-长文本提取结构化信息)
-  - [1.157. 非结构化转结构化，用于微调等](#1157-非结构化转结构化用于微调等)
-  - [1.158. MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）](#1158-mongodb--es-向量存储--文本分割器spacytextsplitter-24年6月11日)
-  - [1.159. ai coding](#1159-ai-coding)
+  - [1.1. Excalidraw项目 excalidraw-diagram](#11-excalidraw项目-excalidraw-diagram)
+  - [1.2. Claude 手册](#12-claude-手册)
+  - [1.3. ai各种项目](#13-ai各种项目)
+  - [1.4. 港大开源的CLI-Anything项目](#14-港大开源的cli-anything项目)
+  - [1.5. ai 员工](#15-ai-员工)
+  - [1.6. PUA](#16-pua)
+  - [1.7. 蒸馏](#17-蒸馏)
+  - [1.8. 蒸馏agent code](#18-蒸馏agent-code)
+  - [1.9. 学废大模型蒸馏术：一步一步训练DeepSeek R1](#19-学废大模型蒸馏术一步一步训练deepseek-r1)
+  - [1.10. 《基于知识蒸留和强化学习的自然语言转SQL》](#110-基于知识蒸留和强化学习的自然语言转sql)
+  - [1.11. memskill](#111-memskill)
+  - [1.12. GitNexus是零服务器代码智能引擎，能在浏览器中自动生成可交互的代码知识图谱，支持直接提问了解项目架构，代码仅在本地解析无上传风险。GitHub地址：https://github.com/abhigyanpatwari/GitNexus](#112-gitnexus是零服务器代码智能引擎能在浏览器中自动生成可交互的代码知识图谱支持直接提问了解项目架构代码仅在本地解析无上传风险github地址httpsgithubcomabhigyanpatwarigitnexus)
+  - [1.13. Cloudflare的Browser Rendering API](#113-cloudflare的browser-rendering-api)
+  - [1.14. CodeStyle（码蜂）](#114-codestyle码蜂)
+  - [1.15. Clawith是OpenClaw团队版开源项目](#115-clawith是openclaw团队版开源项目)
+  - [1.16. WorldMonitor](#116-worldmonitor)
+  - [1.17. 最近开源了一个给龙虾玩的AI游戏，叫openword。](#117-最近开源了一个给龙虾玩的ai游戏叫openword)
+  - [1.18. GitNexus](#118-gitnexus)
+  - [1.19. 仅用600多行代码全自动训练大模型](#119-仅用600多行代码全自动训练大模型)
+  - [1.20. 500+agent](#120-500agent)
+  - [1.21. Agent基础能力skill：](#121-agent基础能力skill)
+  - [1.22. 实现评论区自动回复 + 后台消息自动回复，加上加粉引导 + 话术 + 防封策略都是全自动化的](#122-实现评论区自动回复--后台消息自动回复加上加粉引导--话术--防封策略都是全自动化的)
+  - [1.23. 6个Claude Code必备MCP插件](#123-6个claude-code必备mcp插件)
+  - [1.24. AI创作者平台是自托管工具](#124-ai创作者平台是自托管工具)
+  - [1.25. Obsidian Canvas Skill集成到Gemini CLI。](#125-obsidian-canvas-skill集成到gemini-cli)
+  - [1.26. 微软Agent-Lightning是开源强化学习框架，三大亮点：](#126-微软agent-lightning是开源强化学习框架三大亮点)
+  - [1.27. 项目GitHub地址：https://github.com/deanpeters/product-manager-skills](#127-项目github地址httpsgithubcomdeanpetersproduct-manager-skills)
+  - [1.28. skills.lc技能仓库 什么都有](#128-skillslc技能仓库-什么都有)
+  - [1.29. 学术论文ai](#129-学术论文ai)
+  - [1.30. 成为行业最强的AI影视工具](#130-成为行业最强的ai影视工具)
+  - [1.31. Gemini Voyager](#131-gemini-voyager)
+  - [1.32. worldmonitor](#132-worldmonitor)
+  - [1.33. Hugging Face 官方正式推出 Skills 技能库——](#133-hugging-face-官方正式推出-skills-技能库)
+  - [1.34. 如何高效vibe coding](#134-如何高效vibe-coding)
+  - [1.35. git-city项目](#135-git-city项目)
+  - [1.36. 试试这个 跨更多cli ](#136-试试这个跨更多cli)
+  - [1.37. gemini\_cli\_skill](#137-gemini_cli_skill)
+  - [1.38. bounty-hunter-skill 直接让 openclaw 变成了全自动打工人。](#138-bounty-hunter-skill-直接让-openclaw-变成了全自动打工人)
+  - [1.39. Claude code➕figma协作，可见即所得的协作模式。](#139-claude-codefigma协作可见即所得的协作模式)
+  - [1.40. GitNexus 开源代码可视化工具](#140-gitnexus-开源代码可视化工具)
+  - [1.41. agent reach](#141-agent-reach)
+  - [1.42. anthropics / knowledge-work-plugins](#142-anthropics--knowledge-work-plugins)
+  - [1.43. 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用](#143-免费开源的全球战情室来了ai驱动的实时情报仪表盘人人都能用)
+  - [1.44. GitHub热榜第一的开源项目Next AI Drawio](#144-github热榜第一的开源项目next-ai-drawio)
+  - [1.45. VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。](#145-vs-code的pixel-agents插件能将claude-code的ai代理以像素小人形式可视化)
+  - [1.46. FastCode](#146-fastcode)
+  - [1.47. Claude Code 工具](#147-claude-code-工具)
+  - [1.48. superclaude](#148-superclaude)
+  - [1.49. analyst claude code 逆向](#149-analyst-claude-code-逆向)
+  - [1.50. Fabric](#150-fabric)
+  - [1.51. NotebookLM Skill让你直接拥有满级知识库！](#151-notebooklm-skill让你直接拥有满级知识库)
+  - [1.52. Automaton 能让AI通过预设程序管理加密货币钱包并接收任务报酬](#152-automaton-能让ai通过预设程序管理加密货币钱包并接收任务报酬)
+  - [1.53. LEAN是QuantConnect开源的量化交易引擎](#153-lean是quantconnect开源的量化交易引擎)
+  - [1.54. 港大开源Nanobot](#154-港大开源nanobot)
+  - [1.55. OpenClaw-China](#155-openclaw-china)
+  - [1.56. "骡子跑"（MuleRun）平台](#156-骡子跑mulerun平台)
+  - [1.57. 上传任意ai像素画都可以直接导出真像素图](#157-上传任意ai像素画都可以直接导出真像素图)
+  - [1.58. 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结](#158-马斯克掀桌x算法全开源6小时16k星社交黑箱时代终结)
+  - [1.59. Obsidian-skills](#159-obsidian-skills)
+  - [1.60. 龙虾一键](#160-龙虾一键)
+  - [1.61. skill 精](#161-skill-精)
+  - [1.62. linshenkx/prompt-optimizer](#162-linshenkxprompt-optimizer)
+  - [1.63. Happy App](#163-happy-app)
+  - [1.64. 🦞龙虾](#164-龙虾)
+  - [1.65. 把这指令给他！让龙虾变身贾维斯！#OpenClaw#Sora2#clawdbot#AI#Moltbot](#165-把这指令给他让龙虾变身贾维斯openclawsora2clawdbotaimoltbot)
+  - [1.66. SkillsMP](#166-skillsmp)
+  - [1.67. claude code 监控](#167-claude-code-监控)
+  - [1.68. GitHub上的spec-kit项目](#168-github上的spec-kit项目)
+  - [1.69. Anthropic的《长时间运行智能体的有效调度编排框架》一文，AI据此自主构建了这套开发系统。](#169-anthropic的长时间运行智能体的有效调度编排框架一文ai据此自主构建了这套开发系统)
+  - [1.70. trustmrr.com/special-categories/openclaw](#170-trustmrrcomspecial-categoriesopenclaw)
+  - [1.71. 可信引用，谷歌LangExtract已开源](#171-可信引用谷歌langextract已开源)
+  - [1.72. Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。](#172-claude写c编译器的团队烧掉2万美金做agent-teams实验后的4条硬核经验)
+  - [1.73. MoneyClaw 金融炒股](#173-moneyclaw-金融炒股)
+  - [1.74. everything-claude-code 包括agents、skills、hooks、commands、rules等](#174-everything-claude-code-包括agentsskillshookscommandsrules等)
+  - [1.75. BMAD-METHOD 一键配置21个AI角色组成开发团队](#175-bmad-method-一键配置21个ai角色组成开发团队)
+  - [1.76. Humanizer-zh  专治AI写作"套路感"](#176-humanizer-zh--专治ai写作套路感)
+  - [1.77. 开源PPT工具](#177-开源ppt工具)
+  - [1.78. Anthropic   开源](#178-anthropic---开源)
+  - [1.79. Crawlee项目](#179-crawlee项目)
+  - [1.80. 新闻热点聚合](#180-新闻热点聚合)
+  - [1.81. situation-monitor](#181-situation-monitor)
+  - [1.82. 开源项目"planning-with-files"](#182-开源项目planning-with-files)
+  - [1.83. MediaCrawler](#183-mediacrawler)
+  - [1.84. PromptX 史诗级加强变成新的项目叫RoleX](#184-promptx-史诗级加强变成新的项目叫rolex)
+  - [1.85. joyagent 一个全能ai助手](#185-joyagent-一个全能ai助手)
+  - [1.86. Claude-Mem开源项目](#186-claude-mem开源项目)
+  - [1.87. 豆包gui agent](#187-豆包gui-agent)
+  - [1.88. github官方mcp](#188-github官方mcp)
+  - [1.89. all mcp list](#189-all-mcp-list)
+  - [1.90. devin mcp 生态链接](#190-devin-mcp-生态链接)
+  - [1.91. pip install mcp](#191-pip-install-mcp)
+  - [1.92. “Thinking Claude”，作者 Richards Tu（涂津豪）。](#192-thinking-claude作者-richards-tu涂津豪)
+  - [1.93. The Startup Graveyard](#193-the-startup-graveyard)
+  - [1.94. Clawbot skill 700+](#194-clawbot-skill-700)
+  - [1.95. OpenViking：面向 Agent 的上下文数据库](#195-openviking面向-agent-的上下文数据库)
+  - [1.96. ms agent  with skill](#196-ms-agent--with-skill)
+  - [1.97. open devin](#197-open-devin)
+  - [1.98. coding skill 集合](#198-coding-skill-集合)
+  - [1.99. skill.empjs.dev](#199-skillempjsdev)
+  - [1.100. skill沙盘集合](#1100-skill沙盘集合)
+  - [1.101. ralv.ai  /  RVA.ai。](#1101-ralvai----rvaai)
+  - [1.102. agentic 训练](#1102-agentic-训练)
+  - [1.103. Manus context summary](#1103-manus-context-summary)
+  - [1.104. agent memory paper github collection](#1104-agent-memory-paper-github-collection)
+  - [1.105. agent skill](#1105-agent-skill)
+  - [1.106. 25年最后总结-大模型手把手及相关开源社区](#1106-25年最后总结-大模型手把手及相关开源社区)
+  - [1.107. Manus是一款在人工智能领域具有突破性意义的通用AI智能体产品，其“厉害”之处主要体现在以下几个方面：](#1107-manus是一款在人工智能领域具有突破性意义的通用ai智能体产品其厉害之处主要体现在以下几个方面)
+  - [1.108. DeepAnalyze：自主数据科学中的代理大型语言模型](#1108-deepanalyze自主数据科学中的代理大型语言模型)
+  - [1.109. LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659](#1109-llm在游戏中应用的综述-httpsarxivorgpdf240218659)
+  - [1.110. “AgentGuide” from adongwanai](#1110-agentguide-from-adongwanai)
+  - [1.111. 智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》](#1111-智能体记忆的综述论文memory-in-the-age-of-ai-agents-a-survey)
+  - [1.112. 2025年11月13截止之前的memory 方案汇总对比](#1112-2025年11月13截止之前的memory-方案汇总对比)
+  - [1.113. obsidian 做个人 memory](#1113-obsidian-做个人-memory)
+      - [1.113.0.1. 支持哪些特殊语法？](#111301-支持哪些特殊语法)
+      - [1.113.0.2. 如何形成知识图谱？](#111302-如何形成知识图谱)
+      - [1.113.0.3. 具体例子说明](#111303-具体例子说明)
+  - [1.114. 读论文+github 神器 deepwiki](#1114-读论文github-神器-deepwiki)
+  - [1.115. verl](#1115-verl)
+  - [1.116. pageindex](#1116-pageindex)
+  - [1.117. PostgreSQL == 多合一数据库：用插件替代专用数据库](#1117-postgresql--多合一数据库用插件替代专用数据库)
+    - [1.117.1. 官网](#11171-官网)
+    - [1.117.2. 完整对应清单](#11172-完整对应清单)
+    - [1.117.3. 关键插件详解（生产级选型）](#11173-关键插件详解生产级选型)
+      - [1.117.3.1. 替代 InfluxDB（时序数据库）](#111731-替代-influxdb时序数据库)
+      - [1.117.3.2. 替代 Milvus（向量数据库）](#111732-替代-milvus向量数据库)
+      - [1.117.3.3. 替代 Neo4j（图数据库）+ pgRouting（地理路由）](#111733-替代-neo4j图数据库-pgrouting地理路由)
+      - [1.117.3.4. 替代 Redis（缓存/高性能读写）](#111734-替代-redis缓存高性能读写)
+      - [1.117.3.5. 替代 Elasticsearch（全文检索/搜索引擎）](#111735-替代-elasticsearch全文检索搜索引擎)
+      - [1.117.3.6. 替代 MongoDB（文档数据库）](#111736-替代-mongodb文档数据库)
+    - [1.117.4. 补充说明](#11174-补充说明)
+  - [1.118. agent memory方向主要有2个：](#1118-agent-memory方向主要有2个)
+  - [1.119. 长记忆开源方案update](#1119-长记忆开源方案update)
+  - [1.120. Improving Language Agents through BREW](#1120-improving-language-agents-through-brew)
+  - [1.121. llm各种框架和论文，4000+⭐](#1121-llm各种框架和论文4000)
+  - [1.122. agent evolver](#1122-agent-evolver)
+  - [1.123. 微软 agent](#1123-微软-agent)
+  - [1.124. 谷歌新研究定义"充分上下文"：](#1124-谷歌新研究定义充分上下文)
+  - [1.125. EverMemOS](#1125-evermemos)
+  - [1.126. MCP 生态链接](#1126-mcp-生态链接)
+  - [1.127. 之后是2025年11月13之前汇总](#1127-之后是2025年11月13之前汇总)
+  - [1.128. 综述](#1128-综述)
+  - [1.129. context-labs / aella-data-explorer 1亿篇论文组成知识图谱KG](#1129-context-labs--aella-data-explorer-1亿篇论文组成知识图谱kg)
+  - [1.130. multi ai agent game](#1130-multi-ai-agent-game)
+  - [1.131. langchain 中间件](#1131-langchain-中间件)
+  - [1.132. todolist middleware](#1132-todolist-middleware)
+  - [1.133. 舆情分析](#1133-舆情分析)
+  - [1.134. LightMem：像人脑一样高效的记忆系统](#1134-lightmem像人脑一样高效的记忆系统)
+  - [1.135. llm训练](#1135-llm训练)
+  - [1.136. Prop RAG](#1136-prop-rag)
+  - [1.137. 基于多模态信息抽取的菜品知识图谱构建](#1137-基于多模态信息抽取的菜品知识图谱构建)
+  - [1.138. ragflow 已经支持 知识图谱](#1138-ragflow-已经支持-知识图谱)
+  - [1.139. flashrag](#1139-flashrag)
+  - [1.140. LightRAG](#1140-lightrag)
+  - [1.141. llm agent 综述](#1141-llm-agent-综述)
+  - [1.142. 谷歌 vs 微软 deepresearch](#1142-谷歌-vs-微软-deepresearch)
+  - [1.143. Reasoning with Sampling: Your Base Model is Smarter Than You Think](#1143-reasoning-with-sampling-your-base-model-is-smarter-than-you-think)
+  - [1.144. Agentic RAG新范式！天大\&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍](#1144-agentic-rag新范式天大小红书提出decex-rag剪枝搜索扩展提速6倍)
+  - [1.145. 日报神器，记录你的一天 Dayflow](#1145-日报神器记录你的一天-dayflow)
+  - [1.146. 可信AI Agent相关论文(DPO)](#1146-可信ai-agent相关论文dpo)
+  - [1.147. Graph-Base Agent基于任务图的Agent框架](#1147-graph-base-agent基于任务图的agent框架)
+  - [1.148. A-Mem: Agentic Memory for LLM Agents](#1148-a-mem-agentic-memory-for-llm-agents)
+  - [1.149. logic rag](#1149-logic-rag)
+  - [1.150. LightMem](#1150-lightmem)
+  - [1.151. langchain graphrag](#1151-langchain-graphrag)
+  - [1.152. G-memory, Arcmemo, reasoning bank](#1152-g-memory-arcmemo-reasoning-bank)
+  - [1.153. embedding model 天梯](#1153-embedding-model-天梯)
+  - [1.154. MonkeyOCR](#1154-monkeyocr)
+  - [1.155. GitHub代码检索](#1155-github代码检索)
+  - [1.156. 视频转文字](#1156-视频转文字)
+  - [1.157. 音视频2文本](#1157-音视频2文本)
+  - [1.158. 爬虫数据采集圣器](#1158-爬虫数据采集圣器)
+  - [1.159. ai伴侣](#1159-ai伴侣)
+  - [1.160. metaGPT](#1160-metagpt)
+  - [1.161. unsloth](#1161-unsloth)
+  - [1.162. ai 知识库](#1162-ai-知识库)
+  - [1.163. 高质量rag](#1163-高质量rag)
+  - [1.164. ai混合搜索 meili](#1164-ai混合搜索-meili)
+  - [1.165. mem 推移学习，自我改进](#1165-mem-推移学习自我改进)
+  - [1.166. 腾讯 tree graphrag （2025年9月）](#1166-腾讯-tree-graphrag-2025年9月)
+  - [1.167. Graphiti vs GraphRAG 对比](#1167-graphiti-vs-graphrag-对比)
+  - [1.168. 自己用milvus+neo4j实现graphrag](#1168-自己用milvusneo4j实现graphrag)
+  - [1.169. 微软 graphRAG](#1169-微软-graphrag)
+  - [1.170. awesome-ai-memory 汇聚memory相关项目](#1170-awesome-ai-memory-汇聚memory相关项目)
+  - [1.171. es agent](#1171-es-agent)
+  - [1.172. MINE Context](#1172-mine-context)
+  - [1.173. 拼好rag](#1173-拼好rag)
+  - [1.174. mem0 2025年9月27日持续更新github](#1174-mem0-2025年9月27日持续更新github)
+  - [1.175. 蚂蚁 KAG](#1175-蚂蚁-kag)
+  - [1.176. 如何基于语义相似性分割文本](#1176-如何基于语义相似性分割文本)
+  - [1.177. 各种向量数据库对比](#1177-各种向量数据库对比)
+  - [1.178. 基于hnswlib的向量索引(2年前更新)](#1178-基于hnswlib的向量索引2年前更新)
+  - [1.179. stream vq 生成式召回](#1179-stream-vq-生成式召回)
+  - [1.180. ai学术搜索](#1180-ai学术搜索)
+  - [1.181. nlp etc.](#1181-nlp-etc)
+  - [1.182. 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等](#1182-知识图谱---北京大学大数据分析与应用技术国家工程实验室成员--包括各种知识图谱抽取检索neo4jmongodb等)
+  - [1.183. 唐国梁Tommy : rag + llm + es](#1183-唐国梁tommy--rag--llm--es)
+  - [1.184. 长文本提取结构化信息](#1184-长文本提取结构化信息)
+  - [1.185. 非结构化转结构化，用于微调等](#1185-非结构化转结构化用于微调等)
+  - [1.186. MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）](#1186-mongodb--es-向量存储--文本分割器spacytextsplitter-24年6月11日)
+  - [1.187. ai coding](#1187-ai-coding)
 - [2. ai agent 架构、新闻DIY、产品汇总](#2-ai-agent-架构新闻diy产品汇总)
   - [2.1. ai agent 架构](#21-ai-agent-架构)
     - [2.1.1. roma 等（字节aime，分析计划树agent）](#211-roma-等字节aime分析计划树agent)
@@ -209,40 +237,41 @@
 
 
 
-## Excalidraw项目
+## 1.1. Excalidraw项目 excalidraw-diagram
 GitHub地址是：https://github.com/excalidraw/excalidraw。这个开源手绘白板工具在GitHub已获11.5万star，支持流程图/架构图绘制，MIT协议可商用。
 
+[在线](https://excalidraw.com/)
 
-## Claude 手册
+## 1.2. Claude 手册
 项目GitHub地址：https://github.com/zebbern/claude-code-guide
 
 
-## ai各种项目
+## 1.3. ai各种项目
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
-## 港大开源的CLI-Anything项目
+## 1.4. 港大开源的CLI-Anything项目
 仅需一行命令即可将传统软件转化为AI可操作的工具。它解决了"人类界面"与"AI指令"间的根本矛盾——传统软件为眼睛设计，而AI需要结构化指令。上线几天获3.2k星标，真正打通了AI智能体落地的关键路径。
 
 
-## ai 员工
+## 1.5. ai 员工
 
 https://github.com/msitarzewski/agency-agents
 
 开源的144种AI岗位按职能分成了五大类：工程部有后端工程师、移动应用构建师、AI工程师；设计部含UI设计师、用户体验研究员、品牌守护者；市场部涵盖增长黑客、内容创作者、跨平台策略师；销售部包括外向战略师、交易策略师、销售教练；还有付费媒体部的PPC策略师、搜索查询分析师等。每类岗位都细化了具体职责，比如"视觉讲述者"专攻Midjourney提示词生成，"微信生态开发者"专注小程序集成。
 
 
-## PUA
+## 1.6. PUA
 项目GitHub地址：https://github.com/tanweai/pua。
 
 ##Karpathy开源的"AutoResearch"项目
 
 实现了AI递归自我改进：人类只需在program.md用自然语言设定目标（如"提升模型速度"），AI便自动修改train.py中的模型参数，通过5分钟一轮的训练测试，依据val_loss指标自动保留有效改进或回滚失败尝试。项目包含三个核心组件——prepare.py（固定数据环境）、train.py（AI可修改的实验区）和program.md（人类指令区），使单GPU设备也能运行。这一机制让AI能在24小时内完成百次迭代优化，实现"今日AI改进模型，明日改进自身改进能力"的指数级进化，标志着普通人可参与的硅基智能爆发时代到来。项目GitHub已获850万次关注。
 
-## 蒸馏
+## 1.7. 蒸馏
 代码链接（github）：https://github.com/wyf3/llm_related/tree/main/knowledge_distillation_llm_cross_tokenizer
 代码链接（网盘）：https://pan.quark.cn/s/bbe39968b937
 
-## 蒸馏agent code
+## 1.8. 蒸馏agent code
 https://mp.weixin.qq.com/s/Uoe9blDgU8lIgifE1bxtQw
 
 
@@ -251,10 +280,10 @@ https://mp.weixin.qq.com/s/Uoe9blDgU8lIgifE1bxtQw
 
 
 
-## 学废大模型蒸馏术：一步一步训练DeepSeek R1
+## 1.9. 学废大模型蒸馏术：一步一步训练DeepSeek R1
 https://mp.weixin.qq.com/s/0d4AO8eGQpfPU_V6d_X_qg
 
-##  《基于知识蒸留和强化学习的自然语言转SQL》 
+##  1.10. 《基于知识蒸留和强化学习的自然语言转SQL》 
 
 https://mp.weixin.qq.com/s/W6AcqSN1dKktEhMwZ5hj6g
 
@@ -266,7 +295,7 @@ SwanLab开源仓库:https://github.com/swanhubx/swanlab
 
 
 
-## memskill
+## 1.11. memskill
 📂 开源链接：https://github.com/ViktorAxelsen/MemSkill
 
 📄 论文原文：https://arxiv.org/abs/2602.02474
@@ -274,18 +303,18 @@ SwanLab开源仓库:https://github.com/swanhubx/swanlab
 ✨ 一句话点评：MemSkill 真正把“记忆操作”从固定流程升级为可学习、可进化技能，首次系统性实现了记忆策略层面的自进化闭环——Agent 不只是学会使用记忆，而是学会如何不断改进自己的记忆方式。这可能是通向长期自主 Agent 的关键一步。
 
 
-## GitNexus是零服务器代码智能引擎，能在浏览器中自动生成可交互的代码知识图谱，支持直接提问了解项目架构，代码仅在本地解析无上传风险。GitHub地址：https://github.com/abhigyanpatwari/GitNexus
+## 1.12. GitNexus是零服务器代码智能引擎，能在浏览器中自动生成可交互的代码知识图谱，支持直接提问了解项目架构，代码仅在本地解析无上传风险。GitHub地址：https://github.com/abhigyanpatwari/GitNexus
 
 
-## Cloudflare的Browser Rendering API
+## 1.13. Cloudflare的Browser Rendering API
 提供免费额度供基础使用，超出后按浏览器实际运行时长计费。企业级需求建议直接查阅官方文档或联系销售获取定制方案。
 
-## CodeStyle（码蜂）
+## 1.14. CodeStyle（码蜂）
 是企业级代码知识库系统，通过"官网在线制模+轻量化MCP插件检索"架构，让AI精准掌握团队特有的代码规范、命名习惯和设计模式。它直击三大痛点：用RAG技术降低对高价模型的依赖，通过经验沉淀稳定代码生成质量，将资深开发者经验转化为可复用模板缩小团队能力差距。简单说，就是让AI写出的代码既有团队"指纹"，又能适配国产平价模型，真正成为开发流程的智能延伸。
 
 
 
-## Clawith是OpenClaw团队版开源项目
+## 1.15. Clawith是OpenClaw团队版开源项目
 让AI组成协作团队：每个"数字员工"有独立身份、记忆和技能，能自主分工合作。项目地址：github.com/dataelement/clawith
 
 ##Shannon是Keygraph开发的AI自动化渗透测试工具，专攻Web和API安全检测。
@@ -293,13 +322,13 @@ SwanLab开源仓库:https://github.com/swanhubx/swanlab
 项目开源托管在GitHub（KeygraphHQ/shannon），已获3.1万星，能自动扫描源码、验证漏洞并生成带PoC的报告，支持本地部署。
 
 
-## WorldMonitor
+## 1.16. WorldMonitor
 的
 GitHub地址：https://github.com/koala73/worldmonitor  
 在线体验版可访问 https://worldmonitor.app
 
 
-## 最近开源了一个给龙虾玩的AI游戏，叫openword。
+## 1.17. 最近开源了一个给龙虾玩的AI游戏，叫openword。
 
 可以让龙虾通过自然语言创建任何世界，并自由探索。
 
@@ -312,10 +341,10 @@ npx skills add https://github.com/dinghuanghao/openword
 
 欢迎大家体验！
 
-## GitNexus
+## 1.18. GitNexus
  (https://github.com/abhigyanpatwari/GitNexus)是代码仓库图谱化开源工具，已获10k+ stars，通过生成知识图谱帮助AI理解代码结构，告别"盲改代码"。
 
-## 仅用600多行代码全自动训练大模型
+## 1.19. 仅用600多行代码全自动训练大模型
 
 AI大神卡帕西发布Agent开源神级项目：单个GPU就能跑  写个Markdown 智能体接管
 
@@ -324,11 +353,11 @@ AI大神卡帕西发布Agent开源神级项目：单个GPU就能跑  写个Markd
 项目地址：github.com/karpathy/autoresearch
 
 
-## 500+agent
+## 1.20. 500+agent
 https://github.com/nishpatel26/500-AI-Agents-Projects
 
 
-## Agent基础能力skill：
+## 1.21. Agent基础能力skill：
 find-skills, skill-creator, using-superpowers, subagent-driven, agent-tools  
 写作思考：copywriting, systematic-debugging, content-strategy, marketing-ideas, social-content  
 设计视觉：web-design, ui-ux-pro, canvas-design, tailwind-design, algorithmic-art  
@@ -336,21 +365,21 @@ find-skills, skill-creator, using-superpowers, subagent-driven, agent-tools
 营销增长：audit-website, seo-audit, product-marketing, page-cro  
 办公文档：pdf, docx, xlsx, pptx
 
-## 实现评论区自动回复 + 后台消息自动回复，加上加粉引导 + 话术 + 防封策略都是全自动化的
+## 1.22. 实现评论区自动回复 + 后台消息自动回复，加上加粉引导 + 话术 + 防封策略都是全自动化的
 
 如果人工回复跟不上，可以把人工回复跟不上，这个工具把 80–95% 的常规对话自动化，结合大模型，就像真人回复一样
 
 
 开源项目地址：https://github.com/pen9un/douyin-chatgpt-bot。请确保合规使用。
 
-## 6个Claude Code必备MCP插件
+## 1.23. 6个Claude Code必备MCP插件
 
 1.Filesystem MCP-自动读写文件改代码；2.SequentialThinking-提升逻辑推理能力；3.GitHub MCP-管理开源项目；4.Chrome DevTools-控制浏览器自动化；5.Context7-获取最新文档防踩坑；6.Memos-云端记忆系统。覆盖开发全流程，显著提升效率。
 
-## AI创作者平台是自托管工具
+## 1.24. AI创作者平台是自托管工具
 集成写作、生图、视频和PPT生成，支持一键多平台发布。项目地址：https://github.com/gongxings/ai-creator
 
-## Obsidian Canvas Skill集成到Gemini CLI。
+## 1.25. Obsidian Canvas Skill集成到Gemini CLI。
 
 关键操作：  
 1️⃣ 源码地址：github.com/kepano/obsidian-skills（含json-canvas目录）  
@@ -358,7 +387,7 @@ find-skills, skill-creator, using-superpowers, subagent-driven, agent-tools
 3️⃣ 在CLI输入提示词，填写skill名称+GitHub地址即可转换安装  
 重启后输入"生成无限画布"等指令即可使用。所有操作基于Gemini官方能力，无额外下载链接。
 
-## 微软Agent-Lightning是开源强化学习框架，三大亮点：
+## 1.26. 微软Agent-Lightning是开源强化学习框架，三大亮点：
 
 1. 零代码改造：无需修改原有智能体逻辑
 2. 训练-运行解耦：GPU集群专注训练，客户端轻量执行
@@ -370,28 +399,28 @@ find-skills, skill-creator, using-superpowers, subagent-driven, agent-tools
 Agent-Lightning的开源地址是：https://github.com/microsoft/agent-lightning。这是微软研究院官方发布的项目仓库，开发者可直接访问查看代码和技术文档。
 
 
-## 项目GitHub地址：https://github.com/deanpeters/product-manager-skills
+## 1.27. 项目GitHub地址：https://github.com/deanpeters/product-manager-skills
 
-## skills.lc技能仓库 什么都有
+## 1.28. skills.lc技能仓库 什么都有
 
-## 1.1. 学术论文ai
+## 1.29. 学术论文ai
 https://www.aminer.cn/v2/intelsearch?conv_id=cae2b918-16d6-11f1-a844-925c7300803c
 
 就类似这样的对话 你叫他 帮你引参考文献 他框框能找出几十篇
 
 用air就行了
 
-## 1.2. 成为行业最强的AI影视工具
+## 1.30. 成为行业最强的AI影视工具
 
 我觉得，这个野心不是空谈。从技术架构到产品思路，waoowaoo都展现出了专业级的水准。虽然目前还是beta版本，虽然只有一个人在维护，但 4 天 6.8K Star 已经说明了一切：社区的眼睛是雪亮的。一个人，一台电脑，一个想法，就能创作出属于自己的影视作品。这，就是AI时代给创作者最好的礼物。感兴趣的朋友，可以去GitHub上看看，蹲个star支持下。这个项目值得大家关注。GitHub地址：https://github.com/waoowaooAI/waoowaoo
 
-## 1.3. Gemini Voyager
+## 1.31. Gemini Voyager
 可通过两种方式安装：1.访问官网voyager.nagi.fun获取安装指南；2.在GitHub搜索"Nagi-ovo/gemini-voyager"下载扩展程序。这是专为Chrome等浏览器开发的插件，安装后即可在Gemini界面使用其去水印、文件夹管理等功能。
 
-## 1.4. worldmonitor
+## 1.32. worldmonitor
 GitHub上获2万+星标的开源情报工具，能一键聚合全球要闻，通过3D地图实时监控热点事件。自动过滤99%噪音，专注高价值信息，目前完全免费，已成信息差狙击利器。
 
-## 1.5. Hugging Face 官方正式推出 Skills 技能库——
+## 1.33. Hugging Face 官方正式推出 Skills 技能库——
 
 
 GitHub 星数已突破 5,200+，成为构建 AI 智能体的新一代基础设施。
@@ -406,34 +435,34 @@ Hugging Face Skills 如何重塑Agent开发？✅ 标准化技能格式（Agent
 
 
 
-## 1.6. 如何高效vibe coding
+## 1.34. 如何高效vibe coding
 https://mp.weixin.qq.com/s/xQvSuhGXvawPsW_cWXxnbA
 
-## 1.7. git-city项目
+## 1.35. git-city项目
 把GitHub变成3D城市：开发者=楼房，贡献量=建筑高度，仓库数=地基宽度，星标数=窗户亮度。项目开源，地址是github.com/srizzon/git-city，可以输入自己的用户名生成专属城市。
 
 
 
-## 1.8. 试试这个 跨更多cli 
+## 1.36. 试试这个 跨更多cli 
 npm install -g stigmergy
 
-## 1.9. gemini_cli_skill
+## 1.37. gemini_cli_skill
 它把Google的Gemini CLI封装成了Claude Code的一个Skill，让Claude可以在需要的时候"召唤"Gemini来帮忙干活。
 
 https://mp.weixin.qq.com/s/QEjiZmyC4a8NmDtg5r4Ejw
 
 
-## 1.10. bounty-hunter-skill 直接让 openclaw 变成了全自动打工人。
+## 1.38. bounty-hunter-skill 直接让 openclaw 变成了全自动打工人。
 
 
 它不仅能监控赏金任务，还能通过 Smart ROI 系统计算成本，自动接单、写代码、提交测试证据。
 
 
-## 1.11. Claude code➕figma协作，可见即所得的协作模式。
+## 1.39. Claude code➕figma协作，可见即所得的协作模式。
 figma给一个URL给到Claude code，两个玩意儿就能实时协同：给CC讲需求，CC给提示词，copy给figma，figma实时生成，CC就能直接进入开发，挺好的协作模式。
 
 
-## 1.12. GitNexus 开源代码可视化工具
+## 1.40. GitNexus 开源代码可视化工具
 
 能将项目转换为交互式知识图谱，展示函数依赖和调用链关系。完全浏览器运行，采用Graph RAG技术让AI精准理解代码架构。项目地址
 
@@ -445,12 +474,12 @@ https://github.com/abhigyanpatwari/GitNexus
 
 
 
-## 1.13. agent reach
+## 1.41. agent reach
 项目地址：github.com/Panniantong/Agent-Reach。原理是本地部署的代理工具，让AI Agent无需API费用即可直接访问推特、B站等平台内容，通过模拟浏览器行为实现自动登录和结构化内容解析，保护隐私且自带诊断功能。
 
-## 1.14. anthropics / knowledge-work-plugins
+## 1.42. anthropics / knowledge-work-plugins
 
-## 1.15. 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用
+## 1.43. 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用
 
 
 
@@ -462,21 +491,21 @@ World Monitor（世界监控器）。以前觉得没用就没分享，今天有�
 在线体验（强烈建议立刻打开）：https://worldmonitor.app（世界版） | https://tech.worldmonitor.app（科技版） | https://finance.worldmonitor.app（金融版）
 
 
-## 1.16. GitHub热榜第一的开源项目Next AI Drawio
+## 1.44. GitHub热榜第一的开源项目Next AI Drawio
 
 能通过AI指令一键生成架构图、流程图和思维导图，支持动画效果及手绘图优化，所有内容均可直接编辑导出。
 
-## 1.17. VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。
+## 1.45. VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。
 
 直接在VS Code扩展市场搜索安装即可，完全免费开源。
 
 
-## 1.18. FastCode 
+## 1.46. FastCode 
 的 GitHub 仓库地址是 https://github.com/HKUDS/FastCode
 
 
 
-## 1.19. Claude Code 工具
+## 1.47. Claude Code 工具
 
 🎯 全能型：claude-hud — 功能最全，Agent/Todo/工具全监控
 
@@ -488,13 +517,13 @@ World Monitor（世界监控器）。以前觉得没用就没分享，今天有�
 
 📊 数据党：ClaudeCode_status_bar — 带仪表盘，可视化最强
 
-## 1.20. superclaude
+## 1.48. superclaude
 0门槛编程的上下文工程开源框架，实现了智能体AI Agent、computer use等研发门槛降到了0，每个公司都可管理vibe coding研发过程#superclaude #claudecode #computeruse #上下文工程 #contextengineering #上下文工程师
 
-## 1.21. analyst claude code 逆向
+## 1.49. analyst claude code 逆向
 
 
-## 1.22. Fabric
+## 1.50. Fabric
 
 Daniel Miessler开源的项目，GitHub搜索"danielmiessler/fabric"即可找到官方地址。
 
@@ -506,7 +535,7 @@ Fabric：别再手写 Prompt 了！网络安全大神开源的‘人生模式库
 Fabric项目的GitHub地址是：https://github.com/danielmiessler/Fabric，目前已获得37.3k stars。
 
 
-## 1.23. NotebookLM Skill让你直接拥有满级知识库！
+## 1.51. NotebookLM Skill让你直接拥有满级知识库！
 
 NotebookLM Skills AgentSkills ClaudeCode
 
@@ -515,18 +544,18 @@ https://github.com/teng-lin/notebooklm-py
 
 
 
-## 1.24. Automaton 能让AI通过预设程序管理加密货币钱包并接收任务报酬
+## 1.52. Automaton 能让AI通过预设程序管理加密货币钱包并接收任务报酬
 
 但"自动赚钱"是程序化操作，所有行为都在人类设定框架内运行，AI并无自主意识。钱包创建和交易均需预先授权。
 
 Automaton开源项目地址：https://github.com/Conway-Research/automaton
 
 
-## 1.25. LEAN是QuantConnect开源的量化交易引擎
+## 1.53. LEAN是QuantConnect开源的量化交易引擎
 
 在GitHub获13k+星标。支持Python/C#双语言开发，提供回测、风控和数据分析全流程工具，可本地部署保障交易数据隐私，适合量化研究使用。
 
-## 1.26. 港大开源Nanobot
+## 1.54. 港大开源Nanobot
 仅3479行代码实现Clawdbot核心功能（后者43万行），已获14k星标。覆盖7×24市场分析、智能日程等场景，添加新模型仅需两步，支持飞书等渠道且可本地部署。
 
 
@@ -537,7 +566,7 @@ Automaton开源项目地址：https://github.com/Conway-Research/automaton
 [github](https://github.com/Fission-AI/OpenSpec)
 
 
-## 1.27. OpenClaw-China
+## 1.55. OpenClaw-China
 
 1. OpenClaw-China 项目背景 00:00
 2. 研发 OpenClaw-China 的时间和动机 01:26
@@ -568,12 +597,12 @@ Automaton开源项目地址：https://github.com/Conway-Research/automaton
 
 
 
-## 1.28. "骡子跑"（MuleRun）平台
+## 1.56. "骡子跑"（MuleRun）平台
 
 作为商业化Agent交易市场，它采用虚拟机隔离架构支持复杂任务，但核心代码暂未开源。开发者可通过n8n/Dify等工具创建Agent上架，建议访问官网mulerun.com获取最新动态。
 
 
-## 1.29. 上传任意ai像素画都可以直接导出真像素图
+## 1.57. 上传任意ai像素画都可以直接导出真像素图
 
 
 https://theamusing.github.io/perfectPixel_webdemo/
@@ -586,7 +615,7 @@ https://theamusing.github.io/perfectPixel_webdemo/
 https://m.bilibili.com/video/BV1ieZ8B9EvS?buvid=YE4EB8E242A2E3CE4743BF8439EE6B257FA2&from_spmid=search.search-result.0.0&is_story_h5=false&mid=Xx8dbqCsv7Q3Gh5j7vggOA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=05469E6E-4D1F-4B51-BBD6-7B6F71637180&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1771469080&unique_k=80Pu72t&up_id=3690997556971552
 
 
-## 1.30. 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结
+## 1.58. 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结
 
 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结。
 
@@ -607,10 +636,10 @@ https://m.bilibili.com/video/BV1ieZ8B9EvS?buvid=YE4EB8E242A2E3CE4743BF8439EE6B25
 
 🔥行业冲击：倒逼抖音、Meta等平台回应“黑箱争议”，或引发算法透明化浪潮。
 
-## 1.31. Obsidian-skills
+## 1.59. Obsidian-skills
 已在GitHub开源，CEO亲自发布，目前获得6.9K星标。
 
-## 1.32. 龙虾一键
+## 1.60. 龙虾一键
 
 执行全局初始化指令，更聪明：
 1. 自动安装必备技能：long-term-memory、voice-wakeup、jarvis-core、persistent-agent、self-learning
@@ -623,23 +652,23 @@ https://m.bilibili.com/video/BV1ieZ8B9EvS?buvid=YE4EB8E242A2E3CE4743BF8439EE6B25
 8. 自动优化响应逻辑：懂用户需求、预判下一步操作
 
 
-## 1.33. skill 精
+## 1.61. skill 精
 skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（审核过的精品技能商店），skills.sh（实时热度排行榜）。
 
 
 
 
-## 1.34. linshenkx/prompt-optimizer
+## 1.62. linshenkx/prompt-optimizer
 
 这是个提示词优化工具，输入想法就能生成专业AI提示词。
 
 
 
-## 1.35. Happy App
+## 1.63. Happy App
 不仅能查看状态，还能直接发送指令与Claude Code交互。在手机端输入消息、进行对话的操作界面，你可以像在电脑前一样实时操作。
 
 
-## 1.36. 🦞龙虾
+## 1.64. 🦞龙虾
 
 三个关键安装命令：
 1. clawhub install tavily-search（联网）
@@ -651,7 +680,7 @@ skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（
 邮件收发技能的安装命令是：clawhub install imap-smtp-email
 
 
-## 1.37. 把这指令给他！让龙虾变身贾维斯！#OpenClaw#Sora2#clawdbot#AI#Moltbot
+## 1.65. 把这指令给他！让龙虾变身贾维斯！#OpenClaw#Sora2#clawdbot#AI#Moltbot
 
 执行全局初始化指令：
 1. 自动安装必备技能：long-term-memory、voice-wakeup、jarvis-core、persistent-agent、self-learning
@@ -675,11 +704,11 @@ skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（
 
 
 
-## 1.38. SkillsMP
+## 1.66. SkillsMP
 一个聚合开源Agent Skills的社区平台。官网地址是https://skillsmp.com，中文版可通过https://skillsmp.com/zh访问。这个平台整理了超10万个基于SKILL.md标准的开源技能，支持按分类和热度筛选。
 
 
-##  1.39. claude code 监控
+##  1.67. claude code 监控
 三条安装命令：
 /plugin marketplace add jarrodwatts/claude-hud
 /plugin install claude-hud
@@ -687,21 +716,21 @@ skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（
 
 
 
-## 1.40. GitHub上的spec-kit项目
+## 1.68. GitHub上的spec-kit项目
 地址是github.com/github/spec-kit。它与Superpowers的核心差异在于：spec-kit采用规范驱动开发（先定需求规范再编码），有严格的四阶段流程；Superpowers则是技能驱动，通过模块化技能组合实现AI开发。前者适合团队协作项目，后者更适合快速原型开发。
 
 
-## 1.41. Anthropic的《长时间运行智能体的有效调度编排框架》一文，AI据此自主构建了这套开发系统。
+## 1.69. Anthropic的《长时间运行智能体的有效调度编排框架》一文，AI据此自主构建了这套开发系统。
 
 
 这套系统，核心是四个文件：task.json（任务清单）、progress.txt（工作日志）、cloud.md（规范流程）、init.sh（环境初始化）。工作流程分六步循环：初始化→领任务→编码→测试→更新记录→提交代码。关键特点：任务粒度小、每次上下文重置、能自主在浏览器验证功能，让AI可持续工作十小时而不混乱。本质是把长任务拆解为可追踪的小单元，实现真正的端到端自动化开发。
 
 
-## 1.42. trustmrr.com/special-categories/openclaw
+## 1.70. trustmrr.com/special-categories/openclaw
 
 一个专门追踪OpenClaw生态创业项目的平台。它把54家基于开源框架OpenClaw做的AI项目按真实收入排名，能看到哪些方向最赚钱——比如1MinuteClaw支持一键部署，QuickClaw专注手机端应用，SimpleClaw月收入超3万美金。页面左侧可以直接按办公/客服等场景筛选，点进项目能查技术细节和收入曲线，创业者还能提交自己的项目到数据库里。直接打开网站就能用搜索框找特定工具，不用注册就能看基础数据。
 
-## 1.43. 可信引用，谷歌LangExtract已开源
+## 1.71. 可信引用，谷歌LangExtract已开源
 
 项目地址：https://github.com/google/langextract。这是一个基于LLM的Python库，专注于从非结构化文本中提取结构化信息，并支持源文本精确定位和交互式可视化。
 
@@ -711,7 +740,7 @@ skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（
 
 这方面开源的工具很多，比如Docling，PyMupdfLLM, 能够识别学术论文文本结构，表格，以及个章节标题，页码，提取数据准确度高，来源可追溯。
 
-## 1.44. Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。
+## 1.72. Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。
 
 第一条"测试即导航"：测试套件是人机唯一可靠接口，验证器必须近乎完美，否则Claude会"聪明地"解决错误问题——就像你给司机错误目的地，他反而开得更快。
 
@@ -724,17 +753,17 @@ skillsamp.com（全网最大技能库，22万+开源技能），skillstore.io（
 
 
 
-## 1.45. MoneyClaw 金融炒股
+## 1.73. MoneyClaw 金融炒股
 开源地址：https://github.com/MindDock/moneyclaw-py
 
 项目特点：这是一个垂直金融领域的AI Agent系统，核心创新在于将LLM分层架构固化到交易场景。它通过四层模型自动切换机制（规则引擎→本地Ollama→DeepSeek→GPT/Claude）优化token消耗，单月LLM成本控制在20美元以内。系统支持策略插件化开发、7x24小时自动执行，并内置单笔交易限额、每日亏损熔断等风控机制，目前已集成股票分红提醒、加密货币定投等实用策略模板。
 
-##  1.46. everything-claude-code 包括agents、skills、hooks、commands、rules等
+##  1.74. everything-claude-code 包括agents、skills、hooks、commands、rules等
 https://github.com//affaan-m/everything-claude-code
 
 包含了Claude Code的全套生产环境配置，包括agents、skills、hooks、commands、rules等，基本把Claude Code能折腾到的地方全折腾了一遍。不管是直接当插件装，还是进去“抄作业”拆借模块，都非常值。总算有人把这东西在生产环境怎么用给说明白了。
 
-## 1.47. BMAD-METHOD 一键配置21个AI角色组成开发团队
+## 1.75. BMAD-METHOD 一键配置21个AI角色组成开发团队
 GitHub上3万star的开源项目，能一键配置21个AI角色组成开发团队，涵盖产品经理写PRD、架构师设计系统、开发测试全流程协作。
 
 BMAD-METHOD的GitHub地址：
@@ -745,38 +774,38 @@ BMAD-METHOD是个3万Star的开源神器，专为单人开发者打造。它能�
 
 
 
-## 1.48. Humanizer-zh  专治AI写作"套路感"
+## 1.76. Humanizer-zh  专治AI写作"套路感"
 https://github.com/op7418/Humanizer-zh
 
 
 它能识别24种AI痕迹，如"此外""至关重要"等高频词，以及"不仅仅是...而是..."等装腔句式。使用时输入/humanizer-zh加文本，即可将营销文案、周报等改写成自然人话。支持npx一键安装，30秒完成配置。
 
 
-## 1.49. 开源PPT工具
+## 1.77. 开源PPT工具
 项目地址是：https://github.com/Anionex/banana-slides
 
 
-## 1.50. Anthropic   开源
+## 1.78. Anthropic   开源
 https://github.com/affaan-m/everything-claude-code
 
 
 Anthropic 黑客马拉松的冠军把他的看家底牌开源了。这不是那种只有两行代码的Demo，而是他打磨了 10 个月的生产环境全套配置。这套配置里面什么都有：agents、skills、hooks、commands、rules 等，基本把 Claude Code 能折腾到的地方全折腾了一遍。不管是直接当插件装，还是进去“抄作业”拆借模块，都非常值。总算有人把这东西在生产环境怎么用给说明白了。
 
-## 1.51. Crawlee项目
+## 1.79. Crawlee项目
 GitHub地址
 https://github.com/apify/crawlee
 
 Crawlee这类工具确实大大提高了爬虫的隐蔽性，通过模拟真实用户行为和IP轮换降低被封概率。但技术对抗永远是动态的——没有绝对"防不住"的爬虫，也没有绝对"防得住"的网站，双方都在持续升级攻防手段。
 
-## 1.52. 新闻热点聚合
+## 1.80. 新闻热点聚合
 项目开源地址：https://github.com/hipcityreg/situation-monitor
 
 
-## 1.53. situation-monitor
+## 1.81. situation-monitor
 一款开源免费的全球资讯聚合工具，将新闻、金融市场和加密货币数据整合到一个实时dashboard。它具备全网情报雷达功能，能秒级追踪全球突发新闻；集成FinHub数据监控核心资产波动；提供美联储专题板块；支持在数十种资讯类别中自定义面板。用户无需切换多个APP，即可告别信息差，一屏掌握天下事。
 
 
-## 1.54. 开源项目"planning-with-files"
+## 1.82. 开源项目"planning-with-files"
 
 受Manus启发，通过将任务规划与推理过程记录到本地Markdown文件中，解决了AI处理复杂任务时的上下文丢失和目标漂移问题。它采用三文件模式（任务规划、研究成果、进度日志），使AI即使经过数百次工具调用后仍能保持对核心目标的清晰认知。该项目刚开源一周就获得近7k stars，已成为GitHub热门项目。
 
@@ -788,11 +817,11 @@ Crawlee这类工具确实大大提高了爬虫的隐蔽性，通过模拟真实�
 
 [fast-function](https://deepwiki.com/search/_78776faa-1aac-4584-9852-52a17440fc08?mode=fast)
 
-## 1.55. MediaCrawler
+## 1.83. MediaCrawler
 
 项目地址是：https://github.com/NanmiCoder/MediaCrawler，这个支持多平台数据采集的开源工具已在GitHub收获43.6k stars。
 
-## 1.56. PromptX 史诗级加强变成新的项目叫RoleX 
+## 1.84. PromptX 史诗级加强变成新的项目叫RoleX 
 
  https://github.com/deepractice/promptx
 
@@ -811,7 +840,7 @@ Crawlee这类工具确实大大提高了爬虫的隐蔽性，通过模拟真实�
 
 RoleX是PromptX的升级项目，主打AI角色与组织管理系统。核心功能包括：创造角色(born)、建立组织(found)、传授知识(teach)、管理成员(hire/fire)和查看全貌(directory)。系统采用"MCP协议"，上下文占用量降低80%以上。视频展示了实际应用场景：用户创建"财务管家"角色，系统自动为其注入中级财务管理知识体系（含货币时间价值、投资决策等7大维度），并纳入Deeppractice组织。该角色具备专业财务分析能力，可提供预算管理、投资评估等服务，体现AI在垂直领域深度应用的新方向。
 
-## 1.57. joyagent 一个全能ai助手
+## 1.85. joyagent 一个全能ai助手
 开源地址是 https://github.com/jd-opensource/joyagent-jdgenie
 
 [deepwiki](https://deepwiki.com/jd-opensource/joyagent-jdgenie)
@@ -819,25 +848,25 @@ RoleX是PromptX的升级项目，主打AI角色与组织管理系统。核心功
 JoyAgent是京东开源的企业级智能体，能直接处理数据分析、报告撰写、PPT生成等复杂任务。最大特点是完全本地部署、不依赖云平台，开箱即用，包含多种专业子智能体，已在京东内部经过1.4万+智能体实战检验。
 
 
-## 1.58. Claude-Mem开源项目
+## 1.86. Claude-Mem开源项目
 
 GitHub地址：https://github.com/thedotmck/claude-mem
 
 Claude-Mem是一款登顶GitHub热榜的开源记忆系统，专为Claude Code编程助手设计。它通过本地事件驱动架构自动捕获编码操作，利用SQLite与Chroma向量数据库实现混合检索。核心优势在于"三层渐进式披露"策略，可节省95% token并提升工具调用上限20倍，支持自然语言查询项目历史，显著提高AI编程效率。用户可通过插件市场一键安装。
 
-## 1.59. 豆包gui agent
+## 1.87. 豆包gui agent
 GitHub项目地址是https://github.com/bytedance/UI-TARS-desktop
 
-## 1.60. github官方mcp
+## 1.88. github官方mcp
 [中文简介](https://juejin.cn/post/7497435020443238426)
 [github office mcp](https://github.com/github/github-mcp-server/blob/495c0cb4/README.md#L148-L153)
 
-## 1.61. [all mcp list](https://github.com/yzfly/Awesome-MCP-ZH)
+## 1.89. [all mcp list](https://github.com/yzfly/Awesome-MCP-ZH)
 
 [MCP Servers 市场](https://lobehub.com/zh/mcp?category=developer)
 
 
-## 1.62. devin mcp 生态链接
+## 1.90. devin mcp 生态链接
 官网讲解
 
 https://docs.devin.ai/work-with-devin/devin-mcp
@@ -852,7 +881,7 @@ GitMCP的项目地址
 GitHub仓库：https://github.com/idosal/git-mcp
 
 
-## 1.63. pip install mcp  
+## 1.91. pip install mcp  
 MCP 客户端、服务端 简介
 
     https://zhuanlan.zhihu.com/p/1939376580968292383
@@ -866,21 +895,21 @@ pip install mcp 官方文档
     https://deepwiki.com/search/mcptooltool_3d154dc8-2a7a-4728-86f4-b02972d75a68?mode=fast
 
 
-## 1.64. “Thinking Claude”，作者 Richards Tu（涂津豪）。
+## 1.92. “Thinking Claude”，作者 Richards Tu（涂津豪）。
 
 [原文版本管理](https://github.com/richards199999/Thinking-Claude/tree/main/model_instructions)
 [其他博主解说](https://mp.weixin.qq.com/s?search_click_id=17521138378444464305-1770325307001-0232252465&__biz=MzkwMzYzMTc5NA==&mid=2247493779&idx=1&sn=f7eed2a0cf95642b9820569bed71c979&chksm=c14f62d182620ea168d92f656bd7fd98d33faa11a5801993261e7caf5ec32878a1eac956bb98#rd)
 
 
-## 1.65. The Startup Graveyard
+## 1.93. The Startup Graveyard
 汇集了900多家倒闭公司案例，网址 loot-drop.vercel.app 。
 https://loot-drop.vercel.app/
 这个"创业坟墓"收集了900多家失败企业案例，在AI时代或许能找到新机会。
 
-## 1.66. Clawbot skill 700+
+## 1.94. Clawbot skill 700+
 项目是VoltAgent维护的"awesome-openclaw-skills"，GitHub地址：https://github.com/VoltAgent/awesome-openclaw-skills
 
-## 1.67. OpenViking：面向 Agent 的上下文数据库
+## 1.95. OpenViking：面向 Agent 的上下文数据库
 
 - 定位：火山引擎开源的面向AI Agent的上下文数据库，旨在解决Agent上下文管理难题。
 - 核心痛点解决：攻克上下文无序割裂、长程任务Token成本高、朴素RAG检索局限、上下文难观测调试、记忆资产难沉淀等问题。
@@ -895,7 +924,7 @@ https://loot-drop.vercel.app/
 - 开源共建：GitHub仓库https://github.com/volcengine/OpenViking，支持Star、反馈与代码贡献。
 - 开发团队：字节跳动Viking团队，有向量数据库、知识库等多年技术积累
 
-##  1.68. ms agent  with skill
+##  1.96. ms agent  with skill
 - 定位：轻量级框架，赋能智能体自主探索能力，支持MCP（Model Calling Protocol）。
 - 核心功能：通用多智能体交互（含工具调用）、深度研究（Agentic Insight）、代码生成（含Code Scratch）、文档研究（Doc Research）、长短时记忆支持。
 - 关键更新：v1.3.0支持代码草稿、记忆功能、RAY加速文档提取等；v1.2.0支持多平台报告分享与多格式导出；v1.1.0新增文档研究、通用网页搜索等。
@@ -906,24 +935,24 @@ https://loot-drop.vercel.app/
 - 许可证：基于Apache License 2.0协议。
  
 
-## 1.69. open devin
+## 1.97. open devin
 开源 Agent 项目	尝试通过开源模型模仿 Devin 的工作流，但其地图功能尚处于早期。
 
 https://github.com/OpenHands/OpenHands?tab=readme-ov-file
 
 https://github.com/AI-App/OpenDevin.OpenDevin
 
-## 1.70. coding skill 集合
+## 1.98. coding skill 集合
 https://github.com/vercel-labs/agent-skills。使用时只需运行命令`npx skills add vercel-labs/agent-skills`，就能安装这4000+种coding技能。视频里展示的是在OpenCode工具中操作的演示界面。
 
 
 
 
 
-## 1.71. skill.empjs.dev
+## 1.99. skill.empjs.dev
 一款专注于技能体系可视化管理的工具，能直观呈现技能间的关联与层级关系。
 
-## 1.72. skill沙盘集合
+## 1.100. skill沙盘集合
 AI战略沙盘3D界面暂无公开仓库；
 
 AgentCommand控制台 
@@ -948,15 +977,15 @@ Claude Code的官方开源地址是：https://github.com/anthropics/claude-code 
 Claude Code这类工具的成本藏在细节里。最烧钱的不是订阅费，而是Token消耗黑洞——比如系统提示每次固定消耗2-3万Token，上下文滚雪球会让简单任务变天价。聪明用法是：简单任务切Haiku模型，用/compact压缩上下文，关键任务拆解成小步骤。真正省成本的关键，是把AI当协作者而非全自动工具，人类把控核心设计，AI跑重复劳动。
 
 
-## 1.73. ralv.ai  /  RVA.ai。
+## 1.101. ralv.ai  /  RVA.ai。
 一个把AI技能可视化成3D沙盘的管理平台，能像玩星际争霸一样指挥你的智能体团队。
 
 类似功能工具如沙盘引擎可在Indienova平台下载，VOXL需通过GitHub获取。注意部分链接可能变动，请以最新信息为准。
 
-##  1.74. agentic 训练
+##  1.102. agentic 训练
 https://mp.weixin.qq.com/s/mLpaek5BMWx3gWSC_UhIhw
 
-## 1.75. Manus context summary
+## 1.103. Manus context summary
 
 1. 围绕KV-Cache设计：以KV-cache命中率为核心指标，通过保持提示前缀稳定、上下文仅追加、明确标记缓存断点提升效率，降低延迟与成本。
 
@@ -970,10 +999,10 @@ https://mp.weixin.qq.com/s/mLpaek5BMWx3gWSC_UhIhw
 
 6. 打破少样本局限：在行动和观察中引入结构化变化与受控随机性，避免模型陷入固定模式，增强代理鲁棒性。
 
-## 1.76. agent memory paper github collection
+## 1.104. agent memory paper github collection
 https://github.com/Shichun-Liu/Agent-Memory-Paper-List
 
-## 1.77. agent skill
+## 1.105. agent skill
 https://github.com/agentskills/agentskills
 
 核心精华技术总结
@@ -992,7 +1021,7 @@ https://github.com/agentskills/agentskills
 
 5. 关键资源：项目地址 https://agentskills.io，文档与示例开源于 GitHub，提供验证工具和提示词生成器。
 
-## 1.78. 25年最后总结-大模型手把手及相关开源社区
+## 1.106. 25年最后总结-大模型手把手及相关开源社区
 
 [一R]nanoGPT
 
@@ -1017,7 +1046,7 @@ https://github.com/agentskills/agentskills
 4.  挑战 llm.c：当你对性能有极致追求，或者想深入底层系统时再看。
 
 
-## 1.79. Manus是一款在人工智能领域具有突破性意义的通用AI智能体产品，其“厉害”之处主要体现在以下几个方面：
+## 1.107. Manus是一款在人工智能领域具有突破性意义的通用AI智能体产品，其“厉害”之处主要体现在以下几个方面：
 
 1.任务执行能力
 Manus不仅能理解用户需求，还能自主规划并执行复杂任务，从信息收集、数据分析到生成最终成果（如报告、网页、代码等），全程无需人工干预。例如，用户只需下达“制作一份行业分析报告”的指令，Manus会自动搜索数据、整理内容、生成图表，并输出完整文档。
@@ -1037,10 +1066,10 @@ Manus不仅能理解用户需求，还能自主规划并执行复杂任务，从
 6.行业影响力
 Manus被Meta以数十亿美元收购，成为全球AI领域的标志性事件。它的成功推动了“通用AI智能体”赛道的崛起，促使各大巨头加速布局任务执行型AI，重新定义了AI与人类协作的边界。简言之，Manus的“厉害”在于将AI从“对话工具”升级为“生产力伙伴”，真正实现了“手脑并用”，为复杂任务提供了高效、可靠的解决方案。
 
-## 1.80. DeepAnalyze：自主数据科学中的代理大型语言模型
+## 1.108. DeepAnalyze：自主数据科学中的代理大型语言模型
 [DeepAnalyze](https://github.com/DataClasse/deepanalyze)
 
-## 1.81. LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659
+## 1.109. LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659
 
 核心问题、应用领域及发展方向
  
@@ -1090,7 +1119,7 @@ Manus被Meta以数十亿美元收购，成为全球AI领域的标志性事件。
 6. 建立伦理规范：明确版权归属，优化训练数据以减少偏见，提升模型透明度与用户数据安全性。
 
 
-## 1.82. “AgentGuide” from adongwanai
+## 1.110. “AgentGuide” from adongwanai
 https://github.com/adongwanai/AgentGuide
 
 该仓库“AgentGuide”由 adongwanai 创建，主要内容是 AI Agent 开发与大模型相关的知识与实战资料。核心包括：
@@ -1103,7 +1132,7 @@ https://github.com/adongwanai/AgentGuide
 
 特色标签涵盖 ai-agent、llm、interview、multi-agent、rag 等内容。仓库包含丰富的实战和教程，对想了解和进入 AI 大模型与 Agent 方向有很大价值。
 
-## 1.83. 智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》
+## 1.111. 智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》
 
 核心围绕智能体记忆的形式、功能、动态机制三大维度展开，系统梳理了当前研究现状并指明未来方向。
  
@@ -1139,7 +1168,7 @@ https://github.com/adongwanai/AgentGuide
  
 智能体记忆已从静态存储演进为动态、可学习、多形式融合的核心认知组件，未来需打破现有碎片化研究，推动记忆成为智能体设计的“一等公民”，支撑AGI所需的长期适应与自主进化能力。
 
-## 1.84. 2025年11月13截止之前的memory 方案汇总对比
+## 1.112. 2025年11月13截止之前的memory 方案汇总对比
 - **AI Memory 项目完整对照表**
 - 一、🔥开源记忆框架推荐
   - 1 MemOS
@@ -1273,7 +1302,7 @@ https://github.com/adongwanai/AgentGuide
   - 跨工具协作：选 Supermemory MCP
   - 工作流自动化：选 Julep AI
 
-## 1.85. obsidian 做个人 memory
+## 1.113. obsidian 做个人 memory
 设计思路和项目地址：
 https://github.com/kingkongshot/prompts/blob/refs%2Fheads%2Fmain/prompts%2Fclaude%2Fagents%2Fmemory-network-builder.md
 
@@ -1348,7 +1377,7 @@ tags: [authentication, jwt, session, security]
 
 Obsidian 支持大部分 语法memory-network-builder 模板中的“特殊语法”，并且可以用于构建知识图谱。下面详细说明：
 
-#### 1.85.0.1. 支持哪些特殊语法？
+#### 1.113.0.1. 支持哪些特殊语法？
 
 - **YAML Frontmatter（如 `--- ... ---`）**  
   Obsidian 可以识别每条 Memory 最上方的 YAML 区块，便于后续做属性查询和自动化管理。
@@ -1364,13 +1393,13 @@ Obsidian 支持大部分 语法memory-network-builder 模板中的“特殊语�
 - **标签（tags 字段或 `#标签`）**  
   Obsidian 支持标签，可以用来聚合和检索相关主题内容。
 
-#### 1.85.0.2. 如何形成知识图谱？
+#### 1.113.0.2. 如何形成知识图谱？
 
 - Obsidian 自动分析所有内部链接（即 [[xxx]] 这种格式）并生成“知识图谱”视图。  
 - 在 Obsidian 中打开 Graph View，就可以可视化展示所有页面的关联关系，以及哪些内容链接到了共同的节点。
 - 只要每条 Memory 都按照模板规范、写好 Frontmatter、填写链接，Obsidian 会自动把它们组织成网状结构，方便导航和溯源。
 
-#### 1.85.0.3. 具体例子说明
+#### 1.113.0.3. 具体例子说明
 
 假设你有三条 Memory：
 - [[使用 JWT 而不是 Session 做认证]]
@@ -1391,25 +1420,25 @@ B 的相关里 `相关：[[认证系统的性能问题]]`
 
 
 
-## 1.86. 读论文+github 神器 deepwiki
+## 1.114. 读论文+github 神器 deepwiki
 首页： [deepwiki](https://deepwiki.com/)
 
-## 1.87. verl
+## 1.115. verl
 [verl](https://mp.weixin.qq.com/s/KllfYqWI5ljqd1YtPEViTA)
 
 - 定位：veRL（Volcano Engine Reinforcement Learning）是字节跳动火山引擎于 2024 年底开源的分布式大模型强化学习训练框架。其设计目标是将 RLHF 的科研实现转化为可规模化部署的生产级系统。
 - 核心功能：veRL 的核心模块包括 Rollout 生成器、奖励建模器、策略更新器、分布式调度器。它支持多种算法，如 PPO、DPO、DAPO （Dynamic Alignment Policy Optimization）和 GRPO，并通过异步管线方式加速训练。其架构借鉴了工业级 RL 系统（如 DeepMind Acme、OpenAI RLHF pipeline），可在数百张 GPU 上同时运行。
 - 技术特点与用途：veRL 面向企业和研究机构的“大规模模型后训练”场景。其分布式框架支持任务并行、异步更新和奖励缓存机制，可显著降低 GPU 闲置率。其 DAPO 算法被广泛用于 Qwen 系列模型中，以优化推理稳定性与语言一致性。
 
-##  1.88. pageindex
+##  1.116. pageindex
 地址：https://github.com/VictifyAl/PageIndex
 
 在处理专业长文档时，传统基于向量的检索增强生成（RAG）系统依赖语义相似性，而非真正的相关性。然而，相似性并不等同于相关性，我们在检索中真正需要的是相关性，而这需要推理。为了解决这一问题，VectifyAI 推出了 PageIndex，一个基于推理的 RAG 系统，它能为长文档构建树状索引，并通过该索引进行检索。
 
 
 
-## 1.89. PostgreSQL == 多合一数据库：用插件替代专用数据库
-### 1.89.1. 官网
+## 1.117. PostgreSQL == 多合一数据库：用插件替代专用数据库
+### 1.117.1. 官网
 - [postgres新功能 ai ](https://supabase.com/blog/postgres-new)
 - [postgres chat db](https://database.build/)
 - [postgres 新功能 ai 集成](https://blog.adyog.com/2024/09/14/exploring-postgres-new-in-browser-postgres-with-ai-integration/)
@@ -1417,7 +1446,7 @@ B 的相关里 `相关：[[认证系统的性能问题]]`
 
 PostgreSQL 凭借丰富的插件生态，能够一站式替代时序数据库、向量数据库、图数据库、缓存、搜索引擎、文档数据库等多种专用数据库。以下是精准的插件对应关系补全，兼顾功能匹配度和生产级可用性：
 
-### 1.89.2. 完整对应清单
+### 1.117.2. 完整对应清单
 替代数据库      | 插件 （索引）                                         | 说明    
 ----------------|--------------------------------------------------|------------------------------
 **InfluxDB** |  (TimescaleDB / BRIN)                                 | 时序数据库：TimescaleDB（官方核心时序插件） + BRIN（轻量级时序索引）
@@ -1431,44 +1460,44 @@ PostgreSQL 凭借丰富的插件生态，能够一站式替代时序数据库、
 **地理位置** |(GIST)                                                  | 地理位置索引：GIST（通用空间索引），支持点、线、多边形等空间数据，可与pgRouting等插件配合使用。
 
 
-### 1.89.3. 关键插件详解（生产级选型）
-#### 1.89.3.1. 替代 InfluxDB（时序数据库）
+### 1.117.3. 关键插件详解（生产级选型）
+#### 1.117.3.1. 替代 InfluxDB（时序数据库）
 - **核心插件**：`TimescaleDB`  
   官方专为PostgreSQL打造的时序数据库扩展，支持自动分区、数据保留策略、时序聚合函数（如time_bucket），完全对标InfluxDB的时序场景（物联网、监控指标等）。
 
-#### 1.89.3.2. 替代 Milvus（向量数据库）
+#### 1.117.3.2. 替代 Milvus（向量数据库）
 - **核心插件**：`pgvector`  
   目前最成熟的PostgreSQL向量插件，支持向量存储、余弦/欧氏/内积相似度计算，兼容OpenAI等大模型Embedding向量，性能接近Milvus，且可与关系数据联动。
 
-#### 1.89.3.3. 替代 Neo4j（图数据库）+ pgRouting（地理路由）
+#### 1.117.3.3. 替代 Neo4j（图数据库）+ pgRouting（地理路由）
 - **图处理**：`pg_graph`（PostgreSQL 14+原生图类型） + `age`（Apache AGE，兼容Cypher查询语言）  
 - **地理路由**：`pgRouting`（经典插件，支持最短路径、TSP等地理路由算法，替代Neo4j的空间路由能力）
 
-#### 1.89.3.4. 替代 Redis（缓存/高性能读写）
+#### 1.117.3.4. 替代 Redis（缓存/高性能读写）
 - **缓存互通**：`redis_fdw`（Foreign Data Wrapper，实现PostgreSQL与Redis双向数据访问）  
 - **高性能读写**：`pg_prewarm`（数据预热到内存） + `pg_stat_statements`（性能监控）  
 - **定时任务**：`pg_cron`（替代Redis的定时任务能力）
 
-#### 1.89.3.5. 替代 Elasticsearch（全文检索/搜索引擎）
+#### 1.117.3.5. 替代 Elasticsearch（全文检索/搜索引擎）
 - **核心插件**：`PGroonga`（基于Groonga的高性能全文检索，支持中文分词、模糊匹配、高亮）  
 - **轻量替代**：PostgreSQL原生`tsvector/tsquery`（文本索引） + `pg_bigm`（双字符索引，优化中文模糊查询）  
 - **分布式检索**：`Citus`（分库分表）+ PGroonga（分布式检索）
 
-#### 1.89.3.6. 替代 MongoDB（文档数据库）
+#### 1.117.3.6. 替代 MongoDB（文档数据库）
 - **核心能力**：PostgreSQL原生`jsonb`类型（支持索引、嵌套查询、JSON操作符）  
 - **增强插件**：  
   - `pg_json_schema`（JSON Schema校验，替代MongoDB的文档校验）  
   - `mongodb_fdw`（MongoDB数据接入PostgreSQL）  
   - `jsonb_plpython`（自定义JSON处理函数）
 
-### 1.89.4. 补充说明
+### 1.117.4. 补充说明
 1. **原生能力优先**：PostgreSQL的jsonb、tsvector、地理信息（PostGIS）等原生功能已覆盖大部分专用数据库场景，插件仅作增强；
 2. **生产兼容性**：上述插件均为社区成熟方案，TimescaleDB、pgvector、PGroonga等已在企业级场景大规模落地；
 3. **优势**：PostgreSQL通过插件实现“一站式”数据存储，避免多数据库同步的复杂度，同时保留SQL的通用性和事务一致性。
 
 
 
-## 1.90. agent memory方向主要有2个：
+## 1.118. agent memory方向主要有2个：
 ```
 模型驱动：深入模型底层动刀，从根本上增强其记忆能力。
 应用驱动：在应用层搭建即插即用的记忆框架。
@@ -1492,7 +1521,7 @@ PostgreSQL 凭借丰富的插件生态，能够一站式替代时序数据库、
 5️⃣HippoRAG (OSU等, 2024): 灵感源于神经生物学，模拟海马体的记忆形成机制。
 ```
 
-## 1.91. 长记忆开源方案update
+## 1.119. 长记忆开源方案update
 graphiti是主要做图。 [graphiti 播客](https://www.cnblogs.com/zzz77zz/articles/19026839)
 
 memobase主要为了陪伴和个人助手场景设计
@@ -1504,7 +1533,7 @@ Memobase最近支持了event功能，可以记录用户记忆变动的时间发�
 Memobase的时间记忆（temporal memory）居然领先  mem0, langmem, zep...
 
 
-## 1.92. Improving Language Agents through BREW
+## 1.120. Improving Language Agents through BREW
 
 
 微软：“经验”酿成“知识”让智能体聪明
@@ -1525,17 +1554,17 @@ Expand-and-Gather MCTS：把 KB 精炼视为「文档状态空间搜索」，并
 结果 在 OSWorld、τ²-Bench、SpreadsheetBench 三大真实环境上，任务成功率绝对提升 10–20 %，执行步数/对话轮次减少 10–15 %，计算开销与基座模型持平，显著优于现有记忆基线。
 意义 首次将“智能体优化”转化为“可解释 KB 的状态搜索”，提供轻量、透明、可扩展的新范式，为长周期、高一致性、可审计的自主系统奠定基础。
 
-## 1.93. llm各种框架和论文，4000+⭐
+## 1.121. llm各种框架和论文，4000+⭐
 https://github.com/DSXiangLi/DecryptPrompt/blob/refs%2Fheads%2Fmain/%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6.MD
-## 1.94. agent evolver
+## 1.122. agent evolver
 阿里通义实验室推出的AgentEvolver开源项目，能让AI智能体在闲置时自主生成任务、执行并进化。项目链接：https://github.com/modelscope/AgentEvolver
 
 
-## 1.95. 微软 agent
+## 1.123. 微软 agent
 https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/refs%2Fheads%2Fmain/translations%2Ftw%2FREADME.md
 
 
-##  1.96. 谷歌新研究定义"充分上下文"：
+##  1.124. 谷歌新研究定义"充分上下文"：
 上下文需能推导出答案而非仅相关。发现即使上下文充足，大模型仍有14%-25%错误率。提出选择性生成框架，使模型准确率提升2-10%。
 
 谷歌团队发表在ICLR 2025的新研究《Sufficient Context: A New Lens on Retrieval Augmented Generation Systems》，首次提出「充分上下文」（Sufficient Context）的核心概念，为这个行业痛点提供了全新解法，甚至能让Gemini、GPT等主流模型的正确回答率提升2-10%。
@@ -1544,37 +1573,37 @@ https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/refs%2Fhead
 
 项目地址：https://github.com/hljoren/sufficientcontext
 
-## 1.97. EverMemOS
+## 1.125. EverMemOS
 陈天桥团队发布了EverMemOS，这是个开源的AI"记忆增强器"。它让AI告别"金鱼脑"，能长期记住信息、连贯思考，真正理解上下文。
 
 EverMemOS深度整合MCP作为核心接口层，实现Cursor和Claude等工具间的记忆同步。比如能自动关联你上周查过的资料，这才是真正的"持久灵魂"，配置指南在GitHub仓库就能找到。
 
 
-## 1.98. MCP 生态链接
+## 1.126. MCP 生态链接
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [FastMCP Documentation](https://github.com/jlowin/fastmcp)
 
 
-## 1.99. 之后是2025年11月13之前汇总
+## 1.127. 之后是2025年11月13之前汇总
 
-## 1.100. 综述
+## 1.128. 综述
 《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》
 
-## 1.101. context-labs / aella-data-explorer 1亿篇论文组成知识图谱KG
+## 1.129. context-labs / aella-data-explorer 1亿篇论文组成知识图谱KG
 https://github.com/context-labs/aella-data-explorer#:~:text=Interactive%20visualization%20and%20exploration%20of%20scientific%20papers%20from,project%20is%20a%20collaboration%20between%20Inference.net%20and%20LAION.
 
-## 1.102. multi ai agent game
+## 1.130. multi ai agent game
 https://mp.weixin.qq.com/s/b005axpuXFno5h7gfC5DMg
 
-## 1.103. langchain 中间件
+## 1.131. langchain 中间件
 https://langchain-doc.cn/v1/python/deepagents/middleware.html#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%AD%E9%97%B4%E4%BB%B6
 
-## 1.104. todolist middleware
+## 1.132. todolist middleware
 https://deepwiki.com/langchain-ai/deepagents/2.5-planning-with-todolistmiddleware
 
 https://deepwiki.com/search/todolisttodolistagentagenttodo_6c3c8606-7ea0-421a-bb06-9f62292b31ff
 
-## 1.105. 舆情分析
+## 1.133. 舆情分析
 Agent自动生成舆情报告！ 项目地址：https://gitee.com/SeniorAgentTeam/bettafish-stock.git 不到两周狂揽2万Star的开源舆情分析平台，只需输入一句话，智能体就能自动爬取全网数据（微博、知乎、GitHub、抖音、小红书、官媒等），最后由Report Agent生成完整分析报告。 报告内容包含舆情发展脉络、传播分析、风险评估与应对策略，自动导出PDF。 
 
 其中的5个智能体分工如下：
@@ -1591,7 +1620,7 @@ Agent自动生成舆情报告！ 项目地址：https://gitee.com/SeniorAgentTea
 
 这套系统通过五方协作，实现了从数据采集到深度分析的全流程自动化。
 
-## 1.106. LightMem：像人脑一样高效的记忆系统
+## 1.134. LightMem：像人脑一样高效的记忆系统
 https://dailypapers.org/paper/2510.18866
 	
 🧠 核心方法
@@ -1600,7 +1629,7 @@ LightMem采用三阶段架构：
 - 短期记忆： 主题感知整合，生成更结构化的记忆单元。
 - 长期记忆： 引入“睡眠时间更新”机制，将昂贵的记忆维护操作解耦到离线并行执行，大幅降低在线延迟。
 
-## 1.107. llm训练
+## 1.135. llm训练
 必读系列，Huggingface 出品的 LLM 训练手册非常详细的介绍了完整的 LLM 训练流程，包括训练指南（是否需要预训练）、预训练、后训练、基础设施
 
 主要以他们自己训练的 SmolLM3 这个 3B 模型为例子
@@ -1609,7 +1638,7 @@ LightMem采用三阶段架构：
 
 https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook
 
-## 1.108. Prop RAG 
+## 1.136. Prop RAG 
 https://github.com/ReLink-Inc/PropRAG
 核心创新：以"命题"为基础知识单元，通过无LLM的在线束搜索实现高效多跳推理
 技术特点：
@@ -1617,20 +1646,20 @@ https://github.com/ReLink-Inc/PropRAG
 - 束搜索算法：采用高效的束搜索在命题路径上进行多步推理，无需在线调用LLM
 - 推理路径发现：能够自动发现和构建多步推理链，支持复杂问题解答
 
-## 1.109. 基于多模态信息抽取的菜品知识图谱构建
+## 1.137. 基于多模态信息抽取的菜品知识图谱构建
 https://tech.meituan.com/2024/05/17/cross-modal-ingredient-level-dataset.html
 
-## 1.110. ragflow 已经支持 知识图谱
+## 1.138. ragflow 已经支持 知识图谱
 Construct knowledge graph
 
 https://ragflow.io/docs/dev/construct_knowledge_graph
 
-## 1.111. flashrag     
+## 1.139. flashrag     
 人大开源
 
 https://github.com/RUC-NLPIR/FlashRAG
 
-## 1.112. LightRAG
+## 1.140. LightRAG
 港大团队开源LightRAG：知识图谱+双层检索，复杂问答准确率飙升30%
 
 LightRAG的主要优势包括：
@@ -1648,23 +1677,23 @@ https://link.zhihu.com/?target=https%3A//github.com/HKUDS/LightRAG
 
 https://zhuanlan.zhihu.com/p/1892140189524156837
 
-## 1.113. llm agent 综述
+## 1.141. llm agent 综述
 https://hustai.github.io/zh/posts/reasoning/LATS.html
 
-## 1.114. 谷歌 vs 微软 deepresearch
+## 1.142. 谷歌 vs 微软 deepresearch
  https://mp.weixin.qq.com/s/e_1dGQRLfc_fGAZrQEsLVw
-## 1.115. Reasoning with Sampling: Your Base Model is Smarter Than You Think
+## 1.143. Reasoning with Sampling: Your Base Model is Smarter Than You Think
 哈佛团队的"Power Sampling"方法很妙：只需改变基座模型的采样分布（从常规改为幂分布），就能大幅提升推理能力。它不依赖强化学习、无需额外训练，连校验器都不用，却让Qwen2-5-Math-7B模型在数学任务准确率从49.6%跃升至74.8%，编程任务更是从21.3%飙升到73.2%——不仅逼近强化学习效果，还避免了多样性坍缩问题。这证明基础模型本身已蕴含强大推理潜力，只是被传统采样方式束缚住了。
 
-## 1.116. Agentic RAG新范式！天大&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍
+## 1.144. Agentic RAG新范式！天大&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍
 
-## 1.117. 日报神器，记录你的一天 Dayflow
+## 1.145. 日报神器，记录你的一天 Dayflow
 项目地址是
  https://github.com/JerryZLiu/Dayflow
 
 ，展示了这个开源日报工具
 
-##  1.118. 可信AI Agent相关论文(DPO)
+##  1.146. 可信AI Agent相关论文(DPO)
 
 [打造可信AI Agent：如何让智能体不跑偏、不越界，安全又靠谱如何让 Agent 在开放环境、长序列决策与多工具协作中 - 掘金](https://juejin.cn/post/7564246560847052842)
 
@@ -1674,7 +1703,7 @@ https://hustai.github.io/zh/posts/reasoning/LATS.html
 
 [为 AI Agent 行为立“规矩”——字节跳动提出 Jeddak AgentArmor 智能体安全框架 - 今日头条](https://www.toutiao.com/article/7543322896609919528/?upstream_biz=doubao&source=m_redirect)
 
-## 1.119. Graph-Base Agent基于任务图的Agent框架
+## 1.147. Graph-Base Agent基于任务图的Agent框架
 本文提出图基智能体规划（GAP）框架，突破传统顺序执行范式，通过依赖图建模实现子任务的动态并行/串行调度。
 	
 关键技术
@@ -1691,75 +1720,75 @@ https://hustai.github.io/zh/posts/reasoning/LATS.html
 为金融分析、医疗诊断等需要多源工具协同的领域提供新范式，显著降低AI系统响应时间。
 地址:https://arxiv.org/abs/2510.25320
 
-## 1.120. A-Mem: Agentic Memory for LLM Agents
+## 1.148. A-Mem: Agentic Memory for LLM Agents
 https://github.com/WujiangXu/A-mem-sys
 
-## 1.121. logic rag
+## 1.149. logic rag
 You Don’t Need Pre-built Graphs for RAG: Retrieval Augmented Generation with Adaptive Reasoning Structures
 https://arxiv.org/pdf/2508.06105
 
-## 1.122. LightMem
+## 1.150. LightMem
 一种受人类记忆启发的轻量级和高效的内存框架，通过选择性过滤、组织和巩固信息，显著提高了LLMs在长上下文和多轮交互场景中的表现，同时大幅降低了计算成本。未来的工作包括加速离线更新、集成知识图谱和多模态记忆机制，以及探索参数化和非参数化记忆组件的协同机制。
 
-## 1.123. langchain graphrag
+## 1.151. langchain graphrag
 > ProgramData > anaconda3 > envs > transformer > Lib > site-packages > langchain.graphrag > indexing > graph_generation > entity.relationship.extraction > extractor.py
 
-## 1.124. G-memory, Arcmemo, reasoning bank
+## 1.152. G-memory, Arcmemo, reasoning bank
 三篇论文
 
 
-## 1.125. embedding model 天梯
+## 1.153. embedding model 天梯
 https://huggingface.co/spaces/mteb/leaderboard
 https://zhuanlan.zhihu.com/p/24604344712
 
-## 1.126. MonkeyOCR
+## 1.154. MonkeyOCR
 GitHub搜索"Yuliang-Liu/MonkeyOCR"即可。本地部署后，直接上传图片或PDF，能秒速提取文字表格公式，输出Markdown或Excel格式，适合处理各类文档且保护数据安全。
 
 
-## 1.127. GitHub代码检索
+## 1.155. GitHub代码检索
 git-mpc和，
 context7背后是各种开发框架，它针对所有github仓库
 
 
-## 1.128. 视频转文字
+## 1.156. 视频转文字
 项目GitHub地址：https://github.com/wendy7756/AI-Video-Transcriber
 
-## 1.129. 音视频2文本
+## 1.157. 音视频2文本
 这款开源工具叫AI-Media2Doc，能将音视频一键转成小红书、公众号等风格的文档。它支持本地部署，数据都存在自己电脑，隐私有保障。适合一人公司做知识管理和内容创作，已在GitHub收获2.5k star，值得一试。
 
-## 1.130. 爬虫数据采集圣器
+## 1.158. 爬虫数据采集圣器
 
 GitHub开源地址是：https://github.com/ScrapeGraphAI/ScrapeGraph-ai，官网是scrapegraphai.com。
 
-## 1.131. ai伴侣
+## 1.159. ai伴侣
 GitHub开源项目Super Agent Party确实支持视频中提到的功能，包括QQ/B站直播接入、RAG检索、代码沙盒等。部分功能如B站接入需配置UA，Mac版仅适配M芯片。
 
-## 1.132. metaGPT
+## 1.160. metaGPT
 MetaGPT项目地址：https://github.com/geekan/MetaGPT（GitHub获58.9k星标）。安装需Python 3.9-3.12环境，推荐命令：`conda create -n metagpt python=3.9 && pip install --upgrade metagpt`。核心用法：终端输入`metagpt "创建2048游戏"`即可生成完整项目；也可作为库调用，实现从需求描述到多角色协同开发的全流程自动化，特别适合快速构建MVP产品和教育编程场景。
 
-## 1.133. unsloth
+## 1.161. unsloth
 微调：49k，知识库，智能客服，代码生成，强化学习
 
-##  1.134. ai 知识库
+##  1.162. ai 知识库
 Supabase作为开源项目，支持通过Docker或源码在本地自行部署，既提供云端托管也满足私有化需求。
 
-## 1.135. 高质量rag
+## 1.163. 高质量rag
 项目地址是 https://github.com/deepset-ai/haystack
 
 Haystack是生产级RAG框架，在GitHub有22.9k星标。它支持200多个大模型一键切换，能降低RAG幻觉63%。核心功能包括企业知识库问答、AI会议助手、法律合同审查和医疗问答系统构建，特点是向量库可自由替换、零成本迁移，适合需要稳定落地RAG场景的企业。
 
 技术选型看这里：RAG是基础框架，FlowRAG专精复杂文档处理（比如法律合同）。Haystack能降63%幻觉，关键其实在知识库质量——文档切片准不准、语义匹配强不强，这才是根子上的事。
 
-## 1.136. ai混合搜索 meili
+## 1.164. ai混合搜索 meili
 开源ai混合搜索引擎是 Meilisearch，GitHub 地址是 github.com/meilisearch/meilisearch。它基于 Rust 实现，支持混合搜索，GitHub 已获 53.7k 星标。
 
-## 1.137. mem 推移学习，自我改进
+## 1.165. mem 推移学习，自我改进
 官网：docs.letta.com/
 
-## 1.138. 腾讯 tree graphrag （2025年9月）
+## 1.166. 腾讯 tree graphrag （2025年9月）
 https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
 
-## 1.139. Graphiti vs GraphRAG 对比
+## 1.167. Graphiti vs GraphRAG 对比
 
 | 方面 | GraphRAG | Graphiti |
 | --- | --- | --- |
@@ -1775,10 +1804,10 @@ https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA
 | 可扩展性 | 中等 | 高，针对大型数据集优化 |
 
 
-## 1.140. 自己用milvus+neo4j实现graphrag
+## 1.168. 自己用milvus+neo4j实现graphrag
 https://github.com/milvus-io/bootcamp/blob/master/bootcamp/RAG/advanced_rag/langgraph-graphrag-agent-local.ipynb
 
-## 1.141. 微软 graphRAG
+## 1.169. 微软 graphRAG
 标准 GraphRAG： 效果最好，图谱信息最丰富，但最贵最慢。
 FastGraphRAG： 速度快，成本低，但图谱信息相对简单。
 LazyGraphRAG (懒人版/省钱版)： 这是个新趋势。它在索引阶段只做最少的工作，大部分 LLM 的计算任务推迟到你真正提问的时候再做。这样前期成本大大降低，特别适合超大数据集或预算有限的情况。
@@ -1818,21 +1847,21 @@ GraphRAG通过知识图谱（Knowledge Graph） 解决传统RAG的问题，知�
  
 整体而言，GraphRAG通过让大语言模型深度参与知识图谱的构建、总结和查询全流程，解决了传统RAG的细节与语义矛盾问题，虽较“烧资源”，但效果表现不错。
 
-## 1.142. awesome-ai-memory 汇聚memory相关项目
+## 1.170. awesome-ai-memory 汇聚memory相关项目
 https://github.com/topoteretes/awesome-ai-memory
 
-## 1.143. es agent
+## 1.171. es agent
 基于 Langchain 的 Elasticsearch Agent 对文档的搜索
 https://elasticstack.blog.csdn.net/article/details/136253286
 
-## 1.144. MINE Context
+## 1.172. MINE Context
 万物皆可上下文， 挖掘上下文
 https://github.com/volcengine/MineContext/tree/main?tab=readme-ov-file
 https://github.com/volcengine/MineContext/blob/main/README_zh.md
 
 字节开源AI助手MineContext，是一款能主动工作的"数字外脑"。它自动分析你电脑上的文档、网页等内容，实时生成待办清单和每日摘要，不像普通AI等你提问。所有数据都存储在本地不上传云端，既保护隐私又能帮你摆脱信息碎片化困扰，工作学习效率提升明显。
 
-## 1.145. 拼好rag
+## 1.173. 拼好rag
 https://mp.weixin.qq.com/s/c0KC--EO9tuJuaadlujobg
 
 https://github.com/1517005260/graph-rag-agent/blob/master/assets/start.md
@@ -1842,12 +1871,12 @@ https://github.com/1517005260/graph-rag-agent
 https://deepwiki.com/1517005260/graph-rag-agent/2-core-architecture
 
 
-## 1.146. mem0 2025年9月27日持续更新github
+## 1.174. mem0 2025年9月27日持续更新github
 基于graph+rag的mem0
 https://github.com/mem0ai/mem0
 
 
-## 1.147. 蚂蚁 KAG
+## 1.175. 蚂蚁 KAG
 https://github.com/orgs/OpenSPG/discussions/52
 
 ![alt text](zfig/readme/image.png)
@@ -1861,32 +1890,32 @@ https://github.com/1850298154/KagTest
 https://github.com/OSU-NLP-Group/HippoRAG
 https://dl.acm.org/doi/10.5555/3737916.3739818
 
-## 1.148. 如何基于语义相似性分割文本
+## 1.176. 如何基于语义相似性分割文本
 RAG分割文档的几种方式：
 1. 基于语义相似性的分割文本
 https://python.langchain.ac.cn/docs/how_to/semantic-chunker/
 2. 其他（基于固定长度、基于滑动窗口、基于标题等）
 
-## 1.149. 各种向量数据库对比
+## 1.177. 各种向量数据库对比
 https://www.cnblogs.com/crazymakercircle/p/18867143
 
-## 1.150. 基于hnswlib的向量索引(2年前更新)
+## 1.178. 基于hnswlib的向量索引(2年前更新)
 https://github.com/nmslib/hnswlib
 
-## 1.151. stream vq 生成式召回
+## 1.179. stream vq 生成式召回
 https://zhuanlan.zhihu.com/p/1955356511661458958
 
-## 1.152. ai学术搜索
+## 1.180. ai学术搜索
 官网地址是：https://lumina.sh，可直接访问使用这款免费学术搜索引擎。
 
-## 1.153. nlp etc.
+## 1.181. nlp etc.
 https://www.geeksforgeeks.org/category/nlp/
 
 
-## 1.154. 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等
+## 1.182. 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等
 https://liuhuanyong.github.io/
 
-## 1.155. 唐国梁Tommy : rag + llm + es
+## 1.183. 唐国梁Tommy : rag + llm + es
 https://github.com/TGLTommy?tab=repositories
 
 https://www.youtube.com/@TGLTommy
@@ -1901,18 +1930,18 @@ bilibili
 space.bilibili.com/474347248
 
 
-## 1.156. 长文本提取结构化信息
+## 1.184. 长文本提取结构化信息
 项目 GitHub 地址：github.com/google/LangExtract  
 PyPI 安装命令：pip install langextract
 
 
-## 1.157. 非结构化转结构化，用于微调等
+## 1.185. 非结构化转结构化，用于微调等
 Easy Workspace工具，它能自动将PDF、Word等非结构化数据转化为结构化微调训练数据。通过三步流程：数据标准化、内容提取分割、生成问答对，帮助企业高效完成大模型微调，显著降低人工成本。
 
-## 1.158. MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）
+## 1.186. MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）
 https://www.53ai.com/news/LargeLanguageModel/2024061171948.html
 
-## 1.159. ai coding
+## 1.187. ai coding
 
 Roo Code  最早
 
