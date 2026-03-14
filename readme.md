@@ -196,6 +196,14 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## ai 员工
+
+https://github.com/msitarzewski/agency-agents
+
+开源的144种AI岗位按职能分成了五大类：工程部有后端工程师、移动应用构建师、AI工程师；设计部含UI设计师、用户体验研究员、品牌守护者；市场部涵盖增长黑客、内容创作者、跨平台策略师；销售部包括外向战略师、交易策略师、销售教练；还有付费媒体部的PPC策略师、搜索查询分析师等。每类岗位都细化了具体职责，比如"视觉讲述者"专攻Midjourney提示词生成，"微信生态开发者"专注小程序集成。
+
+
 ## PUA
 项目GitHub地址：https://github.com/tanweai/pua。
 
