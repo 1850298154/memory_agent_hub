@@ -112,6 +112,7 @@ class ClaudeCodeAPI:
         self.allowed_tools = allowed_tools or []
         self.verbose = verbose
         self._full_response = ""
+        self._is_first_call = True  # 标记是否是第一次调用
 
         if verbose:
             self._print_config()
@@ -178,6 +179,9 @@ class ClaudeCodeAPI:
         """
         发送问题并获取响应
 
+        第一次调用使用 --session-id 创建新会话
+        后续调用使用 --resume 继续该会话
+
         Args:
             prompt: 用户问题
             timeout: 超时时间（秒）
@@ -188,9 +192,16 @@ class ClaudeCodeAPI:
         cmd = [
             CLAUDE_CMD,
             "-p", prompt,
-            "--session-id", self.session_id,
             "--output-format", "text"
         ]
+
+        # 第一次调用使用 --session-id 创建新会话
+        # 后续调用使用 --resume 继续该会话
+        if self._is_first_call:
+            cmd.extend(["--session-id", self.session_id])
+            self._is_first_call = False
+        else:
+            cmd.extend(["--resume", self.session_id])
 
         if self.skip_permissions:
             cmd.append("--dangerously-skip-permissions")
@@ -332,6 +343,77 @@ class ClaudeCodeAPI:
         print("=" * 70)
 
 
+def test_multi_round():
+    """
+    自动测试多轮对话（三轮无错误）
+
+    使用固定的问题测试，验证 session 续接功能
+    """
+    print("\n" + "=" * 70)
+    print(" 多轮对话自动测试")
+    print("=" * 70)
+    print("\n测试说明:")
+    print("  - 使用同一个 session 进行三轮对话")
+    print("  - 第一轮：--session-id 创建新会话")
+    print("  - 后续轮：--resume 继续该会话")
+    print("=" * 70)
+
+    # 创建 API 实例
+    api = ClaudeCodeAPI(verbose=True)
+
+    # 测试问题
+    questions = [
+        '写一个 test_multi.py 文件，输出 "你好我是大将军"',
+        '保持这个文件，再加一行输出 "我有一个小弟小小怪"',
+        '运行这个文件，验证输出正确'
+    ]
+
+    results = []
+    for i, question in enumerate(questions, 1):
+        print(f"\n{'=' * 70}")
+        print(f" 第 {i} 轮对话")
+        print("=" * 70)
+
+        response = api.ask(question)
+        results.append({
+            'round': i,
+            'question': question,
+            'response': response[:100] + "..." if len(response) > 100 else response,
+            'success': len(response) > 0 and 'Error' not in response
+        })
+
+        if i < len(questions):
+            time.sleep(1)  # 短暂等待
+
+    # 验证结果
+    print("\n" + "=" * 70)
+    print(" 测试结果")
+    print("=" * 70)
+
+    all_success = True
+    for r in results:
+        status = "[OK]" if r['success'] else "[FAIL]"
+        print(f"  第 {r['round']} 轮: {status}")
+        if not r['success']:
+            all_success = False
+
+    # 验证文件
+    test_file = Path(api.cwd) / "test_multi.py"
+    if test_file.exists():
+        print(f"\n[OK] test_multi.py 已创建")
+        print(f"内容:")
+        print(test_file.read_text(encoding='utf-8'))
+
+    if all_success:
+        print("\n" + "=" * 70)
+        print(" 测试通过！三轮对话全部成功")
+        print("=" * 70)
+    else:
+        print("\n[FAIL] 部分测试失败")
+
+    return all_success
+
+
 def demo_default_mode():
     """
     演示默认模式（无参数）
@@ -450,6 +532,7 @@ if __name__ == "__main__":
     )
 
     parser.add_argument("--demo", action="store_true", help="运行完整演示（验证功能）")
+    parser.add_argument("--test", action="store_true", help="运行多轮对话自动测试")
     parser.add_argument("--interactive", "-i", action="store_true", help="交互模式（默认）")
     parser.add_argument("--session-id", type=str, help="指定会话 ID")
     parser.add_argument("--prompt", "-p", type=str, help="单次提问")
@@ -484,6 +567,8 @@ if __name__ == "__main__":
 
     if args.demo:
         demo_default_mode()
+    elif args.test:
+        test_multi_round()
     elif args.prompt:
         # 单次提问模式
         api = ClaudeCodeAPI(
