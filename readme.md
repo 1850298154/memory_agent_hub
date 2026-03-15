@@ -227,7 +227,8 @@
 
 
 
-
+## 一人ai公司MetaGPT
+开源项目地址是：https://github.com/geek-ai/MetaGPT
 
 ## 系统提示词解密
 
