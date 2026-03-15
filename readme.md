@@ -225,7 +225,8 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
-
+## Superpowers是GitHub上获9万星的开源项目，它给AI编程装上了完整的软件工程流程。
+不同于普通AI助手直接写代码导致项目混乱，它强制AI按设计、计划、测试、审查的规范工作，让AI从"代码生成器"真正升级为能协作的"工程师"。
 
 ## 一人ai公司MetaGPT
 开源项目地址是：https://github.com/geek-ai/MetaGPT
