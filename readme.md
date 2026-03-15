@@ -229,9 +229,11 @@
 
 
 
+## 系统提示词解密
 
+关键提示词片段是："Investigating how Codec compaction works"，中文翻译为"探究Codec压缩的工作原理"。该内容源自韩国AI专家通过提示注入实验解析出的Codex API内部逻辑，与开源CLI设计高度一致。
 
-
+研究显示Codex API的上下文压缩提示词与Deep Agents CLI高度一致，建议直接查阅其GitHub开源实现进行技术复现。
 
 
 ## Sirchmunk，不做 Embedding，不建向量库
