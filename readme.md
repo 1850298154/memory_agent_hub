@@ -225,6 +225,22 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Obsidian一键提取网页Skill
+
+最近 Obsidian CEO Kepano 发布了一个新的 Agent Skill：Defuddle。
+
+这个工具可以做一件很实用的事情：
+输入一个 URL，自动提取网页正文，并转换成 Markdown 笔记。
+最新版本还支持 YouTube 视频链接，可以直接抓取字幕并生成完整转录。
+
+这篇笔记我整理了三部分内容：
+Defuddle Skill 的使用方法（Claude Code / OpenClaw）
+命令行直接使用 Defuddle（更省 Token）
+技术原理：网页正文提取 + YouTube 字幕抓取
+
+如果你在做 AI Agent、知识管理、Obsidian 工作流，这个工具非常值得了解。
+#Obsidian #Obsidian教程 #Claudian #AgentSkill #AIAgent #OpenClaw #ClaudeCode #AI
+
 
 ## Folo是一个开源信息聚合平台
 
