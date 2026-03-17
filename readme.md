@@ -224,6 +224,15 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+
+
+## GitHub上的开源项目public-apis，已获40万+星标
+
+地址：github.com/public-apis/public-apis。该项目汇总了40多个领域的免费API接口，开发者可直接调用。
+
+
 ## coder 解析
 
 https://github.com/mrcing/CodeTopo.git
