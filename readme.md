@@ -224,6 +224,18 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+
+
+
+
+
+
+
+## gstack将Claude Code升级为12个专业角色，让AI编程从单打独斗变为团队协作。
+
+核心模式包括：CEO视角帮你重构需求本质，技术总控锁定架构边界，风险捕手揪出CI检测不到的生产隐患，浏览器实操让AI"亲眼"查看页面问题。每个角色专注特定环节，从设计审查到发版收口形成闭环。这已不只是编程工具，而是把软件开发全流程拆解为可调用的专业能力，真正实现"一人即团队"的工作流革新。
 ## MinerU是开源文档解析工具
 
 安装命令：`pip install -U "mineru[core]"`。基础用法：`mineru -p 文档.pdf -o 结果.md`即可转换PDF为Markdown。支持公式识别、表格提取等功能，官方文档地址：https://opendatalab.github.io/MinerU/zh/
