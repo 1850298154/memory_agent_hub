@@ -226,6 +226,12 @@
 
 
 
+## opencli是开源命令行工具，能将网站转为CLI接口，原生支持B站/小红书/知乎等28个平台。
+
+复用浏览器登录状态避开反爬，一键拉取热榜评论并输出JSON/Markdown格式。项目地址：github.com/jackwener/opencli
+
+
+项目地址是：https://github.com/jackwener/opencli
 
 
 ## GitHub上的开源项目public-apis，已获40万+星标
