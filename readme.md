@@ -224,6 +224,10 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## MinerU是开源文档解析工具
+
+安装命令：`pip install -U "mineru[core]"`。基础用法：`mineru -p 文档.pdf -o 结果.md`即可转换PDF为Markdown。支持公式识别、表格提取等功能，官方文档地址：https://opendatalab.github.io/MinerU/zh/
+
 
 
 ## opencli是开源命令行工具，能将网站转为CLI接口，原生支持B站/小红书/知乎等28个平台。
