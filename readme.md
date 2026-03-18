@@ -228,7 +228,22 @@
 
 
 
+## Axe框架
 
+GitHub地址：https://github.com/jrswab/axe。单文件12MB的设计确实清爽，值得开发者试试。
+
+AI Agent 框架越做越重，这个项目反其道而行。
+
+Axe——整个二进制只有 12MB，零依赖。核心理念是 Unix 哲学：每个 Agent 就是一个命令行工具，用管道自由组合。
+
+三个亮点：
+· 单二进制 12MB，随处部署
+· 管道组合，Agent 自由串联
+· 原生流式输出，适配大模型
+
+GitHub 上线一周 Star 破千，开发者社区好评如潮。
+
+追新不盲从，实测出真知。
 
 
 ## "Agent Reach"技能让Claude Code等AI助理摆脱"断网失明"
