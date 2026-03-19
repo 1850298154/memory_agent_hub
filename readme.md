@@ -225,6 +225,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## claude-hud插件，解决AI编程"黑箱"问题，实时显示上下文用量、工具调用及任务进度
+
+GitHub地址：https://github.com/jarrodwatts/claude-hud
+
 
 ## PageAgent 阿里开源的神器，让AI住进你的网页。
 
