@@ -225,6 +225,12 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+## Claude 团队，记忆，产品
+garrytan/gstack，OthmanAdi/planning-with-files，RefoundAI/lenny-skills
+
+
+
 ## claude-hud插件，解决AI编程"黑箱"问题，实时显示上下文用量、工具调用及任务进度
 
 GitHub地址：https://github.com/jarrodwatts/claude-hud
