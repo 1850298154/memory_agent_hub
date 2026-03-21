@@ -224,7 +224,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
-
+## 五款AI技能
+1. Skill Creator用于开发新技能；2. Agent-teams-playbook支持团队协作；3. Awesome-ai-agent提供全场景服务；4. Autoresearch助力智能研究；5. OpenClaw是AI智能体框架，能让AI操作电脑完成实际任务。
 
 ## Claude 团队，记忆，产品
 garrytan/gstack，OthmanAdi/planning-with-files，RefoundAI/lenny-skills
