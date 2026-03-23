@@ -224,6 +224,11 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## 列出的10个OpenClaw新手必装技能：
+1. skill-vetter(安全审查) 2. find skills(发现安装) 3. tavily-search(联网搜索) 4. self-improving agent(自我进化) 5. summarize(概要总结) 6. agent browser(浏览器自动化) 7. nano-pdf(PDF处理) 8. humanizer(去AI化) 9. proactive agent(主动服务) 10. ontology(知识图谱)
+
+
 ## MIT 博士用GPT手搓游戏素材，一致性满分？
 MIT 博士 GPT 外加python脚本，就解决了 AI 生成游戏角色，一致性的问题。
 
