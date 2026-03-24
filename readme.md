@@ -358,7 +358,6 @@ Defuddle Skill 的使用方法（Claude Code / OpenClaw）
 技术原理：网页正文提取 + YouTube 字幕抓取
 
 如果你在做 AI Agent、知识管理、Obsidian 工作流，这个工具非常值得了解。
-#Obsidian #Obsidian教程 #Claudian #AgentSkill #AIAgent #OpenClaw #ClaudeCode #AI
 
 
 ## 1.17. Folo是一个开源信息聚合平台
