@@ -224,6 +224,11 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## 大神用Claude Code打造含48个AI智能体的游戏工作室，1:1还原总监、策划、开发、测试全流程
+MIT开源可商用，独立开发者直接拥有顶配幕后团队。项目地址是：https://github.com/Donchitos/Claude-Code-Game-Studios
+
+
 ## Arnis主要依靠公开地图数据
 能还原地表设施但地下管道细节可能不足。特殊工业区域的复现效果有限，建议先小范围试用看看效果。
 
