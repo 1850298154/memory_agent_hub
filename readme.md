@@ -224,6 +224,11 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## Arnis主要依靠公开地图数据
+能还原地表设施但地下管道细节可能不足。特殊工业区域的复现效果有限，建议先小范围试用看看效果。
+
+项目GitHub地址：https://github.com/louis-e/arnis
+
 
 ## 列出的10个OpenClaw新手必装技能：
 1. skill-vetter(安全审查) 2. find skills(发现安装) 3. tavily-search(联网搜索) 4. self-improving agent(自我进化) 5. summarize(概要总结) 6. agent browser(浏览器自动化) 7. nano-pdf(PDF处理) 8. humanizer(去AI化) 9. proactive agent(主动服务) 10. ontology(知识图谱)
