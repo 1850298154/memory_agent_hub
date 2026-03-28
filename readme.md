@@ -246,6 +246,15 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+## '养'AI的奥秘就藏在自我进化里。
+像视频中的OpenSpace，AI出错自动修复、经验变技能，越用越聪明还省46%成本，这才是真正的'养成系'。
+
+GitHub地址：https://github.com/HKUDS/openSpace
+
+
+
 ## 首款零基础借助AI做的独立游戏上架
 https://github.com/Donchitos/Claude-Code-Game-Studios/blob/main/.claude/agents/unity-ui-specialist.md
 
