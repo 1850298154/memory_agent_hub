@@ -246,7 +246,9 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## Meta华人实习生搞出超级智能体！自己写代码实现自我进化
 
+源代码已开源，在GitHub的facebookresearch/HyperAgents仓库可查，Star数超700。项目处于实验阶段并标注安全警告，配套论文arXiv:2603.19461已被ICLR 2026接收。实验数据显示该框架在SWE-bench任务解决率从20%提升至50%，支持多模型API接入。
 
 
 
