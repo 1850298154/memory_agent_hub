@@ -246,6 +246,10 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 首款零基础借助AI做的独立游戏上架
+https://github.com/Donchitos/Claude-Code-Game-Studios/blob/main/.claude/agents/unity-ui-specialist.md
+
+
 ## Alchemy通过构建一个标准化的“炼丹炉”环境，将工程基础设施与科研发现过程解耦。
 
 标准化实验接口：提供统一接口，AI Scientist只需提交一个.py文件（算法）和一个.yaml文件（超参），即可运行完整实验，屏蔽了所有底层工程细节。
