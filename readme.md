@@ -249,7 +249,7 @@
 
 
 ## Claude code  源码
-https://github.com/instructkr/claude-code，这个好像是真源码，今天claude官方github上多传了一个文件，被反编译了
+https://github.com/instructkr/claude-code，claude官方github上多传了一个文件，被反编译了
 
 
 ## office skill
