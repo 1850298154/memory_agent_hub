@@ -247,6 +247,9 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 预训练数据集
+
+https://github.com/allenai/OLMoE
 
 ## Claude code  源码
 https://github.com/instructkr/claude-code，claude官方github上多传了一个文件，被反编译了
