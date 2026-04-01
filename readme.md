@@ -248,6 +248,10 @@
 
 
 
+## Claude code  源码
+https://github.com/instructkr/claude-code，这个好像是真源码，今天claude官方github上多传了一个文件，被反编译了
+
+
 ## office skill
 MiniMax-Al/skills GitHub仓库的samples目录下提供了完整的Office文档生成样例，包括Word、Excel、PPT等各类效果演示，可直接查看运行效果。
 
