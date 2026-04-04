@@ -246,6 +246,11 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 2026硬核技能榜单：
+1. Composio：全能连接器，集成800多个外部工具
+2. Tavily Web Search：AI专用搜索，评价最高
+3. Playwright-MCP：网页执行官，动作类最强
+4. Self-Improving：自进化逻辑，能自我反思改进
 
 ## agent任务管理插件
 三个插件全称：1. ECC - 事件中心规格化代码生成器 2. GSD - Get Shit Done（高效任务管理工具）3. PWF - Planning With Files（文件规划插件）
