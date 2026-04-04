@@ -247,6 +247,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## agent任务管理插件
+三个插件全称：1. ECC - 事件中心规格化代码生成器 2. GSD - Get Shit Done（高效任务管理工具）3. PWF - Planning With Files（文件规划插件）
+
+
 ## M-FLOW技术
 由中国年轻团队开发，针对传统RAG仅做文本匹配、缺乏推理能力的短板。其核心是"倒锥图路由架构"，通过FacetPoint（原子断言）、Entity（命名事物）和Facet（截面维度）三层结构，实现多跳推理与跨文档关联。搭建方式有两种：1) Docker一键部署：克隆GitHub仓库后运行quickstart脚本；2) pip安装：使用pip install m_flow命令，并配置LLM API密钥。该方案在多项Benchmark测试中表现优异。
 GitHub上搜mflow-ai/m_flow就能找到源码和文档，视频里提到的一键部署脚本也在里面。
