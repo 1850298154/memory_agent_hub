@@ -246,6 +246,13 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+## 项目名称是ARIS（Auto-claude-code-research-in-sleep）。核心优势：无需复杂安装即可兼容DeepSeek/Kimi/智谱等国产模型；摆脱Claude API依赖，非程序员也能快速上手；支持睡前提交任务后自动运行，完成代码优化、实验分析及论文润色；双智能体评审系统实现98%漏洞规避率与100%科研规范符合度，真正实现科研全流程自动化。
+
+
+项目地址是：https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
+
 ## 2026硬核技能榜单：
 1. Composio：全能连接器，集成800多个外部工具
 2. Tavily Web Search：AI专用搜索，评价最高
