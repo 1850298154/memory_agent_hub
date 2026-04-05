@@ -247,6 +247,9 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Karpathy知识库方法的实践
+先建raw库收纳原始资料，再用AI编译成结构化wiki，在Obsidian中持续迭代，让散乱信息逐步生长为可研究的系统，适用于投资分析、读书笔记等多种场景。
+
 ## WebAI2API 是一个强大的开源工具
 它能将网页上的 AI 服务（如 GPT、Gemini、豆包等）一键转换为 OpenAI 兼容的 API 接口，让你无需 API 密钥即可免费使用顶级 AI 模型。
 
