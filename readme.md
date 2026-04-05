@@ -246,6 +246,13 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+## GitHub热榜第一的next-ai-drawio项目，25k+星。
+用自然语言就能生成架构图、流程图，支持文档转图表和动画效果，程序员、学生都能用，完全免费开源。
+
+
+
 ## 真免费api，用各平台账号
 视频中的开源项目链接：https://github.com/linuxhsj/openclaw-zero-token。无需API Key，通过浏览器登录即可免费调用ChatGPT、Claude等主流AI模型。
 
