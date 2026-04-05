@@ -248,6 +248,12 @@
 
 
 
+## ccstatusline专注美化Claude Code状态栏，
+
+实时显示模型、Git、Token等开发数据；hub是GitHub命令行工具，用来管理仓库和PR。一个管界面信息展示，一个管代码托管操作，根本不在同一赛道上干活。
+
+一行命令搞定：`npx -y ccstatusline@latest`，这是视频中提到的安装方式。
+
 ## GitHub热榜第一的next-ai-drawio项目，25k+星。
 用自然语言就能生成架构图、流程图，支持文档转图表和动画效果，程序员、学生都能用，完全免费开源。
 
