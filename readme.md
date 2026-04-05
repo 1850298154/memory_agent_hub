@@ -248,7 +248,7 @@
 
 
 
-
+## 港大实验室开源的OpenSpace项目地址https://github.com/HKUDS/OpenSpace。它让AI智能体具备了自我进化的"学习能力"。
 
 ## EverMind MSA开源地址
 https://github.com/EverMind-AI/MSAInference。这是他们刚发布的支持1亿Token上下文的记忆稀疏注意力技术代码库。
