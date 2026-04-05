@@ -246,6 +246,9 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 真免费api，用各平台账号
+视频中的开源项目链接：https://github.com/linuxhsj/openclaw-zero-token。无需API Key，通过浏览器登录即可免费调用ChatGPT、Claude等主流AI模型。
+
 
 ## Obsidian和AI提取，轻松构建个人私域知识库图谱！
 1、把任何地方读到的文章🔗、pdf文件简单存入Obsidian（最好用的笔记类app）
