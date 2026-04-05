@@ -247,6 +247,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 微软开源的RD-Agent项目链接
+
+https://github.com/microsoft/RD-Agent
+
 
 ## 港大实验室开源的OpenSpace项目地址https://github.com/HKUDS/OpenSpace。它让AI智能体具备了自我进化的"学习能力"。
 
