@@ -246,6 +246,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 港大开源的Harness项目
+GitHub地址：https://github.com/HKUDS/OpenHarness。四天斩获4000+星标的速度，足以证明这个AI驯兽师工具包正在掀起新一轮开发热潮。
 
 ## Karpathy知识库方法的实践
 先建raw库收纳原始资料，再用AI编译成结构化wiki，在Obsidian中持续迭代，让散乱信息逐步生长为可研究的系统，适用于投资分析、读书笔记等多种场景。
