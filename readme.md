@@ -247,6 +247,8 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## Hindsight与OpenClaw集成的基础配置流程：
+1. 通过pip install hindsight-litellm或npm install hindsight-js安装SDK；2. 初始化时用wrap_openai包装LLM客户端；3. 调用API时自动关联用户记忆。关键参数包括userId隔离记忆域、metadata过滤条件设置。完整配置示例和环境变量说明详见GitHub文档的Integration Guide章节。
 
 ## ccstatusline专注美化Claude Code状态栏，
 
