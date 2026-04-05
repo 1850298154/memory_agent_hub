@@ -246,6 +246,10 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+## GitHub项目"The Agency"的147个AI agents，分为12个专业部门。
+工程部有前端开发者、后端架构师；设计部含UI设计师、图像提示工程师；市场部覆盖增长黑客、小红书专家；还有销售部、产品部等。每个agent专注特定领域，能24小时协作完成开发、设计到推广全流程。具体可在GitHub搜索msitarzewski/agency-agents查看完整清单。
+
 ## 港大开源的Harness项目
 GitHub地址：https://github.com/HKUDS/OpenHarness。四天斩获4000+星标的速度，足以证明这个AI驯兽师工具包正在掀起新一轮开发热潮。
 
