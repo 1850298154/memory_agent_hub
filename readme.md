@@ -246,6 +246,8 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 模型对比要看用途。Nemotron 3-Super长于超长上下文和复杂编码任务，特别适合智能体工作流；
+Gemma 4则在参数效率和多模态支持上更优，移动端表现突出。选哪个取决于你的具体场景。
 
 
 ## ATLAS项目地址是：https://github.com/itigges22/ATLAS。它专为本地AI编程设计，用RTX 5060 Ti这类消费级显卡就能跑14B模型，通过规划-选择-返修的流水线提升编码效率。
