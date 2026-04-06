@@ -248,7 +248,7 @@
 
 
 
-
+## ATLAS项目地址是：https://github.com/itigges22/ATLAS。它专为本地AI编程设计，用RTX 5060 Ti这类消费级显卡就能跑14B模型，通过规划-选择-返修的流水线提升编码效率。
 
 ## Qwen3.5-27B opus 蒸馏版V3版本发布：Qwopus3.5-27B V3实测 ，不再"假装思考"
 https://mp.weixin.qq.com/s/VfwaFFI_-xTwYW6NWlOJHA
