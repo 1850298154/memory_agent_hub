@@ -251,6 +251,8 @@
 
 
 ## Qwen3.5-27B opus 蒸馏版V3版本发布：Qwopus3.5-27B V3实测 ，不再"假装思考"
+https://mp.weixin.qq.com/s/VfwaFFI_-xTwYW6NWlOJHA
+
 
 https://mp.weixin.qq.com/s/CwbkPJ5AQO_YTFdu-rrNaw
 
