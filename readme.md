@@ -247,6 +247,13 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+
+
+
+## Qwen3.5-27B opus 蒸馏版V3版本发布：Qwopus3.5-27B V3实测 ，不再"假装思考"
+
+https://mp.weixin.qq.com/s/CwbkPJ5AQO_YTFdu-rrNaw
+
 ## 高效之道。去掉冗余能省75%成本，"山顶洞人"思路很实用。
 只是完全省略礼貌表达，可能影响某些场景的沟通。
 
