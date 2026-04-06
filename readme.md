@@ -247,6 +247,10 @@
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
 
+## 高效之道。去掉冗余能省75%成本，"山顶洞人"思路很实用。
+只是完全省略礼貌表达，可能影响某些场景的沟通。
+
+安装命令显示项目路径为 GitHub.com/JuliusBrussee/caveman，可以直接访问试试。
 
 
 ## 自驾决策工具地址
