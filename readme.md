@@ -246,6 +246,15 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+
+## 自驾决策工具地址
+
+ drive-escape.pomorialy.com，
+GitHub仓库为 qiaoshouqing/drive-escape。
+
+
 ## Memvid是GitHub热门开源项目
 提供单文件AI记忆层，无需向量数据库。它提升35%记忆准确率，多跳推理能力领先行业76%，检索延迟仅0.025毫秒，大幅简化AI Agent开发流程。
 
