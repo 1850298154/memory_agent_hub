@@ -246,6 +246,10 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## 清华ChatDev 2.0是OpenBMB团队开源的零代码多智能体协作平台
+
+GitHub星标超31.9K。它通过可视化拖拽编排工作流，让AI自动扮演CEO、程序员等角色，完成需求讨论、编码到测试的全流程开发。搭配Claude 3.5 Sonnet使用逻辑更严谨，代码质量显著提升。项目地址：https://github.com/OpenBMB/ChatDev
+
 
 ## 想用MemPalace？
 三步上手：①pip install mempalace安装；②mempalace init ~/MyPalace初始化；③导入聊天记录就能智能检索。所有数据本地存储，隐私无忧。详细指南→github.com/milla-jovovich/mempalace
