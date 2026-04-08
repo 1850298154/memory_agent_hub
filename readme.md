@@ -2,7 +2,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合
 ---
 
+## Claude-Mem是Claude专属插件
+无法用于GitHub Copilot。两者属于不同公司的产品体系，插件系统不互通。
 
+项目地址：https://github.com/thedottrack/claude-mem
 
 ## caveman作为一个插件（skill），通过特定规则对AI助手生成的文本进行后处理。它会识别并保留技术性内容（代码块、路径、命令等），仅对自然语言文本进行压缩和精简。
 在支持skills的AI编程工具（如Cursor, Copilot, Claude Code等）中，可通过命令行一键安装。
