@@ -246,6 +246,13 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+
+## Graphify为OpenClaw带来两大核心价值：一是构建项目全局知识图谱，
+让AI理解代码间隐性关联；二是通过本地AST解析将Token消耗直降71.5倍。安装只需执行：pip install graphifyy && graphify install。适配OpenClaw需补充命令：graphify install --platform claw。完整文档和源码详见GitHub：https://github.com/safishamsi/graphify
+
+
 ## 清华ChatDev 2.0是OpenBMB团队开源的零代码多智能体协作平台
 
 GitHub星标超31.9K。它通过可视化拖拽编排工作流，让AI自动扮演CEO、程序员等角色，完成需求讨论、编码到测试的全流程开发。搭配Claude 3.5 Sonnet使用逻辑更严谨，代码质量显著提升。项目地址：https://github.com/OpenBMB/ChatDev
