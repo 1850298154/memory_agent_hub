@@ -246,8 +246,11 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+## OpenDataLoader是开源PDF转Markdown工具，
+Apache 2.0许可。核心特点是CPU环境下每秒处理100页PDF，精准还原复杂布局、表格和嵌套结构。工作原理结合了MORAN（多目标校正注意力网络）等技术，通过多对象校正网络处理不规则文本。支持Python(pypi)、Java(maven)、Node.js(npm)调用，v2.2.1版本已在GitHub Trending登顶。使用时只需安装对应SDK，调用convert方法即可完成高质量文档转换，适合AI数据预处理场景。
 
 
+OpenDataLoader的GitHub仓库是opengataloader-project/opendataloader，搜索该项目名即可找到源码。
 
 ## Graphify为OpenClaw带来两大核心价值：一是构建项目全局知识图谱，
 让AI理解代码间隐性关联；二是通过本地AST解析将Token消耗直降71.5倍。安装只需执行：pip install graphifyy && graphify install。适配OpenClaw需补充命令：graphify install --platform claw。完整文档和源码详见GitHub：https://github.com/safishamsi/graphify
