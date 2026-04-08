@@ -2,6 +2,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## Ghost Pepper 是一款完全免费且百分百在 Mac 本地运行的语音输入法，
+它打破了云端收费限制，将语音识别和智能润色完美结合在了一起。
+
 
 ## Github 5个自我进化记忆性Agent
 Github 5个自我进化记忆性Agent屠榜了
