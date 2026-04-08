@@ -246,6 +246,19 @@
 - [5. 基础](#5-基础)
   - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
 
+
+
+## caveman作为一个插件（skill），通过特定规则对AI助手生成的文本进行后处理。它会识别并保留技术性内容（代码块、路径、命令等），仅对自然语言文本进行压缩和精简。
+在支持skills的AI编程工具（如Cursor, Copilot, Claude Code等）中，可通过命令行一键安装。
+在真实的Claude API上对10个编程相关任务进行测试。
+输出Token节省：在10个任务中，节省范围在「22%–87%」之间，平均节省高达「65%」。
+初步测试显示，在保持技术准确性的前提下，输出Token减少约「75%」。
+输入Token节省：通过压缩记忆文件，每次会话的输入Token可减少约「45%」。
+#claude#agent#skill#vibecoding
+
+GitHub地址：https://github.com/JuliusBrussee/caveman  
+安装命令：npx skills add JuliusBrussee/caveman  
+三档压缩强度，最高省87% token
 ## OpenDataLoader是开源PDF转Markdown工具，
 Apache 2.0许可。核心特点是CPU环境下每秒处理100页PDF，精准还原复杂布局、表格和嵌套结构。工作原理结合了MORAN（多目标校正注意力网络）等技术，通过多对象校正网络处理不规则文本。支持Python(pypi)、Java(maven)、Node.js(npm)调用，v2.2.1版本已在GitHub Trending登顶。使用时只需安装对应SDK，调用convert方法即可完成高质量文档转换，适合AI数据预处理场景。
 
