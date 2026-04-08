@@ -3,6 +3,36 @@
 ---
 
 
+## Github 5个自我进化记忆性Agent
+Github 5个自我进化记忆性Agent屠榜了
+01
+hermes-agent
+通过动态patch机制让AI伴随你成长，彻底解决Agent“转头就忘”的痛点。
+GITHUB.COM/NOUSRESEARCH/HERMES-AGENT
+24h新增8800星！它直接自己长脑子了，醒来发现AI比你记性还好。
+02
+TradingAgents
+多Agent模拟完整交易公司。研究员挖数据、风控喊停，干掉单兵作战的血亏风险。
+GITHUB.COM/TAURICRESEARCH/TRADINGAGENTS
+一个人操盘像赌狗，这个军团直接开董事会吵架决策。程序员终于能甩锅了。
+03
+AI-Scientist-v2
+全自动科研Agent。从提假设、跑实验到写论文一条龙，一个人顶10人实验室。
+GITHUB.COM/SAKANAAI/AI-SCIENTIST-V2
+以前发论文肝到秃头，现在AI组队科研。实验室老板沉默，PhD流泪。
+04
+agent-framework
+微软官方出品。支持Python/.NET，一键搭建生产级工作流，告别LangChain胶水代码。
+GITHUB.COM/MICROSOFT/AGENT-FRAMEWORK
+搭复杂Agent不再需要三天三夜。大厂程序员狂喜：终于能摸鱼了！
+05
+goose
+开源可扩展 AI Agent。超越代码补全，能自主执行、测试任务，程序员的终极“懒人外挂”。
+GITHUB.COM/BLOCK/GOOSE
+你敲键盘到手抽筋，它跑完完整流程。程序员集体高呼：“这才是我想要的AI老婆！”
+EXECUTIVE SUMMARY
+这 5 个项目组成了一个能长大、会吵架、干重活的超级军团。AI 不再是工具，而是你的创业+科研全栈合伙人。
+
 
 
 ## Gemma 4+和Obsidian搭建威科夫交易法知识库的全流程。核心包括：1) Obsidian作知识载体，Trae为操作核心；2) RAW存原始笔记，Wiki放整理成果；3) 三个关键脚本(build_wiki.py/Prompt.md/search.py)实现自动化；4) 结构化Prompt需含行业概念网络和标准示例；5) 重点是制定规则交LLM处理，不必过度纠结底层逻辑。
