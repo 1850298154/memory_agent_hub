@@ -1,6 +1,12 @@
 
-# 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合
+# 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+
+
+
+## Gemma 4+和Obsidian搭建威科夫交易法知识库的全流程。核心包括：1) Obsidian作知识载体，Trae为操作核心；2) RAW存原始笔记，Wiki放整理成果；3) 三个关键脚本(build_wiki.py/Prompt.md/search.py)实现自动化；4) 结构化Prompt需含行业概念网络和标准示例；5) 重点是制定规则交LLM处理，不必过度纠结底层逻辑。
+
 
 ## Claude-Mem是Claude专属插件
 无法用于GitHub Copilot。两者属于不同公司的产品体系，插件系统不互通。
