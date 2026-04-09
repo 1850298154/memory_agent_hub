@@ -1,7 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## AI 迎来真正记忆与逻辑！国产 Agent 大脑正式开源
 
+CodeBrain-1开源地址：https://github.com/feelingai-team/CodeBrain。MemBrain1.5目前未公开开源，建议关注Feeling AI官网或官方社交媒体获取后续更新。
 ## Ghost Pepper 是一款完全免费且百分百在 Mac 本地运行的语音输入法，
 它打破了云端收费限制，将语音识别和智能润色完美结合在了一起。
 
