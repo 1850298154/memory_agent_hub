@@ -1,6 +1,11 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## Hermes Agent基础安装很简单：
+Linux/macOS用户在终端执行`curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`，然后运行`hermes setup`配置API密钥。Windows用户可用PowerShell执行安装脚本。
+
+
 ## Claude Code工作流指南的GitHub地址是：
 https://github.com/shanraisshan/claude-code-best-practice
 
