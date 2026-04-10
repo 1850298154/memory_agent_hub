@@ -3,7 +3,9 @@
 ---
 
 
+## AdaMem：清华/微信提出 Agent 记忆系统新 SOTA
 
+论文标题AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents论文地址https://arxiv.org/pdf/2603.16496作者背景清华大学、微信、中国科学技术大学
 
 ## 优化版-Karpathy知识库折腾了好几天，终于搞完开源了
  AI 迎来真正记忆与逻辑！国产 Agent 大脑正式开源
