@@ -1,7 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-
+## Claude Code工作流指南的GitHub地址是：
+https://github.com/shanraisshan/claude-code-best-practice
 
 ## AdaMem：清华/微信提出 Agent 记忆系统新 SOTA
 
