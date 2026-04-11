@@ -2,6 +2,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+
+## YC 总裁开源自用 AI 记忆系统，13 年数据 AI 记忆系统免费开放，顶级抄作业！
+项目地址：https://github.com/garrytan/gbrain（MIT协议开源）
+
 ## Hermes Agent基础安装很简单：
 Linux/macOS用户在终端执行`curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`，然后运行`hermes setup`配置API密钥。Windows用户可用PowerShell执行安装脚本。
 
