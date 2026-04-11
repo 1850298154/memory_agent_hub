@@ -1,7 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-
+##YC创始人开源gbrain，召回md
+项目地址：https://github.com/garrytan/gbrain
 
 ## YC 总裁开源自用 AI 记忆系统，13 年数据 AI 记忆系统免费开放，顶级抄作业！
 项目地址：https://github.com/garrytan/gbrain（MIT协议开源）
