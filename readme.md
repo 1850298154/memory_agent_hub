@@ -1,7 +1,13 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-##YC创始人开源gbrain，召回md
+
+## Hatch 一键复刻 Karpathy 流程，无需折腾 Obsidian，3 步生成专属 AI 知识库
+
+Hatch项目地址：https://github.com/pypa/hatch。这是同名Python工具，视频中AI工作空间可能基于它开发。
+
+
+## YC创始人开源gbrain，召回md
 项目地址：https://github.com/garrytan/gbrain
 
 ## YC 总裁开源自用 AI 记忆系统，13 年数据 AI 记忆系统免费开放，顶级抄作业！
