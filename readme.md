@@ -1,6 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## Hindsight 记忆学习开源地址：https://github.com/vectorize-io/hindsight
+
 
 ## obsidian-skills插件如何让Claude Code真正"读懂"Obsidian笔记。
 三大能力直击痛点：完美支持双链嵌入、原生处理数据库视图、直接生成Canvas思维导图，告别手动改格式。安装超简单，两条命令搞定。
