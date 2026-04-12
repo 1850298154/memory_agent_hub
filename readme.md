@@ -1,7 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-
+## Karpathy开源的"autoresearch"项目，仅630行Python代码即可让AI自主开展研究。GitHub一周斩获4.4万星标，被称为AI"自我进化实验室"，旨在革新传统科研范式。
+项目GitHub地址：https://github.com/karpathy/autoresearch
 ## 给大家推荐一个超级实用的 AI 热点监控工具，
 它能自动聚合抖音、知乎、B站、财联社等 30+ 个平台的热点，用 AI 智能筛选、翻译、生成简报，还支持微信、飞书、钉钉等多渠道推送。完全开源，支持 Docker 一键部署，特别适合想快速跟进热点的朋友，强烈建议试试
 
