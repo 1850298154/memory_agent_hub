@@ -1,7 +1,25 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## oh-my-claudecode：Claude Code多智能体协作革命
 
+① 多智能体架构 - 多个Agent自动分工规划、编码、审查、修复全流程，突破单AI局限
+
+② 团队化编程 - 实现"一个命令召唤AI团队"，解决Claude Code单兵作战痛点
+
+③ 开源生态优势 - GitHub获2.7万星，支持零学习曲线快速接入
+
+④ 全链路自动化 - 从需求分析到代码交付无需人工干预
+
+1 安装插件：执行/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode/
+
+2 配置环境：运行/omc-setup完成初始化设置
+
+3 启动协作：使用omc命令触发多智能体协同开发流程
+
+4 优化分工：根据项目复杂度动态调整Agent任务分配
+
+当AI从独行侠进化为特种部队，编程效率的天花板已被彻底击穿
 ## Hatch 一键复刻 Karpathy 流程，无需折腾 Obsidian，3 步生成专属 AI 知识库
 
 Hatch项目地址：https://github.com/pypa/hatch。这是同名Python工具，视频中AI工作空间可能基于它开发。
