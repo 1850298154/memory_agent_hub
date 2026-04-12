@@ -5,7 +5,15 @@
 ## Claude Code的9个核心技能：
 1.规划组：planning-with-files(自动创建任务文档)、superpowers(20+技能框架)、brainstorming(预发散思路)；2.执行组：ralph-wiggum(循环打磨代码)、skill-creator(创建技能)；3.专项组：frontend-design(前端设计)、markdown(多格式转换)、notebooklm-skill(零幻觉回答)；4.兜底组：dev-agent-skills(代码提交审查)。推荐先装superpowers，再加ralph-wiggum，最后配planning-with-files。
 
+提到的7个值得关注的Skill整理如下：
 
+1. planning-with-files：解决做项目中途忘记全局进度的痛点
+2. superpowers：弥补缺少完整开发工具链的问题
+3. frontend-design：改善AI生成前端容易被识别的缺陷
+4. notebooklm：避免写文档时频繁切换窗口打断思路
+5. baoyu-skills：简化内容从创作到发布的碎片化流程
+6. webapp-testing：解决网页完成后不愿逐页检查的困扰
+7. skill-creator：帮助新手入门Skill创建流程
 ## trl grpo 等 官方手册
 https://huggingface.co/docs/trl/main/en/grpo_trainer
 ## 刷榜风波后Harness工程显真章 揭秘Agent如何攻克真实工程难题
