@@ -1,6 +1,13 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## 给大家推荐一个超级实用的 AI 热点监控工具，
+它能自动聚合抖音、知乎、B站、财联社等 30+ 个平台的热点，用 AI 智能筛选、翻译、生成简报，还支持微信、飞书、钉钉等多渠道推送。完全开源，支持 Docker 一键部署，特别适合想快速跟进热点的朋友，强烈建议试试
+
+项目地址是：https://github.com/sansan0/TrendRadar
+
+
 ## Hindsight 记忆学习开源地址：https://github.com/vectorize-io/hindsight
 
 
