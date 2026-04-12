@@ -2,6 +2,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+
+## trl grpo 等 官方手册
+https://huggingface.co/docs/trl/main/en/grpo_trainer
 ## 刷榜风波后Harness工程显真章 揭秘Agent如何攻克真实工程难题
 小牛说：百度伐谋在OpenAI主导的MLE-Bench榜单上夺回榜首，这个硬核榜单考察AI解决真实机器学习工程问题的能力。刷榜风波后，伐谋2.0凭借Harness工程系统编排，通过多智能体并行探索、长程记忆机制和底层优化，展现了解决复杂工程问题的实力。AI技术正从盲盒时代迈向工程化，你觉得未来AI竞赛的关键会是系统框架吗？
 
