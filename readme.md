@@ -1,6 +1,11 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## 刷榜风波后Harness工程显真章 揭秘Agent如何攻克真实工程难题
+小牛说：百度伐谋在OpenAI主导的MLE-Bench榜单上夺回榜首，这个硬核榜单考察AI解决真实机器学习工程问题的能力。刷榜风波后，伐谋2.0凭借Harness工程系统编排，通过多智能体并行探索、长程记忆机制和底层优化，展现了解决复杂工程问题的实力。AI技术正从盲盒时代迈向工程化，你觉得未来AI竞赛的关键会是系统框架吗？
+
+
 ## Karpathy开源的"autoresearch"项目，仅630行Python代码即可让AI自主开展研究。GitHub一周斩获4.4万星标，被称为AI"自我进化实验室"，旨在革新传统科研范式。
 项目GitHub地址：https://github.com/karpathy/autoresearch
 ## 给大家推荐一个超级实用的 AI 热点监控工具，
