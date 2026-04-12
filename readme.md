@@ -2,6 +2,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## Claude Code的9个核心技能：
+1.规划组：planning-with-files(自动创建任务文档)、superpowers(20+技能框架)、brainstorming(预发散思路)；2.执行组：ralph-wiggum(循环打磨代码)、skill-creator(创建技能)；3.专项组：frontend-design(前端设计)、markdown(多格式转换)、notebooklm-skill(零幻觉回答)；4.兜底组：dev-agent-skills(代码提交审查)。推荐先装superpowers，再加ralph-wiggum，最后配planning-with-files。
+
 
 ## trl grpo 等 官方手册
 https://huggingface.co/docs/trl/main/en/grpo_trainer
