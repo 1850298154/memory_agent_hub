@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## EverOS的GitHub地址
+github.com/EverMind-AI/EverOS，官网入口可通过everos.evermind.ai访问。Cloud平台支持API集成和MemorySpace管理。
+
 ## 女娲skill GitHub地址
 ：
 https://github.com/alchaincyf/nuwa-skill，支持一键安装使用。
