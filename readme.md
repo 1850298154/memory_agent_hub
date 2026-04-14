@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## BridgeBench排行榜信息，官方网址可能是bridgemind.ai/bridgebench。
+
 ## EverOS的GitHub地址
 github.com/EverMind-AI/EverOS，官网入口可通过everos.evermind.ai访问。Cloud平台支持API集成和MemorySpace管理。
 
