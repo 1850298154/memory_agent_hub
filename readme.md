@@ -1,6 +1,11 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 女娲skill GitHub地址
+：
+https://github.com/alchaincyf/nuwa-skill，支持一键安装使用。
+
+
 ## claude-mem为Claude Code提供了永久记忆，48小时内狂揽5.4万颗星！兼容OpenClaw！
 项目地址：https://github.com/thedottrack/claude-mem
 
