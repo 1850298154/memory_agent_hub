@@ -1,7 +1,30 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## QuantDinger：开源AI量化交易系统的革命性落地
 
+① 系统定位
+开源私有部署的AI量化操作系统，打通策略生成/回测/风控/实盘全流程
+
+② 核心能力
+自然语言生成交易策略，AI自动优化参数，多交易所API直连执行
+
+③ 部署特性
+本地运行保障数据安全，支持Crypto/美股/外汇多市场实时交易
+
+④ 开发生态
+Apache 2.0开源协议，GitHub活跃维护，Docker一键部署方案成熟
+
+1 速览GitHub仓库（https://github.com/brokermr810/QuantDinger）确认系统架构
+2 使用Docker部署测试环境：git clone后docker-compose up启动
+3 配置OPENROUTER_API_KEY激活AI策略生成功能
+4 从模拟回测入手，验证"自然语言转策略"的实际效果
+5 选择单一交易对进行小规模实盘验证
+6 加入Telegram社区获取最新部署指南和策略模板
+
+当代码读懂市场脉搏，每个交易者都能拥有自己的AI军师。
+
+视频开场以"AI量化彻底进化"定调，机器人形象配合"QuantDinger打穿交易世界"标语建立技术权威感。00:01画面详解系统三大支柱：开源底座确保透明度、私有部署保障安全性、AI驱动实现策略闭环。00:03展示多语言界面和Docker部署参数，强调Python3.10+兼容性和Compose就...
 ## BridgeBench排行榜信息，官方网址可能是bridgemind.ai/bridgebench。
 
 ## EverOS的GitHub地址
