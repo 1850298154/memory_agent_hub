@@ -1,6 +1,11 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## 软件Claude.md
+ 项目地址：https://github.com/forrestchang/andrej-karpathy-skills
+
+
 ##  Paper2Slides
 GitHub地址是：https://github.com/HKUDS/Paper2Slides。支持PDF/Word一键生成学术海报，MIT开源协议。
 
