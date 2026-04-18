@@ -1,6 +1,10 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 全自动AI开发军团来了，24小时无人自主干活#AI #AI帮你干活 
+OpenSwarm项目地址：https://github.com/unohee/OpenSwarm。部署需Node.js≥22环境，配置Discord和Linear API后运行npm install即可启动。
+
+
 ## Cangjie Skill项目的官方GitHub地址是：https://github.com/kangarooking/cangjie-skill
 
 
