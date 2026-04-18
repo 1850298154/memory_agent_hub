@@ -2,6 +2,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## fast learn
+1. 这个领域所有专家都认同的五个核心思维模式是什么？
+2. 该领域专家们争论最激烈的三个方面是什么？各自的最强论据是什么？
+3. 请生成10道能区分真懂和死记硬背的问题。
 ## 热榜
 1. Awesome Design MD：精心收集的设计系统库，捕获流行网站UI规范，解决AI代理执行设计的最后一公里问题。
 2. Hermes Agent：宣称与用户共同成长的AI代理，长期稳居榜单的实力派。
