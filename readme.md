@@ -1,6 +1,44 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 微信cli
+①工具定位
+WeChat CLI是专为AI集成设计的命令行工具，实现安全访问本地微信数据。
+
+②功能体系
+提供11个结构化命令，涵盖会话管理、历史查询、消息搜索等全流程数据操作。
+
+③安全机制
+全程本地操作，SQLCipher即时解密数据库，确保数据不出本机的安全闭环。
+
+④AI适配
+默认JSON输出格式，无缝对接Claude、OpenClaw等AI智能体的数据处理需求。
+
+⑤跨平台支持
+兼容macOS(含Apple Silicon)、Windows、Linux三大系统，适配不同硬件架构。
+
+⑥操作逻辑
+通过init命令提取微信密钥，实现无侵入式数据访问，无需逆向工程。
+
+1. 环境准备
+确认已安装Node.js 16+环境，这是工具运行的基础条件。
+
+2. 工具安装
+执行npm install -g @canghe_ai/wechat-cli完成全局安装。
+
+3. 初始化配置
+保持微信客户端运行，macOS/Linux使用sudo权限执行wechat-cli init。
+
+4. 多账号处理
+按文件修改时间识别当前登录账号，解决多微信账号数据选择问题。
+
+5. AI集成配置
+在Claude等工具中添加WeChat CLI说明文档，建立自然语言交互通道。
+
+6. 场景应用
+尝试"sessions"查看会话、"history 联系人"读取消息、"search 关键词"精准检索。
+
+7....
 ## 达尔文.skill是基于进化论思想的AI技能自动优化系统，通过棘轮机制实现53个skill只升不降的持续进化。采用8维度评分体系（结构60分+效果40分），优化成功则保留，失败自动回滚。
 
 项目地址：
