@@ -1,6 +1,15 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 达尔文.skill是基于进化论思想的AI技能自动优化系统，通过棘轮机制实现53个skill只升不降的持续进化。采用8维度评分体系（结构60分+效果40分），优化成功则保留，失败自动回滚。
+
+项目地址：
+GitHub: https://github.com/alchaincyf/darwin-skill
+安装命令: npx skills add alchaincyf/darwin-skill
+
+女娲.skill开源地址：https://github.com/alchaincyf/nuwa-skill
+
+
 ## 全自动AI开发军团来了，24小时无人自主干活#AI #AI帮你干活 
 OpenSwarm项目地址：https://github.com/unohee/OpenSwarm。部署需Node.js≥22环境，配置Discord和Linear API后运行npm install即可启动。
 
