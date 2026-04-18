@@ -1,6 +1,35 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## Anthropic的"解耦架构"革命：AI大脑与执行工具物理分离  
+
+① 架构颠覆  
+关键词：牲口模式、零纳秒恢复  
+大脑独立于沙盒外，工具容器可随时替换，故障恢复时间从100毫秒降至0纳秒  
+
+② 性能飞跃  
+关键词：按需召唤、延迟暴降  
+仅需时调用工具容器，中位数延迟降60%，95分位延迟暴跌90%  
+
+③ 安全升级  
+关键词：物理隔离、密钥保险柜  
+密码锁在沙盒外，AI无法接触敏感数据，彻底防御提示词注入  
+
+④ 未来蓝图  
+关键词：Agent OS、多脑协作  
+支持独立大脑连接无数工具，突破单躯壳智力瓶颈  
+
+1 采用解耦架构替代单体容器  
+2 敏感数据与执行环境物理隔离  
+3 重构工作流实现按需资源调用  
+4 关注底层架构而非短期规则编码  
+
+未来AI的胜负手，在于养出情绪稳定、手脚可弃的赛博牲口  
+
+AI世界曾困于电子牢笼，Anthropic撕开枷锁：大脑悬浮云端指挥，工具如可替换机械臂。黑客挥舞恶意提示词却扑空，因密钥早已锁进物理保险柜。这场暴力手术让AI挣脱容器束缚，化身真正智能生命体。  
+
+原版资料链接：https://www.anthropic.com/engineering/managed-agents
 ## everything-claude-code项目
 GitHub地址：github.com/affaan-m/everything-claude-code。它打包了Claude Code的全套实用配置，包含agent、技能指令和安全规则，帮开发者省token、提效率，刚开源就获12万星。
 
