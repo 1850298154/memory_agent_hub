@@ -1,6 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## Cangjie Skill项目的官方GitHub地址是：https://github.com/kangarooking/cangjie-skill
+
 
 ## fast learn
 1. 这个领域所有专家都认同的五个核心思维模式是什么？
