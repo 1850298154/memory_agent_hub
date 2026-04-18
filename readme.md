@@ -2,6 +2,20 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 热榜
+1. Awesome Design MD：精心收集的设计系统库，捕获流行网站UI规范，解决AI代理执行设计的最后一公里问题。
+2. Hermes Agent：宣称与用户共同成长的AI代理，长期稳居榜单的实力派。
+3. Call Code：Rails构建的极速仓库，自称史上最快破10万星，基于Oh My Codex的速度王者。
+4. Graphy：将代码文档转为可查询知识图谱，适配主流AI编码助手的黑马工具。
+5. Everything Cloud Code：Cloud Code全方位优化系统，涵盖技能、记忆与安全。
+6. Super Powers：经验证的代理技能框架与开发方法论，实用性获广泛认可。
+7. Open Screen：开源无水印录屏工具，直击Screen Studio类产品痛点。
+8. Agent Skills：Dos Money维护的生产级AI编码技能库，工程化质量标杆。
+9. Caveman：极简表达技能，号称砍掉75% token消耗的效率利器。
+10. Agency Agents：指尖上的完整AI团队，从前端到运营专家各具特色。
+11. Oh My Codex：为Codex添加钩子与状态面板，大幅扩展能力边界。
+12. Cloud Hatu：可视化Cloud Code指南，含大量即用模板的新手福音。
+13. Story：开源可扩展AI代理，支持代码编写、编辑与测...
 ## Anthropic的"解耦架构"革命：AI大脑与执行工具物理分离  
 
 ① 架构颠覆  
