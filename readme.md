@@ -1,6 +1,14 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+
+## Rowboat是开源多Agent可视化IDE，支持零代码搭建智能体工作流。
+GitHub地址：https://github.com/rowboatlabs/rowboat
+
+（12.7k stars）
+
+
 ##  开源设计规范库：58套大厂UI系统一键赋能AI前端开发
 项目地址：https://github.com/VoltAgent/awesome-design-md
 ① 项目爆火
