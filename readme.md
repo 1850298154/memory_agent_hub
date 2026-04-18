@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+##  Paper2Slides
+GitHub地址是：https://github.com/HKUDS/Paper2Slides。支持PDF/Word一键生成学术海报，MIT开源协议。
+
 
 ## OctoGent是开源项目
 在GitHub搜索"octogent"就能找到官方仓库。目前主流平台显示项目地址为github.com/octogent/octogent，包含完整文档和部署指南，建议直接访问查看最新版本。
