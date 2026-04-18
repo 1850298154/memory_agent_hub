@@ -1,6 +1,10 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+
+## Awareness Memory，一个开源的AI长时记忆系统。
+它在权威测试中表现优异，能快速检索11.5万字的超长文本资料（Recall@5达95.6%），零LLM调用成本，普通笔记本14分钟即可完成全部测试。
 ## QuantDinger：开源AI量化交易系统的革命性落地
 
 ① 系统定位
