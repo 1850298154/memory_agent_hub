@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## everything-claude-code项目
+GitHub地址：github.com/affaan-m/everything-claude-code。它打包了Claude Code的全套实用配置，包含agent、技能指令和安全规则，帮开发者省token、提效率，刚开源就获12万星。
+
 
 ## 软件Claude.md
  项目地址：https://github.com/forrestchang/andrej-karpathy-skills
