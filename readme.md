@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## SparkNoteAI已在GitHub开源。
+项目地址：https://github.com/spark-ai-boy/SparkNoteAI
 ## 微信cli
 ①工具定位
 WeChat CLI是专为AI集成设计的命令行工具，实现安全访问本地微信数据。
