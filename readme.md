@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+##  QuantDinger是开源的本地优先AI量化交易平台，支持多市场接入和AI策略分析。
+项目GitHub地址：https://github.com/brokermr810/QuantDinger
+
 
 ## 项目越做越大，架构越来越复杂，想回头看看自己的代码反而一头雾水？
 
