@@ -2,7 +2,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
-
+## MiniMind是超轻量级开源语言模型项目
+仅需3元成本（单卡3090）2小时即可训练出25.8M参数模型，体积仅为GPT-3的1/7000。完整开源从tokenizer训练、数据清洗到预训练、监督微调、强化学习的全流程代码，支持个人GPU快速训练。GitHub地址：https://github.com/jingyaogong/minimind
 
 ## 开源金融情报平台，复刻AI投资大师，完全免费，自带CFA级别的分析能力、100多个数据接口等 
 
