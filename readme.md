@@ -1,6 +1,10 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## Zread的官方访问地址是https://zread.ai
+
+你可以通过这个网址直接使用该工具解析GitHub项目。
+
 
 ## OpenAI：如何系统评估skill，证明它没被改坏？
 原文标题：Testing Agent Skills Systematically with Evals
