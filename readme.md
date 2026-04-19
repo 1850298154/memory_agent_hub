@@ -2,6 +2,28 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 项目越做越大，架构越来越复杂，想回头看看自己的代码反而一头雾水？
+
+今天推荐一款神器：Oh-my-Mermaid。
+
+它能让 AI 自动扫描代码库，生成可视化的架构文档。
+
+输入一条指令，自动分析项目结构，生成 Mermaid 图表，还能交互式浏览。
+
+复杂逻辑节点会自动递归分析，拆解出嵌套子元素，生成清晰的目录树。
+
+已适配 Claude Code、Codex 等主流 AI 编程工具，一条命令自动配置，文档还能同步到云端分享给团队。
+
+用 AI 开发的项目越来越大，想回头看自己的代码库，架构是什么样的、数据怎么流转的，反而越来越模糊。
+
+如果你的项目已经大到自己都记不清架构了，用它扫一遍，比手动画图省事 100 倍。
+
+GitHub 开源免费。
+
+
+#AI #ClaudeCode #代码架构 #Mermaid #程序员 #编程工具 #GitHub #开发者工具 #效率提升 #架构图
+GitHub地址：https://github.com/mermaid-js/mermaid。这是视频中提到的开源代码架构可视化工具，能通过AI扫描自动生成Mermaid图表，帮你快速理清复杂项目结构。
+
 ## HTML-PPT AgentSkill是由Lewis开源的PPT制作工具
 地址是github.com/lewislulu/html-ppt-skill。只需执行`npx skills add`命令，AI即可掌握100+PPT技能，包含36个主题、20+物理特效、31种页面布局和14套完整模板，支持技术分享、路演、小红书图文等多种场景，真正实现"一句话需求→专业PPT"的自动化流程。
 
