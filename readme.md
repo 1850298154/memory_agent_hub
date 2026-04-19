@@ -1,6 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## Omni-SimpleMem是解决AI长效记忆问题的多模态框架
+，准确率提升411%。项目论文：arXiv:2604.01007，代码仓库：github.com/aiming-lab/SimpleMem
 
 ## MiniMind是超轻量级开源语言模型项目
 仅需3元成本（单卡3090）2小时即可训练出25.8M参数模型，体积仅为GPT-3的1/7000。完整开源从tokenizer训练、数据清洗到预训练、监督微调、强化学习的全流程代码，支持个人GPU快速训练。GitHub地址：https://github.com/jingyaogong/minimind
