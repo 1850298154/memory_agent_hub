@@ -1,7 +1,7 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-
+## 浏览器Harness的GitHub开源地址是：https://github.com/browser-use/browser-harness
 ## 项目名称：banana-slides
 （GitHub：Anionex/banana-slides）。主要功能：基于nano banana pro的原生AI PPT生成工具，支持语音指令生成/精准修改单页内容，可上传参考图片定制风格，一键导出标准pptx/pdf文件，16:9比例排版无需二次调整。
 
