@@ -1,7 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 真正的提示词炼金炉，大白话秒变专业指令 
 
+项目GitHub地址：https://github.com/linshenkx/prompt-optimizer
 ## 首个将99位加密KOL交易经验LLM蒸馏为可回测量化因子的开源项目 量化skill 
 
 
