@@ -2,6 +2,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+
+
+## 开源金融情报平台，复刻AI投资大师，完全免费，自带CFA级别的分析能力、100多个数据接口等 
+
+Fincept Terminal的开源地址是：https://github.com/Fincept-Corporation/FinceptTerminal
 ## SparkNoteAI已在GitHub开源。
 项目地址：https://github.com/spark-ai-boy/SparkNoteAI
 ## 微信cli
