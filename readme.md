@@ -1,6 +1,13 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## 首个将99位加密KOL交易经验LLM蒸馏为可回测量化因子的开源项目 量化skill 
+
+
+https://github.com/0xquqi/crypto-kol-quant
+
+
 ## Omni-SimpleMem是解决AI长效记忆问题的多模态框架
 ，准确率提升411%。项目论文：arXiv:2604.01007，代码仓库：github.com/aiming-lab/SimpleMem
 
