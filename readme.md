@@ -1,6 +1,12 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## OpenAI：如何系统评估skill，证明它没被改坏？
+原文标题：Testing Agent Skills Systematically with Evals
+原文链接：https://developers.openai.com/blog/eval-skills 
+
+
 ##  QuantDinger是开源的本地优先AI量化交易平台，支持多市场接入和AI策略分析。
 项目GitHub地址：https://github.com/brokermr810/QuantDinger
 
