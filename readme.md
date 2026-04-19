@@ -1,6 +1,10 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## HTML-PPT AgentSkill是由Lewis开源的PPT制作工具
+地址是github.com/lewislulu/html-ppt-skill。只需执行`npx skills add`命令，AI即可掌握100+PPT技能，包含36个主题、20+物理特效、31种页面布局和14套完整模板，支持技术分享、路演、小红书图文等多种场景，真正实现"一句话需求→专业PPT"的自动化流程。
+
 ## 浏览器Harness的GitHub开源地址是：https://github.com/browser-use/browser-harness
 ## 项目名称：banana-slides
 （GitHub：Anionex/banana-slides）。主要功能：基于nano banana pro的原生AI PPT生成工具，支持语音指令生成/精准修改单页内容，可上传参考图片定制风格，一键导出标准pptx/pdf文件，16:9比例排版无需二次调整。
