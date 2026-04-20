@@ -12,6 +12,21 @@ OpenMythos项目由Kye Gomez发布在GitHub
 项目地址：https://github.com/kyegomez/OpenMythos  
 这是Kye Gomez开源的Claude架构理论重构项目。
 
+
+Anthropic的Mythos是否真的用了这套架构，似乎已经不重要了。对循环Transformer的猜想已经吸引了来自学术界的大量目光。更多理论和实验验证正在路上。
+GitHub：
+
+
+https://github.com/kyegomez/OpenMythos#the-central-hypothesis
+
+参考链接：
+
+[1]https://x.com/KyeGomezB/status/2045660378844024994
+
+[2]https://arxiv.org/abs/2604.07822
+
+[3]https://arxiv.org/abs/2604.12946
+
 ## Zread的官方访问地址是https://zread.ai
 
 你可以通过这个网址直接使用该工具解析GitHub项目。
