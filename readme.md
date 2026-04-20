@@ -2,6 +2,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 专治乱写
+https://github.com/forrestchang/andrej-karpathy-skills 四条铁律专治AI乱写代码：事前思考避免假设、简洁至上压缩行数、精准改动不碰无关代码、目标驱动验证成功。
 
 ## 开源复刻Claude：770M参数比肩1.3B商业模型
 
