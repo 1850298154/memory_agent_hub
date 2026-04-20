@@ -1,6 +1,13 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+
+## 开源复刻Claude：770M参数比肩1.3B商业模型
+
+
+OpenMythos项目由Kye Gomez发布在GitHub
+
 ## Zread的官方访问地址是https://zread.ai
 
 你可以通过这个网址直接使用该工具解析GitHub项目。
