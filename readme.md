@@ -7,6 +7,8 @@
 
 
 OpenMythos项目由Kye Gomez发布在GitHub
+项目地址：https://github.com/kyegomez/OpenMythos  
+这是Kye Gomez开源的Claude架构理论重构项目。
 
 ## Zread的官方访问地址是https://zread.ai
 
