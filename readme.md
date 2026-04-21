@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 八个rl agent
+(1) search-r1 (2) agent-r1 (3) agents meet rl  (4)  agent-lightning (5) agentGym (6) ART (7) 500+ AI Agent Projects (8) awesom-agenticLLM-RL-Papers
+
 
 ## 专治乱写
 https://github.com/forrestchang/andrej-karpathy-skills 四条铁律专治AI乱写代码：事前思考避免假设、简洁至上压缩行数、精准改动不碰无关代码、目标驱动验证成功。
