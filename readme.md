@@ -2,6 +2,13 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 卡帕西LLM Wiki的最佳实现
+卡帕西的 LLM Wiki 这坑挖的真够深的，自己不给出实现，全靠社区用户自己手搓。看起来很美好，做起来一团糟。（我之前视频中做的skill也很初级）
+但是YC总裁Garry Tan (陈嘉里)，给出了满分答卷：GBrain。
+GitHub 仓库garrytan/gbrain，上线一周多目前10.1k Stars。
+
+#Karpathy #GBrain #LLMWiki #Obsidian #OpenClaw #HermesAgent #AgentSkill #AIAgent #AI #Obsidian教程
+来看看这个专为OpenClaw和Hermes Agent打造的重度工作流如何使用。
 ## M-FLOW架构
 可通过Docker一键部署：先执行'docker pull mflow/official'拉取镜像，再运行'docker run -p 8080:8080 mflow/official'启动服务。核心API包括/ingest数据录入和/search图路由检索，已完全开源可在GitHub获取详细文档。
 
