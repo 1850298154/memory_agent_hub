@@ -1,6 +1,15 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## M-FLOW架构
+可通过Docker一键部署：先执行'docker pull mflow/official'拉取镜像，再运行'docker run -p 8080:8080 mflow/official'启动服务。核心API包括/ingest数据录入和/search图路由检索，已完全开源可在GitHub获取详细文档。
+
+
+M-FLOW未公布单一"记忆成功率"指标，但在权威测试中表现突出：LoCoMo基准领先Mem0 36%，LongMemEval领先Graphiti 16%。这些数据直观反映了其在多跳推理和跨文档关联任务中的技术优势。
+
+
+M-FLOW开源地址：https://github.com/FlowElement-ai/m_flow
 ## 八个rl agent
 (1) search-r1 (2) agent-r1 (3) agents meet rl  (4)  agent-lightning (5) agentGym (6) ART (7) 500+ AI Agent Projects (8) awesom-agenticLLM-RL-Papers
 
