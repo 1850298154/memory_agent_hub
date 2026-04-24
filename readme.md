@@ -1,6 +1,12 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+
+## 向量数据库图搜索
+项目特点：用Milvus单向量库替代图数据库实现多跳推理，无需Neo4j；子图扩展代替图遍历，三大基准Recall@5达87.8%；仅需2次LLM调用，运维成本显著降低。适用场景：医疗金融等需多跳推理的任务、知识密集型企业应用、中小团队成本敏感型部署。源码地址：搜索"Vector Graph RAG"获取GitHub仓库，另有AutoCodeAgent 2.0和LazyGraphRAG可参考。
+
+
 ## 从头训练大模型
 https://github.com/allenai/OLMoE
 
