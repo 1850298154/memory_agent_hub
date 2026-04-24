@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 从头训练大模型
+https://github.com/allenai/OLMoE
+
 
 ## 卡帕西LLM Wiki的最佳实现
 卡帕西的 LLM Wiki 这坑挖的真够深的，自己不给出实现，全靠社区用户自己手搓。看起来很美好，做起来一团糟。（我之前视频中做的skill也很初级）
