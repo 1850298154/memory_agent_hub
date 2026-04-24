@@ -2,7 +2,24 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 主题：AI驱动的技术图表自动生成工具解析  
 
+①痛点突破  
+手动绘图效率低下，拖拽半小时仍布局混乱  
+
+②核心方案  
+自然语言描述直接生成生产级技术图表，支持SVG/PNG高清输出  
+
+③技术优势  
+内置AI架构知识库，7种专业风格适配14类图表，10天获3800+GitHub星标  
+
+1 查阅GitHub仓库安装fireworks-tech-graph（主地址：github.com/fireworks-tech/graph）  
+2 用Claude Code执行单行命令部署，中文描述即可生成架构图  
+3 重点关注Agent/RAG/Tool Call等场景的自动化绘图实践  
+
+告别图纸歪扭时代，一句话就是专业架构师。  
+
+工程师曾对着Excalidraw调半天线条，如今对着终端说"画个Multi-Agent协作图"，六边形节点自动排布——键盘敲下的不是代码，是十年经验沉淀的图形智慧。
 ## "缝合怪"模型社区称为Frankenmerge
 准确技术名称是Qwopus-GLM-18B-Merged，由两个Qwen3.5-9B变体（Opus蒸馏版和GLM-5.1蒸馏版）拼接而成。
 
