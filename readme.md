@@ -1,6 +1,11 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## Vibe Coding指南是GitHub上爆火的开源项目
+专治AI写代码"开头猛如虎，越写越抽象"的痛点。它不教写代码，而是教你"驯服AI"：从立项就给AI戴紧箍咒，用"胶水编程"心法（能抄不写，能连不造），搭配现成提示词库，帮你带好AI小弟，远离代码屎山。
+
+Vibe Coding指南项目解读链接是 zread.ai/tukuaiai/vibe-coding-cn
+
 ## coding PPT 
 https://github.com/zarazhangrui/frontend-slides
 ##  开源TuriX-CUA：
