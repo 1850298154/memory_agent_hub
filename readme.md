@@ -1,6 +1,11 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## Flipbook  是由三星前工程师Zain Shah团队开发的创新视觉浏览器
+能根据搜索词实时用像素生成动态插画（含文字），无需HTML或代码。用户点击画面任意区域即可深入探索，如搜索"巴黎"能查看景点详情并购票，搜索"清迈"会展示当地美食结构图。这种"无限魔法书"式的交互打破了传统APP固定界面模式，让AI根据需求实时生成个性化视觉体验。虽因算力限制尚处测试阶段，但已获多位科技领袖关注，预示着UI界面可能迎来根本性变革——未来或许只需一个AI助手，就能按需生成最适合的交互界面。 内容由AI生成  回复   
+
+
 ## OpenMythos是由Kye Gomez开发的开源项目
 基于公开资料逆向重建Claude Mythos架构。核心技术采用"循环深度Transformer"(RDT)，通过权重共享实现动态推理深度（最多16次循环），同一组参数反复运算替代传统堆叠层数，770M参数模型性能媲美1.3B标准模型。同时融合DeepSeek风格的MoE技术，专家路由与循环机制协同提升参数效率。源码库已在GitHub开源（github.com/kyegomez/OpenMythos），提供1B-100B多种配置。该项目验证了"推理深度"作为新扩展维度的可能性，为开源社区探索高效AI架构提供了重要实验平台。
 
