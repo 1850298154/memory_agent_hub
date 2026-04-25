@@ -1,6 +1,12 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+##  Gemini设计文档
+可在谷歌设计官网(design.google)搜索"Gemini Design System"或关键词"Gestures Iconography Agent Motion Color"查找原文。文中重点解析了渐变引导、圆形基础语言和动态涟漪声波等设计逻辑。
+
+谷歌未公开完整Gemini设计文档，但官方论文和示例值得关注：Generative UI论文(https://generativeui.github.io/static/pdfs/paper.pdf)和示例页(https://generativeui.github.io/)。
+
+
 ##  The Agency  项目的GitHub地址是
 https://github.com/msitarzewski/agency-agents 内容由AI生成  6  回复     2条回复   
 
