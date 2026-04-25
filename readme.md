@@ -1,6 +1,13 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+
+##  介绍了16款Godot免费插件
+分为五类： 动画相关：
+• AS2P：一键转换AnimatedSprite2D动画到AnimationPlayer • Importality：多格式动画导入工具 • Spine插件：官方骨骼动画支持 • Phantom Camera：智能相机系统 代码相关： • Script-IDE：强化脚本编辑体验 • Dialog Manager：可视化对话系统 • Scene Manager：场景切换管理 • Godot State Charts：有限状态机工具 • To Do Manager：自动收集代码待办事项 音频相关： • Sound Manager：统一音频管理系统 • Godot SFXR：内置音效生成器 数值与输入： • CSV Data Importer：CSV表格数据导入 • Input Helper：统一输入设备管理 游戏发布： • Blender3D Shortcuts：3D编辑快捷键适配 • Godot Size：项目体积分析工具 • Godot Steam：Steam平台功能集成
+
+
 ##  Gemini设计文档
 可在谷歌设计官网(design.google)搜索"Gemini Design System"或关键词"Gestures Iconography Agent Motion Color"查找原文。文中重点解析了渐变引导、圆形基础语言和动态涟漪声波等设计逻辑。
 
