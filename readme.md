@@ -8,7 +8,7 @@
 
 
 ##  The Agency  项目的GitHub地址是
-https://github.com/msitarzewski/agency-agents 内容由AI生成  6  回复     2条回复   
+https://github.com/msitarzewski/agency-agents 内容由AI生成  
 
 ## DataFlex是北大团队开发的大模型动态训练框架，能智能调度训练数据提升效率。
 GitHub地址：https://github.com/OpenDCAI/DataFlex。官方文档：https://opendcai.github.io/DataFlex-Doc/
@@ -124,7 +124,7 @@ GitHub 开源免费。
 
 
 #AI #ClaudeCode #代码架构 #Mermaid #程序员 #编程工具 #GitHub #开发者工具 #效率提升 #架构图
-GitHub地址：https://github.com/mermaid-js/mermaid。这是视频中提到的开源代码架构可视化工具，能通过AI扫描自动生成Mermaid图表，帮你快速理清复杂项目结构。
+GitHub地址：https://github.com/mermaid-js/mermaid。开源代码架构可视化工具，能通过AI扫描自动生成Mermaid图表，帮你快速理清复杂项目结构。
 
 ## HTML-PPT AgentSkill是由Lewis开源的PPT制作工具
 地址是github.com/lewislulu/html-ppt-skill。只需执行`npx skills add`命令，AI即可掌握100+PPT技能，包含36个主题、20+物理特效、31种页面布局和14套完整模板，支持技术分享、路演、小红书图文等多种场景，真正实现"一句话需求→专业PPT"的自动化流程。
