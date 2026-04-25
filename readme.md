@@ -2,6 +2,42 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+
+
+## OpenAI付费功能Chronicle遭00后团队48小时内开源反击
+
+官方地址是 yuanbao.tencent.com，网页、手机和微信小程序都能用。
+OpenChronicle开源项目地址：https://github.com/Einsia/OpenChronicle
+
+主题：OpenAI付费功能Chronicle遭00后团队48小时内开源反击
+
+① OpenAI举措
+OpenAI将Chronicle转为ChatGPT Pro专属付费功能，月费100美元，提供屏幕感知与上下文记忆能力
+
+② 开源反击
+00后团队Vida在48小时内开源OpenChronicle，实现同等功能并支持本地运行
+
+③ 技术优势
+OpenChronicle支持多模型兼容、数据本地可控、可跨Agent共享项目
+
+④ 功能对比
+展示Reference Grounding和Executable Preferences两大核心应用场景，显著提升AI实用性
+
+1. 理解Chronicle价值
+认识屏幕感知与持续记忆对AI工作流的重要性，考虑在需要上下文连贯性的场景应用
+
+2. 获取开源工具
+访问GitHub下载OpenChronicle，无需支付100美元月费即可获得类似功能
+
+3. 本地部署实践
+在个人设备上部署OpenChronicle，体验数据本地可控的AI辅助编程与日程管理
+
+4. 探索多模型集成
+尝试将不同AI模型接入OpenChronicle，发挥各模型优势解决复杂任务
+
+技术民主化正在改写规则
+
+OpenAI刚把Chronicle变成100美元月费的围墙花园，几个00后就用48小时搭起了开源脚手架。他们发布的OpenChronicle不仅复刻了屏幕感知与记忆能力，更让数...
 ## Flipbook  是由三星前工程师Zain Shah团队开发的创新视觉浏览器
 能根据搜索词实时用像素生成动态插画（含文字），无需HTML或代码。用户点击画面任意区域即可深入探索，如搜索"巴黎"能查看景点详情并购票，搜索"清迈"会展示当地美食结构图。这种"无限魔法书"式的交互打破了传统APP固定界面模式，让AI根据需求实时生成个性化视觉体验。虽因算力限制尚处测试阶段，但已获多位科技领袖关注，预示着UI界面可能迎来根本性变革——未来或许只需一个AI助手，就能按需生成最适合的交互界面。
 
