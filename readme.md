@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## OpenMythos是由Kye Gomez开发的开源项目
+基于公开资料逆向重建Claude Mythos架构。核心技术采用"循环深度Transformer"(RDT)，通过权重共享实现动态推理深度（最多16次循环），同一组参数反复运算替代传统堆叠层数，770M参数模型性能媲美1.3B标准模型。同时融合DeepSeek风格的MoE技术，专家路由与循环机制协同提升参数效率。源码库已在GitHub开源（github.com/kyegomez/OpenMythos），提供1B-100B多种配置。该项目验证了"推理深度"作为新扩展维度的可能性，为开源社区探索高效AI架构提供了重要实验平台。
+
 ## Vibe Coding指南是GitHub上爆火的开源项目
 专治AI写代码"开头猛如虎，越写越抽象"的痛点。它不教写代码，而是教你"驯服AI"：从立项就给AI戴紧箍咒，用"胶水编程"心法（能抄不写，能连不造），搭配现成提示词库，帮你带好AI小弟，远离代码屎山。
 
