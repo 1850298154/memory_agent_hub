@@ -1,6 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## coding PPT 
+https://github.com/zarazhangrui/frontend-slides
 ##  开源TuriX-CUA：
 视觉驱动的AI操作员突破应用壁垒实现全自动化 ① 技术原理 视觉识别驱动，无需API接口即可操作任意软件界面 ② 核心优势 突破微信等封闭应用限制，实现自动化交互 ③ 应用场景 自动过好友、批量消息处理、一键完成重复办公任务 ④ 开源生态 MIT许可，GitHub获2.5k stars，支持社区共建 1. 访问GitHub获取TuriX-CUA项目源码并部署环境 2. 针对常用办公软件定制基础自动化脚本 3. 从简单重复任务入手实践扩展应用场景 4. 参与社区交流获取最新优化方案 当AI成为你的数字分身，重复劳动不再是时间的牢笼 https://github.com/TurixAI/TuriX-CUA
 
