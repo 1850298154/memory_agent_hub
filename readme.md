@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+##  开源TuriX-CUA：
+视觉驱动的AI操作员突破应用壁垒实现全自动化 ① 技术原理 视觉识别驱动，无需API接口即可操作任意软件界面 ② 核心优势 突破微信等封闭应用限制，实现自动化交互 ③ 应用场景 自动过好友、批量消息处理、一键完成重复办公任务 ④ 开源生态 MIT许可，GitHub获2.5k stars，支持社区共建 1. 访问GitHub获取TuriX-CUA项目源码并部署环境 2. 针对常用办公软件定制基础自动化脚本 3. 从简单重复任务入手实践扩展应用场景 4. 参与社区交流获取最新优化方案 当AI成为你的数字分身，重复劳动不再是时间的牢笼 https://github.com/TurixAI/TuriX-CUA
+
 ## 主题：四条规则重塑AI编程革命：
 CLAUDE.md文件引爆GitHub热榜 ① 规则体系：四条精炼原则解决AI编码痛点，涵盖思考、简洁、精准和目标四个维度 ② 实效验证：应用后代码量平均缩减40%-70%，功能完整性保持不变 ③ 社会影响：三日狂揽4.4万星标，成为开发者争相采用的"行业标准" ④ 本质揭示：AI开发瓶颈不在模型本身，而在规则设计与工作流优化 1. 下载CLAUDE.md文件：curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md 2. 将文件置于项目根目录，或通过Claude Code插件安装 3. 在编码任务开始前，明确向AI阐明四条规则要求 4. 实践"先提问再编码"习惯，避免AI盲目执行 5. 定期评估代码产出，对比规则应用前后的质量差异 当AI学会先思考再编码，人类才能真正解放创造力。 三日前，一个看似普通的Markdown文件悄然登上GitHub热榜榜首。没有炫酷界面，没有复杂算法，仅仅四条朴素规则——Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution。
 
