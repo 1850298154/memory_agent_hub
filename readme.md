@@ -1,7 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-
+## 主题：四条规则重塑AI编程革命：
+CLAUDE.md文件引爆GitHub热榜 ① 规则体系：四条精炼原则解决AI编码痛点，涵盖思考、简洁、精准和目标四个维度 ② 实效验证：应用后代码量平均缩减40%-70%，功能完整性保持不变 ③ 社会影响：三日狂揽4.4万星标，成为开发者争相采用的"行业标准" ④ 本质揭示：AI开发瓶颈不在模型本身，而在规则设计与工作流优化 1. 下载CLAUDE.md文件：curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md 2. 将文件置于项目根目录，或通过Claude Code插件安装 3. 在编码任务开始前，明确向AI阐明四条规则要求 4. 实践"先提问再编码"习惯，避免AI盲目执行 5. 定期评估代码产出，对比规则应用前后的质量差异 当AI学会先思考再编码，人类才能真正解放创造力。 三日前，一个看似普通的Markdown文件悄然登上GitHub热榜榜首。没有炫酷界面，没有复杂算法，仅仅四条朴素规则——Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution。
 
 ##  介绍了16款Godot免费插件
 分为五类： 动画相关：
