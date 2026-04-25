@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## DataFlex是北大团队开发的大模型动态训练框架，能智能调度训练数据提升效率。
+GitHub地址：https://github.com/OpenDCAI/DataFlex。官方文档：https://opendcai.github.io/DataFlex-Doc/
+
 ## Prompt Optimizer项目地址
 
 ：https://github.com/linshenk/prompt-optimizer
