@@ -1,6 +1,32 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+## 学习nanoGPT就挺好的
+如果自己训练的话，比不过大厂，只能走生态位分化，自己写训练脚本，根据nanoGPT按照需求慢慢改。毕竟我也不知道子是做什么的，我前年也是拿nanogpt练手，后来根据需求就自己写脚本了。
+
+
+## 彻底告别 AI Agent 生产幻觉，全自动自我优化
+项目地址是 https://github.com/future-agi/future-agi。这是一个开源AGI平台，可自动追踪评估AI Agent，解决生产环境中的幻觉问题，兼容50+主流框架。
+
+
+这个开源AGI平台的使用步骤很清晰：
+1. 克隆仓库：git clone https://github.com/future-agi/future-agi
+2. 配置环境：cd future-agi && cp futureagi/.env.example futureagi/.env
+3. 启动服务：docker compose up -d
+完成后就能通过界面接入你的AI代理，自动完成追踪评测和优化工作，有效解决生产环境中的幻觉问题。具体配置可参考项目文档。
+
+
+1. 核心问题
+Future AGI开源平台专治AI代理生产幻觉，实现全自动追踪优化。
+
+2. 功能亮点
+兼容50+主流框架，集成海量评估指标，支持私有化部署，形成开发-监控-优化闭环。
+
+3. 实际价值
+企业可大幅降低AI系统出错率，开发者能快速验证模型稳定性，避免"线上翻车"。
+
+普通人可这样做：
+关注自家常用APP是否采用类似技术，对关键信息保持交叉验证习惯。技术爱好者不妨试水部署，体验AI质量监控全过程——毕竟明天你家的智能客服可能就靠这套系统保驾护航。
 
 ## ## 可视化算法
 
