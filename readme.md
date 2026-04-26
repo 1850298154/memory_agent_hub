@@ -1,6 +1,8 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## Agent Skills是由Google工程师addyosmani开源的工程技能库，
+将20项资深工程师工作流封装成AI可执行技能，覆盖define→plan→build→verify→review→ship全流程。GitHub地址：https://github.com/addyosmani/agent-skills
 
 ## 70行CLAUDE.md重构AI编程范式：Karpathy四大铁则终结盲目开发
 
