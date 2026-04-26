@@ -2,6 +2,29 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 彻底告别 AI Agent 生产幻觉，全自动自我优化
+项目地址是 https://github.com/future-agi/future-agi。这是一个开源AGI平台，可自动追踪评估AI Agent，解决生产环境中的幻觉问题，兼容50+主流框架。
+
+
+这个开源AGI平台的使用步骤很清晰：
+1. 克隆仓库：git clone https://github.com/future-agi/future-agi
+2. 配置环境：cd future-agi && cp futureagi/.env.example futureagi/.env
+3. 启动服务：docker compose up -d
+完成后就能通过界面接入你的AI代理，自动完成追踪评测和优化工作，有效解决生产环境中的幻觉问题。具体配置可参考项目文档。
+
+
+1. 核心问题
+Future AGI开源平台专治AI代理生产幻觉，实现全自动追踪优化。
+
+2. 功能亮点
+兼容50+主流框架，集成海量评估指标，支持私有化部署，形成开发-监控-优化闭环。
+
+3. 实际价值
+企业可大幅降低AI系统出错率，开发者能快速验证模型稳定性，避免"线上翻车"。
+
+普通人可这样做：
+关注自家常用APP是否采用类似技术，对关键信息保持交叉验证习惯。技术爱好者不妨试水部署，体验AI质量监控全过程——毕竟明天你家的智能客服可能就靠这套系统保驾护航。
+
 ## Claude-Obsidian是100%开源项目
 能将Obsidian转化为自动归档、交叉引用的自我维护笔记系统。核心功能包括自动梳理实体概念、标注知识矛盾、精准引用原文，并支持跨项目统一调用。视频中显示的GitHub地址为EliaAlberti/cpr-compress-preserve-resume，建议前往GitHub确认最新信息。
 ## Agent Skills是由Google工程师addyosmani开源的工程技能库，
