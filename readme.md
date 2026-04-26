@@ -2,7 +2,31 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
 
+## 70行CLAUDE.md重构AI编程范式：Karpathy四大铁则终结盲目开发
 
+① 思维透明化  
+拒绝隐藏困惑，强制AI呈现多种可能性与权衡，杜绝擅自假设  
+
+② 代码极简化  
+坚守"最少必要代码"原则，破解AI堆砌复杂抽象的惯性  
+
+③ 修改精准化  
+限定仅触达必要代码区域，严守"不碰无关部分"边界  
+
+④ 目标可验证化  
+定义量化成功标准，建立循环验证机制确保结果可控  
+
+1  将CLAUDE.md导入开发环境作为AI编码必读准则  
+2  任务交付前用"成功标准清单"明确问题边界  
+3  审查AI输出时重点核查是否违反精准修改原则  
+4  为每个需求设置可通过自动化测试的验收指标  
+5  试用Multica平台管理AI编码智能体协作流程  
+
+让AI在清晰边界内发挥最大价值，精准编码的本质是克制的艺术  
+GitHub搜索"CLAUDE.md"获取原文件，关注Multica项目进展 https://x.com/jiayua
+
+
+github 🔍 /forrestchang/andrej-karpathy-skills
 
 ## OpenAI付费功能Chronicle遭00后团队48小时内开源反击
 
