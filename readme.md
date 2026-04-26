@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+
+## Claude-Obsidian是100%开源项目
+能将Obsidian转化为自动归档、交叉引用的自我维护笔记系统。核心功能包括自动梳理实体概念、标注知识矛盾、精准引用原文，并支持跨项目统一调用。视频中显示的GitHub地址为EliaAlberti/cpr-compress-preserve-resume，建议前往GitHub确认最新信息。
 ## Agent Skills是由Google工程师addyosmani开源的工程技能库，
 将20项资深工程师工作流封装成AI可执行技能，覆盖define→plan→build→verify→review→ship全流程。GitHub地址：https://github.com/addyosmani/agent-skills
 
