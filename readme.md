@@ -1,251 +1,770 @@
 
-# 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合
+# 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
-- [1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合](#1-2026-swarm-agent-年swarm-agent-agent-team-ai-codingskillmemoryevolveagentic-rl-等-ai-agent集合)
-  - [1.1. 大神用Claude Code打造含48个AI智能体的游戏工作室，1:1还原总监、策划、开发、测试全流程](#11-大神用claude-code打造含48个ai智能体的游戏工作室11还原总监策划开发测试全流程)
-  - [1.2. Arnis主要依靠公开地图数据](#12-arnis主要依靠公开地图数据)
-  - [1.3. 列出的10个OpenClaw新手必装技能：](#13-列出的10个openclaw新手必装技能)
-  - [1.4. MIT 博士用GPT手搓游戏素材，一致性满分？](#14-mit-博士用gpt手搓游戏素材一致性满分)
-  - [1.5. 五款AI技能](#15-五款ai技能)
-  - [1.6. Claude 团队，记忆，产品](#16-claude-团队记忆产品)
-  - [1.7. claude-hud插件，解决AI编程"黑箱"问题，实时显示上下文用量、工具调用及任务进度](#17-claude-hud插件解决ai编程黑箱问题实时显示上下文用量工具调用及任务进度)
-  - [1.8. PageAgent 阿里开源的神器，让AI住进你的网页。](#18-pageagent-阿里开源的神器让ai住进你的网页)
-  - [1.9. Axe框架](#19-axe框架)
-  - [1.10. "Agent Reach"技能让Claude Code等AI助理摆脱"断网失明"](#110-agent-reach技能让claude-code等ai助理摆脱断网失明)
-  - [1.11. gstack将Claude Code升级为12个专业角色，让AI编程从单打独斗变为团队协作。](#111-gstack将claude-code升级为12个专业角色让ai编程从单打独斗变为团队协作)
-  - [1.12. MinerU是开源文档解析工具](#112-mineru是开源文档解析工具)
-  - [1.13. opencli是开源命令行工具，能将网站转为CLI接口，原生支持B站/小红书/知乎等28个平台。](#113-opencli是开源命令行工具能将网站转为cli接口原生支持b站小红书知乎等28个平台)
-  - [1.14. GitHub上的开源项目public-apis，已获40万+星标](#114-github上的开源项目public-apis已获40万星标)
-  - [1.15. coder 解析](#115-coder-解析)
-  - [1.16. Obsidian一键提取网页Skill](#116-obsidian一键提取网页skill)
-  - [1.17. Folo是一个开源信息聚合平台](#117-folo是一个开源信息聚合平台)
-  - [1.18. Kosmos是AI科学家系](#118-kosmos是ai科学家系)
-  - [1.19. Superpowers是GitHub上获9万星的开源项目，它给AI编程装上了完整的软件工程流程。](#119-superpowers是github上获9万星的开源项目它给ai编程装上了完整的软件工程流程)
-  - [1.20. 一人ai公司MetaGPT](#120-一人ai公司metagpt)
-  - [1.21. 系统提示词解密](#121-系统提示词解密)
-  - [1.22. Sirchmunk，不做 Embedding，不建向量库](#122-sirchmunk不做-embedding不建向量库)
-  - [1.23. Excalidraw项目 excalidraw-diagram](#123-excalidraw项目-excalidraw-diagram)
-  - [1.24. Claude 手册](#124-claude-手册)
-  - [1.25. ai各种项目](#125-ai各种项目)
-  - [1.26. 港大开源的CLI-Anything项目](#126-港大开源的cli-anything项目)
-  - [1.27. ai 员工](#127-ai-员工)
-  - [1.28. PUA](#128-pua)
-  - [1.29. 蒸馏](#129-蒸馏)
-  - [1.30. 蒸馏agent code](#130-蒸馏agent-code)
-  - [1.31. 学废大模型蒸馏术：一步一步训练DeepSeek R1](#131-学废大模型蒸馏术一步一步训练deepseek-r1)
-  - [1.32. 《基于知识蒸留和强化学习的自然语言转SQL》](#132-基于知识蒸留和强化学习的自然语言转sql)
-  - [1.33. memskill](#133-memskill)
-  - [1.34. GitNexus是零服务器代码智能引擎，能在浏览器中自动生成可交互的代码知识图谱，支持直接提问了解项目架构，代码仅在本地解析无上传风险。GitHub地址：https://github.com/abhigyanpatwari/GitNexus](#134-gitnexus是零服务器代码智能引擎能在浏览器中自动生成可交互的代码知识图谱支持直接提问了解项目架构代码仅在本地解析无上传风险github地址httpsgithubcomabhigyanpatwarigitnexus)
-  - [1.35. Cloudflare的Browser Rendering API](#135-cloudflare的browser-rendering-api)
-  - [1.36. CodeStyle（码蜂）](#136-codestyle码蜂)
-  - [1.37. Clawith是OpenClaw团队版开源项目](#137-clawith是openclaw团队版开源项目)
-  - [1.38. WorldMonitor](#138-worldmonitor)
-  - [1.39. 最近开源了一个给龙虾玩的AI游戏，叫openword。](#139-最近开源了一个给龙虾玩的ai游戏叫openword)
-  - [1.40. GitNexus](#140-gitnexus)
-  - [1.41. 仅用600多行代码全自动训练大模型](#141-仅用600多行代码全自动训练大模型)
-  - [1.42. 500+agent](#142-500agent)
-  - [1.43. Agent基础能力skill：](#143-agent基础能力skill)
-  - [1.44. 实现评论区自动回复 + 后台消息自动回复，加上加粉引导 + 话术 + 防封策略都是全自动化的](#144-实现评论区自动回复--后台消息自动回复加上加粉引导--话术--防封策略都是全自动化的)
-  - [1.45. 6个Claude Code必备MCP插件](#145-6个claude-code必备mcp插件)
-  - [1.46. AI创作者平台是自托管工具](#146-ai创作者平台是自托管工具)
-  - [1.47. Obsidian Canvas Skill集成到Gemini CLI。](#147-obsidian-canvas-skill集成到gemini-cli)
-  - [1.48. 微软Agent-Lightning是开源强化学习框架，三大亮点：](#148-微软agent-lightning是开源强化学习框架三大亮点)
-  - [1.49. 项目GitHub地址：https://github.com/deanpeters/product-manager-skills](#149-项目github地址httpsgithubcomdeanpetersproduct-manager-skills)
-  - [1.50. skills.lc技能仓库 什么都有](#150-skillslc技能仓库-什么都有)
-  - [1.51. 学术论文ai](#151-学术论文ai)
-  - [1.52. 成为行业最强的AI影视工具](#152-成为行业最强的ai影视工具)
-  - [1.53. Gemini Voyager](#153-gemini-voyager)
-  - [1.54. worldmonitor](#154-worldmonitor)
-  - [1.55. Hugging Face 官方正式推出 Skills 技能库——](#155-hugging-face-官方正式推出-skills-技能库)
-  - [1.56. 如何高效vibe coding](#156-如何高效vibe-coding)
-  - [1.57. git-city项目](#157-git-city项目)
-  - [1.58. 试试这个 跨更多cli ](#158-试试这个跨更多cli)
-  - [1.59. gemini\_cli\_skill](#159-gemini_cli_skill)
-  - [1.60. bounty-hunter-skill 直接让 openclaw 变成了全自动打工人。](#160-bounty-hunter-skill-直接让-openclaw-变成了全自动打工人)
-  - [1.61. Claude code➕figma协作，可见即所得的协作模式。](#161-claude-codefigma协作可见即所得的协作模式)
-  - [1.62. GitNexus 开源代码可视化工具](#162-gitnexus-开源代码可视化工具)
-  - [1.63. agent reach](#163-agent-reach)
-  - [1.64. anthropics / knowledge-work-plugins](#164-anthropics--knowledge-work-plugins)
-  - [1.65. 免费开源的“全球战情室”来了：AI驱动的实时情报仪表盘，人人都能用](#165-免费开源的全球战情室来了ai驱动的实时情报仪表盘人人都能用)
-  - [1.66. GitHub热榜第一的开源项目Next AI Drawio](#166-github热榜第一的开源项目next-ai-drawio)
-  - [1.67. VS Code的"Pixel Agents"插件，能将Claude Code的AI代理以像素小人形式可视化。](#167-vs-code的pixel-agents插件能将claude-code的ai代理以像素小人形式可视化)
-  - [1.68. FastCode](#168-fastcode)
-  - [1.69. Claude Code 工具](#169-claude-code-工具)
-  - [1.70. superclaude](#170-superclaude)
-  - [1.71. analyst claude code 逆向](#171-analyst-claude-code-逆向)
-  - [1.72. Fabric](#172-fabric)
-  - [1.73. NotebookLM Skill让你直接拥有满级知识库！](#173-notebooklm-skill让你直接拥有满级知识库)
-  - [1.74. Automaton 能让AI通过预设程序管理加密货币钱包并接收任务报酬](#174-automaton-能让ai通过预设程序管理加密货币钱包并接收任务报酬)
-  - [1.75. LEAN是QuantConnect开源的量化交易引擎](#175-lean是quantconnect开源的量化交易引擎)
-  - [1.76. 港大开源Nanobot](#176-港大开源nanobot)
-  - [1.77. OpenClaw-China](#177-openclaw-china)
-  - [1.78. "骡子跑"（MuleRun）平台](#178-骡子跑mulerun平台)
-  - [1.79. 上传任意ai像素画都可以直接导出真像素图](#179-上传任意ai像素画都可以直接导出真像素图)
-  - [1.80. 马斯克掀桌！X算法全开源：6小时1.6k星，社交黑箱时代终结](#180-马斯克掀桌x算法全开源6小时16k星社交黑箱时代终结)
-  - [1.81. Obsidian-skills](#181-obsidian-skills)
-  - [1.82. 龙虾一键](#182-龙虾一键)
-  - [1.83. skill 精](#183-skill-精)
-  - [1.84. linshenkx/prompt-optimizer](#184-linshenkxprompt-optimizer)
-  - [1.85. Happy App](#185-happy-app)
-  - [1.86. 🦞龙虾](#186-龙虾)
-  - [1.87. 把这指令给他！让龙虾变身贾维斯！#OpenClaw#Sora2#clawdbot#AI#Moltbot](#187-把这指令给他让龙虾变身贾维斯openclawsora2clawdbotaimoltbot)
-  - [1.88. SkillsMP](#188-skillsmp)
-  - [1.89. claude code 监控](#189-claude-code-监控)
-  - [1.90. GitHub上的spec-kit项目](#190-github上的spec-kit项目)
-  - [1.91. Anthropic的《长时间运行智能体的有效调度编排框架》一文，AI据此自主构建了这套开发系统。](#191-anthropic的长时间运行智能体的有效调度编排框架一文ai据此自主构建了这套开发系统)
-  - [1.92. trustmrr.com/special-categories/openclaw](#192-trustmrrcomspecial-categoriesopenclaw)
-  - [1.93. 可信引用，谷歌LangExtract已开源](#193-可信引用谷歌langextract已开源)
-  - [1.94. Claude写c编译器的团队烧掉2万美金做Agent Teams实验后的4条硬核经验。](#194-claude写c编译器的团队烧掉2万美金做agent-teams实验后的4条硬核经验)
-  - [1.95. MoneyClaw 金融炒股](#195-moneyclaw-金融炒股)
-  - [1.96. everything-claude-code 包括agents、skills、hooks、commands、rules等](#196-everything-claude-code-包括agentsskillshookscommandsrules等)
-  - [1.97. BMAD-METHOD 一键配置21个AI角色组成开发团队](#197-bmad-method-一键配置21个ai角色组成开发团队)
-  - [1.98. Humanizer-zh  专治AI写作"套路感"](#198-humanizer-zh--专治ai写作套路感)
-  - [1.99. 开源PPT工具](#199-开源ppt工具)
-  - [1.100. Anthropic   开源](#1100-anthropic---开源)
-  - [1.101. Crawlee项目](#1101-crawlee项目)
-  - [1.102. 新闻热点聚合](#1102-新闻热点聚合)
-  - [1.103. situation-monitor](#1103-situation-monitor)
-  - [1.104. 开源项目"planning-with-files"](#1104-开源项目planning-with-files)
-  - [1.105. MediaCrawler](#1105-mediacrawler)
-  - [1.106. PromptX 史诗级加强变成新的项目叫RoleX](#1106-promptx-史诗级加强变成新的项目叫rolex)
-  - [1.107. joyagent 一个全能ai助手](#1107-joyagent-一个全能ai助手)
-  - [1.108. Claude-Mem开源项目](#1108-claude-mem开源项目)
-  - [1.109. 豆包gui agent](#1109-豆包gui-agent)
-  - [1.110. github官方mcp](#1110-github官方mcp)
-  - [1.111. all mcp list](#1111-all-mcp-list)
-  - [1.112. devin mcp 生态链接](#1112-devin-mcp-生态链接)
-  - [1.113. pip install mcp](#1113-pip-install-mcp)
-  - [1.114. “Thinking Claude”，作者 Richards Tu（涂津豪）。](#1114-thinking-claude作者-richards-tu涂津豪)
-  - [1.115. The Startup Graveyard](#1115-the-startup-graveyard)
-  - [1.116. Clawbot skill 700+](#1116-clawbot-skill-700)
-  - [1.117. OpenViking：面向 Agent 的上下文数据库](#1117-openviking面向-agent-的上下文数据库)
-  - [1.118. ms agent  with skill](#1118-ms-agent--with-skill)
-  - [1.119. open devin](#1119-open-devin)
-  - [1.120. coding skill 集合](#1120-coding-skill-集合)
-  - [1.121. skill.empjs.dev](#1121-skillempjsdev)
-  - [1.122. skill沙盘集合](#1122-skill沙盘集合)
-  - [1.123. ralv.ai  /  RVA.ai。](#1123-ralvai----rvaai)
-  - [1.124. agentic 训练](#1124-agentic-训练)
-  - [1.125. Manus context summary](#1125-manus-context-summary)
-  - [1.126. agent memory paper github collection](#1126-agent-memory-paper-github-collection)
-  - [1.127. agent skill](#1127-agent-skill)
-  - [1.128. 25年最后总结-大模型手把手及相关开源社区](#1128-25年最后总结-大模型手把手及相关开源社区)
-  - [1.129. Manus是一款在人工智能领域具有突破性意义的通用AI智能体产品，其“厉害”之处主要体现在以下几个方面：](#1129-manus是一款在人工智能领域具有突破性意义的通用ai智能体产品其厉害之处主要体现在以下几个方面)
-  - [1.130. DeepAnalyze：自主数据科学中的代理大型语言模型](#1130-deepanalyze自主数据科学中的代理大型语言模型)
-  - [1.131. LLM在游戏中应用的综述 https://arxiv.org/pdf/2402.18659](#1131-llm在游戏中应用的综述-httpsarxivorgpdf240218659)
-  - [1.132. “AgentGuide” from adongwanai](#1132-agentguide-from-adongwanai)
-  - [1.133. 智能体记忆的综述论文《Memory in the Age of AI Agents: A Survey》](#1133-智能体记忆的综述论文memory-in-the-age-of-ai-agents-a-survey)
-  - [1.134. 2025年11月13截止之前的memory 方案汇总对比](#1134-2025年11月13截止之前的memory-方案汇总对比)
-  - [1.135. obsidian 做个人 memory](#1135-obsidian-做个人-memory)
-      - [1.135.0.1. 支持哪些特殊语法？](#113501-支持哪些特殊语法)
-      - [1.135.0.2. 如何形成知识图谱？](#113502-如何形成知识图谱)
-      - [1.135.0.3. 具体例子说明](#113503-具体例子说明)
-  - [1.136. 读论文+github 神器 deepwiki](#1136-读论文github-神器-deepwiki)
-  - [1.137. verl](#1137-verl)
-  - [1.138. pageindex](#1138-pageindex)
-  - [1.139. PostgreSQL == 多合一数据库：用插件替代专用数据库](#1139-postgresql--多合一数据库用插件替代专用数据库)
-    - [1.139.1. 官网](#11391-官网)
-    - [1.139.2. 完整对应清单](#11392-完整对应清单)
-    - [1.139.3. 关键插件详解（生产级选型）](#11393-关键插件详解生产级选型)
-      - [1.139.3.1. 替代 InfluxDB（时序数据库）](#113931-替代-influxdb时序数据库)
-      - [1.139.3.2. 替代 Milvus（向量数据库）](#113932-替代-milvus向量数据库)
-      - [1.139.3.3. 替代 Neo4j（图数据库）+ pgRouting（地理路由）](#113933-替代-neo4j图数据库-pgrouting地理路由)
-      - [1.139.3.4. 替代 Redis（缓存/高性能读写）](#113934-替代-redis缓存高性能读写)
-      - [1.139.3.5. 替代 Elasticsearch（全文检索/搜索引擎）](#113935-替代-elasticsearch全文检索搜索引擎)
-      - [1.139.3.6. 替代 MongoDB（文档数据库）](#113936-替代-mongodb文档数据库)
-    - [1.139.4. 补充说明](#11394-补充说明)
-  - [1.140. agent memory方向主要有2个：](#1140-agent-memory方向主要有2个)
-  - [1.141. 长记忆开源方案update](#1141-长记忆开源方案update)
-  - [1.142. Improving Language Agents through BREW](#1142-improving-language-agents-through-brew)
-  - [1.143. llm各种框架和论文，4000+⭐](#1143-llm各种框架和论文4000)
-  - [1.144. agent evolver](#1144-agent-evolver)
-  - [1.145. 微软 agent](#1145-微软-agent)
-  - [1.146. 谷歌新研究定义"充分上下文"：](#1146-谷歌新研究定义充分上下文)
-  - [1.147. EverMemOS](#1147-evermemos)
-  - [1.148. MCP 生态链接](#1148-mcp-生态链接)
-  - [1.149. 之后是2025年11月13之前汇总](#1149-之后是2025年11月13之前汇总)
-  - [1.150. 综述](#1150-综述)
-  - [1.151. context-labs / aella-data-explorer 1亿篇论文组成知识图谱KG](#1151-context-labs--aella-data-explorer-1亿篇论文组成知识图谱kg)
-  - [1.152. multi ai agent game](#1152-multi-ai-agent-game)
-  - [1.153. langchain 中间件](#1153-langchain-中间件)
-  - [1.154. todolist middleware](#1154-todolist-middleware)
-  - [1.155. 舆情分析](#1155-舆情分析)
-  - [1.156. LightMem：像人脑一样高效的记忆系统](#1156-lightmem像人脑一样高效的记忆系统)
-  - [1.157. llm训练](#1157-llm训练)
-  - [1.158. Prop RAG](#1158-prop-rag)
-  - [1.159. 基于多模态信息抽取的菜品知识图谱构建](#1159-基于多模态信息抽取的菜品知识图谱构建)
-  - [1.160. ragflow 已经支持 知识图谱](#1160-ragflow-已经支持-知识图谱)
-  - [1.161. flashrag](#1161-flashrag)
-  - [1.162. LightRAG](#1162-lightrag)
-  - [1.163. llm agent 综述](#1163-llm-agent-综述)
-  - [1.164. 谷歌 vs 微软 deepresearch](#1164-谷歌-vs-微软-deepresearch)
-  - [1.165. Reasoning with Sampling: Your Base Model is Smarter Than You Think](#1165-reasoning-with-sampling-your-base-model-is-smarter-than-you-think)
-  - [1.166. Agentic RAG新范式！天大\&小红书提出DecEx-RAG，剪枝搜索扩展提速6倍](#1166-agentic-rag新范式天大小红书提出decex-rag剪枝搜索扩展提速6倍)
-  - [1.167. 日报神器，记录你的一天 Dayflow](#1167-日报神器记录你的一天-dayflow)
-  - [1.168. 可信AI Agent相关论文(DPO)](#1168-可信ai-agent相关论文dpo)
-  - [1.169. Graph-Base Agent基于任务图的Agent框架](#1169-graph-base-agent基于任务图的agent框架)
-  - [1.170. A-Mem: Agentic Memory for LLM Agents](#1170-a-mem-agentic-memory-for-llm-agents)
-  - [1.171. logic rag](#1171-logic-rag)
-  - [1.172. LightMem](#1172-lightmem)
-  - [1.173. langchain graphrag](#1173-langchain-graphrag)
-  - [1.174. G-memory, Arcmemo, reasoning bank](#1174-g-memory-arcmemo-reasoning-bank)
-  - [1.175. embedding model 天梯](#1175-embedding-model-天梯)
-  - [1.176. MonkeyOCR](#1176-monkeyocr)
-  - [1.177. GitHub代码检索](#1177-github代码检索)
-  - [1.178. 视频转文字](#1178-视频转文字)
-  - [1.179. 音视频2文本](#1179-音视频2文本)
-  - [1.180. 爬虫数据采集圣器](#1180-爬虫数据采集圣器)
-  - [1.181. ai伴侣](#1181-ai伴侣)
-  - [1.182. metaGPT](#1182-metagpt)
-  - [1.183. unsloth](#1183-unsloth)
-  - [1.184. ai 知识库](#1184-ai-知识库)
-  - [1.185. 高质量rag](#1185-高质量rag)
-  - [1.186. ai混合搜索 meili](#1186-ai混合搜索-meili)
-  - [1.187. mem 推移学习，自我改进](#1187-mem-推移学习自我改进)
-  - [1.188. 腾讯 tree graphrag （2025年9月）](#1188-腾讯-tree-graphrag-2025年9月)
-  - [1.189. Graphiti vs GraphRAG 对比](#1189-graphiti-vs-graphrag-对比)
-  - [1.190. 自己用milvus+neo4j实现graphrag](#1190-自己用milvusneo4j实现graphrag)
-  - [1.191. 微软 graphRAG](#1191-微软-graphrag)
-  - [1.192. awesome-ai-memory 汇聚memory相关项目](#1192-awesome-ai-memory-汇聚memory相关项目)
-  - [1.193. es agent](#1193-es-agent)
-  - [1.194. MINE Context](#1194-mine-context)
-  - [1.195. 拼好rag](#1195-拼好rag)
-  - [1.196. mem0 2025年9月27日持续更新github](#1196-mem0-2025年9月27日持续更新github)
-  - [1.197. 蚂蚁 KAG](#1197-蚂蚁-kag)
-  - [1.198. 如何基于语义相似性分割文本](#1198-如何基于语义相似性分割文本)
-  - [1.199. 各种向量数据库对比](#1199-各种向量数据库对比)
-  - [1.200. 基于hnswlib的向量索引(2年前更新)](#1200-基于hnswlib的向量索引2年前更新)
-  - [1.201. stream vq 生成式召回](#1201-stream-vq-生成式召回)
-  - [1.202. ai学术搜索](#1202-ai学术搜索)
-  - [1.203. nlp etc.](#1203-nlp-etc)
-  - [1.204. 知识图谱 - 北京大学大数据分析与应用技术国家工程实验室成员，  包括各种知识图谱抽取+检索，neo4j+MongoDB等](#1204-知识图谱---北京大学大数据分析与应用技术国家工程实验室成员--包括各种知识图谱抽取检索neo4jmongodb等)
-  - [1.205. 唐国梁Tommy : rag + llm + es](#1205-唐国梁tommy--rag--llm--es)
-  - [1.206. 长文本提取结构化信息](#1206-长文本提取结构化信息)
-  - [1.207. 非结构化转结构化，用于微调等](#1207-非结构化转结构化用于微调等)
-  - [1.208. MongoDB + ES 向量存储 + 文本分割器SpacyTextSplitter （24年6月11日）](#1208-mongodb--es-向量存储--文本分割器spacytextsplitter-24年6月11日)
-  - [1.209. ai coding](#1209-ai-coding)
-- [2. ai agent 架构、新闻DIY、产品汇总](#2-ai-agent-架构新闻diy产品汇总)
-  - [2.1. ai agent 架构](#21-ai-agent-架构)
-    - [2.1.1. roma 等（字节aime，分析计划树agent）](#211-roma-等字节aime分析计划树agent)
-    - [2.1.2. 数分+营销](#212-数分营销)
-  - [2.2. 其他人 ai hub](#22-其他人-ai-hub)
-  - [2.3. 令人启发的产品](#23-令人启发的产品)
-    - [2.3.1. 用知识卡片，轻松建立知识体系](#231-用知识卡片轻松建立知识体系)
-    - [2.3.2. 教育](#232-教育)
-    - [2.3.3. 学术](#233-学术)
-  - [2.4. ai agent 新闻频道](#24-ai-agent-新闻频道)
-    - [2.4.1. aihub (外国日报)](#241-aihub-外国日报)
-    - [2.4.2. ai 技术新闻（英国）](#242-ai-技术新闻英国)
-    - [2.4.3. github ai  (外国日报论坛)](#243-github-ai--外国日报论坛)
-    - [2.4.4. ai tool navigation (中国一站式)](#244-ai-tool-navigation-中国一站式)
-- [3. 知名服务商](#3-知名服务商)
-  - [3.1. 阿里 mem0 milvus](#31-阿里-mem0-milvus)
-- [4. AI 指南 + 面试指南](#4-ai-指南--面试指南)
-    - [4.0.1. 飞书文档](#401-飞书文档)
-    - [4.0.2. 马士兵飞书](#402-马士兵飞书)
-- [5. 基础](#5-基础)
-  - [5.1. 统计学自学指南 stats-self-learning](#51-统计学自学指南-stats-self-learning)
+## Agent Skills是由Google工程师addyosmani开源的工程技能库，
+将20项资深工程师工作流封装成AI可执行技能，覆盖define→plan→build→verify→review→ship全流程。GitHub地址：https://github.com/addyosmani/agent-skills
 
+## 70行CLAUDE.md重构AI编程范式：Karpathy四大铁则终结盲目开发
+
+① 思维透明化  
+拒绝隐藏困惑，强制AI呈现多种可能性与权衡，杜绝擅自假设  
+
+② 代码极简化  
+坚守"最少必要代码"原则，破解AI堆砌复杂抽象的惯性  
+
+③ 修改精准化  
+限定仅触达必要代码区域，严守"不碰无关部分"边界  
+
+④ 目标可验证化  
+定义量化成功标准，建立循环验证机制确保结果可控  
+
+1  将CLAUDE.md导入开发环境作为AI编码必读准则  
+2  任务交付前用"成功标准清单"明确问题边界  
+3  审查AI输出时重点核查是否违反精准修改原则  
+4  为每个需求设置可通过自动化测试的验收指标  
+5  试用Multica平台管理AI编码智能体协作流程  
+
+让AI在清晰边界内发挥最大价值，精准编码的本质是克制的艺术  
+GitHub搜索"CLAUDE.md"获取原文件，关注Multica项目进展 https://x.com/jiayua
+
+
+github 🔍 /forrestchang/andrej-karpathy-skills
+
+## OpenAI付费功能Chronicle遭00后团队48小时内开源反击
+
+官方地址是 yuanbao.tencent.com，网页、手机和微信小程序都能用。
+OpenChronicle开源项目地址：https://github.com/Einsia/OpenChronicle
+
+主题：OpenAI付费功能Chronicle遭00后团队48小时内开源反击
+
+① OpenAI举措
+OpenAI将Chronicle转为ChatGPT Pro专属付费功能，月费100美元，提供屏幕感知与上下文记忆能力
+
+② 开源反击
+00后团队Vida在48小时内开源OpenChronicle，实现同等功能并支持本地运行
+
+③ 技术优势
+OpenChronicle支持多模型兼容、数据本地可控、可跨Agent共享项目
+
+④ 功能对比
+展示Reference Grounding和Executable Preferences两大核心应用场景，显著提升AI实用性
+
+1. 理解Chronicle价值
+认识屏幕感知与持续记忆对AI工作流的重要性，考虑在需要上下文连贯性的场景应用
+
+2. 获取开源工具
+访问GitHub下载OpenChronicle，无需支付100美元月费即可获得类似功能
+
+3. 本地部署实践
+在个人设备上部署OpenChronicle，体验数据本地可控的AI辅助编程与日程管理
+
+4. 探索多模型集成
+尝试将不同AI模型接入OpenChronicle，发挥各模型优势解决复杂任务
+
+技术民主化正在改写规则
+
+OpenAI刚把Chronicle变成100美元月费的围墙花园，几个00后就用48小时搭起了开源脚手架。他们发布的OpenChronicle不仅复刻了屏幕感知与记忆能力，更让数...
+## Flipbook  是由三星前工程师Zain Shah团队开发的创新视觉浏览器
+能根据搜索词实时用像素生成动态插画（含文字），无需HTML或代码。用户点击画面任意区域即可深入探索，如搜索"巴黎"能查看景点详情并购票，搜索"清迈"会展示当地美食结构图。这种"无限魔法书"式的交互打破了传统APP固定界面模式，让AI根据需求实时生成个性化视觉体验。虽因算力限制尚处测试阶段，但已获多位科技领袖关注，预示着UI界面可能迎来根本性变革——未来或许只需一个AI助手，就能按需生成最适合的交互界面。
+
+flipbook.page 
+
+
+## OpenMythos是由Kye Gomez开发的开源项目
+基于公开资料逆向重建Claude Mythos架构。核心技术采用"循环深度Transformer"(RDT)，通过权重共享实现动态推理深度（最多16次循环），同一组参数反复运算替代传统堆叠层数，770M参数模型性能媲美1.3B标准模型。同时融合DeepSeek风格的MoE技术，专家路由与循环机制协同提升参数效率。源码库已在GitHub开源（github.com/kyegomez/OpenMythos），提供1B-100B多种配置。该项目验证了"推理深度"作为新扩展维度的可能性，为开源社区探索高效AI架构提供了重要实验平台。
+
+## Vibe Coding指南是GitHub上爆火的开源项目
+专治AI写代码"开头猛如虎，越写越抽象"的痛点。它不教写代码，而是教你"驯服AI"：从立项就给AI戴紧箍咒，用"胶水编程"心法（能抄不写，能连不造），搭配现成提示词库，帮你带好AI小弟，远离代码屎山。
+
+Vibe Coding指南项目解读链接是 zread.ai/tukuaiai/vibe-coding-cn
+
+## coding PPT 
+https://github.com/zarazhangrui/frontend-slides
+##  开源TuriX-CUA：
+视觉驱动的AI操作员突破应用壁垒实现全自动化 ① 技术原理 视觉识别驱动，无需API接口即可操作任意软件界面 ② 核心优势 突破微信等封闭应用限制，实现自动化交互 ③ 应用场景 自动过好友、批量消息处理、一键完成重复办公任务 ④ 开源生态 MIT许可，GitHub获2.5k stars，支持社区共建 1. 访问GitHub获取TuriX-CUA项目源码并部署环境 2. 针对常用办公软件定制基础自动化脚本 3. 从简单重复任务入手实践扩展应用场景 4. 参与社区交流获取最新优化方案 当AI成为你的数字分身，重复劳动不再是时间的牢笼 https://github.com/TurixAI/TuriX-CUA
+
+## 主题：四条规则重塑AI编程革命：
+CLAUDE.md文件引爆GitHub热榜 ① 规则体系：四条精炼原则解决AI编码痛点，涵盖思考、简洁、精准和目标四个维度 ② 实效验证：应用后代码量平均缩减40%-70%，功能完整性保持不变 ③ 社会影响：三日狂揽4.4万星标，成为开发者争相采用的"行业标准" ④ 本质揭示：AI开发瓶颈不在模型本身，而在规则设计与工作流优化 1. 下载CLAUDE.md文件：curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md 2. 将文件置于项目根目录，或通过Claude Code插件安装 3. 在编码任务开始前，明确向AI阐明四条规则要求 4. 实践"先提问再编码"习惯，避免AI盲目执行 5. 定期评估代码产出，对比规则应用前后的质量差异 当AI学会先思考再编码，人类才能真正解放创造力。 三日前，一个看似普通的Markdown文件悄然登上GitHub热榜榜首。没有炫酷界面，没有复杂算法，仅仅四条朴素规则——Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution。
+
+##  介绍了16款Godot免费插件
+分为五类： 动画相关：
+• AS2P：一键转换AnimatedSprite2D动画到AnimationPlayer • Importality：多格式动画导入工具 • Spine插件：官方骨骼动画支持 • Phantom Camera：智能相机系统 代码相关： • Script-IDE：强化脚本编辑体验 • Dialog Manager：可视化对话系统 • Scene Manager：场景切换管理 • Godot State Charts：有限状态机工具 • To Do Manager：自动收集代码待办事项 音频相关： • Sound Manager：统一音频管理系统 • Godot SFXR：内置音效生成器 数值与输入： • CSV Data Importer：CSV表格数据导入 • Input Helper：统一输入设备管理 游戏发布： • Blender3D Shortcuts：3D编辑快捷键适配 • Godot Size：项目体积分析工具 • Godot Steam：Steam平台功能集成
+
+
+##  Gemini设计文档
+可在谷歌设计官网(design.google)搜索"Gemini Design System"或关键词"Gestures Iconography Agent Motion Color"查找原文。文中重点解析了渐变引导、圆形基础语言和动态涟漪声波等设计逻辑。
+
+谷歌未公开完整Gemini设计文档，但官方论文和示例值得关注：Generative UI论文(https://generativeui.github.io/static/pdfs/paper.pdf)和示例页(https://generativeui.github.io/)。
+
+
+##  The Agency  项目的GitHub地址是
+https://github.com/msitarzewski/agency-agents 内容由AI生成  
+
+## DataFlex是北大团队开发的大模型动态训练框架，能智能调度训练数据提升效率。
+GitHub地址：https://github.com/OpenDCAI/DataFlex。官方文档：https://opendcai.github.io/DataFlex-Doc/
+
+## Prompt Optimizer项目地址
+https://github.com/linshenk/prompt-optimizer
+
+
+## 主题：AI驱动的技术图表自动生成工具解析  
+
+①痛点突破  
+手动绘图效率低下，拖拽半小时仍布局混乱  
+
+②核心方案  
+自然语言描述直接生成生产级技术图表，支持SVG/PNG高清输出  
+
+③技术优势  
+内置AI架构知识库，7种专业风格适配14类图表，10天获3800+GitHub星标  
+
+1 查阅GitHub仓库安装fireworks-tech-graph（主地址：github.com/fireworks-tech/graph）  
+2 用Claude Code执行单行命令部署，中文描述即可生成架构图  
+3 重点关注Agent/RAG/Tool Call等场景的自动化绘图实践  
+
+告别图纸歪扭时代，一句话就是专业架构师。  
+
+工程师曾对着Excalidraw调半天线条，如今对着终端说"画个Multi-Agent协作图"，六边形节点自动排布——键盘敲下的不是代码，是十年经验沉淀的图形智慧。
+## "缝合怪"模型社区称为Frankenmerge
+准确技术名称是Qwopus-GLM-18B-Merged，由两个Qwen3.5-9B变体（Opus蒸馏版和GLM-5.1蒸馏版）拼接而成。
+
+## 向量数据库图搜索
+项目特点：用Milvus单向量库替代图数据库实现多跳推理，无需Neo4j；子图扩展代替图遍历，三大基准Recall@5达87.8%；仅需2次LLM调用，运维成本显著降低。适用场景：医疗金融等需多跳推理的任务、知识密集型企业应用、中小团队成本敏感型部署。源码地址：搜索"Vector Graph RAG"获取GitHub仓库，另有AutoCodeAgent 2.0和LazyGraphRAG可参考。
+
+
+## 从头训练大模型
+https://github.com/allenai/OLMoE
+
+
+## 卡帕西LLM Wiki的最佳实现
+卡帕西的 LLM Wiki 这坑挖的真够深的，自己不给出实现，全靠社区用户自己手搓。看起来很美好，做起来一团糟。（我之前视频中做的skill也很初级）
+但是YC总裁Garry Tan (陈嘉里)，给出了满分答卷：GBrain。
+GitHub 仓库garrytan/gbrain，上线一周多目前10.1k Stars。
+
+#Karpathy #GBrain #LLMWiki #Obsidian #OpenClaw #HermesAgent #AgentSkill #AIAgent #AI #Obsidian教程
+来看看这个专为OpenClaw和Hermes Agent打造的重度工作流如何使用。
+## M-FLOW架构
+可通过Docker一键部署：先执行'docker pull mflow/official'拉取镜像，再运行'docker run -p 8080:8080 mflow/official'启动服务。核心API包括/ingest数据录入和/search图路由检索，已完全开源可在GitHub获取详细文档。
+
+
+M-FLOW未公布单一"记忆成功率"指标，但在权威测试中表现突出：LoCoMo基准领先Mem0 36%，LongMemEval领先Graphiti 16%。这些数据直观反映了其在多跳推理和跨文档关联任务中的技术优势。
+
+
+M-FLOW开源地址：https://github.com/FlowElement-ai/m_flow
+## 八个rl agent
+(1) search-r1 (2) agent-r1 (3) agents meet rl  (4)  agent-lightning (5) agentGym (6) ART (7) 500+ AI Agent Projects (8) awesom-agenticLLM-RL-Papers
+
+
+## 专治乱写
+https://github.com/forrestchang/andrej-karpathy-skills 四条铁律专治AI乱写代码：事前思考避免假设、简洁至上压缩行数、精准改动不碰无关代码、目标驱动验证成功。
+
+## 开源复刻Claude：770M参数比肩1.3B商业模型
+
+
+OpenMythos项目由Kye Gomez发布在GitHub
+项目地址：https://github.com/kyegomez/OpenMythos  
+这是Kye Gomez开源的Claude架构理论重构项目。
+
+
+Anthropic的Mythos是否真的用了这套架构，似乎已经不重要了。对循环Transformer的猜想已经吸引了来自学术界的大量目光。更多理论和实验验证正在路上。
+GitHub：
+
+
+https://github.com/kyegomez/OpenMythos#the-central-hypothesis
+
+参考链接：
+
+[1]https://x.com/KyeGomezB/status/2045660378844024994
+
+[2]https://arxiv.org/abs/2604.07822
+
+[3]https://arxiv.org/abs/2604.12946
+
+## Zread的官方访问地址是https://zread.ai
+
+你可以通过这个网址直接使用该工具解析GitHub项目。
+
+
+## OpenAI：如何系统评估skill，证明它没被改坏？
+原文标题：Testing Agent Skills Systematically with Evals
+原文链接：https://developers.openai.com/blog/eval-skills 
+
+
+##  QuantDinger是开源的本地优先AI量化交易平台，支持多市场接入和AI策略分析。
+项目GitHub地址：https://github.com/brokermr810/QuantDinger
+
+
+## 项目越做越大，架构越来越复杂，想回头看看自己的代码反而一头雾水？
+
+今天推荐一款神器：Oh-my-Mermaid。
+
+它能让 AI 自动扫描代码库，生成可视化的架构文档。
+
+输入一条指令，自动分析项目结构，生成 Mermaid 图表，还能交互式浏览。
+
+复杂逻辑节点会自动递归分析，拆解出嵌套子元素，生成清晰的目录树。
+
+已适配 Claude Code、Codex 等主流 AI 编程工具，一条命令自动配置，文档还能同步到云端分享给团队。
+
+用 AI 开发的项目越来越大，想回头看自己的代码库，架构是什么样的、数据怎么流转的，反而越来越模糊。
+
+如果你的项目已经大到自己都记不清架构了，用它扫一遍，比手动画图省事 100 倍。
+
+GitHub 开源免费。
+
+
+#AI #ClaudeCode #代码架构 #Mermaid #程序员 #编程工具 #GitHub #开发者工具 #效率提升 #架构图
+GitHub地址：https://github.com/mermaid-js/mermaid。开源代码架构可视化工具，能通过AI扫描自动生成Mermaid图表，帮你快速理清复杂项目结构。
+
+## HTML-PPT AgentSkill是由Lewis开源的PPT制作工具
+地址是github.com/lewislulu/html-ppt-skill。只需执行`npx skills add`命令，AI即可掌握100+PPT技能，包含36个主题、20+物理特效、31种页面布局和14套完整模板，支持技术分享、路演、小红书图文等多种场景，真正实现"一句话需求→专业PPT"的自动化流程。
+
+## 浏览器Harness的GitHub开源地址是：https://github.com/browser-use/browser-harness
+## 项目名称：banana-slides
+（GitHub：Anionex/banana-slides）。主要功能：基于nano banana pro的原生AI PPT生成工具，支持语音指令生成/精准修改单页内容，可上传参考图片定制风格，一键导出标准pptx/pdf文件，16:9比例排版无需二次调整。
+
+## 真正的提示词炼金炉，大白话秒变专业指令 
+
+项目GitHub地址：https://github.com/linshenkx/prompt-optimizer
+## 首个将99位加密KOL交易经验LLM蒸馏为可回测量化因子的开源项目 量化skill 
+
+
+https://github.com/0xquqi/crypto-kol-quant
+
+
+## Omni-SimpleMem是解决AI长效记忆问题的多模态框架
+，准确率提升411%。项目论文：arXiv:2604.01007，代码仓库：github.com/aiming-lab/SimpleMem
+
+## MiniMind是超轻量级开源语言模型项目
+仅需3元成本（单卡3090）2小时即可训练出25.8M参数模型，体积仅为GPT-3的1/7000。完整开源从tokenizer训练、数据清洗到预训练、监督微调、强化学习的全流程代码，支持个人GPU快速训练。GitHub地址：https://github.com/jingyaogong/minimind
+
+## 开源金融情报平台，复刻AI投资大师，完全免费，自带CFA级别的分析能力、100多个数据接口等 
+
+Fincept Terminal的开源地址是：https://github.com/Fincept-Corporation/FinceptTerminal
+## SparkNoteAI已在GitHub开源。
+项目地址：https://github.com/spark-ai-boy/SparkNoteAI
+## 微信cli
+①工具定位
+WeChat CLI是专为AI集成设计的命令行工具，实现安全访问本地微信数据。
+
+②功能体系
+提供11个结构化命令，涵盖会话管理、历史查询、消息搜索等全流程数据操作。
+
+③安全机制
+全程本地操作，SQLCipher即时解密数据库，确保数据不出本机的安全闭环。
+
+④AI适配
+默认JSON输出格式，无缝对接Claude、OpenClaw等AI智能体的数据处理需求。
+
+⑤跨平台支持
+兼容macOS(含Apple Silicon)、Windows、Linux三大系统，适配不同硬件架构。
+
+⑥操作逻辑
+通过init命令提取微信密钥，实现无侵入式数据访问，无需逆向工程。
+
+1. 环境准备
+确认已安装Node.js 16+环境，这是工具运行的基础条件。
+
+2. 工具安装
+执行npm install -g @canghe_ai/wechat-cli完成全局安装。
+
+3. 初始化配置
+保持微信客户端运行，macOS/Linux使用sudo权限执行wechat-cli init。
+
+4. 多账号处理
+按文件修改时间识别当前登录账号，解决多微信账号数据选择问题。
+
+5. AI集成配置
+在Claude等工具中添加WeChat CLI说明文档，建立自然语言交互通道。
+
+6. 场景应用
+尝试"sessions"查看会话、"history 联系人"读取消息、"search 关键词"精准检索。
+
+7....
+## 达尔文.skill是基于进化论思想的AI技能自动优化系统，通过棘轮机制实现53个skill只升不降的持续进化。采用8维度评分体系（结构60分+效果40分），优化成功则保留，失败自动回滚。
+
+项目地址：
+GitHub: https://github.com/alchaincyf/darwin-skill
+安装命令: npx skills add alchaincyf/darwin-skill
+
+女娲.skill开源地址：https://github.com/alchaincyf/nuwa-skill
+
+
+## 全自动AI开发军团来了，24小时无人自主干活#AI #AI帮你干活 
+OpenSwarm项目地址：https://github.com/unohee/OpenSwarm。部署需Node.js≥22环境，配置Discord和Linear API后运行npm install即可启动。
+
+
+## Cangjie Skill项目的官方GitHub地址是：https://github.com/kangarooking/cangjie-skill
+
+
+## fast learn
+1. 这个领域所有专家都认同的五个核心思维模式是什么？
+2. 该领域专家们争论最激烈的三个方面是什么？各自的最强论据是什么？
+3. 请生成10道能区分真懂和死记硬背的问题。
+## 热榜
+1. Awesome Design MD：精心收集的设计系统库，捕获流行网站UI规范，解决AI代理执行设计的最后一公里问题。
+2. Hermes Agent：宣称与用户共同成长的AI代理，长期稳居榜单的实力派。
+3. Call Code：Rails构建的极速仓库，自称史上最快破10万星，基于Oh My Codex的速度王者。
+4. Graphy：将代码文档转为可查询知识图谱，适配主流AI编码助手的黑马工具。
+5. Everything Cloud Code：Cloud Code全方位优化系统，涵盖技能、记忆与安全。
+6. Super Powers：经验证的代理技能框架与开发方法论，实用性获广泛认可。
+7. Open Screen：开源无水印录屏工具，直击Screen Studio类产品痛点。
+8. Agent Skills：Dos Money维护的生产级AI编码技能库，工程化质量标杆。
+9. Caveman：极简表达技能，号称砍掉75% token消耗的效率利器。
+10. Agency Agents：指尖上的完整AI团队，从前端到运营专家各具特色。
+11. Oh My Codex：为Codex添加钩子与状态面板，大幅扩展能力边界。
+12. Cloud Hatu：可视化Cloud Code指南，含大量即用模板的新手福音。
+13. Story：开源可扩展AI代理，支持代码编写、编辑与测...
+## Anthropic的"解耦架构"革命：AI大脑与执行工具物理分离  
+
+① 架构颠覆  
+关键词：牲口模式、零纳秒恢复  
+大脑独立于沙盒外，工具容器可随时替换，故障恢复时间从100毫秒降至0纳秒  
+
+② 性能飞跃  
+关键词：按需召唤、延迟暴降  
+仅需时调用工具容器，中位数延迟降60%，95分位延迟暴跌90%  
+
+③ 安全升级  
+关键词：物理隔离、密钥保险柜  
+密码锁在沙盒外，AI无法接触敏感数据，彻底防御提示词注入  
+
+④ 未来蓝图  
+关键词：Agent OS、多脑协作  
+支持独立大脑连接无数工具，突破单躯壳智力瓶颈  
+
+1 采用解耦架构替代单体容器  
+2 敏感数据与执行环境物理隔离  
+3 重构工作流实现按需资源调用  
+4 关注底层架构而非短期规则编码  
+
+未来AI的胜负手，在于养出情绪稳定、手脚可弃的赛博牲口  
+
+AI世界曾困于电子牢笼，Anthropic撕开枷锁：大脑悬浮云端指挥，工具如可替换机械臂。黑客挥舞恶意提示词却扑空，因密钥早已锁进物理保险柜。这场暴力手术让AI挣脱容器束缚，化身真正智能生命体。  
+
+原版资料链接：https://www.anthropic.com/engineering/managed-agents
+## everything-claude-code项目
+GitHub地址：github.com/affaan-m/everything-claude-code。它打包了Claude Code的全套实用配置，包含agent、技能指令和安全规则，帮开发者省token、提效率，刚开源就获12万星。
+
+
+## 软件Claude.md
+ 项目地址：https://github.com/forrestchang/andrej-karpathy-skills
+
+
+##  Paper2Slides
+GitHub地址是：https://github.com/HKUDS/Paper2Slides。支持PDF/Word一键生成学术海报，MIT开源协议。
+
+
+## OctoGent是开源项目
+在GitHub搜索"octogent"就能找到官方仓库。目前主流平台显示项目地址为github.com/octogent/octogent，包含完整文档和部署指南，建议直接访问查看最新版本。
+
+
+## Rowboat是开源多Agent可视化IDE，支持零代码搭建智能体工作流。
+GitHub地址：https://github.com/rowboatlabs/rowboat
+
+（12.7k stars）
+
+
+##  开源设计规范库：58套大厂UI系统一键赋能AI前端开发
+项目地址：https://github.com/VoltAgent/awesome-design-md
+① 项目爆火
+开源10天获4万星，前端开发新利器
+
+② DESIGN.md革命
+单一文件封装完整设计系统，AI可直接读取生成UI
+
+③ 大厂规范全覆盖
+集成58套知名产品设计规范，从Claude到Tesla应有尽有
+
+④ 降低开发门槛
+无需设计稿、免复杂配置，AI时代UI开发新范式
+
+1. 开发者：将awesome-design-md集成至项目，让AI代理"一键复刻"大厂UI
+2. 设计师：贡献个人设计系统至社区，建立行业标准影响力
+3. 产品团队：跳过UI设计环节，专注核心功能快速验证
+4. 技术管理者：推动团队采用标准化设计语言提升协作效率
+
+当设计规范变成一行代码，创意与实现之间只剩一个回车键的距离。
+
+凌晨三点的办公室，前端小王盯着复杂的设计稿发愁。他随手复制了Claude的DESIGN.md文件到项目，对AI代理说："做个同款界面"。陶土色按钮在屏幕上渐次浮现，羊皮纸背景泛着暖光，连阴影的温度都恰到好处。窗外城市还未苏醒，他的产品原型已完成——这曾需要三天的工作，如今在咖啡凉透前就结束了。
+
+## Awareness Memory，一个开源的AI长时记忆系统。
+它在权威测试中表现优异，能快速检索11.5万字的超长文本资料（Recall@5达95.6%），零LLM调用成本，普通笔记本14分钟即可完成全部测试。
+## QuantDinger：开源AI量化交易系统的革命性落地
+
+① 系统定位
+开源私有部署的AI量化操作系统，打通策略生成/回测/风控/实盘全流程
+
+② 核心能力
+自然语言生成交易策略，AI自动优化参数，多交易所API直连执行
+
+③ 部署特性
+本地运行保障数据安全，支持Crypto/美股/外汇多市场实时交易
+
+④ 开发生态
+Apache 2.0开源协议，GitHub活跃维护，Docker一键部署方案成熟
+
+1 速览GitHub仓库（https://github.com/brokermr810/QuantDinger）确认系统架构
+2 使用Docker部署测试环境：git clone后docker-compose up启动
+3 配置OPENROUTER_API_KEY激活AI策略生成功能
+4 从模拟回测入手，验证"自然语言转策略"的实际效果
+5 选择单一交易对进行小规模实盘验证
+6 加入Telegram社区获取最新部署指南和策略模板
+
+当代码读懂市场脉搏，每个交易者都能拥有自己的AI军师。
+
+视频开场以"AI量化彻底进化"定调，机器人形象配合"QuantDinger打穿交易世界"标语建立技术权威感。00:01画面详解系统三大支柱：开源底座确保透明度、私有部署保障安全性、AI驱动实现策略闭环。00:03展示多语言界面和Docker部署参数，强调Python3.10+兼容性和Compose就...
+## BridgeBench排行榜信息，官方网址可能是bridgemind.ai/bridgebench。
+
+## EverOS的GitHub地址
+github.com/EverMind-AI/EverOS，官网入口可通过everos.evermind.ai访问。Cloud平台支持API集成和MemorySpace管理。
+
+## 女娲skill GitHub地址
+：
+https://github.com/alchaincyf/nuwa-skill，支持一键安装使用。
+
+
+## claude-mem为Claude Code提供了永久记忆，48小时内狂揽5.4万颗星！兼容OpenClaw！
+项目地址：https://github.com/thedottrack/claude-mem
+
+## Claude Code的9个核心技能：
+1.规划组：planning-with-files(自动创建任务文档)、superpowers(20+技能框架)、brainstorming(预发散思路)；2.执行组：ralph-wiggum(循环打磨代码)、skill-creator(创建技能)；3.专项组：frontend-design(前端设计)、markdown(多格式转换)、notebooklm-skill(零幻觉回答)；4.兜底组：dev-agent-skills(代码提交审查)。推荐先装superpowers，再加ralph-wiggum，最后配planning-with-files。
+
+提到的7个值得关注的Skill整理如下：
+
+1. planning-with-files：解决做项目中途忘记全局进度的痛点
+2. superpowers：弥补缺少完整开发工具链的问题
+3. frontend-design：改善AI生成前端容易被识别的缺陷
+4. notebooklm：避免写文档时频繁切换窗口打断思路
+5. baoyu-skills：简化内容从创作到发布的碎片化流程
+6. webapp-testing：解决网页完成后不愿逐页检查的困扰
+7. skill-creator：帮助新手入门Skill创建流程
+## trl grpo 等 官方手册
+https://huggingface.co/docs/trl/main/en/grpo_trainer
+## 刷榜风波后Harness工程显真章 揭秘Agent如何攻克真实工程难题
+小牛说：百度伐谋在OpenAI主导的MLE-Bench榜单上夺回榜首，这个硬核榜单考察AI解决真实机器学习工程问题的能力。刷榜风波后，伐谋2.0凭借Harness工程系统编排，通过多智能体并行探索、长程记忆机制和底层优化，展现了解决复杂工程问题的实力。AI技术正从盲盒时代迈向工程化，你觉得未来AI竞赛的关键会是系统框架吗？
+
+
+## Karpathy开源的"autoresearch"项目，仅630行Python代码即可让AI自主开展研究。GitHub一周斩获4.4万星标，被称为AI"自我进化实验室"，旨在革新传统科研范式。
+项目GitHub地址：https://github.com/karpathy/autoresearch
+## 给大家推荐一个超级实用的 AI 热点监控工具，
+它能自动聚合抖音、知乎、B站、财联社等 30+ 个平台的热点，用 AI 智能筛选、翻译、生成简报，还支持微信、飞书、钉钉等多渠道推送。完全开源，支持 Docker 一键部署，特别适合想快速跟进热点的朋友，强烈建议试试
+
+项目地址是：https://github.com/sansan0/TrendRadar
+
+
+## Hindsight 记忆学习开源地址：https://github.com/vectorize-io/hindsight
+
+
+## obsidian-skills插件如何让Claude Code真正"读懂"Obsidian笔记。
+三大能力直击痛点：完美支持双链嵌入、原生处理数据库视图、直接生成Canvas思维导图，告别手动改格式。安装超简单，两条命令搞定。
+
+GitHub地址：github.com/kepano/obsidian-skills，安装命令：/plugin install obsidian@obsidian-skills
+
+
+## oh-my-claudecode：Claude Code多智能体协作革命
+
+① 多智能体架构 - 多个Agent自动分工规划、编码、审查、修复全流程，突破单AI局限
+
+② 团队化编程 - 实现"一个命令召唤AI团队"，解决Claude Code单兵作战痛点
+
+③ 开源生态优势 - GitHub获2.7万星，支持零学习曲线快速接入
+
+④ 全链路自动化 - 从需求分析到代码交付无需人工干预
+
+1 安装插件：执行/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode/
+
+2 配置环境：运行/omc-setup完成初始化设置
+
+3 启动协作：使用omc命令触发多智能体协同开发流程
+
+4 优化分工：根据项目复杂度动态调整Agent任务分配
+
+当AI从独行侠进化为特种部队，编程效率的天花板已被彻底击穿
+## Hatch 一键复刻 Karpathy 流程，无需折腾 Obsidian，3 步生成专属 AI 知识库
+
+Hatch项目地址：https://github.com/pypa/hatch。这是同名Python工具，视频中AI工作空间可能基于它开发。
+
+
+## YC创始人开源gbrain，召回md
+项目地址：https://github.com/garrytan/gbrain
+
+## YC 总裁开源自用 AI 记忆系统，13 年数据 AI 记忆系统免费开放，顶级抄作业！
+项目地址：https://github.com/garrytan/gbrain（MIT协议开源）
+
+## Hermes Agent基础安装很简单：
+Linux/macOS用户在终端执行`curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`，然后运行`hermes setup`配置API密钥。Windows用户可用PowerShell执行安装脚本。
+
+
+## Claude Code工作流指南的GitHub地址是：
+https://github.com/shanraisshan/claude-code-best-practice
+
+## AdaMem：清华/微信提出 Agent 记忆系统新 SOTA
+
+论文标题AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents论文地址https://arxiv.org/pdf/2603.16496作者背景清华大学、微信、中国科学技术大学
+
+## 优化版-Karpathy知识库折腾了好几天，终于搞完开源了
+ AI 迎来真正记忆与逻辑！国产 Agent 大脑正式开源
+https://github.com/lewislulu/llm-wiki-skill
+
+CodeBrain-1开源地址：https://github.com/feelingai-team/CodeBrain。MemBrain1.5目前未公开开源，建议关注Feeling AI官网或官方社交媒体获取后续更新。
+## Ghost Pepper 是一款完全免费且百分百在 Mac 本地运行的语音输入法，
+它打破了云端收费限制，将语音识别和智能润色完美结合在了一起。
+
+
+## Github 5个自我进化记忆性Agent
+Github 5个自我进化记忆性Agent屠榜了
+01
+hermes-agent
+通过动态patch机制让AI伴随你成长，彻底解决Agent“转头就忘”的痛点。
+GITHUB.COM/NOUSRESEARCH/HERMES-AGENT
+24h新增8800星！它直接自己长脑子了，醒来发现AI比你记性还好。
+02
+TradingAgents
+多Agent模拟完整交易公司。研究员挖数据、风控喊停，干掉单兵作战的血亏风险。
+GITHUB.COM/TAURICRESEARCH/TRADINGAGENTS
+一个人操盘像赌狗，这个军团直接开董事会吵架决策。程序员终于能甩锅了。
+03
+AI-Scientist-v2
+全自动科研Agent。从提假设、跑实验到写论文一条龙，一个人顶10人实验室。
+GITHUB.COM/SAKANAAI/AI-SCIENTIST-V2
+以前发论文肝到秃头，现在AI组队科研。实验室老板沉默，PhD流泪。
+04
+agent-framework
+微软官方出品。支持Python/.NET，一键搭建生产级工作流，告别LangChain胶水代码。
+GITHUB.COM/MICROSOFT/AGENT-FRAMEWORK
+搭复杂Agent不再需要三天三夜。大厂程序员狂喜：终于能摸鱼了！
+05
+goose
+开源可扩展 AI Agent。超越代码补全，能自主执行、测试任务，程序员的终极“懒人外挂”。
+GITHUB.COM/BLOCK/GOOSE
+你敲键盘到手抽筋，它跑完完整流程。程序员集体高呼：“这才是我想要的AI老婆！”
+EXECUTIVE SUMMARY
+这 5 个项目组成了一个能长大、会吵架、干重活的超级军团。AI 不再是工具，而是你的创业+科研全栈合伙人。
+
+
+
+## Gemma 4+和Obsidian搭建威科夫交易法知识库的全流程。核心包括：1) Obsidian作知识载体，Trae为操作核心；2) RAW存原始笔记，Wiki放整理成果；3) 三个关键脚本(build_wiki.py/Prompt.md/search.py)实现自动化；4) 结构化Prompt需含行业概念网络和标准示例；5) 重点是制定规则交LLM处理，不必过度纠结底层逻辑。
+
+
+## Claude-Mem是Claude专属插件
+无法用于GitHub Copilot。两者属于不同公司的产品体系，插件系统不互通。
+
+项目地址：https://github.com/thedottrack/claude-mem
+
+## caveman作为一个插件（skill），通过特定规则对AI助手生成的文本进行后处理。它会识别并保留技术性内容（代码块、路径、命令等），仅对自然语言文本进行压缩和精简。
+在支持skills的AI编程工具（如Cursor, Copilot, Claude Code等）中，可通过命令行一键安装。
+在真实的Claude API上对10个编程相关任务进行测试。
+输出Token节省：在10个任务中，节省范围在「22%–87%」之间，平均节省高达「65%」。
+初步测试显示，在保持技术准确性的前提下，输出Token减少约「75%」。
+输入Token节省：通过压缩记忆文件，每次会话的输入Token可减少约「45%」。
+#claude#agent#skill#vibecoding
+
+GitHub地址：https://github.com/JuliusBrussee/caveman  
+安装命令：npx skills add JuliusBrussee/caveman  
+三档压缩强度，最高省87% token
+## OpenDataLoader是开源PDF转Markdown工具，
+Apache 2.0许可。核心特点是CPU环境下每秒处理100页PDF，精准还原复杂布局、表格和嵌套结构。工作原理结合了MORAN（多目标校正注意力网络）等技术，通过多对象校正网络处理不规则文本。支持Python(pypi)、Java(maven)、Node.js(npm)调用，v2.2.1版本已在GitHub Trending登顶。使用时只需安装对应SDK，调用convert方法即可完成高质量文档转换，适合AI数据预处理场景。
+
+
+OpenDataLoader的GitHub仓库是opengataloader-project/opendataloader，搜索该项目名即可找到源码。
+
+## Graphify为OpenClaw带来两大核心价值：一是构建项目全局知识图谱，
+让AI理解代码间隐性关联；二是通过本地AST解析将Token消耗直降71.5倍。安装只需执行：pip install graphifyy && graphify install。适配OpenClaw需补充命令：graphify install --platform claw。完整文档和源码详见GitHub：https://github.com/safishamsi/graphify
+
+
+## 清华ChatDev 2.0是OpenBMB团队开源的零代码多智能体协作平台
+
+GitHub星标超31.9K。它通过可视化拖拽编排工作流，让AI自动扮演CEO、程序员等角色，完成需求讨论、编码到测试的全流程开发。搭配Claude 3.5 Sonnet使用逻辑更严谨，代码质量显著提升。项目地址：https://github.com/OpenBMB/ChatDev
+
+
+## 想用MemPalace？
+三步上手：①pip install mempalace安装；②mempalace init ~/MyPalace初始化；③导入聊天记录就能智能检索。所有数据本地存储，隐私无忧。详细指南→github.com/milla-jovovich/mempalace
+
+
+## 模型对比要看用途。Nemotron 3-Super长于超长上下文和复杂编码任务，特别适合智能体工作流；
+Gemma 4则在参数效率和多模态支持上更优，移动端表现突出。选哪个取决于你的具体场景。
+
+
+## ATLAS项目地址是：https://github.com/itigges22/ATLAS。它专为本地AI编程设计，用RTX 5060 Ti这类消费级显卡就能跑14B模型，通过规划-选择-返修的流水线提升编码效率。
+
+## Qwen3.5-27B opus 蒸馏版V3版本发布：Qwopus3.5-27B V3实测 ，不再"假装思考"
+https://mp.weixin.qq.com/s/VfwaFFI_-xTwYW6NWlOJHA
+
+
+https://mp.weixin.qq.com/s/CwbkPJ5AQO_YTFdu-rrNaw
+
+## 高效之道。去掉冗余能省75%成本，"山顶洞人"思路很实用。
+只是完全省略礼貌表达，可能影响某些场景的沟通。
+
+安装命令显示项目路径为 GitHub.com/JuliusBrussee/caveman，可以直接访问试试。
+
+
+## 自驾决策工具地址
+
+ drive-escape.pomorialy.com，
+GitHub仓库为 qiaoshouqing/drive-escape。
+
+
+## Memvid是GitHub热门开源项目
+提供单文件AI记忆层，无需向量数据库。它提升35%记忆准确率，多跳推理能力领先行业76%，检索延迟仅0.025毫秒，大幅简化AI Agent开发流程。
+
+
+## 微软开源的RD-Agent项目链接
+
+https://github.com/microsoft/RD-Agent
+
+
+## 港大实验室开源的OpenSpace项目地址https://github.com/HKUDS/OpenSpace。它让AI智能体具备了自我进化的"学习能力"。
+
+## EverMind MSA开源地址
+https://github.com/EverMind-AI/MSAInference。这是他们刚发布的支持1亿Token上下文的记忆稀疏注意力技术代码库。
+
+
+## 大模型的 1 亿Token记忆
+人类一生的功能性记忆容量约109 bits，換算成 Token 大约是2到3亿。而当前主流长文本模型的有效上下文上限仅1MToken，差了整整两三个数量级。
+业务场景越来越极端：十年代码库、数百本小说、数字人终生对话——全塞给大模型，让它拥有“终生记忆”。现有三大技术流派面对这个天文数字，各有各的死穴。
+参数化记忆（LORA/CPT） 精度高但灾难性遗忘，无法动态修
+改；外部存储记忆（RAG）扩展性无敌但检索与生成割裂，精度有天花板；隐状态记忆要么压缩损失严重（线性注意力），要么算力内存直接爆炸（全量 KV Cache）。
+
+## 2026年AI落地的关键已从"更强模型"转向"Harness Engineering"(驾驭工程)。
+
+Harness是包裹在AI模型外围的基础设施与规则系统，如同"马具"约束引导"烈马"般的AI模型。它包含六大核心组件：工具集成、状态管理、动态上下文、任务规划、安全护栏和可插拔扩展，让AI在卡顿时能自动识别问题并修复，而非简单重试。这意味着工程师重心正从写代码转向设计安全可控的运行环境。未来竞争力不在于模型强度，而在于你为AI打造的"马具"可靠性。
+
+
+## GitHub项目"The Agency"的147个AI agents，分为12个专业部门。
+工程部有前端开发者、后端架构师；设计部含UI设计师、图像提示工程师；市场部覆盖增长黑客、小红书专家；还有销售部、产品部等。每个agent专注特定领域，能24小时协作完成开发、设计到推广全流程。具体可在GitHub搜索msitarzewski/agency-agents查看完整清单。
+
+## 港大开源的Harness项目
+GitHub地址：https://github.com/HKUDS/OpenHarness。四天斩获4000+星标的速度，足以证明这个AI驯兽师工具包正在掀起新一轮开发热潮。
+
+## Karpathy知识库方法的实践
+先建raw库收纳原始资料，再用AI编译成结构化wiki，在Obsidian中持续迭代，让散乱信息逐步生长为可研究的系统，适用于投资分析、读书笔记等多种场景。
+
+## WebAI2API 是一个强大的开源工具
+它能将网页上的 AI 服务（如 GPT、Gemini、豆包等）一键转换为 OpenAI 兼容的 API 接口，让你无需 API 密钥即可免费使用顶级 AI 模型。
+
+项目地址：https://github.com/foxhui/WebAI2API
+
+这不是模仿zero-token那个项目么……
+
+## Hindsight与OpenClaw集成的基础配置流程：
+1. 通过pip install hindsight-litellm或npm install hindsight-js安装SDK；2. 初始化时用wrap_openai包装LLM客户端；3. 调用API时自动关联用户记忆。关键参数包括userId隔离记忆域、metadata过滤条件设置。完整配置示例和环境变量说明详见GitHub文档的Integration Guide章节。
+
+## ccstatusline专注美化Claude Code状态栏，
+
+实时显示模型、Git、Token等开发数据；hub是GitHub命令行工具，用来管理仓库和PR。一个管界面信息展示，一个管代码托管操作，根本不在同一赛道上干活。
+
+一行命令搞定：`npx -y ccstatusline@latest`，这是视频中提到的安装方式。
+
+## GitHub热榜第一的next-ai-drawio项目，25k+星。
+用自然语言就能生成架构图、流程图，支持文档转图表和动画效果，程序员、学生都能用，完全免费开源。
+
+
+
+## 真免费api，用各平台账号
+视频中的开源项目链接：https://github.com/linuxhsj/openclaw-zero-token。无需API Key，通过浏览器登录即可免费调用ChatGPT、Claude等主流AI模型。
+
+
+## Obsidian和AI提取，轻松构建个人私域知识库图谱！
+1、把任何地方读到的文章🔗、pdf文件简单存入Obsidian（最好用的笔记类app）
+2、AI 自动提取成md文件并保存，识别概念、建立关联
+3、Obsidian 里的知识图谱就自己长出来了
+
+包比🦞实用，一个月5块走token足够了。
+
+最爽的功能是问答——
+"帮我分析一下我知识库里关于泡沫周期的观点"它会翻你存的所有文章来回答！
+
+代码已开源，有兴趣的来玩👇
+github.com/solinl666/obsidian-kb
+
+让我们一起紧#拥抱时代的最大斜率
+## vibing coding 编程方法6种
+AI时代重构职业画像后必备的6种编程方法。以下是精简对比：
+
+1. Vibe Coding：靠清晰表达需求驱动AI写代码，适合快速验证小工具。优势是门槛低，劣势是项目扩大易失控。
+
+2. Agentic Engineering：先设计方案再交AI执行并验收，是Vibe Coding的企业级升级版。适合大型项目，但前期规划成本较高。
+
+3. Harness Engineering：通过约束机制让AI稳定运行，如同马具控制烈马。核心在上下文工程、架构约束和熵管理，适合高可靠性要求场景。
+
+4. Ralph Wiggum Loop：AI按PRD循环执行直至完成，每轮清空上下文防断片。适合可拆解的大任务，需警惕无限循环风险。
+
+5. BMAD Method：结构化Agent开发框架，各角色智能体协同工作。GitHub获数万star，适合全流程开发团队。
+
+6. Spec-Driven Development：先制定"项目宪法"级规范文档再编码。对需求复杂、质量要求高的团队最有效，前期投入大但长期收益显著。
+
+掌握这些模式的应用场景与边界，才是AI时代的真正竞争力。
+
+
+## 项目名称是ARIS（Auto-claude-code-research-in-sleep）。核心优势：无需复杂安装即可兼容DeepSeek/Kimi/智谱等国产模型；摆脱Claude API依赖，非程序员也能快速上手；支持睡前提交任务后自动运行，完成代码优化、实验分析及论文润色；双智能体评审系统实现98%漏洞规避率与100%科研规范符合度，真正实现科研全流程自动化。
+
+
+项目地址是：https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
+
+## 2026硬核技能榜单：
+1. Composio：全能连接器，集成800多个外部工具
+2. Tavily Web Search：AI专用搜索，评价最高
+3. Playwright-MCP：网页执行官，动作类最强
+4. Self-Improving：自进化逻辑，能自我反思改进
+
+## agent任务管理插件
+三个插件全称：1. ECC - 事件中心规格化代码生成器 2. GSD - Get Shit Done（高效任务管理工具）3. PWF - Planning With Files（文件规划插件）
+
+
+## M-FLOW技术
+由中国年轻团队开发，针对传统RAG仅做文本匹配、缺乏推理能力的短板。其核心是"倒锥图路由架构"，通过FacetPoint（原子断言）、Entity（命名事物）和Facet（截面维度）三层结构，实现多跳推理与跨文档关联。搭建方式有两种：1) Docker一键部署：克隆GitHub仓库后运行quickstart脚本；2) pip安装：使用pip install m_flow命令，并配置LLM API密钥。该方案在多项Benchmark测试中表现优异。
+GitHub上搜mflow-ai/m_flow就能找到源码和文档，视频里提到的一键部署脚本也在里面。
+
+
+## 预训练数据集
+
+https://github.com/allenai/OLMoE
+
+## Claude code  源码
+https://github.com/instructkr/claude-code，claude官方github上多传了一个文件，被反编译了
+
+
+## office skill
+MiniMax-Al/skills GitHub仓库的samples目录下提供了完整的Office文档生成样例，包括Word、Excel、PPT等各类效果演示，可直接查看运行效果。
+
+
+## Meta华人实习生搞出超级智能体！自己写代码实现自我进化
+
+源代码已开源，在GitHub的facebookresearch/HyperAgents仓库可查，Star数超700。项目处于实验阶段并标注安全警告，配套论文arXiv:2603.19461已被ICLR 2026接收。实验数据显示该框架在SWE-bench任务解决率从20%提升至50%，支持多模型API接入。
+
+
+
+## 从零开始构建大型语言模型
+
+项目地址是：https://github.com/rasbt/LLM-from-scratch-book。这是Sebastian Raschka教授开源的《从零开始构建大型语言模型》配套代码库，包含完整教程和100万行核心实现。
+
+
+## '养'AI的奥秘就藏在自我进化里。
+像视频中的OpenSpace，AI出错自动修复、经验变技能，越用越聪明还省46%成本，这才是真正的'养成系'。
+
+GitHub地址：https://github.com/HKUDS/openSpace
+
+
+
+## 首款零基础借助AI做的独立游戏上架
+https://github.com/Donchitos/Claude-Code-Game-Studios/blob/main/.claude/agents/unity-ui-specialist.md
+
+
+## Alchemy通过构建一个标准化的“炼丹炉”环境，将工程基础设施与科研发现过程解耦。
+
+标准化实验接口：提供统一接口，AI Scientist只需提交一个.py文件（算法）和一个.yaml文件（超参），即可运行完整实验，屏蔽了所有底层工程细节。
+
+分层与解耦设计：框架与任务管线解耦，支持新领域/新任务的持续集成。目前已覆盖「推荐系统、时间序列与图学习」3个领域，16个任务。
+
+异构算力统一执行：通过可插拔执行器，统一调度从单机GPU到多节点HPC集群的算力，用户无需关心具体运行环境。
+
+大规模并发与智能调度：支持多任务、多算法、多超参的高并发实验，并提供进度跟踪与可视化。系统能根据实验反馈自动淘汰表现不佳的算法，将算力集中在更有潜力的方向。
+
+
+
+Alchemy已在GitHub开源：https://github.com/TsinghuaISE/Alchemy。该项目主要面向AI科研实验自动化设计，生产环境使用需结合具体场景评估工程适配性。
 
 ## 1.1. 大神用Claude Code打造含48个AI智能体的游戏工作室，1:1还原总监、策划、开发、测试全流程
 MIT开源可商用，独立开发者直接拥有顶配幕后团队。项目地址是：https://github.com/Donchitos/Claude-Code-Game-Studios
