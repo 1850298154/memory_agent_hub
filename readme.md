@@ -1,6 +1,9 @@
 
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 ---
+## 学习nanoGPT就挺好的
+如果自己训练的话，比不过大厂，只能走生态位分化，自己写训练脚本，根据nanoGPT按照需求慢慢改。毕竟我也不知道子是做什么的，我前年也是拿nanogpt练手，后来根据需求就自己写脚本了。
+
 
 ## 彻底告别 AI Agent 生产幻觉，全自动自我优化
 项目地址是 https://github.com/future-agi/future-agi。这是一个开源AGI平台，可自动追踪评估AI Agent，解决生产环境中的幻觉问题，兼容50+主流框架。
