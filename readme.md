@@ -2,6 +2,10 @@
 
 ---
 
+## Carnice-V2-27B
+对应的 Hugging Face 模型页也已经放出。模型卡写得更具体：Carnice-V2-27B 是一个基于 Qwen/Qwen3.6-27B 的 full merged BF16 SFT，用的是 Hermes-style agent traces。它不是只给一个 LoRA adapter，而是给了合并后的独立权重。
+
+
 ## 学习nanoGPT就挺好的
 
 如果自己训练的话，比不过大厂，只能走生态位分化，自己写训练脚本，根据nanoGPT按照需求慢慢改。毕竟我也不知道子是做什么的，我前年也是拿nanogpt练手，后来根据需求就自己写脚本了。
