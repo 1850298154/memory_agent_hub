@@ -2,6 +2,10 @@
 
 ---
 
+
+## LLM-as-a-Verifier框架已开源
+GitHub地址：llm-as-a-verifier.github.io，包含完整代码和文档。
+
 ## Carnice-V2-27B
 对应的 Hugging Face 模型页也已经放出。模型卡写得更具体：Carnice-V2-27B 是一个基于 Qwen/Qwen3.6-27B 的 full merged BF16 SFT，用的是 Hermes-style agent traces。它不是只给一个 LoRA adapter，而是给了合并后的独立权重。
 
