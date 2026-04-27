@@ -1,6 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+## 4 万 Star！这个极简 AI Agent 框架吃透就能造自己的 Agent
+
+pi-mono的GitHub项目地址是：https://github.com/badlogic/pi-mono
+
+
 
 ##.gpt img2+seeddance2.0+好的提示词 开源有
 https://github.com/wuyoscar/gpt_image_2_skill
