@@ -2,6 +2,8 @@
 
 ---
 
+##.gpt img2+seeddance2.0+好的提示词 开源有
+https://github.com/wuyoscar/gpt_image_2_skill
 
 ## LLM-as-a-Verifier框架已开源
 GitHub地址：llm-as-a-verifier.github.io，包含完整代码和文档。
