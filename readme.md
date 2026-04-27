@@ -1,6 +1,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+
+## OpenClaw创始人做了个叫ClawSweeper的AI工具
+能自动扫描GitHub问题并关闭无效讨论。它并行运行50个AI模型，两天清理5000多个问题，成本不到1000美元。有意思的是，GitHub的API限速反而成了瓶颈——AI干活太快，服务器跟不上。这可能是开源项目走向"自愈"的新方向。
 ## 4 万 Star！这个极简 AI Agent 框架吃透就能造自己的 Agent
 
 pi-mono的GitHub项目地址是：https://github.com/badlogic/pi-mono
