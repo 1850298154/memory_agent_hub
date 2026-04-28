@@ -1,6 +1,12 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+## 斯坦福CS博士生Jacky Kwok与伯克利Shulu Li联合提出LLM-as-a-Verifier框架，
+通过扩展验证阶段计算量实现Agent性能飞跃。该方法可与任意Agent Harness和模型结合，在Terminal-Bench 2.0达到86.4%、SWE-Bench Verified达到77.8%，全面超越GPT-5.5和Claude Mythos取得SOTA。Transformer作者Lukasz Kaiser与GAN作者Bing Xu均转发关注。
+#llm#Agent#斯坦福#伯克利#英伟达#Harness#claude#gpt
+论文及相关资源：官网 llm-as-a-verifier.notion.site，代码库 llm-as-a-verifier.github.io
+
+
 
 ## OpenClaw创始人做了个叫ClawSweeper的AI工具
 能自动扫描GitHub问题并关闭无效讨论。它并行运行50个AI模型，两天清理5000多个问题，成本不到1000美元。有意思的是，GitHub的API限速反而成了瓶颈——AI干活太快，服务器跟不上。这可能是开源项目走向"自愈"的新方向。
