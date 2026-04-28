@@ -1,6 +1,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+
+## JiuwenClaw，是由华为2012实验室、华为云AgentArts与社区开发者联合，
+
+在openJiuwen开源社区共建的“小龙虾”AI Agent，主打“懂你所想，自主演进”。项目地址：https://gitcode.com/openJiuwen/jiuwenclawhttps://github.com/openJiuwen-ai/jiuwenclaw从Agent Team到
 ## 斯坦福CS博士生Jacky Kwok与伯克利Shulu Li联合提出LLM-as-a-Verifier框架，
 通过扩展验证阶段计算量实现Agent性能飞跃。该方法可与任意Agent Harness和模型结合，在Terminal-Bench 2.0达到86.4%、SWE-Bench Verified达到77.8%，全面超越GPT-5.5和Claude Mythos取得SOTA。Transformer作者Lukasz Kaiser与GAN作者Bing Xu均转发关注。
 #llm#Agent#斯坦福#伯克利#英伟达#Harness#claude#gpt
