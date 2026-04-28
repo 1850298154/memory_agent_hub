@@ -1,6 +1,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+## 人类满分程序员的Skill repo 登顶页全球第一，硬核实力碾压！
+
+视频里提到的Skill repo项目地址是：https://github.com/mattpocock/skills
 
 ## 上海创智学院与华东师范大学联合提出的新一代记忆智能体框架 MIA（Memory Intelligence Agent）
 旨在解决当前智能体"失忆式工作"的痛点——即每次推理从零开始、失败无法转化为经验、记忆增长但智能不增长的困境。
