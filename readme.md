@@ -1,6 +1,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+
+
+## 免费全能 Penpot，一站式设计协作开发功能全覆盖，直接干翻付费 Figma
+Penpot 的 GitHub 项目地址是 https://github.com/penpot/penpot，可以直接访问查看源码和文档。
 ## 人类满分程序员的Skill repo 登顶页全球第一，硬核实力碾压！
 
 视频里提到的Skill repo项目地址是：https://github.com/mattpocock/skills
