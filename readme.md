@@ -2,6 +2,17 @@
 
 ---
 
+## 上海创智学院与华东师范大学联合提出的新一代记忆智能体框架 MIA（Memory Intelligence Agent）
+旨在解决当前智能体"失忆式工作"的痛点——即每次推理从零开始、失败无法转化为经验、记忆增长但智能不增长的困境。
+智能体的记忆不应只是"记住结果"，而应沉淀为"执行本能"——通过双记忆循环与在线进化，让智能体在深度研究中越用越强。
+
+
+MIA项目的相关资源：  
+论文地址：https://arxiv.org/abs/2604.04503  
+代码仓库：https://github.com/ECNU-SII/MIA  
+龙虾技能平台提供纯净版（https://clawhub.ai/jingyangqiao/mia）和可信版（https://clawhub.ai/sii-yucheng2002/mia-trust）。
+
+
 ## JiuwenClaw，是由华为2012实验室、华为云AgentArts与社区开发者联合，
 
 在openJiuwen开源社区共建的“小龙虾”AI Agent，主打“懂你所想，自主演进”。项目地址：https://gitcode.com/openJiuwen/jiuwenclawhttps://github.com/openJiuwen-ai/jiuwenclaw从Agent Team到
