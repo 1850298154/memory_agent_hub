@@ -1,5 +1,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## OpenAI发布Agents SDK v2.0，将开发模式从"指令驱动"升级为"状态驱动"。
+开发者只需定义目标，AI就能自主规划、推理与纠错，并支持多智能体协作完成复杂任务，标志着Multi-Agent时代正式开启。
+https://github.com/openai/openai-agents-python
+
+
 ## GitHub榜首AI编程技能库：Matt Pocock的"Skills for Real Engineers"
 
 1. 项目本质 70行Claude配置文件组成，源自作者.claude目录，专为解决真实工程问题设计
