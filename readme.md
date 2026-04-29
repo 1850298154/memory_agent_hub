@@ -1,6 +1,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 开源金融AI项目Dexter，被称为"金融圈版Claude Code"，能自动查财报、分析数据并生成报告。
+项目GitHub地址：github.com/virattt/dexter
+
 ## Paseo开源AI编程控制台
 项目地址是paseo.sh，GitHub仓库为getpaseo/paseo。这款开源AI编程控制台支持统一管理Claude/Codex/OpenCode，具备本地部署、跨设备同步和语音控制功能。
 
