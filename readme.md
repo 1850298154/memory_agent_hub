@@ -2,6 +2,9 @@
 
 ---
 
+## Warp
+GitHub地址是：https://github.com/warpdotdev/Warp。它与Chaterm都属终端工具范畴，但Warp专为AI代理开发设计，支持多模型协作和Staged Commits等开发者功能，而Chaterm更侧重基础命令行交互，二者在AI集成深度和开发场景定位上有明显差异。
+
 
 ## retool
 ·ex: ReTool: Reinforcement Learning for Strategie Tool Use in LLMS 
