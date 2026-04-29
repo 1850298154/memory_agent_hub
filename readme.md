@@ -1,6 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+
+## claude-context是由Zilliz开发的开源工具，专为AI编程助手设计。
+核心功能：通过语义代码搜索让Claude Code等AI理解整个代码库，采用AST分块技术和混合检索（BM25+向量），从百万行代码中精准定位相关内容。技术亮点：将代码索引至向量数据库，仅传递最相关片段给AI，实测减少40% token消耗且保持分析质量。适用场景：大型项目开发中的代码检索与问题排查。开源地址：github.com/zilliztech/claude-context。
+
+
 ## 谷歌这个开源项目，能预测任何行业的未来？
 跨境电商爆单预测、供应链库存优化、零售需求预测、能源需求峰值（尤其是AI数据中心电力）、股票价格走势……几乎所有时间序列数据，它都能预测 
 
