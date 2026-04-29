@@ -1,6 +1,22 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+## STReasoner
+
+它是首个“时空时序推理框架”，来自 Emory、微软和 Griffith。
+
+它不只是做预测，而是在回答三件事：
+发生了什么、为什么发生、以及怎么一步步传播。
+
+把时间、空间、语言一起理解，直接做因果推理。
+
+更夸张的是：
+成本只有闭源模型的 0.4%，
+还用合成数据训练，真实世界反而更强。
+
+一句话总结：
+它不是在预测未来，而是在理解世界怎么走到未来。
 ## 开源金融AI项目Dexter，被称为"金融圈版Claude Code"，能自动查财报、分析数据并生成报告。
 项目GitHub地址：github.com/virattt/dexter
 
