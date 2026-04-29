@@ -1,5 +1,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Paseo开源AI编程控制台
+项目地址是paseo.sh，GitHub仓库为getpaseo/paseo。这款开源AI编程控制台支持统一管理Claude/Codex/OpenCode，具备本地部署、跨设备同步和语音控制功能。
+
+
 ## OpenAI发布Agents SDK v2.0，将开发模式从"指令驱动"升级为"状态驱动"。
 开发者只需定义目标，AI就能自主规划、推理与纠错，并支持多智能体协作完成复杂任务，标志着Multi-Agent时代正式开启。
 https://github.com/openai/openai-agents-python
