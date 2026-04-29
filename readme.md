@@ -1,6 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ---
+## 谷歌这个开源项目，能预测任何行业的未来？
+跨境电商爆单预测、供应链库存优化、零售需求预测、能源需求峰值（尤其是AI数据中心电力）、股票价格走势……几乎所有时间序列数据，它都能预测 
+
+项目GitHub地址：https://github.com/google-research/timesfm
+
 
 ## Warp
 GitHub地址是：https://github.com/warpdotdev/Warp。它与Chaterm都属终端工具范畴，但Warp专为AI代理开发设计，支持多模型协作和Staged Commits等开发者功能，而Chaterm更侧重基础命令行交互，二者在AI集成深度和开发场景定位上有明显差异。
