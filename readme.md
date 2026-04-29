@@ -1,7 +1,22 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
----
+## GitHub榜首AI编程技能库：Matt Pocock的"Skills for Real Engineers"
 
+1. 项目本质 70行Claude配置文件组成，源自作者.claude目录，专为解决真实工程问题设计
+
+2. 四大原则 先思考再编码、简洁优先、精准修改、目标驱动执行，规范AI行为模式
+
+3. 设计优势 小巧易适应可组合，适用于任何模型，保留开发者控制权而非取代
+
+4. 开源价值 MIT许可证授权，已在GitHub获数万星标，专注解决AI编码痛点
+
+1. 克隆GitHub仓库开始探索核心配置
+2. 学习Claude.md文件掌握技能应用
+3. 在实际项目中验证技能效果
+4. 根据工作流定制个人技能集
+5. 关注更新获取最新工程实践
+
+https://github.com/mattgperry/skills-for-real-engineers
 ## claude-context是由Zilliz开发的开源工具，专为AI编程助手设计。
 核心功能：通过语义代码搜索让Claude Code等AI理解整个代码库，采用AST分块技术和混合检索（BM25+向量），从百万行代码中精准定位相关内容。技术亮点：将代码索引至向量数据库，仅传递最相关片段给AI，实测减少40% token消耗且保持分析质量。适用场景：大型项目开发中的代码检索与问题排查。开源地址：github.com/zilliztech/claude-context。
 
