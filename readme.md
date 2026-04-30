@@ -1,7 +1,12 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-
+## Obscura是专为AI Agent设计的Rust无头浏览器，核心特点：
+• 内存仅30MB（Chrome需200+MB）
+• 页面加载85ms（Chrome约500ms）
+• 内置反检测Stealth模式
+• 兼容Puppeteer/Playwright
+GitHub开源地址：https://github.com/h4ckf0r0day/obscura（Apache 2.0协议，802 Stars）
 ## ppt-master，一款专门制作PPT的工具。项目仓库地址：https://github.com/hugohe3/ppt-master
 
 ## GenericAgent是GitHub Trending榜首的开源自进化Agent框架
