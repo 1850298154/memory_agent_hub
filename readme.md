@@ -1,5 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+##狂揽5.2万星的GSD在这：
+github.com/gsd-build/get-shit-done。它把AI编程拆成讨论、规划、执行、验证四步，专治"上下文腐烂"问题。
+
+
 ## Obscura是专为AI Agent设计的Rust无头浏览器，核心特点：
 
 • 内存仅30MB（Chrome需200+MB）
