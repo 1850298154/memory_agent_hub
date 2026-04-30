@@ -1,6 +1,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## TradingAgents开源地址
 
+：https://github.com/TauricResearch/TradingAgents。中文优化版：https://github.com/hsliuping/TradingAgents-CN
 
 ## 狂揽5.2万星的GSD治愈上下文腐烂
 github.com/gsd-build/get-shit-done。它把AI编程拆成讨论、规划、执行、验证四步，专治"上下文腐烂"问题。
