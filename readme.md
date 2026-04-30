@@ -1,7 +1,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-
+## GenericAgent是GitHub Trending榜首的开源自进化Agent框架
+仅用3.3K代码实现技能树自主生长与全系统控制，Token消耗降低6倍。项目地址：github.com/Isdefine/GenericAgent
 ## STReasoner
 
 它是首个“时空时序推理框架”，来自 Emory、微软和 Griffith。
