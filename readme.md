@@ -1,16 +1,19 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
-
 ## Obscura是专为AI Agent设计的Rust无头浏览器，核心特点：
+
 • 内存仅30MB（Chrome需200+MB）
 • 页面加载85ms（Chrome约500ms）
 • 内置反检测Stealth模式
 • 兼容Puppeteer/Playwright
 GitHub开源地址：https://github.com/h4ckf0r0day/obscura（Apache 2.0协议，802 Stars）
+
 ## ppt-master，一款专门制作PPT的工具。项目仓库地址：https://github.com/hugohe3/ppt-master
 
 ## GenericAgent是GitHub Trending榜首的开源自进化Agent框架
+
 仅用3.3K代码实现技能树自主生长与全系统控制，Token消耗降低6倍。项目地址：github.com/Isdefine/GenericAgent
+
 ## STReasoner
 
 它是首个“时空时序推理框架”，来自 Emory、微软和 Griffith。
@@ -26,99 +29,107 @@ GitHub开源地址：https://github.com/h4ckf0r0day/obscura（Apache 2.0协议�
 
 一句话总结：
 它不是在预测未来，而是在理解世界怎么走到未来。
+
 ## 开源金融AI项目Dexter，被称为"金融圈版Claude Code"，能自动查财报、分析数据并生成报告。
+
 项目GitHub地址：github.com/virattt/dexter
 
 ## Paseo开源AI编程控制台
+
 项目地址是paseo.sh，GitHub仓库为getpaseo/paseo。这款开源AI编程控制台支持统一管理Claude/Codex/OpenCode，具备本地部署、跨设备同步和语音控制功能。
 
+npm install -g @getpaseo/cli && paseo
+
+paseo daemon start 用来开启
+
+paseo daemon pair 命令来显示登录二维码
 
 ## OpenAI发布Agents SDK v2.0，将开发模式从"指令驱动"升级为"状态驱动"。
+
 开发者只需定义目标，AI就能自主规划、推理与纠错，并支持多智能体协作完成复杂任务，标志着Multi-Agent时代正式开启。
 https://github.com/openai/openai-agents-python
-
 
 ## GitHub榜首AI编程技能库：Matt Pocock的"Skills for Real Engineers"
 
 1. 项目本质 70行Claude配置文件组成，源自作者.claude目录，专为解决真实工程问题设计
-
 2. 四大原则 先思考再编码、简洁优先、精准修改、目标驱动执行，规范AI行为模式
-
 3. 设计优势 小巧易适应可组合，适用于任何模型，保留开发者控制权而非取代
-
 4. 开源价值 MIT许可证授权，已在GitHub获数万星标，专注解决AI编码痛点
-
-1. 克隆GitHub仓库开始探索核心配置
-2. 学习Claude.md文件掌握技能应用
-3. 在实际项目中验证技能效果
-4. 根据工作流定制个人技能集
-5. 关注更新获取最新工程实践
+5. 克隆GitHub仓库开始探索核心配置
+6. 学习Claude.md文件掌握技能应用
+7. 在实际项目中验证技能效果
+8. 根据工作流定制个人技能集
+9. 关注更新获取最新工程实践
 
 https://github.com/mattgperry/skills-for-real-engineers
+
 ## claude-context是由Zilliz开发的开源工具，专为AI编程助手设计。
+
 核心功能：通过语义代码搜索让Claude Code等AI理解整个代码库，采用AST分块技术和混合检索（BM25+向量），从百万行代码中精准定位相关内容。技术亮点：将代码索引至向量数据库，仅传递最相关片段给AI，实测减少40% token消耗且保持分析质量。适用场景：大型项目开发中的代码检索与问题排查。开源地址：github.com/zilliztech/claude-context。
 
-
 ## 谷歌这个开源项目，能预测任何行业的未来？
-跨境电商爆单预测、供应链库存优化、零售需求预测、能源需求峰值（尤其是AI数据中心电力）、股票价格走势……几乎所有时间序列数据，它都能预测 
+
+跨境电商爆单预测、供应链库存优化、零售需求预测、能源需求峰值（尤其是AI数据中心电力）、股票价格走势……几乎所有时间序列数据，它都能预测
 
 项目GitHub地址：https://github.com/google-research/timesfm
 
-
 ## Warp
+
 GitHub地址是：https://github.com/warpdotdev/Warp。它与Chaterm都属终端工具范畴，但Warp专为AI代理开发设计，支持多模型协作和Staged Commits等开发者功能，而Chaterm更侧重基础命令行交互，二者在AI集成深度和开发场景定位上有明显差异。
 
-
 ## retool
-·ex: ReTool: Reinforcement Learning for Strategie Tool Use in LLMS 
-·arxiv: https:llarxiv.org/abs/2504.11536 
-·项目主页:https://retool-rl.github.io/ 
+
+·ex: ReTool: Reinforcement Learning for Strategie Tool Use in LLMS
+·arxiv: https:llarxiv.org/abs/2504.11536
+·项目主页:https://retool-rl.github.io/
 GitHub: https:/lgithub.com/ReTool-RL/ReTool
 
 ## 免费全能 Penpot，一站式设计协作开发功能全覆盖，直接干翻付费 Figma
+
 Penpot 的 GitHub 项目地址是 https://github.com/penpot/penpot，可以直接访问查看源码和文档。
+
 ## 人类满分程序员的Skill repo 登顶页全球第一，硬核实力碾压！
 
 视频里提到的Skill repo项目地址是：https://github.com/mattpocock/skills
 
 ## 上海创智学院与华东师范大学联合提出的新一代记忆智能体框架 MIA（Memory Intelligence Agent）
+
 旨在解决当前智能体"失忆式工作"的痛点——即每次推理从零开始、失败无法转化为经验、记忆增长但智能不增长的困境。
 智能体的记忆不应只是"记住结果"，而应沉淀为"执行本能"——通过双记忆循环与在线进化，让智能体在深度研究中越用越强。
 
-
-MIA项目的相关资源：  
-论文地址：https://arxiv.org/abs/2604.04503  
-代码仓库：https://github.com/ECNU-SII/MIA  
+MIA项目的相关资源：
+论文地址：https://arxiv.org/abs/2604.04503
+代码仓库：https://github.com/ECNU-SII/MIA
 龙虾技能平台提供纯净版（https://clawhub.ai/jingyangqiao/mia）和可信版（https://clawhub.ai/sii-yucheng2002/mia-trust）。
-
 
 ## JiuwenClaw，是由华为2012实验室、华为云AgentArts与社区开发者联合，
 
 在openJiuwen开源社区共建的“小龙虾”AI Agent，主打“懂你所想，自主演进”。项目地址：https://gitcode.com/openJiuwen/jiuwenclawhttps://github.com/openJiuwen-ai/jiuwenclaw从Agent Team到
+
 ## 斯坦福CS博士生Jacky Kwok与伯克利Shulu Li联合提出LLM-as-a-Verifier框架，
+
 通过扩展验证阶段计算量实现Agent性能飞跃。该方法可与任意Agent Harness和模型结合，在Terminal-Bench 2.0达到86.4%、SWE-Bench Verified达到77.8%，全面超越GPT-5.5和Claude Mythos取得SOTA。Transformer作者Lukasz Kaiser与GAN作者Bing Xu均转发关注。
 #llm#Agent#斯坦福#伯克利#英伟达#Harness#claude#gpt
 论文及相关资源：官网 llm-as-a-verifier.notion.site，代码库 llm-as-a-verifier.github.io
 
-
-
 ## OpenClaw创始人做了个叫ClawSweeper的AI工具
+
 能自动扫描GitHub问题并关闭无效讨论。它并行运行50个AI模型，两天清理5000多个问题，成本不到1000美元。有意思的是，GitHub的API限速反而成了瓶颈——AI干活太快，服务器跟不上。这可能是开源项目走向"自愈"的新方向。
+
 ## 4 万 Star！这个极简 AI Agent 框架吃透就能造自己的 Agent
 
 pi-mono的GitHub项目地址是：https://github.com/badlogic/pi-mono
-
-
 
 ##.gpt img2+seeddance2.0+好的提示词 开源有
 https://github.com/wuyoscar/gpt_image_2_skill
 
 ## LLM-as-a-Verifier框架已开源
+
 GitHub地址：llm-as-a-verifier.github.io，包含完整代码和文档。
 
 ## Carnice-V2-27B
-对应的 Hugging Face 模型页也已经放出。模型卡写得更具体：Carnice-V2-27B 是一个基于 Qwen/Qwen3.6-27B 的 full merged BF16 SFT，用的是 Hermes-style agent traces。它不是只给一个 LoRA adapter，而是给了合并后的独立权重。
 
+对应的 Hugging Face 模型页也已经放出。模型卡写得更具体：Carnice-V2-27B 是一个基于 Qwen/Qwen3.6-27B 的 full merged BF16 SFT，用的是 Hermes-style agent traces。它不是只给一个 LoRA adapter，而是给了合并后的独立权重。
 
 ## 学习nanoGPT就挺好的
 
