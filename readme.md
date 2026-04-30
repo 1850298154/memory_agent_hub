@@ -1,5 +1,10 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 谷歌开源的Agent Skills包含20项实用技能+7条专用命令，安装地址为github.com/google/skills。该项目封装了谷歌内部工程规范，覆盖全开发链路，通过三重校验解决AI代码"只顾速度、忽视稳定"的痛点。
+
+
+
 ## TradingAgents开源地址
 
 ：https://github.com/TauricResearch/TradingAgents。中文优化版：https://github.com/hsliuping/TradingAgents-CN
