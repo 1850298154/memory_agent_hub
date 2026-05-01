@@ -1,5 +1,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 中医智能体源代码
+https://mp.weixin.qq.com/s/YsyWFh-rQIv39B96c2RoPA
+
 
 
 ## 把顶级投资公司蒸馏成26个skills
