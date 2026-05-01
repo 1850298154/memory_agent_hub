@@ -1,5 +1,26 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 免费无限使用Claude Code的开源代理方案
+
+① 核心原理 开源代理转发技术实现Claude Code免费调用，无需官方API密钥
+② 成本优势 全程零成本使用，规避Anthropic收费API的高昂费用
+③ 兼容服务 支持NVIDIA NIM每分钟40次免费请求、DeepSeek及OpenRouter等平台
+④ 部署简易 仅需配置CLAUDE_PROXY_URL和API_FALLBACK_SERVICE两项环境变量
+⑤ 功能完整 保留模型分流、工具调用解析、智能限流等高级功能
+
+1. 访问GitHub仓库获取开源代理工具：https://github.com/geektech-projects/claude-code-proxy
+2. 安装依赖并启动代理服务：git clone仓库地址→pip安装依赖→配置环境变量→运行proxy_server.py
+3. 选择免费API转发目标：NVIDIA NIM(https://build.nvidia.com/nim/claude)或DeepSeek兼容接口
+4. 保持编辑器插件不变，代理会自动拦截并转发Claude Code请求
+5. 注意监控第三方服务稳定性，商业用途需确认各平台政策合规性
+
+免费不应是偶然，而是技术民主化的必然路径。
+
+深夜两点，程序员小李盯着编辑器里闪烁的光标，又一次被API额度耗尽的提示打断思路。当他偶然发...
+
+用 cliproxyapi 统一设置别名，用完了自动切换下一个。liteLLm 也能做到。CC switch 还是不行哦
+
+
 ## GitHub 上悄悄冲到 1.7万 星的 claude-code-best-practice，
 核心不是教你技巧，而是教你"组织 AI"。
 
