@@ -1,5 +1,12 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## GitHub 开源架构图绘制 skill 神器fireworks-tech-graph
+靠文字对话秒生成专业架构图，多风格多类型全覆盖，彻底拯救程序员画图焦虑。
+
+#赛博吴同学 #AI #科技 #前沿科技 #架构图生成 #开源神器 #程序员 #AI智能绘图 #Agent架构 #skill #开发效率黑科技 #UML图表 #Agent
+
+
 ## 谷歌MCP Toolbox for Databases的GitHub地址是：https://github.com/googleapis/genai-toolbox，这是该项目的官方开源仓库。😊
 
 
