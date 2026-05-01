@@ -1,6 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+## 把顶级投资公司蒸馏成26个skills
+项目GitHub地址：https://github.com/AlphaGBM/skills。该开源项目将专业投研流程拆解为26个AI技能模块，用于股票分析和期权研究。需注意股市有风险，投资需谨慎。
+
+
 ## 别卷了（别摸了）~
 [旺柴] 猫猫护眼上线，守护你的摸鱼时间。鱼是小猫咪的，健康才是你的。
 
