@@ -1,5 +1,49 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 免费无限使用Claude Code的开源代理方案
+
+① 核心原理 开源代理转发技术实现Claude Code免费调用，无需官方API密钥
+② 成本优势 全程零成本使用，规避Anthropic收费API的高昂费用
+③ 兼容服务 支持NVIDIA NIM每分钟40次免费请求、DeepSeek及OpenRouter等平台
+④ 部署简易 仅需配置CLAUDE_PROXY_URL和API_FALLBACK_SERVICE两项环境变量
+⑤ 功能完整 保留模型分流、工具调用解析、智能限流等高级功能
+
+1. 访问GitHub仓库获取开源代理工具：https://github.com/geektech-projects/claude-code-proxy
+2. 安装依赖并启动代理服务：git clone仓库地址→pip安装依赖→配置环境变量→运行proxy_server.py
+3. 选择免费API转发目标：NVIDIA NIM(https://build.nvidia.com/nim/claude)或DeepSeek兼容接口
+4. 保持编辑器插件不变，代理会自动拦截并转发Claude Code请求
+5. 注意监控第三方服务稳定性，商业用途需确认各平台政策合规性
+
+免费不应是偶然，而是技术民主化的必然路径。
+
+深夜两点，程序员小李盯着编辑器里闪烁的光标，又一次被API额度耗尽的提示打断思路。当他偶然发...
+
+用 cliproxyapi 统一设置别名，用完了自动切换下一个。liteLLm 也能做到。CC switch 还是不行哦
+
+
+## GitHub 上悄悄冲到 1.7万 星的 claude-code-best-practice，
+核心不是教你技巧，而是教你"组织 AI"。
+
+一套三层架构讲清楚：
+① 入口层：command —— 一句话拉起固定流程
+② 执行层：agent / subagent —— 长任务独立上下文
+③ 复用层：skill / settings / memory / MCP —— 沉淀经验与规则
+
+从"和 AI 聊天"升级到"搭可复用工作流"，
+这才是 Claude Code 真正的打开方式。
+
+#ClaudeCode #AI编程 #AIAgent #程序员 #GitHub开源
+GitHub搜索链接：https://github.com/search?q=claude-code-best-practice
+## 微软BitNet项目的GitHub地址是：https://github.com/microsoft/BitNet，视频中展示的就是这个官方仓库，可以直接访问查看源码和文档。
+
+## EvoAgentBench是EverMind团队开发的AI智能体自进化能力测评框架。
+它通过五大领域（信息检索、推理分解、软件工程、代码实现和知识工作）标准化测试，量化评估不同AI智能体的学习进化效果。测试显示工程实践能力进步最明显，小模型配合优质记忆系统也能超越大模型。这个开源工具帮助开发者客观衡量智能体在实战中的成长轨迹，目前OpenClaw和Hermes都在该框架下进行了性能比拼。
+
+
+#发Hugging Face开源的ml-intern是一款能自主完成机器学习全流程的AI智能体
+可自动读论文、写代码、训练模型。测试中10小时内将Qwen基础模型科学推理得分从10%提升至32%，GitHub已获7.8k星。项目地址：github.com/huggingface/ml-intern
+
+
 ## SkillClaw是阿里DreamX开源的AI技能进化框架
 可通过GitHub搜索"AMAP-ML/SkillClaw"找到。它实现了Agent技能自动提炼、共享与进化，使用人数越多技能越强，支持空闲自动测试和多生态兼容。
 
