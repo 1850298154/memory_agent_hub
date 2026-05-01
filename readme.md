@@ -1,5 +1,15 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
-
+## 十大封神技能解析：
+1. Superpowers：整合20+原子能力，强制设计优先
+2. Planning with Files：项目进度本地化，轻松搞定开发
+3. UI UX Pro Max：快速生成专业级别UI风格
+4. Code Review：多智能体并行审查精准过滤噪音
+5. Code Simplifier：重构冗余逻辑，让代码更简洁
+6. Webapp Testing：自动编写脚本，搞定E2E测试
+7. Ralph Loop：强制任务迭代，杜绝敷衍式交付
+8. MCP Builder：标准流程快速构建MCP服务器
+9. PPTX：直接生成专业带动画的汇报PPT
+10. Skill Creator：元技能工具箱，支持A/B测试
 ## 免费无限使用Claude Code的开源代理方案
 
 ① 核心原理 开源代理转发技术实现Claude Code免费调用，无需官方API密钥
