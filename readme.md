@@ -1,6 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+## Anthropic相关论文是《Scaling Monosemanticity: Extracting Interpretable Features from Claude》，可在arXiv查看：https://arxiv.org/abs/2601.10387。该研究揭示了情绪反馈如何通过特定向量影响模型行为，但原文未使用"越骂越蠢"的表述。
+
+
 ## 谷歌开源的Agent Skills包含20项实用技能+7条专用命令，安装地址为github.com/google/skills。该项目封装了谷歌内部工程规范，覆盖全开发链路，通过三重校验解决AI代码"只顾速度、忽视稳定"的痛点。
 
 
