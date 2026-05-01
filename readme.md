@@ -1,6 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## GitHub仓库地址：mattpocock/skills。可通过npx skills@latest add安装使用。
+
 ## HarnessKit是一款开源工具，专为解决AI Agent分散管理难题设计
 可统一调度Skills、MCP服务器、插件等组件，降低运维复杂度。项目地址：https://github.com/RealZST/HarnessKit
 
