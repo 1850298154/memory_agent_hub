@@ -1,5 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## EvoAgentBench是EverMind团队开发的AI智能体自进化能力测评框架。
+它通过五大领域（信息检索、推理分解、软件工程、代码实现和知识工作）标准化测试，量化评估不同AI智能体的学习进化效果。测试显示工程实践能力进步最明显，小模型配合优质记忆系统也能超越大模型。这个开源工具帮助开发者客观衡量智能体在实战中的成长轨迹，目前OpenClaw和Hermes都在该框架下进行了性能比拼。
+
 
 #发Hugging Face开源的ml-intern是一款能自主完成机器学习全流程的AI智能体
 可自动读论文、写代码、训练模型。测试中10小时内将Qwen基础模型科学推理得分从10%提升至32%，GitHub已获7.8k星。项目地址：github.com/huggingface/ml-intern
