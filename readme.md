@@ -1,5 +1,13 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## PraisonAI开源多智能体框架
+一行代码部署AI团队，24小时自动干活
+
+PraisonAI是一个低代码多智能体框架，支持100+大模型，内置记忆、RAG、MCP协议。最牛的是它能24/7自动运行，还能把结果直接发到Telegram、Discord、WhatsApp。写代码、做研究、处理数据，一个Agent团队全搞定！
+
+
+项目主仓库：https://github.com/MervinPraison/PraisonAI（含文档和示例）
+
 
 ## One-Eval项目
 GitHub地址：https://github.com/OpenDCAI/One-Eval。这是北大DCAI团队开源的大模型自动化评测框架，支持自然语言发起任务和一键生成专业报告。
