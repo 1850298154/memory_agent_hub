@@ -1,5 +1,18 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## GitHub 上悄悄冲到 1.7万 星的 claude-code-best-practice，
+核心不是教你技巧，而是教你"组织 AI"。
+
+一套三层架构讲清楚：
+① 入口层：command —— 一句话拉起固定流程
+② 执行层：agent / subagent —— 长任务独立上下文
+③ 复用层：skill / settings / memory / MCP —— 沉淀经验与规则
+
+从"和 AI 聊天"升级到"搭可复用工作流"，
+这才是 Claude Code 真正的打开方式。
+
+#ClaudeCode #AI编程 #AIAgent #程序员 #GitHub开源
+GitHub搜索链接：https://github.com/search?q=claude-code-best-practice
 ## 微软BitNet项目的GitHub地址是：https://github.com/microsoft/BitNet，视频中展示的就是这个官方仓库，可以直接访问查看源码和文档。
 
 ## EvoAgentBench是EverMind团队开发的AI智能体自进化能力测评框架。
