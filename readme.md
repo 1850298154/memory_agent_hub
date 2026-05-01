@@ -1,5 +1,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 微软BitNet项目的GitHub地址是：https://github.com/microsoft/BitNet，视频中展示的就是这个官方仓库，可以直接访问查看源码和文档。
+
 ## EvoAgentBench是EverMind团队开发的AI智能体自进化能力测评框架。
 它通过五大领域（信息检索、推理分解、软件工程、代码实现和知识工作）标准化测试，量化评估不同AI智能体的学习进化效果。测试显示工程实践能力进步最明显，小模型配合优质记忆系统也能超越大模型。这个开源工具帮助开发者客观衡量智能体在实战中的成长轨迹，目前OpenClaw和Hermes都在该框架下进行了性能比拼。
 
