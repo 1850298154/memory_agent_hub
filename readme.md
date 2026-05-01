@@ -1,5 +1,7 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Claude-mem是由thedotmack开发的开源项目，项目地址为https://github.com/thedotmack/claude-mem。该工具为Claude Code提供永久记忆功能，上线48小时获4.6万星，能降低95% Token消耗，彻底摆脱上下文限制，实现对话进度无缝衔接。支持一键安装(npx claude-mem install)，完全免费开放，显著提升开发效率。
+
 
 ## Caveman是GitHub开源项目
 能一键关闭Claude的"礼貌模式"，去除冗余客套只保留核心内容。实测可降低65% API成本，同时提升代码编写和Agent任务的准确率。项目地址：https://github.com/JuliusBrussee/caveman
