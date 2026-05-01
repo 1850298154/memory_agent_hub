@@ -1,5 +1,10 @@
-# 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
+# 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+## Nanobrowser 的多智能体系统实时分析 HuggingFace，规划器在遇到障碍时智能自我修正，并动态指示导航员调整路径——所有这些都在你的浏览器中本地运行。
+https://github.com/nanobrowser/nanobrowser
 ## 爆火出圈的 MCP 协议堪称 AI 领域万能 Type-C 接口，由 Anthropic 推出，旨在打通大模型与各类工具的数据壁垒。
 开源项目 BlenderMCP 上线三天 GitHub 星标直冲 3.8k，支持 Claude 一句话操控 Blender，自动完成 3D 建模、场景搭建、素材下载与参数调节，几分钟搞定人工数小时工作量。还可无缝接入编程、地理、办公等各类工具，生态快速扩张，但业内对其能否成为行业统一标准仍存在分歧与观望。
 
