@@ -1,5 +1,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Caveman是GitHub开源项目
+能一键关闭Claude的"礼貌模式"，去除冗余客套只保留核心内容。实测可降低65% API成本，同时提升代码编写和Agent任务的准确率。项目地址：https://github.com/JuliusBrussee/caveman
 ## Claude架构图生成神器，文字描述一键生成专业系统架构图，无需设计，开箱即用。Claude AI skill：architecture-diagram-generator。
 
 
