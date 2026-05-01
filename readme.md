@@ -1,6 +1,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Claude架构图生成神器，文字描述一键生成专业系统架构图，无需设计，开箱即用。Claude AI skill：architecture-diagram-generator。
 
+
+#架构图生成 #Claude技能 #开发者工具 #AI绘图 #系统架构 #赛博吴同学 #AI #架构图 #程序员 #开发者#Skills #architecture-diagram-generator
 
 ## TradingView MCP项目
 GitHub地址：https://github.com/atilaahmettaner/tradingview-mcp
