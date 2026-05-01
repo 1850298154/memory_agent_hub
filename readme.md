@@ -1,6 +1,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 爆火出圈的 MCP 协议堪称 AI 领域万能 Type-C 接口，由 Anthropic 推出，旨在打通大模型与各类工具的数据壁垒。
+开源项目 BlenderMCP 上线三天 GitHub 星标直冲 3.8k，支持 Claude 一句话操控 Blender，自动完成 3D 建模、场景搭建、素材下载与参数调节，几分钟搞定人工数小时工作量。还可无缝接入编程、地理、办公等各类工具，生态快速扩张，但业内对其能否成为行业统一标准仍存在分歧与观望。
 
+GitHub项目地址：https://github.com/ahujasid/blender-mcp
 ## GitHub 开源架构图绘制 skill 神器fireworks-tech-graph
 靠文字对话秒生成专业架构图，多风格多类型全覆盖，彻底拯救程序员画图焦虑。
 
