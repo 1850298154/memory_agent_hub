@@ -1,4 +1,15 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
+
+## 推荐的7个Claude Code Skills：
+1. planning-with-files：防项目迷失
+2. superpowers：补开发工具链
+3. frontend-design：美化AI前端
+4. notebooklm：免切窗查资料
+5. baoyu-skills：整合内容发布
+6. webapp-testing：自动网页测试
+7. skill-creator：助创自定义Skill
+
+
 ## 十大封神技能解析：
 1. Superpowers：整合20+原子能力，强制设计优先
 2. Planning with Files：项目进度本地化，轻松搞定开发
