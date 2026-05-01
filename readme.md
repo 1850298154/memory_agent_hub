@@ -1,4 +1,85 @@
-# 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
+# 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
+
+
+## Selectly 是一款由人工智能驱动的浏览器扩展，通过智能操作增强文本选择。利用由大型语言模型（LLM）驱动的上下文感知文本处理，改变您的浏览体验。
+https://github.com/samanhappy/selectly
+
+## Nanobrowser 的多智能体系统实时分析 HuggingFace，规划器在遇到障碍时智能自我修正，并动态指示导航员调整路径——所有这些都在你的浏览器中本地运行。
+https://github.com/nanobrowser/nanobrowser
+## 爆火出圈的 MCP 协议堪称 AI 领域万能 Type-C 接口，由 Anthropic 推出，旨在打通大模型与各类工具的数据壁垒。
+开源项目 BlenderMCP 上线三天 GitHub 星标直冲 3.8k，支持 Claude 一句话操控 Blender，自动完成 3D 建模、场景搭建、素材下载与参数调节，几分钟搞定人工数小时工作量。还可无缝接入编程、地理、办公等各类工具，生态快速扩张，但业内对其能否成为行业统一标准仍存在分歧与观望。
+
+GitHub项目地址：https://github.com/ahujasid/blender-mcp
+## GitHub 开源架构图绘制 skill 神器fireworks-tech-graph
+靠文字对话秒生成专业架构图，多风格多类型全覆盖，彻底拯救程序员画图焦虑。
+
+#赛博吴同学 #AI #科技 #前沿科技 #架构图生成 #开源神器 #程序员 #AI智能绘图 #Agent架构 #skill #开发效率黑科技 #UML图表 #Agent
+
+
+## 谷歌MCP Toolbox for Databases的GitHub地址是：https://github.com/googleapis/genai-toolbox，这是该项目的官方开源仓库。😊
+
+
+## 用Rust重写Claude Code
+项目地址：https://github.com/ultraworkers/claw-code
+
+
+## Claude-mem是由thedotmack开发的开源项目，项目地址为https://github.com/thedotmack/claude-mem。该工具为Claude Code提供永久记忆功能，上线48小时获4.6万星，能降低95% Token消耗，彻底摆脱上下文限制，实现对话进度无缝衔接。支持一键安装(npx claude-mem install)，完全免费开放，显著提升开发效率。
+
+
+## Caveman是GitHub开源项目
+能一键关闭Claude的"礼貌模式"，去除冗余客套只保留核心内容。实测可降低65% API成本，同时提升代码编写和Agent任务的准确率。项目地址：https://github.com/JuliusBrussee/caveman
+## Claude架构图生成神器，文字描述一键生成专业系统架构图，无需设计，开箱即用。Claude AI skill：architecture-diagram-generator。
+
+
+#架构图生成 #Claude技能 #开发者工具 #AI绘图 #系统架构 #赛博吴同学 #AI #架构图 #程序员 #开发者#Skills #architecture-diagram-generator
+
+## TradingView MCP项目
+GitHub地址：https://github.com/atilaahmettaner/tradingview-mcp
+## PraisonAI开源多智能体框架
+一行代码部署AI团队，24小时自动干活
+
+PraisonAI是一个低代码多智能体框架，支持100+大模型，内置记忆、RAG、MCP协议。最牛的是它能24/7自动运行，还能把结果直接发到Telegram、Discord、WhatsApp。写代码、做研究、处理数据，一个Agent团队全搞定！
+
+
+项目主仓库：https://github.com/MervinPraison/PraisonAI（含文档和示例）
+
+
+## One-Eval项目
+GitHub地址：https://github.com/OpenDCAI/One-Eval。这是北大DCAI团队开源的大模型自动化评测框架，支持自然语言发起任务和一键生成专业报告。
+## 腾讯云开源 Cube Sandbox，推出 OpenAI 同款 Agent 底座，亚毫秒级启动！
+项目地址：https://github.com/TencentCloud/CubeSandbox  
+Cube Sandbox是腾讯云开源的AI Agent执行环境底座，支持亚百毫秒级启动（<60ms）、硬件级隔离及低内存开销（<5MB），兼容E2B接口和OpenAI Agents SDK，可直接迁移部署。
+
+
+## 中医智能体源代码
+https://mp.weixin.qq.com/s/YsyWFh-rQIv39B96c2RoPA
+
+
+
+## 把顶级投资公司蒸馏成26个skills
+项目GitHub地址：https://github.com/AlphaGBM/skills。该开源项目将专业投研流程拆解为26个AI技能模块，用于股票分析和期权研究。需注意股市有风险，投资需谨慎。
+
+
+## 别卷了（别摸了）~
+[旺柴] 猫猫护眼上线，守护你的摸鱼时间。鱼是小猫咪的，健康才是你的。
+
+假期注意用眼过度，推荐个有趣小插件：Cat Gatekeeper Chrome 插件，适用于 X、Facebook、 Threads、Bluesky、YouTube、Reddit 等平台——当感觉你使用屏幕太久，猫猫就会跳出来提醒你：屏幕该休息啦！！
+#五一 #小长假 #猫咪 #Chrome插件 #防沉迷
+
+## Anthropic相关论文是《Scaling Monosemanticity: Extracting Interpretable Features from Claude》，可在arXiv查看：https://arxiv.org/abs/2601.10387。该研究揭示了情绪反馈如何通过特定向量影响模型行为，但原文未使用"越骂越蠢"的表述。
+
+
+## 谷歌开源的Agent Skills包含20项实用技能+7条专用命令，安装地址为github.com/google/skills。该项目封装了谷歌内部工程规范，覆盖全开发链路，通过三重校验解决AI代码"只顾速度、忽视稳定"的痛点。
+
+
+
+## TradingAgents开源地址
+
+：https://github.com/TauricResearch/TradingAgents。中文优化版：https://github.com/hsliuping/TradingAgents-CN
+
+## 狂揽5.2万星的GSD治愈上下文腐烂
+github.com/gsd-build/get-shit-done。它把AI编程拆成讨论、规划、执行、验证四步，专治"上下文腐烂"问题。
+
 
 ## Obscura是专为AI Agent设计的Rust无头浏览器，核心特点：
 
