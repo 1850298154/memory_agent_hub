@@ -1,5 +1,8 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## One-Eval项目
+GitHub地址：https://github.com/OpenDCAI/One-Eval。这是北大DCAI团队开源的大模型自动化评测框架，支持自然语言发起任务和一键生成专业报告。
 ## 腾讯云开源 Cube Sandbox，推出 OpenAI 同款 Agent 底座，亚毫秒级启动！
 项目地址：https://github.com/TencentCloud/CubeSandbox  
 Cube Sandbox是腾讯云开源的AI Agent执行环境底座，支持亚百毫秒级启动（<60ms）、硬件级隔离及低内存开销（<5MB），兼容E2B接口和OpenAI Agents SDK，可直接迁移部署。
