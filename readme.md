@@ -1,5 +1,24 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+
+## Codex + HyperFrames。不用懂代码，不用会剪辑，HTML直接变视频，效率提升10倍！
+1⃣ 安装与开启：
+在Codex的插件市场找到“HyperFrames by HeyGen”，一键启用。它能把Codex变成你的“视频导演+剪辑师”。
+2⃣ 下达指令（参数锁定）：
+直接告诉Codex你要做什么。公式：用途 + 尺寸 + 时长 + 风格 + 平台。
+例：“用HyperFrames做一个3:4竖屏教程视频，45秒，Swiss Pulse风格，用来发抖音。”
+Codex会自动拆结构、写分镜、安排时间轴。
+3⃣ 全自动执行流：
+你只需看着它跑。Codex会自动生成HTML源文件、GSAP动画、同步字幕、甚至配音。
+核心逻辑：HTML就是视频源文件。文字、卡片、时间轴全用代码精确控制，改一个参数，整个视频自动更新。
+4⃣ 一键导出：
+跑完流程，直接预览并渲染成MP4。特别适合做工具教程、产品宣传片、数据图表视频。
+别把时间浪费在重复劳动上。这套SOP跑通了，你一个人就是一个MCN。
+
+
 ## 推荐的7个Claude Code Skills：
 1. planning-with-files：防项目迷失
 2. superpowers：补开发工具链
