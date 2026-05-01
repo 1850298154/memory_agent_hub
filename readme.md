@@ -1,5 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+#发Hugging Face开源的ml-intern是一款能自主完成机器学习全流程的AI智能体
+可自动读论文、写代码、训练模型。测试中10小时内将Qwen基础模型科学推理得分从10%提升至32%，GitHub已获7.8k星。项目地址：github.com/huggingface/ml-intern
+
+
 ## SkillClaw是阿里DreamX开源的AI技能进化框架
 可通过GitHub搜索"AMAP-ML/SkillClaw"找到。它实现了Agent技能自动提炼、共享与进化，使用人数越多技能越强，支持空闲自动测试和多生态兼容。
 
