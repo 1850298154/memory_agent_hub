@@ -1,5 +1,9 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## TradingView MCP项目
+GitHub地址：https://github.com/atilaahmettaner/tradingview-mcp
 ## PraisonAI开源多智能体框架
 一行代码部署AI团队，24小时自动干活
 
