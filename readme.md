@@ -2,7 +2,23 @@
 
 
 
+## 6个AI技能清单及安装路径：
 
+01 Superpowers（项目管理）：任务规划助手  
+02 Canvas Design（设计）：一句话出海报  
+安装：/plugin marketplace add anthropics/skills + /plugin install document-skills@enthropic-agent-skills  
+
+03 Frontend Design（前端）：半小时生成网页  
+安装：同上  
+
+04 Docx（文档）：Word一键生成  
+安装：/plugin marketplace add anthropics/skills + /plugin install document-skills@anthropic-agent-skills  
+
+05 XLSX（数据）：Excel自动处理  
+安装：/plugin marketplace add anthropics/skills  
+
+06 Humanizer（润色）：去除AI写作痕迹  
+安装：GitHub搜索bitder/humanizer，将SKILL.no放入~/.clande/skills/humanizer/
 
 ## Codex + HyperFrames。不用懂代码，不用会剪辑，HTML直接变视频，效率提升10倍！
 1⃣ 安装与开启：
