@@ -104,11 +104,47 @@ if __name__ == "__main__":
             except Exception:
                 pass
 
-    # 2. 获取项目路径和名称
-    cwd = hook_input.get("cwd", "") or hook_input.get("project_path", "") or os.getcwd()
-    project_name = Path(cwd).name if cwd else "unknown"
+    # 调试：保存原始 stdin
+    stdin_debug = Path.home() / ".claude" / "scripts" / "stdin_raw.txt"
+    try:
+        stdin_debug.write_text(f"length={len(raw_stdin)}\n\n{raw_stdin[:2000]}", encoding="utf-8")
+    except Exception:
+        pass
 
-    # 调试日志（保存原始 stdin）
+    # 2. 定位 transcript 路径
+    cwd = hook_input.get("cwd", "") or hook_input.get("project_path", "") or os.getcwd()
+    transcript_path = hook_input.get("transcript_path", "")
+    if not transcript_path:
+        project_dir = cwd.replace("/", "-").replace("\\", "-").replace(":", "-").replace("_", "-")
+        sessions_dir = Path.home() / ".claude" / "projects" / project_dir
+        session_id = hook_input.get("session_id", "")
+        if session_id:
+            candidate = sessions_dir / f"{session_id}.jsonl"
+            if candidate.exists():
+                transcript_path = str(candidate)
+        if not transcript_path:
+            jsonl_files = sorted(sessions_dir.glob("*.jsonl"), key=os.path.getmtime, reverse=True)
+            if jsonl_files:
+                transcript_path = str(jsonl_files[0])
+
+    # 3. 从 transcript 文件中读取第一条 cwd 字段，得到用户启动项目的真实路径
+    real_cwd = ""
+    if transcript_path:
+        try:
+            with open(transcript_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    try:
+                        entry = json.loads(line)
+                        if "cwd" in entry and entry["cwd"]:
+                            real_cwd = entry["cwd"]
+                            break  # 取第一条，就是用户启动项目时的目录
+                    except Exception:
+                        continue
+        except Exception:
+            pass
+    project_name = Path(real_cwd or cwd).name if (real_cwd or cwd) else "unknown"
+
+    # 调试日志
     debug_path = Path.home() / ".claude" / "scripts" / "hook_debug.json"
     try:
         import time as _time
@@ -118,35 +154,17 @@ if __name__ == "__main__":
             "stdin_length": len(raw_stdin),
             "raw_stdin_preview": raw_stdin[:500] if raw_stdin else "",
             "hook_input_keys": list(hook_input.keys()),
-            "cwd": cwd,
+            "real_cwd": real_cwd,
             "project_name": project_name,
-            "transcript_path_from_hook": hook_input.get("transcript_path", ""),
-            "session_id_from_hook": hook_input.get("session_id", ""),
+            "transcript_path": transcript_path,
         }, ensure_ascii=False, indent=2), encoding="utf-8")
     except Exception:
         pass
 
-    # 3. 排除项目
+    # 4. 排除项目
     if project_name.lower() in SKIP_PROJECTS:
         print(f"已跳过: {project_name} 在排除列表中")
         sys.exit(0)
-
-    # 4. 获取 transcript 路径
-    transcript_path = hook_input.get("transcript_path", "")
-    if not transcript_path:
-        # 回退：根据 cwd 手动定位
-        project_dir = cwd.replace("/", "-").replace("\\", "-").replace(":", "-").replace("_", "-")
-        sessions_dir = Path.home() / ".claude" / "projects" / project_dir
-        session_id = hook_input.get("session_id", "")
-        if session_id:
-            candidate = sessions_dir / f"{session_id}.jsonl"
-            if candidate.exists():
-                transcript_path = str(candidate)
-        if not transcript_path:
-            # 找最新的 jsonl
-            jsonl_files = sorted(sessions_dir.glob("*.jsonl"), key=os.path.getmtime, reverse=True)
-            if jsonl_files:
-                transcript_path = str(jsonl_files[0])
 
     # 5. 提取用户问题和助手回答（等待文件刷盘）
     import time
