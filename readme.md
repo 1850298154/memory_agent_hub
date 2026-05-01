@@ -1,7 +1,11 @@
 # 1. 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 别卷了（别摸了）~
+[旺柴] 猫猫护眼上线，守护你的摸鱼时间。鱼是小猫咪的，健康才是你的。
 
+假期注意用眼过度，推荐个有趣小插件：Cat Gatekeeper Chrome 插件，适用于 X、Facebook、 Threads、Bluesky、YouTube、Reddit 等平台——当感觉你使用屏幕太久，猫猫就会跳出来提醒你：屏幕该休息啦！！
+#五一 #小长假 #猫咪 #Chrome插件 #防沉迷
 
 ## Anthropic相关论文是《Scaling Monosemanticity: Extracting Interpretable Features from Claude》，可在arXiv查看：https://arxiv.org/abs/2601.10387。该研究揭示了情绪反馈如何通过特定向量影响模型行为，但原文未使用"越骂越蠢"的表述。
 
