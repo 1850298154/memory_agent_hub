@@ -1,6 +1,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
-## SkillClaw是阿里DreamX开源的AI技能进化框架，可通过GitHub搜索"AMAP-ML/SkillClaw"找到。它实现了Agent技能自动提炼、共享与进化，使用人数越多技能越强，支持空闲自动测试和多生态兼容。
+## SkillClaw是阿里DreamX开源的AI技能进化框架
+可通过GitHub搜索"AMAP-ML/SkillClaw"找到。它实现了Agent技能自动提炼、共享与进化，使用人数越多技能越强，支持空闲自动测试和多生态兼容。
 
 ## 本周GitHub热门项目聚焦AI开发前沿：
 排名1-2优化Claude编程规则和自适应智能体；3-4降低使用门槛、支持多模型接入与团队协作；5-6提供安全测试工具和代码理解增强；7-10覆盖官方多智能体框架、低耗能自进化Agent及创意生成平台。核心目标都是提升开发者效率与AI应用能力。
