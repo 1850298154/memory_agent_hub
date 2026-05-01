@@ -1,6 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## Hermes-web-ui 来了！它就是 Hermes 最强多任务 Web UI 搭档，效率直接拉满
+主开源地址：https://github.com/EKKOLearnAI/hermes-web-ui
 ## Hermes Agent记忆架构革新与检索系统升级路径
 
 ① 架构层次 - 四层记忆体系从临时工作记忆(L1)到可复用技能文档(L4)，构建完整AI认知网络。
