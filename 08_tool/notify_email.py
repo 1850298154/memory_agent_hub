@@ -14,9 +14,9 @@ from pathlib import Path
 # ========== 邮箱配置 ==========
 SMTP_SERVER = "smtp.163.com"
 SMTP_PORT = 465
-USER = "13021208988@163.com"
-PASSWORD = "DCajBgdZ8vpbwsyE"
-PASSWORD = "HK4rL369py9DvVfQ"
+USER = "@163.com"
+PASSWORD = ""
+PASSWORD = ""
 
 # ========== 排除项目 ==========
 SKIP_PROJECTS = {"noval"}
