@@ -1,7 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-
+## Selectly 是一款由人工智能驱动的浏览器扩展，通过智能操作增强文本选择。利用由大型语言模型（LLM）驱动的上下文感知文本处理，改变您的浏览体验。
+https://github.com/samanhappy/selectly
 
 ## Nanobrowser 的多智能体系统实时分析 HuggingFace，规划器在遇到障碍时智能自我修正，并动态指示导航员调整路径——所有这些都在你的浏览器中本地运行。
 https://github.com/nanobrowser/nanobrowser
