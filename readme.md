@@ -10,6 +10,17 @@
 8. MCP Builder：标准流程快速构建MCP服务器
 9. PPTX：直接生成专业带动画的汇报PPT
 10. Skill Creator：元技能工具箱，支持A/B测试
+
+10个技能的官方资源地址：
+
+1. Superpowers：github.com/obra/superpowers  
+2. Planning with Files：github.com/OthmanAdi/planning-with-files  
+3. UI UX Pro Max：github.com/nextlevelbuilder/ui-ux-pro-max  
+4. Code Review：google.github.io/eng-practices  
+5. PPTX：github.com/MrXujiang/pptx  
+6. Skill Creator：github.com/anthropics/skills  
+
+其余技能（Code Simplifier/Webapp Testing/Ralph Loop/MCP Builder）暂未找到确切匹配项目，建议核实名称或提供更多上下文。技术工具迭代较快，推荐通过GitHub关键词检索最新资源。
 ## 免费无限使用Claude Code的开源代理方案
 
 ① 核心原理 开源代理转发技术实现Claude Code免费调用，无需官方API密钥
