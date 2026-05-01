@@ -1,5 +1,6 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
-
+## Karpathy的方法分享在GitHub Gist
+：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f。这是他发布的"LLM Wiki"文档，介绍如何用大模型构建结构化知识库的工作流。
 
 ## GitHub仓库地址：mattpocock/skills。可通过npx skills@latest add安装使用。
 
