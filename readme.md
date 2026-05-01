@@ -1,5 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 本周GitHub热门项目聚焦AI开发前沿：
+排名1-2优化Claude编程规则和自适应智能体；3-4降低使用门槛、支持多模型接入与团队协作；5-6提供安全测试工具和代码理解增强；7-10覆盖官方多智能体框架、低耗能自进化Agent及创意生成平台。核心目标都是提升开发者效率与AI应用能力。
+
+本周GitHub Star增长前十项目：1.forrestchang/andrej-karpathy-skills 2.NousResearch/hermes-agent 3.Alishahryar1/free-claude-code 4.multica-ai/multica 5.Z4nzu/hackingtool 6.zilliztech/claude-context 7.openai/openai-agents-python 8.lsdefine/GenericAgent 9.Anil-matcha/Open-Generative-AI 10.thunderbird/thunderbolt。GitHub项目标准访问路径为github.com/用户名/项目名，可在平台内直接搜索获取。
 
 ## Selectly 是一款由人工智能驱动的浏览器扩展，通过智能操作增强文本选择。利用由大型语言模型（LLM）驱动的上下文感知文本处理，改变您的浏览体验。
 https://github.com/samanhappy/selectly
