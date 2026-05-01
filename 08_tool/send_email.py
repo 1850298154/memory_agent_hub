@@ -28,7 +28,8 @@ msg = MIMEText(a.body, "plain", "utf-8")
 # msg["From"], msg["To"], msg["Subject"] = USER, a.to, a.subject
 msg["From"], msg["Subject"] = USER, a.subject
 
-with smtplib.SMTP_SSL("smtp.qiye.163.com", 465, context=ssl.create_default_context()) as s:
+# with smtplib.SMTP_SSL("smtp.qiye.163.com", 465, context=ssl.create_default_context()) as s:
+with smtplib.SMTP_SSL("smtp.163.com", 465, context=ssl.create_default_context()) as s:
     s.login(USER, PASSWORD)
     # s.sendmail(USER, [a.to], msg.as_string())
     s.sendmail(USER, [USER], msg.as_string())
