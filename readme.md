@@ -1,5 +1,50 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## GitHub本周增长最快TOP10
+本周增长最快仓库 TOP 10
+01
+NousResearch/hermes-agent
+与你共同成长的智能体（Agent）
++51,000 STARS
+02
+forrestchang/andrej-karpathy-skills
+源自 Karpathy 对 LLM 编程陷阱观察，提升 Claude Code 表现。
++37,400 STARS
+03
+microsoft/markitdown
+将 Office 文档转换为 Markdown 的 Python 工具。
++14,500 STARS
+04
+thedotmack/claude-mem
+Claude Code 插件，自动捕获编程操作并注入上下文。
++12,400 STARS
+05
+multica-ai/multica
+开源托管智能体平台。分配任务、跟踪进度、叠加技能。
++10,600 STARS
+06
+shiyu-coder/Kronos
+Kronos：金融市场语言的基础模型。
++6,700 STARS
+07
+addyosmani/agent-skills
+为 AI 编程智能体提供的生产级工程技能。
++6,400 STARS
+08
+OpenBMB/VoxCPM
+多语言语音生成、创意语音设计和逼真克隆。
++6,300 STARS
+09
+virattt/ai-hedge-fund
+一个 AI 对冲基金团队。
++4,700 STARS
+10
+HKUDS/DeepTutor
+DeepTutor：原生智能体个性化学习助手。
++4,500 STARS
+INSIGHT
+Claude Code 技能包和智能体编排平台已成为开发者的新趋势。
+
 
 ## Hermes-web-ui 来了！它就是 Hermes 最强多任务 Web UI 搭档，效率直接拉满
 主开源地址：https://github.com/EKKOLearnAI/hermes-web-ui
