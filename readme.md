@@ -1,5 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Paperclip项目GitHub地址：
+https://github.com/paperclipai/paperclip。这是个开源AI劳动力编排平台，能自动组建AI团队运营公司业务，支持多模型协作和实时仪表盘监控。
+
 
 ## Pydantic AI的GitHub地址：https://github.com/pydantic/pydantic-ai  
 MIT开源，一行代码就能切换30多个模型提供商。
