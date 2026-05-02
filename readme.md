@@ -1,6 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 合成语音“假大空”头疼？
+
+环境准备：Python 3.10+，建议有4GB以上显存的GPU安装库：pip install voxcpm（实际命令以仓库README为准）写代码：导入模型、加载权重、传入文本、保存语音或者直接用命令行：voxcpm --text "你好世界" --output hello.wav想试试高级玩法？尝试Voice Design：--voice-design "一个活泼的年轻女声，快速说话"
+
+GITHUB: https://github.com/OpenBMB/VoxCPM
+
 ## Pydantic AI的GitHub地址：
 https://github.com/pydantic/pydantic-ai  
 MIT开源，一行代码就能切换30多个模型提供商。
