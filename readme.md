@@ -1,5 +1,11 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Pydantic AI的GitHub地址：
+https://github.com/pydantic/pydantic-ai  
+MIT开源，一行代码就能切换30多个模型提供商。
+
+
 ## Hermes Telegram Mini App是一款开源终端控制面板，可在Telegram内直接使用。
 核心功能涵盖：实时聊天交互（支持文件附件）、系统资源监控（CPU/内存/磁盘）、定时任务管理，以及本地OCR处理。最大特色是"单HTML文件部署"，号称10分钟即可搭建，无需依赖框架或npm环境。
 
