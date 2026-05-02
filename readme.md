@@ -1,6 +1,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## InfiniteTalk开源神器，一张照片生成无限时长AI视频，口型动作完美同步，自媒体创作从此零成本！短剧创作、音乐创作、动画创作等统统适用！
+
+GitHub地址：https://github.com/MeiGen-AI/InfiniteTalk。另有Hugging Face模型库和ComfyUI插件支持。
+
+
+ltx2.3出来了，这个危险了
+
 ## "Nature Skills"工具包，包含两大核心功能：1) Nature Figure - 可自动生成符合Nature期刊风格的科研图表，支持SVG/PNG/PDF格式且文字可编辑；2) Nature Policy - 基于Nature论文规范的学术写作润色工具，能处理中英转换与时态等细节。使用时需将skill文件放入cloud.Code或codex的指定目录，通过命令行调用。本地部署需配置Python环境，安装必要依赖后即可运行。
 
 
