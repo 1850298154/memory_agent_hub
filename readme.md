@@ -1,5 +1,358 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+## 这个skills帮你把枯燥内容变趣味漫画
+
+GitHub搜索"baoyu-skills"找到，安装命令为`npx bun add jimluo/baoyu-skills`。
+
+
+
+## slides2video采用混合架构：视频合成本地完成（基于ffmpeg+Playwright），而AI配音部分通过对接豆包TTS大模型服务实现。这意味着基础视频转换可在本地运行，但要获得高质量AI语音（包括方言、IP仿音等特色功能）需要联网调用外部API。
+
+项目地址是ruilisi/slides2video，这是GitHub上的开源仓库，可直接访问使用。
+## AI编程革命：easy-vibe无代码开发实战指南
+
+① 项目本质  
+GitHub开源工具，实现"说话即编程"，通过自然语言对话构建完整应用产品  
+
+② 三阶成长  
+零基础原型→全栈开发→多平台部署，每阶段配实战案例与工具链  
+
+③ 核心能力  
+数据库/支付/用户系统一站式解决，支持小程序至原生APP全平台开发  
+
+④ 知识体系  
+9大领域80+交互专题库，从计算机原理到AI工程全覆盖  
+
+⑤ 智能协作  
+Claude Code深度整合，MCP多Agent实现团队级开发新模式  
+
+1. 克隆GitHub项目，从"零基础入门"开始每日30分钟实操  
+2. 选定记账小程序等需求，全程AI对话完成原型设计  
+3. 学习Supabase集成，为应用添加真实数据支撑  
+4. 实践设计稿转代码流程，提升界面开发效率  
+5. 尝试Stripe支付接入，完成商业化应用闭环  
+6. 探索多Agent协作，攻坚复杂功能开发  
+7. 每周产出可演示项目，积累实战经验  
+8. 针对性学习附录知识库，补齐技术短板  
+9. 社区分享成果获取反馈，加速迭代优化  
+10. 三个月内交付首个正式上线的应用产品  
+
+创意到产品的距离，已被AI压缩成一句话的表达力  
+
+https://github.com/datawhalechina/easy-vibe
+## 精选的10个Agent Skill清单如下：
+
+1. WebSearch（信息获取）：智能网络搜索
+2. CodeRunner（开发工具）：代码执行与调试，支持多语言
+3. FileManager（开发工具）：文件读写管理，支持多种格式
+4. DataAnalyzer（数据分析）：数据可视化，快速洞察趋势
+5. ImageGen（内容创作）：AI图像生成，文生图/图生图
+6. TaskScheduler（效率工具）：任务调度管理，自动化编排
+7. APIConnector（系统集成）：API连接集成，打通第三方服务
+8. DocParser（系统集成）：文档解析，提取结构化信息
+9. Capability Evolver（智能优化）：自主分析历史数据，优化执行策略
+10. Tavily（搜索工具）：Agent专属搜索引擎，返回结构化摘要
+## Brav Harness核心：
+1. 用.md文档保存操作经验（如小红书爬取技巧），避免重复踩坑
+2. 比Playwright节省token，执行速度随经验积累提升
+
+落地建议：
+- 小白：安装后开启chrome://inspect远程调试权限
+- 进阶：将踩坑记录存入skills.md共享复用
+- 企业：用Browser Use Cloud免费版跑3个并发任务
+
+金句：把踩过的坑变成自动化的梯子
+项目地址：github.com/browser-use/browser-harness
+
+
+## 小学到大学全学段教材无水印版开源了！结合AI定制化学习，无限想象！
+
+https://github.com/TapXWorld/ChinaTextbook
+
+
+## AI智能体一键复刻网站的开源神器解析
+
+① 工具定位：GitHub热门开源项目(ai-website-cloner-template)，获11.6k星标，专为AI自动网站克隆设计
+
+② 技术原理：集成Claude等AI编码代理，自动分析目标网站结构样式，生成现代化Next.js代码库
+
+③ 核心优势：无需手动编码，一键复刻页面结构与设计元素，大幅降低网页开发门槛
+
+④ 应用场景：开发者快速原型搭建、技术学习参考、网页重构与二次开发的理想工具
+
+1. 获取工具：git clone https://github.com/JCodesMore/ai-website-cloner-template.git
+2. 环境配置：npm install安装依赖，推荐使用Claude Code启动AI代理
+3. 实操演练：运行/clone-website +目标网址，观察AI生成完整代码过程
+4. 二次开发：根据项目需求调整生成代码，充分发挥开源工具的扩展性
+
+当开发者拥有AI影子工程师，重构数字世界的边界只在一念之间。
+
+
+项目地址是：https://github.com/JCodesMore/ai-website-cloner-template
+
+
+## baoyu-skills是专为中文内容创作者设计的开源工具库
+支持一键生成公众号图文、小红书笔记、信息图和漫画，并具备跨平台自动发布功能。项目已在GitHub获得13.9k星标，最新版本v1.95.0整合了多模型适配能力。仓库地址：github.com/baoyu-skills
+
+## InfiniteTalk开源神器，一张照片生成无限时长AI视频，口型动作完美同步，自媒体创作从此零成本！短剧创作、音乐创作、动画创作等统统适用！
+
+GitHub地址：https://github.com/MeiGen-AI/InfiniteTalk。另有Hugging Face模型库和ComfyUI插件支持。
+
+
+ltx2.3出来了，这个危险了
+
+## "Nature Skills"工具包，包含两大核心功能：1) Nature Figure - 可自动生成符合Nature期刊风格的科研图表，支持SVG/PNG/PDF格式且文字可编辑；2) Nature Policy - 基于Nature论文规范的学术写作润色工具，能处理中英转换与时态等细节。使用时需将skill文件放入cloud.Code或codex的指定目录，通过命令行调用。本地部署需配置Python环境，安装必要依赖后即可运行。
+
+
+
+项目地址是：https://github.com/Yuan120825/nature-skills
+
+
+## MiroFish项目主打平行世界推演，能基于现实数据做数字孪生模拟。
+
+项目演示地址是：https://666ghj.github.io/mirofish-demo/
+## WebToApp是开源工具，可将网站一键转为安卓APP。
+
+无需Android Studio和编程基础，支持网站/媒体/HTML转应用，含APK加密、浏览器伪装等安全功能。GitHub：https://github.com/shiahonb777/web-to-app
+
+pakeplus可以直接打包桌面端和移动端，还有ios免签，也是开源
+
+
+## 香港大学开源AI学习神器——DeepTutor，个性化学习助手，适合有个性的你
+DeepTutor GitHub地址：https://github.com/HKUDS/DeepTutor。港大数据智能实验室开源的AI学习工具。
+
+## Anime.js官方GitHub地址
+
+https://github.com/juliangarnier/anime，官网：https://animejs.com/。这是视频中提到的67k星开源动画库，前端开发可直接通过npm安装或CDN引入使用。
+
+## 这是一个完全免费的金融终端，开源，而且能协助你交易。
+ FinceptTerminal开源项目本周trending霸榜第一， 在GitHub已狂揽9k Star，C++20 原生开发。
+ 内置 CFA 级别的风险分析。VaR、夏普比率、衍生品定价，QuantLib 18 个模块开箱即用。
+#ai工具 #ai金融工具 #github优质项目 #牛码架构
+ 37 个 AI Agent 覆盖交易员/投资者 (巴菲特、格雷厄姆、林奇、芒格、克拉曼、马克斯等)。
+ 交易、投资、经济、地缘政治全覆盖。
+ 支持本地 LLM — OpenAI、Anthropic、Gemini、DeepSeek 随你选，数据不出你的电脑。
+ 100 多个数据源。美联储、IMF、世界银行、国内行情，一键拉取。
+
+FinceptTerminal开源项目地址是：https://github.com/Fincept-Corporation/FinceptTerminal
+
+## 深度解析AI Agent自进化赛道现状：
+✅ Hermes（10k+ stars）：动态Skill生成+RL训练闭环，但仍是外挂知识库
+✅ Evolver（3.8k+ stars）：GEP四步闭环（SCAN-VALIDATE-MUTATE-SOLIDIFY），唯一自动触发+验证闭环
+✅ GenericAgent（3.6k+ stars）：基础记忆检索
+✅ EvoAgentX（2.5k+ stars）：TextGrad优化
+
+核心发现：多数"自进化"实为记忆检索包装，真进化需同时满足"自动触发+验证闭环"双条件
+
+Hermes开源地址：https://github.com/NousResearch/Hermes-Agent
+
+主题：AI Agent自进化赛道真相：真伪辨别与未来进化路径全景图
+
+1. 赛道现状
+GitHub热度：2026年Agent自进化成AI最热赛道，Hermes破万星，Evolver 3800+，GenericAgent 3600+，EvoAgentX 2500+
+
+2. 核心误区
+伪进化现象：多数项目将记忆检索换名包装，如"考试翻笔记"般重复经验，非真正学习适应
+
+3. 技术基础
+学习循环：所有Agent运行于"观察-目标-计划-执行-学习适应"五步循环，问题集中在最后环节
+
+4. Hermes剖析
+双路径机制：①动态skill生成—后台异步审查，技能持续成长但属外挂知识库；②云RL训练—实为知识蒸馏，非实时用户学习
+
+5. Evolver突破
+GEP四步闭环：SCAN提取模式→VALIDATE控制变量验证→MUTATE泛化扩展→SOLIDIFY固化为capsule，实现全自动验证
+
+6. 项目对比
+二维评估：按"自动化程度"和"产出成熟度"，Evolver是唯一达到"自动触发+完整闭环"的方案
+
+7. 终局展望
+群体遗传：当Capsule如基因般跨Agent共享，硅基物种才能实现真正的"自"进化
+
+行动指南和步骤！
+1. 真伪鉴别
+检查验证闭环：确认系统是否具备VALIDATE环节，避免仅依赖记忆检索的伪进化方案
+2. 技术选型
+优先GEP框架：选择实现四步闭环的架构，确保进化...
+## 合成语音“假大空”头疼？
+
+环境准备：Python 3.10+，建议有4GB以上显存的GPU安装库：pip install voxcpm（实际命令以仓库README为准）写代码：导入模型、加载权重、传入文本、保存语音或者直接用命令行：voxcpm --text "你好世界" --output hello.wav想试试高级玩法？尝试Voice Design：--voice-design "一个活泼的年轻女声，快速说话"
+
+GITHUB: https://github.com/OpenBMB/VoxCPM
+
+## Pydantic AI的GitHub地址：
+https://github.com/pydantic/pydantic-ai  
+MIT开源，一行代码就能切换30多个模型提供商。
+
+
+## Hermes Telegram Mini App是一款开源终端控制面板，可在Telegram内直接使用。
+核心功能涵盖：实时聊天交互（支持文件附件）、系统资源监控（CPU/内存/磁盘）、定时任务管理，以及本地OCR处理。最大特色是"单HTML文件部署"，号称10分钟即可搭建，无需依赖框架或npm环境。
+
+
+
+项目GitHub地址：https://github.com/clawvader-tech/hermes-telegram-miniapp
+
+
+## 43 万 Star 开源public-apis，收录70+领域免费API，
+社区维护质量高，从天气到工农业，从区块链金融，到地震预警，应有尽有！助力开发者快速搭建项目。
+
+
+public-apis项目的GitHub地址：https://github.com/public-apis/public-apis
+
+## Open-Generative-AI，这是一款完全免费、无审查的开源AI图像和视频生成工作室
+让你彻底摆脱订阅费和内容限制。它内置了200多个模型，包括Flux、Midjourney、Kling、Sora等，支持图像、视频、口型同步和电影级创作，还能本地自托管保护隐私。
+
+
+https://github.com/Anil-matcha/open-generative-ai
+
+## GitHub本周增长最快TOP10
+本周增长最快仓库 TOP 10
+01
+NousResearch/hermes-agent
+与你共同成长的智能体（Agent）
++51,000 STARS
+02
+forrestchang/andrej-karpathy-skills
+源自 Karpathy 对 LLM 编程陷阱观察，提升 Claude Code 表现。
++37,400 STARS
+03
+microsoft/markitdown
+将 Office 文档转换为 Markdown 的 Python 工具。
++14,500 STARS
+04
+thedotmack/claude-mem
+Claude Code 插件，自动捕获编程操作并注入上下文。
++12,400 STARS
+05
+multica-ai/multica
+开源托管智能体平台。分配任务、跟踪进度、叠加技能。
++10,600 STARS
+06
+shiyu-coder/Kronos
+Kronos：金融市场语言的基础模型。
++6,700 STARS
+07
+addyosmani/agent-skills
+为 AI 编程智能体提供的生产级工程技能。
++6,400 STARS
+08
+OpenBMB/VoxCPM
+多语言语音生成、创意语音设计和逼真克隆。
++6,300 STARS
+09
+virattt/ai-hedge-fund
+一个 AI 对冲基金团队。
++4,700 STARS
+10
+HKUDS/DeepTutor
+DeepTutor：原生智能体个性化学习助手。
++4,500 STARS
+INSIGHT
+Claude Code 技能包和智能体编排平台已成为开发者的新趋势。
+
+
+## Hermes-web-ui 来了！它就是 Hermes 最强多任务 Web UI 搭档，效率直接拉满
+主开源地址：https://github.com/EKKOLearnAI/hermes-web-ui
+## Hermes Agent记忆架构革新与检索系统升级路径
+
+① 架构层次 - 四层记忆体系从临时工作记忆(L1)到可复用技能文档(L4)，构建完整AI认知网络。
+
+② 检索短板 - 原生系统仅依赖关键词匹配，在语义深度理解上如同"石器时代"，难以捕捉上下文关联。
+
+③ 技术突破 - Milvus 2.6混合检索融合向量+BM25+RRF，内存控制在2GB内，显著提升检索精准度。
+
+④ 学习机制 - "干中学"模式使AI能在任务完成后自动更新记忆库，实现技能持续进化。
+
+⑤ 应用局限 - 动态字段有64KB大小限制，旧版本不支持索引，影响高级检索能力。
+
+1. 开发者应优先集成现代向量数据库替代传统关键词检索，提升AI语义理解能力。
+
+2. 设计多层次记忆架构，区分短期工作记忆与长期技能积累，模拟人类认知模式。
+
+3. 控制内存占用，特别在移动端部署时，2GB限制是关键性能考量指标。
+
+4. 及时跟进Milvus等工具更新，利用partial field updates等新特性突破技术瓶颈。
+
+5. 建立有效反馈机制，让系统从每次交互中学习并优化自身表现。
+
+记忆的价值不在于储存多少信息，而在于能否在关键时刻唤醒正确的知识，让AI从信息容器进化为思维伙伴。
+## Karpathy的方法分享在GitHub Gist
+：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f。这是他发布的"LLM Wiki"文档，介绍如何用大模型构建结构化知识库的工作流。
+
+## GitHub仓库地址：mattpocock/skills。可通过npx skills@latest add安装使用。
+
+## HarnessKit是一款开源工具，专为解决AI Agent分散管理难题设计
+可统一调度Skills、MCP服务器、插件等组件，降低运维复杂度。项目地址：https://github.com/RealZST/HarnessKit
+
+
+## 6个AI技能清单及安装路径：
+
+01 Superpowers（项目管理）：任务规划助手  
+02 Canvas Design（设计）：一句话出海报  
+安装：/plugin marketplace add anthropics/skills + /plugin install document-skills@enthropic-agent-skills  
+
+03 Frontend Design（前端）：半小时生成网页  
+安装：同上  
+
+04 Docx（文档）：Word一键生成  
+安装：/plugin marketplace add anthropics/skills + /plugin install document-skills@anthropic-agent-skills  
+
+05 XLSX（数据）：Excel自动处理  
+安装：/plugin marketplace add anthropics/skills  
+
+06 Humanizer（润色）：去除AI写作痕迹  
+安装：GitHub搜索bitder/humanizer，将SKILL.no放入~/.clande/skills/humanizer/
+
+## Codex + HyperFrames。不用懂代码，不用会剪辑，HTML直接变视频，效率提升10倍！
+1⃣ 安装与开启：
+在Codex的插件市场找到“HyperFrames by HeyGen”，一键启用。它能把Codex变成你的“视频导演+剪辑师”。
+2⃣ 下达指令（参数锁定）：
+直接告诉Codex你要做什么。公式：用途 + 尺寸 + 时长 + 风格 + 平台。
+例：“用HyperFrames做一个3:4竖屏教程视频，45秒，Swiss Pulse风格，用来发抖音。”
+Codex会自动拆结构、写分镜、安排时间轴。
+3⃣ 全自动执行流：
+你只需看着它跑。Codex会自动生成HTML源文件、GSAP动画、同步字幕、甚至配音。
+核心逻辑：HTML就是视频源文件。文字、卡片、时间轴全用代码精确控制，改一个参数，整个视频自动更新。
+4⃣ 一键导出：
+跑完流程，直接预览并渲染成MP4。特别适合做工具教程、产品宣传片、数据图表视频。
+别把时间浪费在重复劳动上。这套SOP跑通了，你一个人就是一个MCN。
+
+
+## 推荐的7个Claude Code Skills：
+1. planning-with-files：防项目迷失
+2. superpowers：补开发工具链
+3. frontend-design：美化AI前端
+4. notebooklm：免切窗查资料
+5. baoyu-skills：整合内容发布
+6. webapp-testing：自动网页测试
+7. skill-creator：助创自定义Skill
+
+
+## 十大封神技能解析：
+1. Superpowers：整合20+原子能力，强制设计优先
+2. Planning with Files：项目进度本地化，轻松搞定开发
+3. UI UX Pro Max：快速生成专业级别UI风格
+4. Code Review：多智能体并行审查精准过滤噪音
+5. Code Simplifier：重构冗余逻辑，让代码更简洁
+6. Webapp Testing：自动编写脚本，搞定E2E测试
+7. Ralph Loop：强制任务迭代，杜绝敷衍式交付
+8. MCP Builder：标准流程快速构建MCP服务器
+9. PPTX：直接生成专业带动画的汇报PPT
+10. Skill Creator：元技能工具箱，支持A/B测试
+
+10个技能的官方资源地址：
+
+1. Superpowers：github.com/obra/superpowers  
+2. Planning with Files：github.com/OthmanAdi/planning-with-files  
+3. UI UX Pro Max：github.com/nextlevelbuilder/ui-ux-pro-max  
+4. Code Review：google.github.io/eng-practices  
+5. PPTX：github.com/MrXujiang/pptx  
+6. Skill Creator：github.com/anthropics/skills  
+
+其余技能（Code Simplifier/Webapp Testing/Ralph Loop/MCP Builder）暂未找到确切匹配项目，建议核实名称或提供更多上下文。技术工具迭代较快，推荐通过GitHub关键词检索最新资源。
 ## 免费无限使用Claude Code的开源代理方案
 
 ① 核心原理 开源代理转发技术实现Claude Code免费调用，无需官方API密钥
