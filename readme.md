@@ -1,7 +1,14 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 一个skill，搞定影视/短剧/漫剧解说视频，小龙虾自动生成解说视频，一天生成上百条	
 
+
+核心项目地址如下：
+- CLI工具：https://github.com/jieshuo-ai/narrator-ai-cli
+- Skill文件：https://github.com/jieshuo-ai/narrator-ai-cli-skill
+
+支持Python/curl一键安装，适配OpenClaw、WorkBuddy等AI平台，加载Skill文件即可使用。
 
 ## "卡兹克写作风格"Skill，GitHub开源项目。
 核心功能：1.自动优化句子节奏，去除AI痕迹；2.四层质检系统（规则/风格/质量/活人感）；3.AI只做苦力，灵魂归你。项目地址：https://github.com/KKKKhazix/khazix-skills。安装方法：在支持Skill的AI工具（如OpenClaw）中输入"安装这个skill：[上述链接]"即可使用。
