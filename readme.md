@@ -1,7 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 用Skflow编译型状态机，把浏览器自动化的Token消耗砍掉95%，单平台75秒搞定！核心：Markdown脚本编译为JS状态机，只在文案生成时调用AI。
 
-
+github.com/skill-flow/skflow
 
 ## 社区版和官网版Hermes WebUI的主要区别在于功能定位
 官网版（Hermes Dashboard）是轻量级管理工具，专注系统监控和配置管理，适合运维人员；社区版（如hermes-web-ui）则是全功能集成平台，支持AI对话、多会话管理及中文界面，更适合开发者日常使用。技术实现上，官网版基于Python/FastAPI更简洁，社区版采用Vue3+TypeScript前后端分离架构，扩展性更强。选择取决于需求——基础管理选官网版，深度交互选社区版。
