@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 43 万 Star 开源public-apis，收录70+领域免费API，
+社区维护质量高，从天气到工农业，从区块链金融，到地震预警，应有尽有！助力开发者快速搭建项目。
+
+
+public-apis项目的GitHub地址：https://github.com/public-apis/public-apis
+
 ## Open-Generative-AI，这是一款完全免费、无审查的开源AI图像和视频生成工作室
 让你彻底摆脱订阅费和内容限制。它内置了200多个模型，包括Flux、Midjourney、Kling、Sora等，支持图像、视频、口型同步和电影级创作，还能本地自托管保护隐私。
 
