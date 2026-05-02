@@ -1,6 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## Career-Ops帮你智能筛选优质岗位：10维评分拒90%垃圾岗，一键生成ATS简历，批量扫描40+平台。核心理念：不是海投，而是只打"必胜局"。
+Career-Ops开源项目地址：https://github.com/santifer/career-ops
+
+
 ## Anthropic说未来的AI原生公司只需要这三种人
 执行者完成AI分配的任务；责任人对结果负责；教练优化AI系统。这种分工让AI成为组织核心，替代了传统中层管理。
 
