@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Karpathy-Inspired Claude Code Guidelines可以让你的Claudecode写代码更准确，OpenClaw🦞Hermes🐎也都可以用
+
+
+
+github.com/forrestchang/andrej-karpathy-skills，这个指南也能用在OpenClaw上，写代码更精准啦～
+
 ## PLFM_RADAR是GitHub上NawfalMotii79开发的开源相控阵雷达项目，能自制"缩小版军用雷达"。它发射线性调频电磁波，用FPGA实时计算目标距离位置，相控阵技术无需转动天线即可探测不同方向。硬件软件全部开源，适用于无人机避障、智能驾驶等领域。GitHub地址：https://github.com/NawfalMotii79/PLFM_RADAR
 
 ## 帮你丢掉复杂提示词，构建无幻觉AI智能体。
