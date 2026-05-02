@@ -1,6 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## Anime.js官方GitHub地址
+
+https://github.com/juliangarnier/anime，官网：https://animejs.com/。这是视频中提到的67k星开源动画库，前端开发可直接通过npm安装或CDN引入使用。
+
 ## 这是一个完全免费的金融终端，开源，而且能协助你交易。
  FinceptTerminal开源项目本周trending霸榜第一， 在GitHub已狂揽9k Star，C++20 原生开发。
  内置 CFA 级别的风险分析。VaR、夏普比率、衍生品定价，QuantLib 18 个模块开箱即用。
