@@ -1,6 +1,27 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## AI一键克隆网站：open-lovable让零代码创建React应用成为现实
 
+① 网址转应用
+粘贴任意网站链接，几秒生成完整React项目
+
+② AI对话编辑
+直接与AI交流修改设计、功能和文案
+
+③ 多模型兼容
+支持Claude/GPT/Gemini等主流AI引擎
+
+④ 安全开源
+MIT许可，可私有部署，数据完全自主掌控
+
+1. 获取项目：git clone https://github.com/firecrawl/open-lovable
+2. 配置环境：添加必要API密钥
+3. 启动服务：npm run dev
+4. 输入目标网址，生成应用
+5. 通过AI对话调整设计
+6. 部署定制化应用
+
+让优秀设计为你所用，创新从此不再从零开始。https://github.com/firecrawl/open-lovable
 ## CanIRun.ai，这个免费在线工具能检测你的电脑配置是否支持运行各类AI大模型，无需安装软件，点开就能测。
 
 ## llm wiki
