@@ -1,5 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Open-Generative-AI，这是一款完全免费、无审查的开源AI图像和视频生成工作室
+让你彻底摆脱订阅费和内容限制。它内置了200多个模型，包括Flux、Midjourney、Kling、Sora等，支持图像、视频、口型同步和电影级创作，还能本地自托管保护隐私。
+
+
+https://github.com/Anil-matcha/open-generative-ai
 ## GitHub本周增长最快TOP10
 本周增长最快仓库 TOP 10
 01
