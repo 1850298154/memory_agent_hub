@@ -1,6 +1,6 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
-
+## Selector使用指南：1.访问https://oil-oil.github.io/selector/；2.将Selector按钮拖至书签栏；3.在任意网页点击该书签；4.选择页面元素并添加指令；5.复制结构化提示词给AI助手。工具会自动提取元素位置、标签、文本等信息，帮助精准描述修改需求。GitHub仓库地址：https://github.com/oil-oil/selector
 ## b站本地解析部署（支持高速下载mp4mp3）；termux下载链接https://cn.bing.com/search?q=termux%E4%B8%8B%E8%BD%BD&qs=ds&form=QBRE
 
 
