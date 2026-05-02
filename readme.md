@@ -1,5 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## MiroFish项目主打平行世界推演，能基于现实数据做数字孪生模拟。
+
+项目演示地址是：https://666ghj.github.io/mirofish-demo/
 ## WebToApp是开源工具，可将网站一键转为安卓APP。
 
 无需Android Studio和编程基础，支持网站/媒体/HTML转应用，含APK加密、浏览器伪装等安全功能。GitHub：https://github.com/shiahonb777/web-to-app
