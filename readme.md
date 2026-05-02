@@ -1,6 +1,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
-
+## MOSS-TTS-Nano是一款仅0.1B参数的开源TTS模型，能在普通CPU上实时运行，支持语音克隆和多语言。
+项目地址：https://github.com/OpenMOSS/MOSS-TTS-Nano
 ## Karpathy-Inspired Claude Code Guidelines可以让你的Claudecode写代码更准确，OpenClaw🦞Hermes🐎也都可以用
 
 
