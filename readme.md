@@ -1,5 +1,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## AItoEarn是开源AI内容营销工具，帮一人公司自动在抖音、小红书等平台发布内容、监控热点并引流变现。项目登顶GitHub Trending，搜索"AiToEarn"即可访问仓库。
+
 
 ## 一个skill，搞定影视/短剧/漫剧解说视频，小龙虾自动生成解说视频，一天生成上百条	
 
