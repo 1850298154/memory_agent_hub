@@ -1,5 +1,41 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Hermes：动态skill生成+RL训练双路径，skill会持续更新但属外挂知识库，RL训练需人工离线操作。  
+Evolver：GEP四步闭环（扫描-验证-变异-固化），唯一实现自动触发且产出经验证可累积复用。  
+GenericAgent：仅基础记忆检索+经验回放，无skill生成能力，停留在"记笔记"阶段。  
+EvoAgentX：用TextGrad做prompt梯度优化，自动触发但缺乏泛化固化，仅局部任务优化。
+
+Agent自进化项目完整总结（含GitHub链接）
+ 
+以下是按你要求整理的多级列表，严格基于图中信息与公开仓库信息：
+ 
+ 
+ 
+1. GenericAgent- 核心机制：纯记忆检索 + 经验回放
+- 关键缺陷：无Skill能力，仅依赖过往交互信息
+- 结论：仅停留在“记忆”阶段
+- GitHub链接：https://github.com/lsdefine/GenericAgent
+2. Hermes·Skill（Hermes Agent）- 核心机制：自动触发、后台异步、持续迭代
+- 关键缺陷：依赖外挂知识库，无验证闭环，进化效果无法自动确认
+- 结论：半成品
+- GitHub链接：https://github.com/NousResearch/hermes-agent
+3. Hermes·RL（Hermes Agent 强化学习分支）- 核心机制：修改模型权重、离线运行、人工驱动
+- 关键缺陷：方法有效但无法自动运行，依赖人工干预
+- 结论：半成品
+- GitHub链接：https://github.com/NousResearch/hermes-agent
+4. EvoAgentX- 核心机制：TextGrad Prompt梯度下降优化
+- 关键缺陷：仅局部优化Prompt，无泛化固化能力，无法沉淀为稳定能力
+- 结论：半成品
+- GitHub链接：https://github.com/EvoAgentX/EvoAgentX
+5. Evolver·GEP（GEP·真进化）- 核心机制：验证→变异→固化写入协议的完整闭环
+- 关键优势：唯一具备完整自动闭环的方案，无需人工干预
+- 运行特点：整个进化过程自动触发，支持持续迭代
+- 结论：真进化
+- GitHub链接：https://github.com/EvoMap/evolver
+ 
+ 
+ 
+
 
 ## Career-Ops帮你智能筛选优质岗位：10维评分拒90%垃圾岗，一键生成ATS简历，批量扫描40+平台。核心理念：不是海投，而是只打"必胜局"。
 Career-Ops开源项目地址：https://github.com/santifer/career-ops
