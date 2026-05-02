@@ -1,7 +1,16 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 这是一个完全免费的金融终端，开源，而且能协助你交易。
+ FinceptTerminal开源项目本周trending霸榜第一， 在GitHub已狂揽9k Star，C++20 原生开发。
+ 内置 CFA 级别的风险分析。VaR、夏普比率、衍生品定价，QuantLib 18 个模块开箱即用。
+#ai工具 #ai金融工具 #github优质项目 #牛码架构
+ 37 个 AI Agent 覆盖交易员/投资者 (巴菲特、格雷厄姆、林奇、芒格、克拉曼、马克斯等)。
+ 交易、投资、经济、地缘政治全覆盖。
+ 支持本地 LLM — OpenAI、Anthropic、Gemini、DeepSeek 随你选，数据不出你的电脑。
+ 100 多个数据源。美联储、IMF、世界银行、国内行情，一键拉取。
 
+FinceptTerminal开源项目地址是：https://github.com/Fincept-Corporation/FinceptTerminal
 
 ## 深度解析AI Agent自进化赛道现状：
 ✅ Hermes（10k+ stars）：动态Skill生成+RL训练闭环，但仍是外挂知识库
