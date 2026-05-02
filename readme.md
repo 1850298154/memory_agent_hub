@@ -1,5 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 小学到大学全学段教材无水印版开源了！结合AI定制化学习，无限想象！
+
+https://github.com/TapXWorld/ChinaTextbook
+
 
 ## AI智能体一键复刻网站的开源神器解析
 
