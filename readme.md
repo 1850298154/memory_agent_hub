@@ -1,6 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## CanIRun.ai，这个免费在线工具能检测你的电脑配置是否支持运行各类AI大模型，无需安装软件，点开就能测。
+
 ## llm wiki
 视频中提到的Karpathy方法原文链接：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
