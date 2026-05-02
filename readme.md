@@ -1,5 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## b站本地解析部署（支持高速下载mp4mp3）；termux下载链接https://cn.bing.com/search?q=termux%E4%B8%8B%E8%BD%BD&qs=ds&form=QBRE
+
+
 ## 用Skflow编译型状态机，把浏览器自动化的Token消耗砍掉95%，单平台75秒搞定！核心：Markdown脚本编译为JS状态机，只在文案生成时调用AI。
 
 github.com/skill-flow/skflow
