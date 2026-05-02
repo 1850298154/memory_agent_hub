@@ -1,6 +1,27 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## AI智能体一键复刻网站的开源神器解析
+
+① 工具定位：GitHub热门开源项目(ai-website-cloner-template)，获11.6k星标，专为AI自动网站克隆设计
+
+② 技术原理：集成Claude等AI编码代理，自动分析目标网站结构样式，生成现代化Next.js代码库
+
+③ 核心优势：无需手动编码，一键复刻页面结构与设计元素，大幅降低网页开发门槛
+
+④ 应用场景：开发者快速原型搭建、技术学习参考、网页重构与二次开发的理想工具
+
+1. 获取工具：git clone https://github.com/JCodesMore/ai-website-cloner-template.git
+2. 环境配置：npm install安装依赖，推荐使用Claude Code启动AI代理
+3. 实操演练：运行/clone-website +目标网址，观察AI生成完整代码过程
+4. 二次开发：根据项目需求调整生成代码，充分发挥开源工具的扩展性
+
+当开发者拥有AI影子工程师，重构数字世界的边界只在一念之间。
+
+
+项目地址是：https://github.com/JCodesMore/ai-website-cloner-template
+
+
 ## baoyu-skills是专为中文内容创作者设计的开源工具库
 支持一键生成公众号图文、小红书笔记、信息图和漫画，并具备跨平台自动发布功能。项目已在GitHub获得13.9k星标，最新版本v1.95.0整合了多模型适配能力。仓库地址：github.com/baoyu-skills
 
