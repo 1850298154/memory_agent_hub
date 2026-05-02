@@ -1,6 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 香港大学开源AI学习神器——DeepTutor，个性化学习助手，适合有个性的你
+DeepTutor GitHub地址：https://github.com/HKUDS/DeepTutor。港大数据智能实验室开源的AI学习工具。
+
 ## Anime.js官方GitHub地址
 
 https://github.com/juliangarnier/anime，官网：https://animejs.com/。这是视频中提到的67k星开源动画库，前端开发可直接通过npm安装或CDN引入使用。
