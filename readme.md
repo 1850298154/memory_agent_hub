@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## "MAX LONG 多目标检测 AI摄像头系统"，GitHub上收获3.8万星的开源工具，能自动识别追踪视频中的人车动物，统计出现次数和停留时间。
+
+
+中3.8万星的开源项目地址是：https://github.com/roboflow/supervision
+
 ## 项目名为md2wechat-skill，是一款将Markdown转换为微信公众号精美排版的工具。支持48种主题样式（原生/经典/潮流等），可一键发布到草稿箱。官网：https://www.md2wechat.cn，GitHub地址：https://github.com/jwangkun/md2wechat-skill。用户可通过它简化公众号排版流程，像发朋友圈一样轻松创作。
 
 
