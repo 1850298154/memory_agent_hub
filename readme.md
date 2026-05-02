@@ -1,5 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 帮你丢掉复杂提示词，构建无幻觉AI智能体。
+只需简单配置，就能让AI严格遵循指令、保持输出一致，支持Win/Mac/Linux部署。
+
+Parlant项目的GitHub地址是：https://github.com/emcie-co/parlant
 ## AI一键克隆网站：open-lovable让零代码创建React应用成为现实
 
 ① 网址转应用
