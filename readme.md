@@ -1,5 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Pydantic AI的GitHub地址：https://github.com/pydantic/pydantic-ai  
+MIT开源，一行代码就能切换30多个模型提供商。
+
+
 ## Hermes：动态skill生成+RL训练双路径，skill会持续更新但属外挂知识库，RL训练需人工离线操作。  
 Evolver：GEP四步闭环（扫描-验证-变异-固化），唯一实现自动触发且产出经验证可累积复用。  
 GenericAgent：仅基础记忆检索+经验回放，无skill生成能力，停留在"记笔记"阶段。  
