@@ -1,5 +1,18 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 精选的10个Agent Skill清单如下：
+
+1. WebSearch（信息获取）：智能网络搜索
+2. CodeRunner（开发工具）：代码执行与调试，支持多语言
+3. FileManager（开发工具）：文件读写管理，支持多种格式
+4. DataAnalyzer（数据分析）：数据可视化，快速洞察趋势
+5. ImageGen（内容创作）：AI图像生成，文生图/图生图
+6. TaskScheduler（效率工具）：任务调度管理，自动化编排
+7. APIConnector（系统集成）：API连接集成，打通第三方服务
+8. DocParser（系统集成）：文档解析，提取结构化信息
+9. Capability Evolver（智能优化）：自主分析历史数据，优化执行策略
+10. Tavily（搜索工具）：Agent专属搜索引擎，返回结构化摘要
 ## Brav Harness核心：
 1. 用.md文档保存操作经验（如小红书爬取技巧），避免重复踩坑
 2. 比Playwright节省token，执行速度随经验积累提升
