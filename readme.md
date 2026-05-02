@@ -7,6 +7,7 @@
 
 资源地址是：https://github.com/jason-effi-lab/karpathy-llm-wiki-vault，包含所有skill配置文件和知识库结构。
 
+
 跟Kaparthy学搭建AI知识库-附Obsidian实例
 Karpathy（OpenAI创始人之一、特斯拉前AI总监）最近发了个LLM Wiki框架，3天5000 star🔥
 读完我发现：这不是什么新技术，而是一套每个人今天就能开始用的思维模型
