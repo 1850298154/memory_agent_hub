@@ -1,5 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## slides2video采用混合架构：视频合成本地完成（基于ffmpeg+Playwright），而AI配音部分通过对接豆包TTS大模型服务实现。这意味着基础视频转换可在本地运行，但要获得高质量AI语音（包括方言、IP仿音等特色功能）需要联网调用外部API。
+
+项目地址是ruilisi/slides2video，这是GitHub上的开源仓库，可直接访问使用。
 ## AI编程革命：easy-vibe无代码开发实战指南
 
 ① 项目本质  
