@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Hermes Telegram Mini App是一款开源终端控制面板，可在Telegram内直接使用。
+核心功能涵盖：实时聊天交互（支持文件附件）、系统资源监控（CPU/内存/磁盘）、定时任务管理，以及本地OCR处理。最大特色是"单HTML文件部署"，号称10分钟即可搭建，无需依赖框架或npm环境。
+
+
+
+项目GitHub地址：https://github.com/clawvader-tech/hermes-telegram-miniapp
+
 
 ## 43 万 Star 开源public-apis，收录70+领域免费API，
 社区维护质量高，从天气到工农业，从区块链金融，到地震预警，应有尽有！助力开发者快速搭建项目。
