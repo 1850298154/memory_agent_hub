@@ -1,5 +1,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
-
+## RuView开源项目让普通WiFi变身透视系统。
+无需摄像头，通过分析WiFi信号的"舞指纹"和散射模式，能实时监测人在哪、呼吸心跳，甚至预测动作。GitHub获47k星，9美元开发板即可部署，既实用又规避隐私问题。
+RuView开源项目地址：https://github.com/ruvnet/RuView
 
 ## 你使用AI的方式很可能没触及杠杆
 原文标题：
