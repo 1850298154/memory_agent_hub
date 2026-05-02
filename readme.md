@@ -1,5 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 项目名为md2wechat-skill，是一款将Markdown转换为微信公众号精美排版的工具。支持48种主题样式（原生/经典/潮流等），可一键发布到草稿箱。官网：https://www.md2wechat.cn，GitHub地址：https://github.com/jwangkun/md2wechat-skill。用户可通过它简化公众号排版流程，像发朋友圈一样轻松创作。
+
+
 
 ## CLI-Anything是香港大学开源的工具，只需一行命令即可为任意软件生成标准CLI接口，让AI智能体能直接操作各类应用程序。
 配套的CLI-Anything Hub已集成Draw.io、GIMP、Blender等数十款常用软件的适配层。项目地址：github.com/HKUDS/CLI-Anything
