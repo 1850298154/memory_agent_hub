@@ -1,7 +1,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## CLI-Anything是香港大学开源的工具，只需一行命令即可为任意软件生成标准CLI接口，让AI智能体能直接操作各类应用程序。
+配套的CLI-Anything Hub已集成Draw.io、GIMP、Blender等数十款常用软件的适配层。项目地址：github.com/HKUDS/CLI-Anything
+
+
 ## Paperclip项目GitHub地址：
-https://github.com/paperclipai/paperclip。这是个开源AI劳动力编排平台，能自动组建AI团队运营公司业务，支持多模型协作和实时仪表盘监控。
+https://github.com/paperclipai/paperclip。这是个开源AI劳动力编排平
+台，能自动组建AI团队运营公司业务，支持多模型协作和实时仪表盘监控。
 
 
 ## Pydantic AI的GitHub地址：https://github.com/pydantic/pydantic-ai  
