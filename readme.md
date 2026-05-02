@@ -1,6 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## baoyu-skills是专为中文内容创作者设计的开源工具库
+支持一键生成公众号图文、小红书笔记、信息图和漫画，并具备跨平台自动发布功能。项目已在GitHub获得13.9k星标，最新版本v1.95.0整合了多模型适配能力。仓库地址：github.com/baoyu-skills
+
 ## InfiniteTalk开源神器，一张照片生成无限时长AI视频，口型动作完美同步，自媒体创作从此零成本！短剧创作、音乐创作、动画创作等统统适用！
 
 GitHub地址：https://github.com/MeiGen-AI/InfiniteTalk。另有Hugging Face模型库和ComfyUI插件支持。
