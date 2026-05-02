@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## 所谓AI游戏的圣杯，就是让模型能够完全理解和制造体验。
+所以，这个模块是完全围绕着构建游戏和视听体验来进行开发的。 由于目前我本人精力严重不足，只能够把工作放出来，看其他人来参与贡献了。 在我大概把手头上的工作，像角色Agent和LBP管线都做出来之后，我会把更多精力投入到这块就是了。（可能在6月份之前都没时间，要等到6月之后）
+https://github.com/leeguicong/FeelingBaisModule
+
+
 ## AItoEarn是开源AI内容营销工具，帮一人公司自动在抖音、小红书等平台发布内容、监控热点并引流变现。项目登顶GitHub Trending，搜索"AiToEarn"即可访问仓库。
 
 
