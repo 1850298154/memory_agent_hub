@@ -1,6 +1,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 ## GSD (Get Shit Done)是一款轻量级元提示与规格驱动开发系统，旨在让AI从"氛围编程"转变为真正完成任务。
+GSD项目GitHub地址：
+
+https://github.com/gsd-build/get-shit-done  
+
+安装命令：npx get-shit-done-cc@latest
+
+
 它解决contextrot问题（上下文填充导致输出质量下降），支持Claude Code、Cursor等12种AI运行时。核心功能包括自动提取需求→生成规格文档→子代理编排→状态管理→验证全流程。安装命令：npx get-shit-done-cc@latest，项目可在NPM搜索"get-shit-done-cc"获取。
 
 ## 所谓AI游戏的圣杯，就是让模型能够完全理解和制造体验。
