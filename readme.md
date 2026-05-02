@@ -1,5 +1,18 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Brav Harness核心：
+1. 用.md文档保存操作经验（如小红书爬取技巧），避免重复踩坑
+2. 比Playwright节省token，执行速度随经验积累提升
+
+落地建议：
+- 小白：安装后开启chrome://inspect远程调试权限
+- 进阶：将踩坑记录存入skills.md共享复用
+- 企业：用Browser Use Cloud免费版跑3个并发任务
+
+金句：把踩过的坑变成自动化的梯子
+项目地址：github.com/browser-use/browser-harness
+
+
 ## 小学到大学全学段教材无水印版开源了！结合AI定制化学习，无限想象！
 
 https://github.com/TapXWorld/ChinaTextbook
