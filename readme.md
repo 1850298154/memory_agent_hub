@@ -1,6 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## llm wiki
+视频中提到的Karpathy方法原文链接：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+
 ## 圆桌Skill深度解析：三层认知价值
 圆桌Skill GitHub地址：https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-roundtable
 
