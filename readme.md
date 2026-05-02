@@ -1,5 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Anthropic说未来的AI原生公司只需要这三种人
+执行者完成AI分配的任务；责任人对结果负责；教练优化AI系统。这种分工让AI成为组织核心，替代了传统中层管理。
+
 ## GSD (Get Shit Done)是一款轻量级元提示与规格驱动开发系统，旨在让AI从"氛围编程"转变为真正完成任务。
 GSD项目GitHub地址：
 
