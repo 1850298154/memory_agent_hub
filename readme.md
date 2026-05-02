@@ -2,6 +2,13 @@
 
 
 
+
+## 社区版和官网版Hermes WebUI的主要区别在于功能定位
+官网版（Hermes Dashboard）是轻量级管理工具，专注系统监控和配置管理，适合运维人员；社区版（如hermes-web-ui）则是全功能集成平台，支持AI对话、多会话管理及中文界面，更适合开发者日常使用。技术实现上，官网版基于Python/FastAPI更简洁，社区版采用Vue3+TypeScript前后端分离架构，扩展性更强。选择取决于需求——基础管理选官网版，深度交互选社区版。
+
+官方GitHub地址：https://github.com/nesquena/hermes-webui  
+社区优化版地址：https://github.com/EKKOLearnAI/hermes-web-ui
+
 ## "MAX LONG 多目标检测 AI摄像头系统"，GitHub上收获3.8万星的开源工具，能自动识别追踪视频中的人车动物，统计出现次数和停留时间。
 
 
