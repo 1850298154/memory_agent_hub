@@ -1,6 +1,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+
+## AI副业资源整合项目：
+github.com/bleedline/AiMoneyHunter
+
+
 ## AI Hedge Fund项目整合15位投资大师思维模型，包括巴菲特、格雷厄姆等。
 输入股票代码后，各AI智能体自动分析技术面、基本面及市场情绪，计算风险指标并给出交易建议（买入/持有/做空）。项目已在GitHub开源，地址：https://github.com/virattt/ai-hedge-fund
 
