@@ -1,5 +1,22 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## VoxCPM 2 刚开源，直接冲上 GitHub Trending。
+
+2B 参数，支持 30 多种语言，音质直接到 48kHz。
+
+最夸张的是——可以用文字“设计声音”。
+
+温柔、激动、成熟，全靠一句话。
+
+还支持声音克隆，连呼吸和细节都能复刻。
+
+关键：Apache 2.0 开源，直接可商用。
+
+做内容、做出海的，可以重点看看这波。
+
+项目地址：github.com/OpenBMB/VoxCPM  
+这是中国团队开源的2B参数TTS模型，支持30+语言和48kHz高音质，最大特点是能用文字描述设计声音（比如"温柔""少女感"），还能精准克隆短音频中的呼吸语气细节，Apache 2.0协议可直接商用。
+
 
 ## Horizon是开源AI资讯雷达，自动抓取多平台内容、去重评分后筛选高价值资讯推送到社交平台。GitHub地址：https://github.com/Thysrael/Horizon
 
