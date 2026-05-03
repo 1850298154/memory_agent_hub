@@ -2,6 +2,16 @@
 
 
 
+
+
+
+
+## 微信接入是Hermes Agent
+运行'hermes update'即可体验，文档地址：hermes-agent.nousresearch.com。
+
+Hermes Agent官方开源地址：https://github.com/NousResearch/hermes-agent
+
+
 ## 清华大学Kronos金融AI模型已开源，主要下载地址
 ：
 
