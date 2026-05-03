@@ -42,20 +42,26 @@ def sanitize(text):
     return text.encode("utf-8", errors="replace").decode("utf-8")
 
 
-def truncate_for_voice(text):
+def truncate_for_voice(text, max_len=80):
     """智能截断文本用于语音播报：1句直接说，2句都说，3句以上只保留首尾用省略连接"""
     if not text or not text.strip():
         return ""
     text = text.strip()
-    # 按中英文句号、问号、感叹号、换行断句
-    sentences = re.split(r'[。！？\n.!?]+', text)
+    # 清理代码块、反引号内容、多余符号
+    text = re.sub(r'```[\s\S]*?```', '', text)
+    text = re.sub(r'`[^`]+`', '', text)
+    text = re.sub(r'[{}()\[\]<>|#$%^&*_~]', '', text)
+    # 按中英文句号、问号、感叹号、分号、换行断句
+    sentences = re.split(r'[。！？；\n.!?;]+', text)
     sentences = [s.strip() for s in sentences if s.strip()]
     if not sentences:
-        return text[:60]
-    if len(sentences) <= 2:
-        return "，".join(sentences)
+        return text[:max_len]
+    if len(sentences) == 1:
+        return sentences[0][:max_len]
+    if len(sentences) == 2:
+        return "，".join(s[:max_len] for s in sentences)
     # 3句及以上：首句 + 省略 + 尾句
-    return f"{sentences[0]}，省略，{sentences[-1]}"
+    return f"{sentences[0][:max_len]}，省略，{sentences[-1][:max_len]}"
 
 
 def send(subject, body):
@@ -73,31 +79,35 @@ def send(subject, body):
 
 
 def speak(text):
-    """跨平台语音播报，优先 pyttsx3，回退到系统命令"""
-    if not VOICE_ENABLED:
+    """跨平台语音播报，用独立进程播放，不阻塞主脚本"""
+    if not VOICE_ENABLED or not text.strip():
         return
+    # 构造语音播放脚本，用独立进程执行，避免 Hook 超时杀掉语音
+    voice_script = (
+        "import pyttsx3,sys,subprocess,platform\n"
+        "text = " + repr(text) + "\n"
+        "try:\n"
+        "    engine = pyttsx3.init()\n"
+        "    voices = engine.getProperty('voices')\n"
+        "    for v in voices:\n"
+        "        if any(k in v.name.lower() or k in v.id.lower() for k in ['chinese','zh','huihui','yaoyao']):\n"
+        "            engine.setProperty('voice', v.id)\n"
+        "            break\n"
+        "    engine.setProperty('rate', 180)\n"
+        "    engine.say(text)\n"
+        "    engine.runAndWait()\n"
+        "except Exception:\n"
+        "    try:\n"
+        "        if platform.system() == 'Darwin':\n"
+        "            subprocess.call(['say', '-v', 'Ting-Ting', text])\n"
+        "    except Exception:\n"
+        "        pass\n"
+    )
     try:
-        import pyttsx3
-        engine = pyttsx3.init()
-        # 尝试设置中文语音
-        voices = engine.getProperty("voices")
-        for v in voices:
-            if "chinese" in v.name.lower() or "zh" in v.id.lower() or "huihui" in v.id.lower() or "yaoyao" in v.id.lower():
-                engine.setProperty("voice", v.id)
-                break
-        engine.setProperty("rate", 180)
-        engine.say(text)
-        engine.runAndWait()
-        return
-    except Exception:
-        pass
-    # 回退：Mac 用 say，Windows 用 PowerShell SAPI
-    try:
-        if platform.system() == "Darwin":
-            subprocess.Popen(["say", "-v", "Ting-Ting", text])
-        elif platform.system() == "Windows":
-            ps_cmd = f'Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak("{text}")'
-            subprocess.Popen(["powershell", "-Command", ps_cmd])
+        kwargs = {}
+        if platform.system() == "Windows":
+            kwargs["creationflags"] = 0x08000000  # CREATE_NO_WINDOW
+        subprocess.Popen([sys.executable, "-c", voice_script], **kwargs)
     except Exception:
         pass
 
