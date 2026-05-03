@@ -4,7 +4,7 @@
 
 
 
-
+## 一套记忆系统以 OpenClaw 为主底座，融合 MemPalace 的分层结构、 Hindsight 的时间检索、 Claude Code 的上下文编排，并结合 OpenViking 做增强；强在分层记忆、时间感知、冲突校验和低 token 唤醒。
 
 ## 微信接入是Hermes Agent
 运行'hermes update'即可体验，文档地址：hermes-agent.nousresearch.com。
