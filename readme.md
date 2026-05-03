@@ -1,6 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## GitHub仓库"claude-code-best-practice"收录82条Claude Code实战经验（16个分类），获创造者Boris Cherny推荐并登顶GitHub Trending。
+
+核心要点：1. 用CLAUDE.md构建长期记忆（200行内，团队共享）；2. 管理上下文防"腐烂"，超40%容量执行/compact；3. Subagent隔离任务（独立权限+Git Worktree）；4. Command/Skill自动化高频操作；5. 并行执行（5+云端终端同步）；6. Auto模式白名单减少打断；7. Agent Teams多智能体协作；8. /loop与/schedule定时任务；9. 多AI代码审查（含/ultrareview）；10. squash合并+手机端支持。仓库持续更新，含75命令速查与10套工作流模板。
+
 
 ## 视频在介绍GitHub排名第一的Rufflow，它能让60多个AI代理协同工作，还能根据任务复杂度自动分配计算资源，省50% token。开发者神器。
 
