@@ -2,7 +2,8 @@
 
 
 
-
+## AkShare项目地址：
+https://github.com/akfamily/akshare。18600+星的开源金融数据库，500+免费接口，无需API Key即可直接使用。
 
 ## 一套记忆系统以 OpenClaw 为主底座，融合 MemPalace 的分层结构、 Hindsight 的时间检索、 Claude Code 的上下文编排，并结合 OpenViking 做增强；强在分层记忆、时间感知、冲突校验和低 token 唤醒。
 
