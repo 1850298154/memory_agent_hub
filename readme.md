@@ -1,5 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Quarkdown 是一个现代、快速、基于 Markdown 的排版系统，用于创建论文、演示文稿、知识库和网站。
+用你已经熟悉的标记语言写，学习曲线平缓，但通过强大的扩展来完全控制文档，并用实时预览更快进入流程状态。Quarkdown运行在VS Code或你的终端上。
+#Github #开源项目 #AI #markdown
+项目地址是：github.com/iamgio/quarkdown
 
 ## OPC的核心不是多开Agent，而是建立角色边界与共享记忆系统：
 
