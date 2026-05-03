@@ -2,6 +2,11 @@
 
 
 
+## 视频在介绍GitHub排名第一的Rufflow，它能让60多个AI代理协同工作，还能根据任务复杂度自动分配计算资源，省50% token。开发者神器。
+
+GitHub项目地址：https://github.com/ruvnet/ruflo
+
+
 ## AkShare项目地址：
 https://github.com/akfamily/akshare。18600+星的开源金融数据库，500+免费接口，无需API Key即可直接使用。
 
