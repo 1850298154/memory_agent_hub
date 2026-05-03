@@ -1,5 +1,19 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Matt Pocock的Skills库（GitHub日增5k star）针对AI编程两大痛点：  
+• 需求对不齐 → grill-with-docs技能：先通过提问确认需求，建立CONTEXT.MD共享术语库  
+• Agent太啰嗦 → caveman模式：精简表达省75% token  
+
+核心技能：  
+- diagnose：六阶段Debug，强调先建反馈循环再排查  
+- write-skill：100行内精简实现，支持渐进式加载  
+
+设计理念：用结构化流程约束Agent，提升可靠性。已成跨平台开放标准。  
+
+开源地址：https://github.com/mattpocock/skills
+
+
 ## VoxCPM 2 刚开源，直接冲上 GitHub Trending。
 
 2B 参数，支持 30 多种语言，音质直接到 48kHz。
