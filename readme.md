@@ -1,6 +1,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
-
+## Proactive Agent项目地址：
+GitHub https://github.com/thunlp/ProactiveAgent，技术论文 https://arxiv.org/abs/2410.12361。清华与面壁智能联合开发的AI主动协助工具。
 ## Matt Pocock的Skills库（GitHub日增5k star）针对AI编程两大痛点：  
 • 需求对不齐 → grill-with-docs技能：先通过提问确认需求，建立CONTEXT.MD共享术语库  
 • Agent太啰嗦 → caveman模式：精简表达省75% token  
