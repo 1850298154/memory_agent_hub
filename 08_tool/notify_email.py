@@ -4,18 +4,35 @@
 1. Stop：任务完成时触发，从 transcript 提取用户问题和助手回答
 2. PreToolUse + AskUserQuestion：Claude 弹出选择题时触发，提取问题和选项
 
-邮件格式：
-  Stop 事件 → 标题: [项目名] 用户问题（前50字）
-             正文: 项目名 + 用户问题 + 助手回答摘要
-  AskUserQuestion 事件 → 标题: [项目名] 需要你做选择 - 问题（前30字）
-                        正文: 项目名 + 选择题内容
+通知方式：
+  - 邮件通知（必选）
+  - 语音播报（可选）：播报项目名 + 事件类型（完成/需要做决策）
 
 配置步骤详见同目录 README.md
 """
-import smtplib, ssl, json, sys, os, time
+import smtplib, ssl, json, sys, os, time, subprocess, platform
 from email.mime.text import MIMEText
 from email.header import Header
 from pathlib import Path
+
+# 加载 .env 配置
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent / ".env")
+except ImportError:
+    pass
+
+# ========== 邮箱配置（从 .env 读取）==========
+SMTP_SERVER = os.environ.get("SMTP_SERVER", "smtp.163.com")
+SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
+USER = os.environ.get("EMAIL_USER", "")
+PASSWORD = os.environ.get("EMAIL_PASSWORD", "")
+
+# ========== 排除项目（可选修改）==========
+SKIP_PROJECTS = {"noval"}
+
+# ========== 语音播报开关 ==========
+VOICE_ENABLED = os.environ.get("VOICE_ENABLED", "true").lower() == "true"
 
 
 def sanitize(text):
@@ -25,17 +42,10 @@ def sanitize(text):
     return text.encode("utf-8", errors="replace").decode("utf-8")
 
 
-# ========== 邮箱配置（必须修改）==========
-SMTP_SERVER = "smtp.163.com"       # SMTP 服务器
-SMTP_PORT = 465                     # SMTP 端口（SSL）
-USER = "你的邮箱@163.com"           # 发件邮箱（也是收件邮箱）
-PASSWORD = "你的授权码"              # 客户端授权码（非登录密码）
-
-# ========== 排除项目（可选修改）==========
-SKIP_PROJECTS = {"noval"}
-
-
 def send(subject, body):
+    if not USER or not PASSWORD:
+        print("邮件未发送：缺少 EMAIL_USER 或 EMAIL_PASSWORD 配置")
+        return
     subject = sanitize(subject)
     body = sanitize(body)
     msg = MIMEText(body, "plain", "utf-8")
@@ -44,6 +54,36 @@ def send(subject, body):
     with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT, context=ssl.create_default_context()) as s:
         s.login(USER, PASSWORD)
         s.sendmail(USER, [USER], msg.as_string())
+
+
+def speak(text):
+    """跨平台语音播报，优先 pyttsx3，回退到系统命令"""
+    if not VOICE_ENABLED:
+        return
+    try:
+        import pyttsx3
+        engine = pyttsx3.init()
+        # 尝试设置中文语音
+        voices = engine.getProperty("voices")
+        for v in voices:
+            if "chinese" in v.name.lower() or "zh" in v.id.lower() or "huihui" in v.id.lower() or "yaoyao" in v.id.lower():
+                engine.setProperty("voice", v.id)
+                break
+        engine.setProperty("rate", 180)
+        engine.say(text)
+        engine.runAndWait()
+        return
+    except Exception:
+        pass
+    # 回退：Mac 用 say，Windows 用 PowerShell SAPI
+    try:
+        if platform.system() == "Darwin":
+            subprocess.Popen(["say", "-v", "Ting-Ting", text])
+        elif platform.system() == "Windows":
+            ps_cmd = f'Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak("{text}")'
+            subprocess.Popen(["powershell", "-Command", ps_cmd])
+    except Exception:
+        pass
 
 
 def extract_from_transcript(transcript_path):
@@ -62,7 +102,6 @@ def extract_from_transcript(transcript_path):
             entry = json.loads(line)
             t = entry.get("type", "")
 
-            # 找最后一条用户纯文本问题（跳过 tool_result）
             if t == "user" and not user_query:
                 msg = entry.get("message", {})
                 content = msg.get("content", "")
@@ -83,7 +122,6 @@ def extract_from_transcript(transcript_path):
                         if texts:
                             user_query = " ".join(texts)[:500]
 
-            # 找最后一条助手文本回答
             elif t == "assistant" and not assistant_answer:
                 msg = entry.get("message", {})
                 content = msg.get("content", [])
@@ -125,7 +163,7 @@ def get_project_name(cwd, transcript_path):
 
 
 def handle_ask_user_question(hook_input, cwd, transcript_path):
-    """处理 PreToolUse + AskUserQuestion 事件：提取选择题并发邮件"""
+    """处理 PreToolUse + AskUserQuestion 事件：提取选择题并发邮件 + 语音播报"""
     tool_input = hook_input.get("tool_input", {})
     questions = tool_input.get("questions", [])
 
@@ -157,16 +195,19 @@ def handle_ask_user_question(hook_input, cwd, transcript_path):
 
     questions_str = "\n\n".join(question_parts)
 
+    # 发邮件
     subject = f"[{project_name}] 需要你做选择 - {first_question_text[:30]}"
     body = f"项目: {project_name}\n\nClaude 需要你做一个选择：\n\n{questions_str}"
 
     send(subject, body)
     print(f"邮件已发送: {subject}")
 
+    # 语音播报
+    speak(f"{project_name}项目需要你做决策")
+
 
 if __name__ == "__main__":
-    # 1. 从 stdin 读取 Hook 输入
-    #    用 buffer 强制 UTF-8 解码，避免 Windows PowerShell GBK 乱码
+    # 1. 从 stdin 读取 Hook 输入（用 buffer 强制 UTF-8 解码，避免 Windows GBK 乱码）
     hook_input = {}
     raw_stdin = ""
     if not sys.stdin.isatty():
@@ -232,3 +273,6 @@ if __name__ == "__main__":
 
     send(subject, "\n".join(body_parts))
     print(f"邮件已发送: {subject}")
+
+    # 8. 语音播报
+    speak(f"{project_name}项目任务已完成")

@@ -35,6 +35,8 @@
 - **弹出选择题时即时通知**，无需等到任务结束
 - 支持**排除指定项目**（如隐私项目不发邮件）
 - **跨项目通用**：全局配置即可，所有项目自动生效
+- **语音播报**：任务完成或需要做决策时语音提醒（跨平台，支持 Mac + Windows）
+- 配置与代码分离：**敏感信息放 .env 文件**，不硬编码在脚本中
 - 已踩过的坑全部记录在案，避免重蹈覆辙
 
 ---
@@ -129,13 +131,33 @@ mkdir -p ~/.claude/scripts
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\scripts"
 ```
 
-### 第 3 步：创建邮件通知脚本
+### 第 3 步：创建配置文件和脚本
 
-将同目录下的 `notify_email.py` 复制到 `~/.claude/scripts/notify_email.py`。
+1. 将 `notify_email.py` 复制到 `~/.claude/scripts/notify_email.py`
+2. 将 `.env.example` 复制为 `~/.claude/scripts/.env`，填写邮箱配置：
 
-**必须修改脚本顶部的 3 个配置项**：`SMTP_SERVER`、`USER`、`PASSWORD`
+```bash
+# .env 内容（必填）
+SMTP_SERVER=smtp.163.com
+SMTP_PORT=465
+EMAIL_USER=你的邮箱@163.com
+EMAIL_PASSWORD=你的授权码
 
-### 第 4 步：获取 Python 完整路径
+# 语音播报开关（可选，默认开启）
+VOICE_ENABLED=true
+```
+
+> 敏感信息只存在于 `.env` 文件中，脚本不会硬编码密码。
+
+### 第 4 步：安装语音播报依赖（可选）
+
+语音播报需要 `pyttsx3`，不安装则仅邮件通知：
+
+```bash
+pip install pyttsx3 python-dotenv
+```
+
+> Mac 自带 `say` 命令作为回退，Windows 上 pyttsx3 使用系统 SAPI 语音引擎。
 
 ```bash
 # macOS / Linux
@@ -145,7 +167,17 @@ which python3
 where.exe python
 ```
 
-### 第 5 步：配置全局 Hook
+### 第 5 步：获取 Python 完整路径
+
+```bash
+# macOS / Linux
+which python3
+
+# Windows (PowerShell)
+where.exe python
+```
+
+### 第 6 步：配置全局 Hook
 
 打开 `~/.claude/settings.json`，合并以下 `hooks` 字段：
 
@@ -211,7 +243,7 @@ Linux：
 
 > macOS/Linux 上 bash 正常工作，无需改为 powershell。
 
-### 第 6 步：测试
+### 第 7 步：测试
 
 ```bash
 # 方法 1：手动运行脚本测试（不依赖 Hook）
@@ -368,10 +400,8 @@ SKIP_PROJECTS = {"noval", "private-project", "secret-repo"}
 
 ```
 ~/.claude/scripts/
-├── notify_email.py          # 邮件通知脚本（核心）
-├── last_email.txt           # 上次发送的邮件内容（调试用）
-├── stdin_raw.txt            # Hook stdin 原始数据（调试用）
-└── hook_debug.json          # Hook 调试日志
+├── notify_email.py          # 邮件通知 + 语音播报脚本（核心）
+├── .env                     # 邮箱配置和语音开关（敏感信息，不要提交到 Git）
 
 ~/.claude/settings.json      # 全局 Hook 配置（必须配置）
 ```
@@ -474,3 +504,9 @@ A: 需要重启该窗口的 Claude Code，使其加载最新的 settings.json。
 
 **Q: 如何卸载?**
 A: 删除 `settings.json` 中的 `hooks` 配置 + 删除 `~/.claude/scripts/notify_email.py` 文件。
+
+**Q: 语音播报不生效?**
+A: 1) 确认已安装 `pyttsx3`（`pip install pyttsx3`）；2) 检查 `.env` 中 `VOICE_ENABLED=true`；3) Mac 无需 pyttsx3，自带 `say` 命令回退。
+
+**Q: 关闭语音播报?**
+A: 在 `.env` 中设置 `VOICE_ENABLED=false`，或删除该行（默认开启）。
