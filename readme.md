@@ -1,6 +1,49 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## OPC的核心不是多开Agent，而是建立角色边界与共享记忆系统：
+
+1️⃣ **三大问题根源**
+- 幻觉：单一Agent自查自审缺乏交叉验证
+- 记忆污染：创作/工程/研究等经验混杂导致思维串味
+- 角色混乱：同一Agent在错误时机做错误事（如研究阶段就下结论）
+
+2️⃣ **四要素架构**
+▫️ Profile：长期角色（稳定身份+技能库）
+▫️ Subagent：临时任务执行者（任务结束即释放）
+▫️ Project：项目专属空间（任务背景/状态/材料）
+▫️ Wiki：共享记忆中枢（决策记录/方法论沉淀）
+
+3️⃣ **四角色黄金模型**
+- 协调者：拆解任务/把控边界/汇总结果
+- 研究员：溯源验证/标记不确定性
+- 作家：结构化表达/适配读者
+- 工程师：专注实现/交付可运行成果
+
+4️⃣ **Wiki分层设计**
+- Index：导航地图（非内容仓库）
+- Schema：文件管理宪法
+- System：全局看板（Dashboard/Log）
+- Projects：项目隔离空间
+- Pages：跨项目方法论库（需经验证才可收录）
+
+关键认知：换项目≠换角色，真正的OPC是用组织结构代替数量堆砌，让单人也能指挥稳定协作的Agent团队。
+
+OPC四大核心组件详解：
+
+1. Profile（角色体系）
+长期稳定的AI员工，各有专属职责。包含Coordinator（拆解任务/把控边界）、Researcher（收集证据/标记不确定性）、Writer（搭建结构/优化表达）、Builder（实现调试/交付成果）。每个Profile拥有独立身份文件（solid.md）、用户理解（user.md）、经验库（memory.md）和技能集，确保角色不混淆。
+
+2. Subagent（临时助手）
+一次性任务执行单元，专攻局部问题（如查证数据、验证逻辑）。与Profile关键区别：完成即销毁，不积累长期记忆。适合需要临时外脑的场景，避免角色边界模糊。
+
+3. Project（项目空间）
+单个任务的专属工作区，如"Twitter增长系统"。包含任务池（tasks）、推进记录（log）、决策库（decisions）和内容流转通道（inbox→outputs）。核心原则：同一套Profile团队可服务多个Project，通过切换项目上下文实现复用。
+
+4. Wiki（共享中枢）
+跨项目知识中枢，含八大模块：导航页（Index）、规则手册（Schema）、系统看板（System）、项目库（Projects）、方法论库（Pages）、原始资料（Raw）、素材库（Assets）、归档区（Archive）。关键作用是通过分层存储（如原始资料与产出隔离）...
+
+
 ## GitHub仓库"claude-code-best-practice"收录82条Claude Code实战经验（16个分类），获创造者Boris Cherny推荐并登顶GitHub Trending。
 
 核心要点：1. 用CLAUDE.md构建长期记忆（200行内，团队共享）；2. 管理上下文防"腐烂"，超40%容量执行/compact；3. Subagent隔离任务（独立权限+Git Worktree）；4. Command/Skill自动化高频操作；5. 并行执行（5+云端终端同步）；6. Auto模式白名单减少打断；7. Agent Teams多智能体协作；8. /loop与/schedule定时任务；9. 多AI代码审查（含/ultrareview）；10. squash合并+手机端支持。仓库持续更新，含75命令速查与10套工作流模板。
