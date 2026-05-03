@@ -10,7 +10,7 @@
 
 配置步骤详见同目录 README.md
 """
-import smtplib, ssl, json, sys, os, time, subprocess, platform
+import smtplib, ssl, json, sys, os, time, subprocess, platform, re
 from email.mime.text import MIMEText
 from email.header import Header
 from pathlib import Path
@@ -40,6 +40,22 @@ def sanitize(text):
     if not isinstance(text, str):
         return str(text)
     return text.encode("utf-8", errors="replace").decode("utf-8")
+
+
+def truncate_for_voice(text):
+    """智能截断文本用于语音播报：1句直接说，2句都说，3句以上只保留首尾用省略连接"""
+    if not text or not text.strip():
+        return ""
+    text = text.strip()
+    # 按中英文句号、问号、感叹号、换行断句
+    sentences = re.split(r'[。！？\n.!?]+', text)
+    sentences = [s.strip() for s in sentences if s.strip()]
+    if not sentences:
+        return text[:60]
+    if len(sentences) <= 2:
+        return "，".join(sentences)
+    # 3句及以上：首句 + 省略 + 尾句
+    return f"{sentences[0]}，省略，{sentences[-1]}"
 
 
 def send(subject, body):
@@ -203,7 +219,8 @@ def handle_ask_user_question(hook_input, cwd, transcript_path):
     print(f"邮件已发送: {subject}")
 
     # 语音播报：项目名 → 动作 → 问题
-    speak(f"项目名为{project_name}，需要做选择。用户的要求问题是，{first_question_text[:60]}")
+    voice_q = truncate_for_voice(first_question_text)
+    speak(f"项目名为{project_name}，需要做选择。用户的要求问题是，{voice_q}")
 
 if __name__ == "__main__":
     # 1. 从 stdin 读取 Hook 输入（用 buffer 强制 UTF-8 解码，避免 Windows GBK 乱码）
@@ -273,6 +290,12 @@ if __name__ == "__main__":
     send(subject, "\n".join(body_parts))
     print(f"邮件已发送: {subject}")
 
-    # 8. 语音播报：项目名 → 动作 → 用户问题
-    voice_query = user_query[:60] if user_query else ""
-    speak(f"项目名为{project_name}，已经完成。用户的要求问题是，{voice_query}")
+    # 8. 语音播报：项目名 → 动作 → 用户问题 → AI结果
+    voice_query = truncate_for_voice(user_query)
+    voice_result = truncate_for_voice(assistant_answer)
+    parts = [f"项目名为{project_name}，已经完成。"]
+    if voice_query:
+        parts.append(f"用户的要求问题是，{voice_query}。")
+    if voice_result:
+        parts.append(f"AI执行的结果是，{voice_result}。")
+    speak("".join(parts))
