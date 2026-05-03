@@ -203,7 +203,7 @@ def handle_ask_user_question(hook_input, cwd, transcript_path):
     print(f"邮件已发送: {subject}")
 
     # 语音播报：项目名 → 动作 → 问题
-    speak(f"{project_name}项目，需要你做决策，{first_question_text[:60]}")
+    speak(f"项目名为{project_name}，需要做选择。用户的要求问题是，{first_question_text[:60]}")
 
 if __name__ == "__main__":
     # 1. 从 stdin 读取 Hook 输入（用 buffer 强制 UTF-8 解码，避免 Windows GBK 乱码）
@@ -275,4 +275,4 @@ if __name__ == "__main__":
 
     # 8. 语音播报：项目名 → 动作 → 用户问题
     voice_query = user_query[:60] if user_query else ""
-    speak(f"{project_name}项目，任务已完成，{voice_query}")
+    speak(f"项目名为{project_name}，已经完成。用户的要求问题是，{voice_query}")
