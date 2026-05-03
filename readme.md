@@ -2,6 +2,11 @@
 
 
 
+## 清华大学Kronos金融AI模型已开源，主要下载地址
+：
+
+
+https://github.com/shiyu-coder/Kronos
 
 
 ## AI副业资源整合项目：
