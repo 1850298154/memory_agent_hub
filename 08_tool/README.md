@@ -1,9 +1,10 @@
-# Claude Code 任务完成邮件通知 — 完整配置指南
+# Claude Code 邮件通知 — 完整配置指南
 
 ## 功能效果
 
-每当 Claude Code 完成任务（Stop 事件），自动发送邮件通知：
+每当 Claude Code 完成任务或弹出选择题，自动发送邮件通知：
 
+**任务完成时（Stop 事件）：**
 ```
 标题: [项目名] 帮我写一个hello world函数
 正文:
@@ -13,14 +14,27 @@
   帮我写一个hello world函数
 
   助手回答:
-  ```python
   print("Hello, World!")
-  ```
+```
+
+**弹出选择题时（PreToolUse + AskUserQuestion）：**
+```
+标题: [项目名] 需要你做选择 - 你的幸运数字是几？
+正文:
+  项目: KAG
+
+  Claude 需要你做一个选择：
+
+  【猜数字】你的幸运数字是几？
+    1. 7 — 七上八下
+    2. 8 — 发发发
+    3. 9 — 长长久久
 ```
 
 - 自动提取**最后的用户问题**和**最后的助手回答**
+- **弹出选择题时即时通知**，无需等到任务结束
 - 支持**排除指定项目**（如隐私项目不发邮件）
-- **跨项目通用**：全局配置 + 项目级配置双重保障
+- **跨项目通用**：全局配置即可，所有项目自动生效
 - 已踩过的坑全部记录在案，避免重蹈覆辙
 
 ---
@@ -67,6 +81,30 @@
 
 **解决**：脚本中加入 `time.sleep(2)` 等待文件刷盘。
 
+### 坑 6：邮件标题中文导致 UnicodeEncodeError
+
+**现象**：PreToolUse Hook 触发了但邮件没发出去，报错 `UnicodeEncodeError: 'utf-8' codec can't encode character '\udcad'`。
+
+**原因**：PowerShell 传递 stdin JSON 时，部分字符会被编码为 UTF-8 代理字符（surrogate），Python 的 `Header()` 无法处理这些非法代理字符。
+
+**解决**：在 `send()` 函数中用 `sanitize()` 清除代理字符，邮件标题用 `Header(subject, "utf-8")` 编码。
+
+### 坑 7：Elicitation 不是有效的 Hook 事件名
+
+**现象**：配置了 `"Elicitation"` Hook 但从未触发。
+
+**原因**：Claude Code 没有 `Elicitation` 这个 Hook 事件。弹出选择题应该用 `PreToolUse` 事件 + `AskUserQuestion` matcher。
+
+**解决**：使用 `"PreToolUse": [{"matcher": "AskUserQuestion", ...}]` 配置。
+
+### 坑 8：Windows PowerShell 传 stdin 中文乱码
+
+**现象**：邮件标题和正文中的中文显示为 `鎴戝垰鐢熸垚浜嗕竴涓?` 之类的乱码。
+
+**原因**：PowerShell 传递 stdin 时使用系统默认编码（中文 Windows 为 GBK），而 Python 的 `sys.stdin.read()` 也按系统编码解码，导致 UTF-8 中文被当作 GBK 解读。
+
+**解决**：用 `sys.stdin.buffer.read()` 读取原始字节，再强制 `decode("utf-8")` 解码。
+
 ---
 
 ## 一键配置步骤
@@ -84,165 +122,16 @@
 ### 第 2 步：创建脚本目录
 
 ```bash
+# macOS / Linux
 mkdir -p ~/.claude/scripts
+
+# Windows (PowerShell)
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\scripts"
 ```
 
 ### 第 3 步：创建邮件通知脚本
 
-将以下内容保存为 `~/.claude/scripts/notify_email.py`：
-
-```python
-"""Claude Code 任务完成邮件通知脚本（全局 Hook 用）
-
-读取 Hook stdin JSON（含 session_id, transcript_path, cwd 等），
-从会话 JSONL 文件提取用户问题和助手回答，发送邮件通知。
-
-邮件格式：
-  标题: [项目名] 用户问题（前50字）
-  正文: 项目名 + 用户问题 + 助手回答摘要
-"""
-import smtplib, ssl, json, sys, os
-from email.mime.text import MIMEText
-from pathlib import Path
-
-# ========== 邮箱配置（必须修改）==========
-SMTP_SERVER = "smtp.163.com"       # SMTP 服务器
-SMTP_PORT = 465                     # SMTP 端口（SSL）
-USER = "你的邮箱@163.com"           # 发件邮箱（也是收件邮箱）
-PASSWORD = "你的授权码"              # 客户端授权码（非登录密码）
-
-# ========== 排除项目（可选修改）==========
-SKIP_PROJECTS = {"noval"}
-
-
-def send(subject, body):
-    msg = MIMEText(body, "plain", "utf-8")
-    msg["From"] = USER
-    msg["Subject"] = subject
-    with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT, context=ssl.create_default_context()) as s:
-        s.login(USER, PASSWORD)
-        s.sendmail(USER, [USER], msg.as_string())
-
-
-def extract_from_transcript(transcript_path):
-    """从 JSONL 末尾往前找：最后一条用户纯文本问题 + 最后一条助手文本回答"""
-    user_query = ""
-    assistant_answer = ""
-
-    try:
-        with open(transcript_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-    except Exception:
-        return user_query, assistant_answer
-
-    for line in reversed(lines):
-        try:
-            entry = json.loads(line)
-            t = entry.get("type", "")
-
-            # 找最后一条用户纯文本问题（跳过 tool_result）
-            if t == "user" and not user_query:
-                msg = entry.get("message", {})
-                content = msg.get("content", "")
-                if isinstance(content, str) and content.strip():
-                    user_query = content.strip()[:500]
-                elif isinstance(content, list):
-                    has_tool_result = any(
-                        isinstance(item, dict) and item.get("type") == "tool_result"
-                        for item in content
-                    )
-                    if not has_tool_result:
-                        texts = []
-                        for item in content:
-                            if isinstance(item, dict) and item.get("type") == "text":
-                                txt = item.get("text", "").strip()
-                                if txt:
-                                    texts.append(txt)
-                        if texts:
-                            user_query = " ".join(texts)[:500]
-
-            # 找最后一条助手文本回答
-            elif t == "assistant" and not assistant_answer:
-                msg = entry.get("message", {})
-                content = msg.get("content", [])
-                if isinstance(content, list):
-                    for item in content:
-                        if isinstance(item, dict) and item.get("type") == "text":
-                            txt = item.get("text", "").strip()
-                            if txt:
-                                assistant_answer = txt[:800]
-                                break
-                elif isinstance(content, str) and content.strip():
-                    assistant_answer = content.strip()[:800]
-
-            if user_query and assistant_answer:
-                break
-        except Exception:
-            continue
-
-    return user_query, assistant_answer
-
-
-if __name__ == "__main__":
-    # 1. 从 stdin 读取 Hook 输入
-    hook_input = {}
-    raw_stdin = ""
-    if not sys.stdin.isatty():
-        raw_stdin = sys.stdin.read()
-        if raw_stdin:
-            try:
-                hook_input = json.loads(raw_stdin)
-            except Exception:
-                pass
-
-    # 2. 获取项目路径和名称
-    cwd = hook_input.get("cwd", "") or hook_input.get("project_path", "") or os.getcwd()
-    project_name = Path(cwd).name if cwd else "unknown"
-
-    # 3. 排除项目
-    if project_name.lower() in SKIP_PROJECTS:
-        print(f"已跳过: {project_name} 在排除列表中")
-        sys.exit(0)
-
-    # 4. 获取 transcript 路径
-    transcript_path = hook_input.get("transcript_path", "")
-    if not transcript_path:
-        # 回退：根据 cwd 手动定位会话文件
-        # Claude Code 项目目录命名规则：路径中的 / \ : _ 全部替换为 -
-        project_dir = cwd.replace("/", "-").replace("\\", "-").replace(":", "-").replace("_", "-")
-        sessions_dir = Path.home() / ".claude" / "projects" / project_dir
-        session_id = hook_input.get("session_id", "")
-        if session_id:
-            candidate = sessions_dir / f"{session_id}.jsonl"
-            if candidate.exists():
-                transcript_path = str(candidate)
-        if not transcript_path:
-            # 找最新的 jsonl 文件
-            jsonl_files = sorted(sessions_dir.glob("*.jsonl"), key=os.path.getmtime, reverse=True)
-            if jsonl_files:
-                transcript_path = str(jsonl_files[0])
-
-    # 5. 提取用户问题和助手回答（等待文件刷盘）
-    import time
-    time.sleep(2)
-    user_query, assistant_answer = extract_from_transcript(transcript_path)
-
-    # 6. 构建邮件
-    if user_query:
-        subject = f"[{project_name}] {user_query[:50]}"
-    else:
-        default_subject = sys.argv[1] if len(sys.argv) > 1 else "Claude Code 任务完成"
-        subject = f"[{project_name}] {default_subject}"
-
-    body_parts = [f"项目: {project_name}"]
-    if user_query:
-        body_parts.append(f"\n用户问题:\n{user_query}")
-    if assistant_answer:
-        body_parts.append(f"\n助手回答:\n{assistant_answer}")
-
-    send(subject, "\n".join(body_parts))
-    print(f"邮件已发送: {subject}")
-```
+将同目录下的 `notify_email.py` 复制到 `~/.claude/scripts/notify_email.py`。
 
 **必须修改脚本顶部的 3 个配置项**：`SMTP_SERVER`、`USER`、`PASSWORD`
 
@@ -270,7 +159,20 @@ where.exe python
           {
             "type": "command",
             "command": "<PYTHON完整路径> <脚本完整路径>/notify_email.py",
-            "shell": "powershell",
+            "shell": "<powershell 或 bash>",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "<PYTHON完整路径> <脚本完整路径>/notify_email.py",
+            "shell": "<powershell 或 bash>",
             "timeout": 30
           }
         ]
@@ -280,14 +182,18 @@ where.exe python
 }
 ```
 
+> **两个 Hook 的作用：**
+> - **Stop**：Claude Code 完成任务时触发，通知你任务已完成
+> - **PreToolUse + AskUserQuestion**：Claude Code 弹出选择题时触发，通知你需要回来做选择
+
 > **关键：Windows 上必须设置 `"shell": "powershell"`，不能省略，不能用 `"bash"`！**
 > 省略时 Claude Code 会尝试使用 Git Bash，但会把 `Git\bin` 目录当成可执行文件导致 ENOENT 错误。
 
 **各平台完整示例：**
 
-Windows（当前电脑实际配置）：
+Windows：
 ```json
-"command": "C:\\zss\\important-software\\anaconda3\\python.exe C:\\Users\\15085\\.claude\\scripts\\notify_email.py",
+"command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
 "shell": "powershell"
 ```
 
@@ -305,28 +211,15 @@ Linux：
 
 > macOS/Linux 上 bash 正常工作，无需改为 powershell。
 
-### 第 6 步：（可选）添加项目级 Hook 双重保障
-
-在每个项目根目录创建 `.claude/settings.json`，内容同上。这样即使全局配置加载失败，项目级配置仍可生效。
+### 第 6 步：测试
 
 ```bash
-# 批量为所有项目添加（Windows PowerShell）
-$projects = @("C:\path\to\project1", "C:\path\to\project2")
-$hookJson = '{"hooks":{"Stop":[{"matcher":"","hooks":[{"type":"command","command":"C:\zss\important-software\anaconda3\python.exe C:\Users\15085\.claude\scripts\notify_email.py","shell":"powershell","timeout":30}]}]}}'
-
-foreach ($dir in $projects) {
-    New-Item -ItemType Directory -Force -Path "$dir\.claude" | Out-Null
-    Set-Content -Path "$dir\.claude\settings.json" -Value $hookJson
-    Write-Host "已创建: $dir\.claude\settings.json"
-}
-```
-
-### 第 7 步：测试
-
-```bash
-# 手动运行脚本测试
-cd 你的项目目录
+# 方法 1：手动运行脚本测试（不依赖 Hook）
 python ~/.claude/scripts/notify_email.py
+
+# 方法 2：用 claude -p 测试完整 Hook 流程
+cd 你的项目目录
+claude -p "用AskUserQuestion弹出选择题让我猜数字"
 ```
 
 检查邮箱是否收到通知邮件。
@@ -335,14 +228,18 @@ python ~/.claude/scripts/notify_email.py
 
 ## 工作原理
 
+### 事件 1：任务完成（Stop Hook）
+
 ```
 用户提问 → Claude Code 执行任务 → 任务完成触发 Stop Hook
                                          ↓
-                                  PowerShell 执行 notify_email.py
+                                  执行 notify_email.py
                                          ↓
                           读取 stdin JSON (cwd, session_id, transcript_path)
                                          ↓
                           定位 ~/.claude/projects/<项目目录>/<session_id>.jsonl
+                                         ↓
+                          从 JSONL 第一条获取 cwd → 项目名
                                          ↓
                           等待 2 秒（文件刷盘）
                                          ↓
@@ -351,6 +248,20 @@ python ~/.claude/scripts/notify_email.py
                           - 找最后一条 type=assistant（含 text）→ 助手回答
                                          ↓
                               发送邮件通知
+```
+
+### 事件 2：弹出选择题（PreToolUse + AskUserQuestion）
+
+```
+Claude 调用 AskUserQuestion → PreToolUse Hook 触发
+                                      ↓
+                              执行 notify_email.py
+                                      ↓
+                    读取 stdin JSON (tool_name=AskUserQuestion, tool_input={questions, options})
+                                      ↓
+                    从 tool_input 提取问题和选项
+                                      ↓
+                    发送邮件：标题 [项目名] 需要你做选择 - 问题
 ```
 
 ### JSONL 文件结构
@@ -390,7 +301,33 @@ Stop Hook 触发时，Claude Code 通过 stdin 传入以下 JSON：
 }
 ```
 
-脚本优先使用 `transcript_path` 和 `cwd`，如果 stdin 为空则回退到 `os.getcwd()` 推算。
+PreToolUse Hook 触发时，额外包含：
+
+```json
+{
+  "session_id": "uuid-string",
+  "transcript_path": "/path/to/session.jsonl",
+  "cwd": "/current/project/path",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "AskUserQuestion",
+  "tool_input": {
+    "questions": [
+      {
+        "question": "你的幸运数字是几？",
+        "header": "猜数字",
+        "options": [
+          {"label": "7", "description": "七上八下"},
+          {"label": "8", "description": "发发发"}
+        ],
+        "multiSelect": false
+      }
+    ]
+  },
+  "tool_use_id": "call_xxxxx"
+}
+```
+
+脚本根据 `hook_event_name` 区分事件类型，分别处理。
 
 ---
 
@@ -421,32 +358,29 @@ SKIP_PROJECTS = {"noval", "private-project", "secret-repo"}
 
 ### 暂停邮件通知
 
-- 删除 `settings.json` 中的 `Stop` Hook 配置
+- 删除 `settings.json` 中的 `hooks` 配置
 - 把项目名加入 `SKIP_PROJECTS`
 - 设置 `"disableAllHooks": true`
 
 ---
 
-## 当前电脑完整配置参考
-
-### 文件清单
+## 文件清单
 
 ```
 ~/.claude/scripts/
 ├── notify_email.py          # 邮件通知脚本（核心）
 ├── last_email.txt           # 上次发送的邮件内容（调试用）
+├── stdin_raw.txt            # Hook stdin 原始数据（调试用）
 └── hook_debug.json          # Hook 调试日志
 
-~/.claude/settings.json      # 全局 Hook 配置
-
-各项目/.claude/settings.json  # 项目级 Hook 配置（双重保障）
+~/.claude/settings.json      # 全局 Hook 配置（必须配置）
 ```
 
-### settings.json（全局）
+---
 
-路径：`C:\Users\15085\.claude\settings.json`
+## settings.json 完整示例
 
-Hook 相关部分：
+### Windows
 
 ```json
 {
@@ -457,7 +391,20 @@ Hook 相关部分：
         "hooks": [
           {
             "type": "command",
-            "command": "C:\\zss\\important-software\\anaconda3\\python.exe C:\\Users\\15085\\.claude\\scripts\\notify_email.py",
+            "command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
+            "shell": "powershell",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
             "shell": "powershell",
             "timeout": 30
           }
@@ -468,9 +415,7 @@ Hook 相关部分：
 }
 ```
 
-### 项目级 settings.json 模板
-
-路径：`<项目根目录>/.claude/settings.json`
+### macOS / Linux
 
 ```json
 {
@@ -481,8 +426,21 @@ Hook 相关部分：
         "hooks": [
           {
             "type": "command",
-            "command": "C:\\zss\\important-software\\anaconda3\\python.exe C:\\Users\\15085\\.claude\\scripts\\notify_email.py",
-            "shell": "powershell",
+            "command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
+            "shell": "bash",
             "timeout": 30
           }
         ]
@@ -505,8 +463,14 @@ A: Windows 上必须设置 `"shell": "powershell"`，不能用 `"bash"` 也不�
 **Q: 收到邮件但用户问题不对/不是最新的?**
 A: 脚本已加 `time.sleep(2)` 等待文件刷盘。如果仍有问题，可增大等待时间。
 
+**Q: 邮件中文显示乱码?**
+A: 脚本已使用 `sys.stdin.buffer.read()` + `decode("utf-8")` 修复 Windows PowerShell 的编码问题。确保脚本版本包含此修复。
+
+**Q: 弹出选择题时没有收到邮件?**
+A: 确认 `settings.json` 中有 `PreToolUse` Hook 且 matcher 为 `"AskUserQuestion"`（不是 `"Elicitation"`）。修改配置后需要**启动新的 Claude Code 会话**才能生效（`--resume` 旧会话不会加载新配置）。
+
 **Q: 另一个 VS Code 窗口的 Hook 不生效?**
-A: 需要重启该窗口的 Claude Code，使其加载最新的 settings.json。也可在项目目录下创建 `.claude/settings.json` 作为双重保障。
+A: 需要重启该窗口的 Claude Code，使其加载最新的 settings.json。
 
 **Q: 如何卸载?**
-A: 删除 `settings.json` 中的 `hooks.Stop` 配置 + 删除 `~/.claude/scripts/notify_email.py` 文件。
+A: 删除 `settings.json` 中的 `hooks` 配置 + 删除 `~/.claude/scripts/notify_email.py` 文件。
