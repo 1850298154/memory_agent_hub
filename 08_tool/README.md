@@ -1,43 +1,52 @@
-# Claude Code 邮件通知 — 完整配置指南
+# Claude Code 邮件通知 + 语音播报 — 完整配置指南
 
 ## 功能效果
 
-每当 Claude Code 完成任务或弹出选择题，自动发送邮件通知：
+每当 Claude Code 完成任务或弹出选择题，自动：
+
+1. **发送邮件通知**（必选）
+2. **语音播报**（可选，默认开启）
 
 **任务完成时（Stop 事件）：**
 ```
-标题: [项目名] 帮我写一个hello world函数
-正文:
+邮件标题: [项目名] 帮我写一个hello world函数
+邮件正文:
   项目: KAG
+  用户问题: 帮我写一个hello world函数
+  助手回答: print("Hello, World!")
 
-  用户问题:
-  帮我写一个hello world函数
-
-  助手回答:
-  print("Hello, World!")
+语音播报: "项目名为KAG，已经完成。用户的要求问题是，帮我写一个hello world函数。AI执行的结果是，print Hello World。"
 ```
 
 **弹出选择题时（PreToolUse + AskUserQuestion）：**
 ```
-标题: [项目名] 需要你做选择 - 你的幸运数字是几？
-正文:
+邮件标题: [项目名] 需要你做选择 - 你的幸运数字是几？
+邮件正文:
   项目: KAG
-
   Claude 需要你做一个选择：
-
   【猜数字】你的幸运数字是几？
     1. 7 — 七上八下
     2. 8 — 发发发
-    3. 9 — 长长久久
+
+语音播报: "项目名为KAG，需要做选择。用户的要求问题是，你的幸运数字是几？"
 ```
 
-- 自动提取**最后的用户问题**和**最后的助手回答**
-- **弹出选择题时即时通知**，无需等到任务结束
-- 支持**排除指定项目**（如隐私项目不发邮件）
-- **跨项目通用**：全局配置即可，所有项目自动生效
-- **语音播报**：任务完成或需要做决策时语音提醒（跨平台，支持 Mac + Windows）
-- 配置与代码分离：**敏感信息放 .env 文件**，不硬编码在脚本中
-- 已踩过的坑全部记录在案，避免重蹈覆辙
+### 语音播报格式
+
+播报内容结构：**项目名 → 动作 → 用户问题 → AI执行结果**
+
+- 动作："已经完成" 或 "需要做选择"
+- 用户问题和 AI 结果智能截断：1句直接说，2句都说，3句以上只保留首尾用"省略"连接
+- 代码块和特殊符号自动清理，不会影响语音
+
+### 跨平台兼容
+
+| 特性 | Windows | macOS | Linux |
+|------|---------|-------|-------|
+| 邮件通知 | ✅ | ✅ | ✅ |
+| 语音播报 | ✅ pyttsx3 (SAPI) | ✅ pyttsx3 / 系统say | ✅ pyttsx3 (需装espeak) |
+| Hook shell | powershell | bash | bash |
+| 敏感信息 | .env 文件 | .env 文件 | .env 文件 |
 
 ---
 
@@ -131,41 +140,40 @@ mkdir -p ~/.claude/scripts
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\scripts"
 ```
 
-### 第 3 步：创建配置文件和脚本
+### 第 3 步：安装 Python 依赖
+
+```bash
+# 必选（邮件通知 + .env 配置加载）
+pip install python-dotenv
+
+# 可选（语音播报，不装则只有邮件通知）
+pip install pyttsx3
+
+# Linux 额外需要（pyttsx3 在 Linux 上依赖 espeak）
+sudo apt install espeak        # Debian/Ubuntu
+sudo yum install espeak        # CentOS/RHEL
+brew install espeak            # macOS (通常不需要，自带 say 命令)
+```
+
+> Windows 上 pyttsx3 使用系统自带 SAPI 语音引擎，无需额外安装系统依赖。
+
+### 第 4 步：创建配置文件和脚本
 
 1. 将 `notify_email.py` 复制到 `~/.claude/scripts/notify_email.py`
 2. 将 `.env.example` 复制为 `~/.claude/scripts/.env`，填写邮箱配置：
 
-```bash
+```ini
 # .env 内容（必填）
 SMTP_SERVER=smtp.163.com
 SMTP_PORT=465
 EMAIL_USER=你的邮箱@163.com
 EMAIL_PASSWORD=你的授权码
 
-# 语音播报开关（可选，默认开启）
+# 语音播报开关（可选，默认 true）
 VOICE_ENABLED=true
 ```
 
 > 敏感信息只存在于 `.env` 文件中，脚本不会硬编码密码。
-
-### 第 4 步：安装语音播报依赖（可选）
-
-语音播报需要 `pyttsx3`，不安装则仅邮件通知：
-
-```bash
-pip install pyttsx3 python-dotenv
-```
-
-> Mac 自带 `say` 命令作为回退，Windows 上 pyttsx3 使用系统 SAPI 语音引擎。
-
-```bash
-# macOS / Linux
-which python3
-
-# Windows (PowerShell)
-where.exe python
-```
 
 ### 第 5 步：获取 Python 完整路径
 
@@ -176,6 +184,8 @@ which python3
 # Windows (PowerShell)
 where.exe python
 ```
+
+记下输出路径，下一步配置要用。
 
 ### 第 6 步：配置全局 Hook
 
@@ -190,7 +200,7 @@ where.exe python
         "hooks": [
           {
             "type": "command",
-            "command": "<PYTHON完整路径> <脚本完整路径>/notify_email.py",
+            "command": "<PYTHON路径> <脚本路径>/notify_email.py",
             "shell": "<powershell 或 bash>",
             "timeout": 30
           }
@@ -203,7 +213,7 @@ where.exe python
         "hooks": [
           {
             "type": "command",
-            "command": "<PYTHON完整路径> <脚本完整路径>/notify_email.py",
+            "command": "<PYTHON路径> <脚本路径>/notify_email.py",
             "shell": "<powershell 或 bash>",
             "timeout": 30
           }
@@ -225,20 +235,104 @@ where.exe python
 
 Windows：
 ```json
-"command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
-"shell": "powershell"
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
+            "shell": "powershell",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
+            "shell": "powershell",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
 macOS：
 ```json
-"command": "/usr/bin/python3 /Users/你的用户名/.claude/scripts/notify_email.py",
-"shell": "bash"
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /Users/你的用户名/.claude/scripts/notify_email.py",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /Users/你的用户名/.claude/scripts/notify_email.py",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
 Linux：
 ```json
-"command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
-"shell": "bash"
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
 > macOS/Linux 上 bash 正常工作，无需改为 powershell。
@@ -254,7 +348,7 @@ cd 你的项目目录
 claude -p "用AskUserQuestion弹出选择题让我猜数字"
 ```
 
-检查邮箱是否收到通知邮件。
+检查邮箱是否收到通知邮件，语音是否播报。
 
 ---
 
@@ -279,7 +373,7 @@ claude -p "用AskUserQuestion弹出选择题让我猜数字"
                           - 找最后一条 type=user（非 tool_result）→ 用户问题
                           - 找最后一条 type=assistant（含 text）→ 助手回答
                                          ↓
-                              发送邮件通知
+                          发送邮件通知 → 启动独立进程语音播报
 ```
 
 ### 事件 2：弹出选择题（PreToolUse + AskUserQuestion）
@@ -293,8 +387,24 @@ Claude 调用 AskUserQuestion → PreToolUse Hook 触发
                                       ↓
                     从 tool_input 提取问题和选项
                                       ↓
-                    发送邮件：标题 [项目名] 需要你做选择 - 问题
+                    发送邮件通知 → 启动独立进程语音播报
 ```
+
+### 语音播报机制
+
+```
+speak() 被调用
+      ↓
+构造独立 Python 脚本（包含 pyttsx3 播放逻辑）
+      ↓
+Popen 启动子进程（不阻塞主脚本，避免 Hook 超时）
+      ↓
+子进程内：pyttsx3 播放 → 自动寻找中文语音
+      ↓
+pyttsx3 不可用时 → Mac 回退到系统 say 命令
+```
+
+> 语音播报在独立子进程中执行，即使播报时间较长也不会影响 Hook 超时（30秒）。
 
 ### JSONL 文件结构
 
@@ -365,15 +475,9 @@ PreToolUse Hook 触发时，额外包含：
 
 ## 自定义配置
 
-### 修改收件人
-
-默认发件人和收件人相同。发给其他邮箱：
-
-```python
-s.sendmail(USER, ["target@example.com"], msg.as_string())
-```
-
 ### 排除项目
+
+编辑 `notify_email.py` 中的 `SKIP_PROJECTS`：
 
 ```python
 SKIP_PROJECTS = {"noval", "private-project", "secret-repo"}
@@ -388,11 +492,15 @@ SKIP_PROJECTS = {"noval", "private-project", "secret-repo"}
 | Gmail | `smtp.gmail.com` | `465` | 需要应用专用密码 |
 | Outlook | `smtp.office365.com` | `587` | 需要应用密码 |
 
-### 暂停邮件通知
+修改 `.env` 中的 `SMTP_SERVER` 和 `SMTP_PORT` 即可。
 
-- 删除 `settings.json` 中的 `hooks` 配置
-- 把项目名加入 `SKIP_PROJECTS`
-- 设置 `"disableAllHooks": true`
+> 注意：Outlook 使用 587 端口 + STARTTLS，当前脚本固定使用 SSL（465 端口）。如需使用 Outlook，需修改脚本中的 `SMTP_SSL` 为 `SMTP` + `starttls()`。
+
+### 暂停通知
+
+- 暂停语音：`.env` 中设置 `VOICE_ENABLED=false`
+- 暂停邮件+语音：删除 `settings.json` 中的 `hooks` 配置，或设置 `"disableAllHooks": true`
+- 跳过特定项目：把项目名加入 `SKIP_PROJECTS`
 
 ---
 
@@ -401,83 +509,17 @@ SKIP_PROJECTS = {"noval", "private-project", "secret-repo"}
 ```
 ~/.claude/scripts/
 ├── notify_email.py          # 邮件通知 + 语音播报脚本（核心）
-├── .env                     # 邮箱配置和语音开关（敏感信息，不要提交到 Git）
+└── .env                     # 邮箱配置和语音开关（敏感信息，不要提交到 Git）
 
 ~/.claude/settings.json      # 全局 Hook 配置（必须配置）
 ```
 
----
-
-## settings.json 完整示例
-
-### Windows
-
-```json
-{
-  "hooks": {
-    "Stop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
-            "shell": "powershell",
-            "timeout": 30
-          }
-        ]
-      }
-    ],
-    "PreToolUse": [
-      {
-        "matcher": "AskUserQuestion",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "C:\\Python311\\python.exe C:\\Users\\你的用户名\\.claude\\scripts\\notify_email.py",
-            "shell": "powershell",
-            "timeout": 30
-          }
-        ]
-      }
-    ]
-  }
-}
+仓库中的文件：
 ```
-
-### macOS / Linux
-
-```json
-{
-  "hooks": {
-    "Stop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
-            "shell": "bash",
-            "timeout": 30
-          }
-        ]
-      }
-    ],
-    "PreToolUse": [
-      {
-        "matcher": "AskUserQuestion",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/usr/bin/python3 /home/你的用户名/.claude/scripts/notify_email.py",
-            "shell": "bash",
-            "timeout": 30
-          }
-        ]
-      }
-    ]
-  }
-}
+08_tool/
+├── notify_email.py          # 脚本源码（占位符配置，需配合 .env 使用）
+├── .env.example             # .env 配置模板
+└── README.md                # 本文档
 ```
 
 ---
@@ -502,11 +544,14 @@ A: 确认 `settings.json` 中有 `PreToolUse` Hook 且 matcher 为 `"AskUserQues
 **Q: 另一个 VS Code 窗口的 Hook 不生效?**
 A: 需要重启该窗口的 Claude Code，使其加载最新的 settings.json。
 
-**Q: 如何卸载?**
-A: 删除 `settings.json` 中的 `hooks` 配置 + 删除 `~/.claude/scripts/notify_email.py` 文件。
-
 **Q: 语音播报不生效?**
-A: 1) 确认已安装 `pyttsx3`（`pip install pyttsx3`）；2) 检查 `.env` 中 `VOICE_ENABLED=true`；3) Mac 无需 pyttsx3，自带 `say` 命令回退。
+A: 1) 确认已安装 `pyttsx3`（`pip install pyttsx3`）；2) 检查 `.env` 中 `VOICE_ENABLED=true`；3) Linux 需额外安装 `espeak`（`sudo apt install espeak`）；4) Mac 无需 pyttsx3，自带 `say` 命令回退。
+
+**Q: 语音播报只说了前半截，AI结果没听到?**
+A: 脚本已使用独立子进程播放语音，不受 Hook 超时限制。如果仍有截断，可能是 pyttsx3/SAPI 的文本长度限制，脚本已自动截断每段 80 字。
 
 **Q: 关闭语音播报?**
-A: 在 `.env` 中设置 `VOICE_ENABLED=false`，或删除该行（默认开启）。
+A: 在 `.env` 中设置 `VOICE_ENABLED=false`。
+
+**Q: 如何卸载?**
+A: 删除 `settings.json` 中的 `hooks` 配置 + 删除 `~/.claude/scripts/notify_email.py` 和 `.env` 文件。
