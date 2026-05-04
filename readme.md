@@ -1,6 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 腾讯开源了WeKnora
+，把RAG问答、Agent推理和自动Wiki做进同一套知识框架，飞书、Notion、语雀等文档源都能接，知识库终于不只是“能搜”，还能自己长出结构
+
 
 ## PPT Master特点：
 ①输入PDF/网址/文字生成原生可编辑PPT（非截图）；②SVG转DrawingML核心技术，保留矢量编辑能力；③七步工作流含spec_lock防漂移、质量检查门控。GitHub地址：github.com/hugohe3/ppt-master
