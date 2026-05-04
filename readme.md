@@ -7,6 +7,16 @@
 
 
 
+## Obscura 这个用 Rust 写的无头浏览器
+，21 天 9.9k star，内存只要 30MB，
+加载只要 85ms，是 Headless Chrome 的七分之一。
+Obscura 砍掉界面渲染、事件循环、插件系统，只留 V8 + CDP，
+结果就是 70MB 的单文件，开箱即用。
+给人用的工具和给机器用的工具，从今天起，就是两样东西。
+做 Agent、做爬虫、做数据采集的同学，建议把 Obscura 加进你的技术选型清单。
+
+Obscura的GitHub地址是：https://github.com/h4ckf0r0day/obscura
+
 
 
 
