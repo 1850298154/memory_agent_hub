@@ -2,6 +2,13 @@
 
 
 
+
+
+
+
+## Tolaria来了！纯Markdown本地存，Git自动同步，体验像Notion但文件完全归你。
+最绝的是MCP注册，Claude和OpenClaw能直接读搜你的知识库，AI自动帮你管笔记
+
 ## obsidian
 开源了第三大脑 V5 Skills 🧠
 11 个 Agent Skill，把 AI 编程助手变成持久的认知操作系统：
