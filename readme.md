@@ -4,7 +4,8 @@
 
 
 
-
+## Octogent的官方
+（github.com/dbpunk-labs/octogen），由dbpunk-labs维护，支持本地代码执行和多模态交互。如需准确地址，建议直接在GitHub搜索确认项目名称。
 
 
 ## Obscura 这个用 Rust 写的无头浏览器
