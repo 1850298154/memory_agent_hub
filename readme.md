@@ -2,7 +2,17 @@
 
 
 
-
+## obsidian
+开源了第三大脑 V5 Skills 🧠
+11 个 Agent Skill，把 AI 编程助手变成持久的认知操作系统：
+• wiki-ingest → STOW 知识管线
+• daily-okr → 每日 7 KR 闭环 + 评分
+• behavior-design → 行为改造系统
+• creativity-engine → 创造力引擎
+• verify-before-claim → 验证前置铁律
+基于数月日常使用打磨，非理论产物。
+兼容 Claude Code / Codex / Gemini CLI。
+🔗 https://github.com/Mark393295827/third-brain-v5-skills
 
 ## Octogent的官方
 （github.com/dbpunk-labs/octogen），由dbpunk-labs维护，支持本地代码执行和多模态交互。如需准确地址，建议直接在GitHub搜索确认项目名称。
