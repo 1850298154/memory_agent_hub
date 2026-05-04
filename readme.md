@@ -1,6 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 创业里提到的9个关键技能：找对人群、验证想法、手工先行、选择交付、逐个获客、合理定价、内容获客、稳健增长和文化塑造。这才是极简创业的精髓所在。
+Gumroad官网地址：https://gumroad.com。极简创业技能平台就是这里。
+
+
 ## 腾讯开源了WeKnora
 ，把RAG问答、Agent推理和自动Wiki做进同一套知识框架，飞书、Notion、语雀等文档源都能接，知识库终于不只是“能搜”，还能自己长出结构
 
