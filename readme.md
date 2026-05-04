@@ -1,5 +1,6 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 用 fireworks-tech-graph，一句话描述你的系统，几秒就能出专业图。7 种风格任选，14 类图表全覆盖，架构、流程、时序图一键生成。自动导出高清 SVG 和 PNG，文档、PPT、汇报直接用。一行命令安装，本地运行，不用在线绘图、不用写代码。告别繁琐拖拽，提升效率，技术画图就用它！
 
 ## 创业里提到的9个关键技能：找对人群、验证想法、手工先行、选择交付、逐个获客、合理定价、内容获客、稳健增长和文化塑造。这才是极简创业的精髓所在。
 Gumroad官网地址：https://gumroad.com。极简创业技能平台就是这里。
