@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## PPT Master特点：
+①输入PDF/网址/文字生成原生可编辑PPT（非截图）；②SVG转DrawingML核心技术，保留矢量编辑能力；③七步工作流含spec_lock防漂移、质量检查门控。GitHub地址：github.com/hugohe3/ppt-master
+
+
+
 ## Quarkdown 是一个现代、快速、基于 Markdown 的排版系统，用于创建论文、演示文稿、知识库和网站。
 用你已经熟悉的标记语言写，学习曲线平缓，但通过强大的扩展来完全控制文档，并用实时预览更快进入流程状态。Quarkdown运行在VS Code或你的终端上。
 #Github #开源项目 #AI #markdown
