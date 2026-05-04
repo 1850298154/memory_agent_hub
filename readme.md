@@ -1,6 +1,20 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+
+
+
+
+
+
+
+## 这是卡帕西为Claude Code设计的精神导师指南，目前已收获超11万星。
+
+CLAUDE.md文档地址是：https://github.com/forestchang/andrej-karpathy-skills。
+
+
 ## Wondering ：不做内容库，而是把“学习路径”产品化。
 输入一个主题，自动拆解成结构化知识 + 轻量练习，降低学习启动成本。
 本质是在解决一个问题：不是你学不会，而是没人帮你拆第一步。
