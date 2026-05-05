@@ -5,6 +5,9 @@
 
 
 
+## 项目名称：Agent-SGitHub 
+链接：https://github.com/simular-ai/Agent-S社区认可度：Star 数突破 9.3k+，Agent S3首个在 OSWorld 上超越人类性能的智能体.
+
 
 ## Tolaria来了！纯Markdown本地存，Git自动同步，体验像Notion但文件完全归你。
 最绝的是MCP注册，Claude和OpenClaw能直接读搜你的知识库，AI自动帮你管笔记
