@@ -1,1 +1,10 @@
 .env
+
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Spec 文件
+.spec-workflow/
