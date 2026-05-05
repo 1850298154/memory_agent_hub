@@ -1,5 +1,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Hermes Agent v0.12.0 新增 Kanban 多智能体工作流。
+重点不是又多一个界面，而是把「分工、并行、阻塞交接」放进同一块板里，少一点终端杂耍，多一点可控的团队感。#HermesAgent #NousResearch #AI智能体 #多智能体 #Kanban
+
 
 ## 🚀AI编程工作流终极形态：GitNexus！零Token消耗实现代码知识图谱化！
 让Claude Code和Codex拥有上帝视角彻底告别盲目改代码，复杂项目重构再也不是难题！7大MCP工具加持效率倍增 视频简介：
