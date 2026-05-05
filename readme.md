@@ -1,5 +1,20 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 开源替代是Open Design。
+它是一个本地优先的开源项目，旨在替代Claude Design，支持通过AI生成HTML、PPT等成品。核心特点：
+· 本地优先：数据存储在本地，不上传服务器，保障隐私。
+· 无厂商锁定：可接入任意AI工具（如Claude Code、Cursor、Gemini CLI等），无需依赖 Anthropic。
+· 内置设计系统：包含71套品牌级设计系统（如Linear、Stripe、Apple风格），确保风格一致性。
+· 多格式导出：支持HTML、PDF、PPTX等格式导出。使用方法：
+1.克隆仓库：
+git clone https://github.com/nexu-io/open-design.git
+2.进入目录：
+cd open-design
+3.安装依赖：
+corepack enable && pnpm install
+4.启动：
+pnpm tools-dev run webOpen Design适合已使用AI编程工具的用户，可快速生成设计原型，无需额外订阅。
 ## 5个Hermes技能：
 
 1. gstack（85K星）：优化记忆层实现自我进化，地址：github.com/garrytan/gstack
