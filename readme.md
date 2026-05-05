@@ -1,6 +1,29 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 5个Hermes技能：
 
+1. gstack（85K星）：优化记忆层实现自我进化，地址：github.com/garrytan/gstack
+2. gbrain（11K星）：提升团队协作效率，地址：github.com/garrytan/gbrain
+3. hermes-webui（4.6K星）：轻量级Web界面，地址：github.com/nesquena/hermes-webui
+4. awesome-hermes-agent（1.9K星）：Hermes生态导航库，地址：github.com/0xNyk/awesome-hermes-agent
+5. hermes-agent-self-evolution（2.4K星）：自进化增强版，地址：github.com/NousResearch/hermes-agent-self-evolution
+
+Hermes五大必装技能整理：
+
+1️⃣ G Stack (85K star)
+记忆层优化核心，让Hermes具备自我进化能力。由YC总裁Garry Tan开发，开发者实测效率达2013年的810倍。
+
+2️⃣ G Brain (11K star)
+多团队协作神器，为AI代理构建知识图谱。夜间自动整理会议记录/邮件，唤醒时智能升级。
+
+3️⃣ Hermes WebUI (4.6K star)
+三面板轻量级界面，保留CLI完整功能。实时显示token消耗，工作流管理更直观。
+
+4️⃣ Awesome Hermes (1.9K star)
+Hermes生态导航站，聚合社区技能/插件/部署方案，查找项目最快路径。
+
+5️⃣ Self Evolution (2.4K star)
+官方自进化模块，通过DSPy技术持续优化提示词与行为逻辑，越用越智能。
 ## OpenWolf是Claude Code的开源优化工具，通过6个隐形hook脚本实现三大核心功能
 ：建立项目文件索引避免重复读取、积累学习记忆减少错误、实时追踪token消耗。实测数据显示，在相同项目中可节省约80%的token用量，20个项目平均降低65.8%消耗，71%的重复文件读取被有效拦截，只需执行"openwolf init"即可启用。
 
