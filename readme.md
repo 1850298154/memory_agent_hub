@@ -2,8 +2,11 @@
 
 
 
+## Oh My Mermaid 开源神器，AI 一键扫描代码库自动生成Mermaid 架构可视化文档
+，拆解整体架构、数据流、集成关系，告别代码黑盒。兼容 Claude、Cursor 等主流 AI 工具，CLI 极简操作，支持交互式查看与云端存储，多层级嵌套解析，让复杂代码架构一眼看懂！
 
 
+Oh My Mermaid项目地址：https://github.com/oh-my-mermaid/oh-my-mermaid
 
 ## 项目名称：Agent-SGitHub 
 链接：https://github.com/simular-ai/Agent-S社区认可度：Star 数突破 9.3k+，Agent S3首个在 OSWorld 上超越人类性能的智能体.
