@@ -3,7 +3,19 @@
 
 
 
+## Claude Code核心技能如下：
 
+1. agent-browser：操作网页自动化，能登录后台、填表单、抓取信息
+2. find-skills：先查找现有解决方案再开发
+3. summarize：信息压缩提炼重点
+4. skill-creator：创建可复用工作流
+5. tmux：终端环境持续控制
+6. testing/e2e：自动化测试框架
+7. docs/readme：文档规范化生成
+8. refactor/review：代码重构与审查
+9. git-workflow：交付流程自动化
+
+视频未提供具体地址链接，这些都是Claude Code内置功能模块，可通过官方文档了解详情。
 
 ## 【SkillLens-给你的skill全方位评测工具】一个Skill，它只是“写得不错”，还是“真的值得被使用”？
 
