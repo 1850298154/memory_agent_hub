@@ -1,5 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## OpenWolf是Claude Code的开源优化工具，通过6个隐形hook脚本实现三大核心功能
+：建立项目文件索引避免重复读取、积累学习记忆减少错误、实时追踪token消耗。实测数据显示，在相同项目中可节省约80%的token用量，20个项目平均降低65.8%消耗，71%的重复文件读取被有效拦截，只需执行"openwolf init"即可启用。
+
+
 ## MCP for 小红书：让 AI 助手直接访问小红书数据
 发现一个很适合 AI 工作流的小红书 MCP 项目：xiaohongshu-mcp。
 它可以把小红书的数据访问、内容搜索、笔记详情、评论互动、内容发布等能力接入到 AI 助手中。
