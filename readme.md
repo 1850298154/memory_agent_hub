@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## OpenCLI网页自动化抓取神器 亚马逊，Reddit通通可以自由抓取
+
+
+项目地址是 https://github.com/jackwener/OpenCLI
+
+OpenCLI是个超实用的网页自动化工具，能把任何网站的操作变成CLI命令行。它支持亚马逊、Reddit、小红书、哔哩哔哩等平台数据抓取，特别适合电商卖家监控竞品和找产品灵感。你可以用它自动登录网站、点击页面、提取信息，还能让AI代理帮你操作网页。作为免费开源工具，它把浏览器会话、Electron应用都变成了可编程的命令行接口，完全不用买第三方软件就能搞定数据采集。
+
 
 ## 开源替代是Open Design。
 它是一个本地优先的开源项目，旨在替代Claude Design，支持通过AI生成HTML、PPT等成品。核心特点：
