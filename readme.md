@@ -1,6 +1,11 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## claude-howto主要是Markdown和YAML写的配置文档，配合Python和Shell脚本，用来定义Claude Code的各种功能模板。
+项目地址：https://github.com/luongnv89/claude-howto
+
+这是一个GitHub开源项目，已获2.4万+ star。它将Claude Code功能拆解为10个模块（斜杠命令、记忆、技能等），从基础到高级分层讲解，提供可直接使用的代码模板和完整学习路径。
+
 
 
 ## Claude Code核心技能如下：
