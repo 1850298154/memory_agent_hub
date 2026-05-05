@@ -1,5 +1,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## MCP for 小红书：让 AI 助手直接访问小红书数据
+发现一个很适合 AI 工作流的小红书 MCP 项目：xiaohongshu-mcp。
+它可以把小红书的数据访问、内容搜索、笔记详情、评论互动、内容发布等能力接入到 AI 助手中。
+如果你正在做内容运营、AI Agent、自动化工具，或者想让 AI 更方便地调用小红书相关能力，可以关注这个开源项目。
+
+GitHub：xpzouying/xiaohongshu-mcp
+
 ## Hermes Agent v0.12.0 新增 Kanban 多智能体工作流。
 重点不是又多一个界面，而是把「分工、并行、阻塞交接」放进同一块板里，少一点终端杂耍，多一点可控的团队感。#HermesAgent #NousResearch #AI智能体 #多智能体 #Kanban
 
