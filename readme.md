@@ -1,6 +1,21 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 🚀AI编程工作流终极形态：GitNexus！零Token消耗实现代码知识图谱化！
+让Claude Code和Codex拥有上帝视角彻底告别盲目改代码，复杂项目重构再也不是难题！7大MCP工具加持效率倍增 视频简介：
+
+
+程序员狂喜！GitNexus开源神器深度评测，自动分析Bug、Review PR、追踪调用链，AI编程从此进入精准时代！保姆级教程！
+🔥 本期视频详细演示了GitHub上爆火的代码智能引擎 GitNexus，这款被誉为"代码库神经系统"的开源神器能让 Claude Code、Codex、Cursor 等 AI 编程工具瞬间获得对代码库的深度结构感知能力！
+⚡ 核心亮点：
+✅ 索引阶段 0 Token 消耗，不调用任何大模型
+✅ 内置 7 大 MCP 工具（impact / context / query 等）
+✅ 支持 TypeScript / Python / Rust 等主流编程语言
+✅ Web UI 可视化知识图谱，节点依赖一目了然
+🎯 实战演示：
+以我开发的 OpenClaw 记忆插件 memory-lancedb-pro 为案例,完整演示从安装、基础索引、完整索引(--embeddings + --skills),到 Claude Code 中的项目架构分析、A-MAC 功能影响评估、Issue Bug 定位修复、PR Review 等多个真实场景。还包含使用与不使用 GitNexus 的对比测试,差距震撼!
+🚀 与之前演示的 Graphify 协同使用,打造 AI 编程双引擎工作流。
+
 
 ## Oh My Mermaid 开源神器，AI 一键扫描代码库自动生成Mermaid 架构可视化文档
 ，拆解整体架构、数据流、集成关系，告别代码黑盒。兼容 Claude、Cursor 等主流 AI 工具，CLI 极简操作，支持交互式查看与云端存储，多层级嵌套解析，让复杂代码架构一眼看懂！
