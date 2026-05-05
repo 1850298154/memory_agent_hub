@@ -1,5 +1,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+
+
+## “本地 AI 工作效率提升全家桶”，它把聊天、AI 绘画、知识库（RAG）、工作流、MCP 服务市场、语音输入输出、长期记忆等功能全部打包成一个工具，让你用“一个软件搞定大部分 AI 生产力需求”，省去切换软件的烦恼，让 AI 真正帮你提升效率
+
+项目地址是：https://github.com/moyangzhan/langchain4j-aideepin
 ## OpenCLI网页自动化抓取神器 亚马逊，Reddit通通可以自由抓取
 
 
