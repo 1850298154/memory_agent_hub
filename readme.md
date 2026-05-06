@@ -1,6 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## html-ppt-skill开源AI HTML PPT 演示文稿 Skill 技能，支持海量主题布局动效与专业演讲者模式，纯HTML零依赖，AI一键生成。
+
+
+
 
 
 ## 三大Harness Skills核心对比
