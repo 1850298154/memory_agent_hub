@@ -1,6 +1,17 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+## 三大Harness Skills核心对比
+：Superpowers（14万星）强制AI遵守开发流程，将编码转化为工程实践；Gstack（6.7万星）模拟23人虚拟研发团队，侧重产品思路打磨；Compound Engineering（1.3万星）专注80%规划+20%执行模式，实现经验跨会话沉淀。建议按需选用：编码工程选Superpowers，产品设计选Gstack，知识复用选Compound Engineering。
+
+视频中提到的三个Harness Skills的GitHub链接如下：
+1. Superpowers: github.com/obrau/superpower
+2. Gstack: github.com/garrytan/stack
+3. Compound Engineering: github.com/EverybodyInc/compo
+
+
 ## claude-howto主要是Markdown和YAML写的配置文档，配合Python和Shell脚本，用来定义Claude Code的各种功能模板。
 项目地址：https://github.com/luongnv89/claude-howto
 
