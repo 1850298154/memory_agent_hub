@@ -3,6 +3,10 @@
 
 
 
+## Open Slide ，让 AI 直接帮你写 PPT 代码，告别熬夜做 PPT！
+
+项目GitHub地址：github.com/1weiho/open-slide  
+官网：open-slide.dev
 
 ## Horizon项目地址
 ：https://github.com/Thysrael/Horizon
