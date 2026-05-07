@@ -1,7 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 阿里这篇《AgenticQwen》论文
+的arXiv地址是：https://arxiv.org/pdf/2604.21590v1  
+模型和代码已在Hugging Face开源，搜索"alibaba-pai/AgenticQwen-8B"就能找到。
 
-
+论文已在GitHub开源，包含训练模型、合成数据和完整代码。作者团队提供了双数据飞轮的实现方案，企业开发者可直接参考应用。
 
 ## Open Slide ，让 AI 直接帮你写 PPT 代码，告别熬夜做 PPT！
 
