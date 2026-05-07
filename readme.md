@@ -5,6 +5,10 @@
 
 
 
+## Mano-P开源地址
+：https://github.com/Mininglamp-AI/Mano-P。支持本地部署（需M4芯片Mac），通过Homebrew安装CLI即可操作，数据全程本地处理保障隐私。
+
+Mano-P 1.0实现60fps流畅操作，NPU建议6 TOPS（INT8）起步，配合50GB/s+内存带宽。通过GSPruning剪枝和混合精度量化优化，部分中端NPU经调优也可满足需求。
 
 ## zread.ai 替换 deepwiki 
 https://zread.ai/SaladDay/cc-switch-cli
