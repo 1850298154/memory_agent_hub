@@ -5,6 +5,7 @@
 
 
 
+
 ## Mano-P开源地址
 ：https://github.com/Mininglamp-AI/Mano-P。支持本地部署（需M4芯片Mac），通过Homebrew安装CLI即可操作，数据全程本地处理保障隐私。
 
