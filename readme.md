@@ -6,7 +6,8 @@
 
 
 
-
+## zread.ai 替换 deepwiki 
+https://zread.ai/SaladDay/cc-switch-cli
 
 ##  帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md
 https://github.com/Panniantong/Agent-Reach/blob/main/README.md
