@@ -1,11 +1,17 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+
+
+
+
+
+##  帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md
+https://github.com/Panniantong/Agent-Reach/blob/main/README.md
+
 ## html-ppt-skill开源AI HTML PPT 演示文稿 Skill 技能，支持海量主题布局动效与专业演讲者模式，纯HTML零依赖，AI一键生成。
-
-
-
-
 
 ## 三大Harness Skills核心对比
 ：Superpowers（14万星）强制AI遵守开发流程，将编码转化为工程实践；Gstack（6.7万星）模拟23人虚拟研发团队，侧重产品思路打磨；Compound Engineering（1.3万星）专注80%规划+20%执行模式，实现经验跨会话沉淀。建议按需选用：编码工程选Superpowers，产品设计选Gstack，知识复用选Compound Engineering。
