@@ -1,5 +1,17 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+ 
+
+## Hermes Web UI 是一个自托管 AI Agent 聊天仪表板，
+
+把流式对话、多模型调度、群聊协作、看板管理、用量分析、文件管理和 Web 终端整合到同一个界面里。
+
+无需复杂配置，一条命令即可启动；支持 Claude、GPT、Gemini、DeepSeek 及 OpenAI 兼容模型，也能统一接入多种平台消息入口。
+
+给开发者和团队一个更清晰、更可控的 Agent 工作台。开源、轻量、持续更新。
+
+👾👾👾： ekkolearnai.com
+
 
 ## 三类热门AI工具：
 1.效率工具：Agent Browser（浏览器自动化）和Gog（谷歌全家桶管理）；2.成本控制：Free Ride（聚合免费资源）和Token-optimizer（降本97%）；3.认知进化：Self-improving-agent（自进化系统）和Elite-longterm-memory（防丢上下文）。
