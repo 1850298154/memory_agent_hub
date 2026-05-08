@@ -1,7 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
  
+## Fireworks Tech Graph 开源神器，用中文 / 英文自然描述就能秒生出版级 SVG + 高清 PNG 技术图。
+内置 7 种风格、14 类 UML 全图解，深度适配 RAG、多 Agent 等 AI 架构，语义图标与箭头规范，一键导出直接用，彻底告别手绘与繁琐工具，开发者画图效率直接拉满
 
+项目地址：https://github.com/yanhua-ai/fireworks-tech-graph
 ## Hermes Web UI 是一个自托管 AI Agent 聊天仪表板，
 
 把流式对话、多模型调度、群聊协作、看板管理、用量分析、文件管理和 Web 终端整合到同一个界面里。
