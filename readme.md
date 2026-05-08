@@ -1,5 +1,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## Self-Evolving Agents 综述：让 LLM 从「死」变「活」
+
+论文：TMLR 2026, arXiv:2507.21046 | 作者：20+机构联合 | 核心：What/When/How/Where 四维框架
 ## 阿里这篇《AgenticQwen》论文
 的arXiv地址是：https://arxiv.org/pdf/2604.21590v1  
 模型和代码已在Hugging Face开源，搜索"alibaba-pai/AgenticQwen-8B"就能找到。
