@@ -2,8 +2,9 @@
 
 
 
+## AI智能体外挂记忆神器，技术大牛Steve Yegge开源 
 
-
+Beads项目GitHub地址：https://github.com/gastownhall/beads
 
 ## "Academic Research Skills for Claude Code"(v3.6.5)，但未提供完整项目地址。建议在GitHub搜索此名称获取最新信息。
 
