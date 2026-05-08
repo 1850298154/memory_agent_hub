@@ -1,6 +1,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 一行代码直接操作Word/Excel/PPT，解放双手的办公神器。
 
+工具地址：  
+https://github.com/iOfficeAI/OfficeCLI  
 
 ## AI智能体外挂记忆神器，技术大牛Steve Yegge开源 
 
