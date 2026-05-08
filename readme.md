@@ -5,6 +5,8 @@
 
 
 
+## "Academic Research Skills for Claude Code"(v3.6.5)，但未提供完整项目地址。建议在GitHub搜索此名称获取最新信息。
+
 
 ## PageAgent 
 GitHub地址：https://github.com/alibaba/page-agent。一行代码即可让网页支持AI交互。
