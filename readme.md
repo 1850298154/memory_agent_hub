@@ -2,7 +2,7 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-
+## 《夜巡录：荒庙篇》开源地址是：https://github.com/op7418/Night-Patrol/releases
 
 ## abtop，一个Rust编写的AI Agent终端监控工具。
 能实时查看Token用量、上下文窗口状态和API限速，像htop一样直观管理多Agent任务。GitHub已有1.9K星，支持Windows原生运行。
