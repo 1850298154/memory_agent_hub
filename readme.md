@@ -1,6 +1,8 @@
+
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
-
+## Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key
+https://github.com/rany2/edge-tts
 
 ## 这个项目叫Product- Manager-Skills。
 
