@@ -4,6 +4,13 @@
 
 
 
+## Claude+Obsidian自动化工作流：
+1. 新闻聚合：Claude同时浏览多个新闻网站，Obsidian自动筛选重点标题
+2. 编程辅助：Claude处理多文件代码，自动完成补全和格式检查
+3. 学习辅助：Claude观看AI课程，Obsidian生成结构化学习笔记
+4. 内容创作：Claude提取网页信息，Obsidian按预设模板生成文档草稿
+
+
 ## AlphaGBM开源项目：将专业投研团队的底层分析流程拆解为26个AI可调用模块  
 
 2. 核心分点总结  
