@@ -2,6 +2,16 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+## sentrux，它的 GitHub 官方地址是：
+👉 https://github.com/sentrux/sentrux
+ 
+它的介绍和你截图里的描述完全对应：一个帮助 AI Agent 完成代码质量递归自优化的“传感器”工具，用 Rust 开发，支持 MCP 集成，开源协议为 MIT。
+ 
+
+
+
 ## 《夜巡录：荒庙篇》开源地址是：https://github.com/op7418/Night-Patrol/releases
 
 ## abtop，一个Rust编写的AI Agent终端监控工具。
