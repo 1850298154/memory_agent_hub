@@ -3,6 +3,9 @@
 
 
 
+## OSINT
+项目GitHub地址：https://github.com/soxoj/maigret 视频中展示的这款OSINT工具可通过用户名自动检索3000+网站的公开信息。
+
 
 ## AI时代，让Claude Code教你做游戏
 
