@@ -4,6 +4,13 @@
 
 
 
+## AI时代，让Claude Code教你做游戏
+
+GitHub地址：https://github.com/Donchitos/Claude-Code-Game-Studios  
+开源游戏开发AI工具，含49个智能体、72个命令和39个模板，帮你从立项到发布全流程做游戏。
+
+
+
 ## Claude+Obsidian自动化工作流：
 1. 新闻聚合：Claude同时浏览多个新闻网站，Obsidian自动筛选重点标题
 2. 编程辅助：Claude处理多文件代码，自动完成补全和格式检查
