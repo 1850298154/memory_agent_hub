@@ -1,5 +1,20 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## 这个项目叫Product- Manager-Skills。
+
+这是一套专为PM打造的技能手册，包含47项PM技能 + 可重复使用的命令，让用户理解原因、AI执行任务。
+
+不管是写PRD、做竞品分析，还是拆解用户需求，效率大大提升。
+
+你不用再自己到处找资料，它把PM全流程的工具、框架都整理好了。
+
+从用户调研、验证测试，到产品迭代复盘，每个环节都有可直接套用的方法。
+
+不管是新手生成结果，还是在职PM需要自动化流程，都能直接用。#AI #提效神器 #产品经理 #ic #人工智能 #AI工具
+
+
 ## 一行代码直接操作Word/Excel/PPT，解放双手的办公神器。
 
 工具地址：  
