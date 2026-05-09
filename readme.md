@@ -1,6 +1,35 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+## AlphaGBM开源项目：将专业投研团队的底层分析流程拆解为26个AI可调用模块  
+
+2. 核心分点总结  
+① 本质定位  
+关键词：工具箱而非结论  
+- 开源的是专业团队拆解市场的分析方法，非自动交易软件或AI结论输出工具，MIT许可证保障开放性  
+
+② 功能构成  
+关键词：26项真实数据技能  
+- 包含核心分析（7项：G=B+M模型/期权得分等）、数据智能（6项：IV百分位/聪明资金检测等）、市场情绪（5项：VIX仪表盘/恐惧温度计等）、工作流工具（4项：观察名单/警报系统等）  
+
+③ 技术特性  
+关键词：零API依赖  
+- 所有分析基于隐含波动率、希腊字母等真实市场数据，无需API密钥，通过自然语言指令（如"分析AAPL期权"）即可调用  
+
+④ 使用场景  
+关键词：AI工作流嵌入  
+- 支持Claude Code/Cursor/Windsurf等平台，30秒演示显示可生成含目标价、风险评估的完整报告  
+
+3. 未来现实行动指南  
+1 下载源码：git clone https://github.com/AlphaGBM/skills  
+2 接入AI：在Claude等平台输入"使用AlphaGBM分析[Ticker]期权"  
+3 获取报告：查看包含五维评分（基本面/技术面/情绪面/资金流/估值）、风险预警的结构化输出  
+4 验证实...
+
+
 ## Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key
 https://github.com/rany2/edge-tts
 
