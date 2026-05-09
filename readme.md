@@ -1,6 +1,11 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 方糖OPC技能集是《一人企业方法论》的可执行版本，通过9个Agent Skill（资源盘点→转化闭环）帮你把专业能力重组为轻资产个人业务系
+统。
+
+GitHub地址：github.com/easychen/opc-methodology（已获15.4k星）。配套工具站：opc-skills.ft07.com。设计师林夏用这套方法，从底薪3000实现副业稳定闭环。
+
 
 
 ## OSINT
