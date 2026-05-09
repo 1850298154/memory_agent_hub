@@ -1,6 +1,13 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+## abtop，一个Rust编写的AI Agent终端监控工具。
+能实时查看Token用量、上下文窗口状态和API限速，像htop一样直观管理多Agent任务。GitHub已有1.9K星，支持Windows原生运行。
+
+
 ## 方糖OPC技能集是《一人企业方法论》的可执行版本，通过9个Agent Skill（资源盘点→转化闭环）帮你把专业能力重组为轻资产个人业务系
 统。
 
