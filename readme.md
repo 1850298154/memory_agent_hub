@@ -1,6 +1,11 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 给 AI 一个隔离云桌面，让它真的去开浏览器、点按钮、跑应用。
+GitHub 约 15.7k Star，Trendshift 三周前抓取约 13.5k，短期又涨两千多。团队来自 Cua AI / Y Combinator。
+
+项目GitHub地址：https://github.com/trycua/cua
+
 
 ## Ageniti 这个项目最有意思的地方，不是它又做了一个 Agent 框架。
 
