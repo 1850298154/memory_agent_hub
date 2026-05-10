@@ -1,6 +1,19 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Ageniti 这个项目最有意思的地方，不是它又做了一个 Agent 框架。
+
+它真正解决的是另一个问题：应用能力如何被 Agent 稳定、安全、标准地调用。
+
+开发者只需要定义一次 action，就可以把同一套能力暴露成 CLI、HTTP、MCP、OpenAI Tools、AI SDK Tools、React hook 等不同入口。
+
+这意味着未来开发者不只是写 App 给人用，也要写 App 给 Agent 调用。
+
+如果 Agent 真的成为下一代交互入口，Ageniti 这类 SDK 可能会成为“Agent 原生应用”的基础设施。
+
+GitHub地址是：https://github.com/Ageniti/Ageniti
+
 ## EvoAgentX是开源项目(GitHub 3k stars)。
 Hermes和Evolver也属于开源生态，但具体授权协议各不相同。比起纠结归属，不如思考：这个工具能否真正解决你的问题？开源项目的最大价值在于共建共享，而非"原创"标签。
 
