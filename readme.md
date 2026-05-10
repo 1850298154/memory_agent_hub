@@ -2,7 +2,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-## ElatoAI基于ESP32开发板，成本才65元，却能通过WebSocket连接云端，实现超过10分钟的连续自然对话。更厉害的是，它支持DeepSeek、Qwen、豆包等主
+
+## Missions方法论核心是三角色架构：
+1.编排器定义需求并制定含验证契约的计划；2.执行者在干净环境中实现功能并通过git提交；3.验证者进行双重检查（代码审查+端到端测试）。关键在于先写验证契约再写代码、结构化交接（明确交接清单）、按角色选模型。这种方法让多智能体系统能连续运行16天以上不漂移，解决了软件工程中人类注意力有限的瓶颈。
+
+## ElatoAI基于ESP32开发板，成本才65元，却能通过WebSocket连接云端，实现超过10分钟的连续自然对话。
+
+更厉害的是，它支持DeepSeek、Qwen、豆包等主
 流模型，还能自定义角色性格和声音。无论是做智能玩具、教育工具，还是语音控制中心，都能轻松上手。
 
 ElatoAI开源项目GitHub地址：https://github.com/akdeb/ElatoAI
