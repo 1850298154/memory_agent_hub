@@ -1,6 +1,9 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## EvoAgentX是开源项目(GitHub 3k stars)。
+Hermes和Evolver也属于开源生态，但具体授权协议各不相同。比起纠结归属，不如思考：这个工具能否真正解决你的问题？开源项目的最大价值在于共建共享，而非"原创"标签。
+
 
 ## Anthropic新推三大功能：
 1)Dreaming让AI在"休息时"整理记忆；2)成果评估自动质检，文档/PPT成功率提升8-10%；3)多智能体协作实现分工合作。四家落地案例：哈Y法律文书完成率×6；Netflix日志分析过滤噪音更精准；Spiral内容生产自动重写不达标稿件；Yestox医疗审核效率提升50%且多抓30%错误。
