@@ -1,6 +1,10 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## Camofox Browser，专为AI设计的开源浏览器，能绕过验证码和Cloudflare验证。
+GitHub地址：github.com/jc-inc/camoflox-browser
+
 ## 给 AI 一个隔离云桌面，让它真的去开浏览器、点按钮、跑应用。
 GitHub 约 15.7k Star，Trendshift 三周前抓取约 13.5k，短期又涨两千多。团队来自 Cua AI / Y Combinator。
 
