@@ -1,6 +1,18 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## agent-skills-eval:Skill能力评估工具
+这是一个用于验证 AI Agent 技能（Agent Skills）效果的测试工具。
+	
+核心逻辑是通过A/B 测试验证技能有效性——对同一个任务，分别测试“加载技能（with_skill）”和“不加载技能（基线）”的表现，由裁判模型（Judge Model）打分对比。
+	
+核心价值：
+拒绝玄学：用数据证明 SKILL.md 是否真的提升了模型表现，而非“感觉有用”。
+开箱即用：一行命令生成包含详细对比数据的静态 HTML 报告。
+生态兼容：完全遵循  agentskills.io  标准，支持 OpenAI 及所有兼容接口（Groq, Anthropic, 本地 Ollama 等）。
+	
+darkrishabh/agent-skills-eva
+
 
 ## 项目核心：TypeScript大神Matt Pocock（前Vercel工程师）开源的"Skills for Real Engineers"，GitHub获6万+星标。
 
