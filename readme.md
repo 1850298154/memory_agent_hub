@@ -1,6 +1,8 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## Paperclip是个全AI驱动的虚拟公司系统，CEO、CTO全是AI角色，能自主开会写代码发布产品。GitHub地址：https://github.com/paperclipai/paperclip
+
 
 ## 主题：Scrapling自适应爬虫框架革新网络数据采集
 
