@@ -4,6 +4,9 @@
 
 ## Rowboat开源项目的GitHub地址是：https://github.com/batlabs/rowboat
 
+Rowboat开源AI 工作伙伴，用专属知识图谱赋能全场景工作，100%本地私有化运行，极致守护隐私安全。
+
+
 ## 一键免费提取视频文案、封面、标题，甚至音频，支持50多个平台，还能批量处理，关键是免费无广
 anytocopy.com
 ## 想快速上线一个好看又能打的电商系统？推荐你试试 CRMEB 。
