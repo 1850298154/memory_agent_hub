@@ -2,6 +2,20 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 想快速上线一个好看又能打的电商系统？推荐你试试 CRMEB 。
+
+小程序、H5、PC、后台全开源，支持 Apache 2.0 免费商用，已经稳定开源 10 年+，装机超 50 万。
+
+为什么推荐？
+
+✅ 二开友好：Uni-App + Vue + ThinkPHP，代码干净，开发效率高
+✅ 部署简单：文档齐全，Docker 一键部署，半小时就能跑起来
+✅ 功能很全：拼团、秒杀、分销、直播、多商户等 20+ 功能直接自带
+
+而且还有海量主题模板，一键导入就能做出高颜值商城。
+
+不管是程序员接项目，还是创业者快速验证想法，CRMEB 都是个省心又靠谱的选择。
+
 
 ## 机制图提示词已整理如下：
 
