@@ -2,6 +2,12 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+
+
+
+## 开源工具CloakBrowser，专攻反爬突破。三大亮点：①49项C++级指纹修复（覆盖Canvas/WebGL等）②人类行为模拟（鼠标轨迹/键盘节奏）③无缝替换Playwright/Puppeteer。GitHub项目名CloakHQ/cloak-browser（建议搜索确认最新地址），安装命令：pip install cloakbrowser。注意：技术使用请遵守网站robots协议。
 ## Rowboat开源项目的GitHub地址是：https://github.com/batlabs/rowboat
 
 Rowboat开源AI 工作伙伴，用专属知识图谱赋能全场景工作，100%本地私有化运行，极致守护隐私安全。
