@@ -1,6 +1,17 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## 机制图提示词已整理如下：
+
+A highly detailed scientific illustration of the dynamic coupling between lithosphere(geology), hydrophere(ocean), and atmosphere. 3D isometric cross-section view showing: Atmosphere layer(clouds, solar radiation, wind patterns); Ocean layer(surface waves, deep currents, evaporation); Geology layer(mountains, tectonic plates). Include glowing arrows for interactions like volcanic outgassing, heat exchange, and runoff. Style: professional science magazine, clean vector art, color-coded layers(sky blue/ocean blue/earthy tones), 8k resolution. 
+
+可直接复制用于Midjourney等AI绘图工具。
+
+Piktochart，复制提示词就能生成可编辑的科学图表，字体颜色都能随时调整。
+
+
 ## agent-skills-eval:Skill能力评估工具
 这是一个用于验证 AI Agent 技能（Agent Skills）效果的测试工具。
 	
