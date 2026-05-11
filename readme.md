@@ -5,7 +5,18 @@
 
 
 
-
+## Claude Code必装这10个Skill
+1. Superpowers - 20多个可组合Skill覆盖开发全流程，brainstorming和TDD最好用
+2. Planning with Files - 把规划写进文件，上下文压缩了也不丢状态
+3. UI UX Pro Max - 67种风格+161套配色，告别AI审美
+4. Code Review - 多Agent并行审查，置信度过滤减少假阳性
+5. Code Simplifier - 写完再看一遍，重复逻辑合并成通用函数
+6. Webapp Testing - Playwright自动化，写脚本跑测试截屏一条龙
+7. Ralph Loop - Claude想提前收工？Hook拦截塞回去直到做完
+8. MCP Builder - 四阶段引导，从零写MCP Server不再踩坑
+9. PPTX - 直接生成pptx文件，解决从零开始太痛苦的问题
+10. Skill Creator - 官方元技能，带eval测试框架，不够就自己造
+#skills#Claudecode#Superpowers #SkillCreator
 
 ## 开源工具CloakBrowser，专攻反爬突破。三大亮点：①49项C++级指纹修复（覆盖Canvas/WebGL等）②人类行为模拟（鼠标轨迹/键盘节奏）③无缝替换Playwright/Puppeteer。GitHub项目名CloakHQ/cloak-browser（建议搜索确认最新地址），安装命令：pip install cloakbrowser。注意：技术使用请遵守网站robots协议。
 ## Rowboat开源项目的GitHub地址是：https://github.com/batlabs/rowboat
