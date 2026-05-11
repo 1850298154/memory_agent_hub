@@ -2,6 +2,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 一键免费提取视频文案、封面、标题，甚至音频，支持50多个平台，还能批量处理，关键是免费无广
+anytocopy.com
 ## 想快速上线一个好看又能打的电商系统？推荐你试试 CRMEB 。
 
 小程序、H5、PC、后台全开源，支持 Apache 2.0 免费商用，已经稳定开源 10 年+，装机超 50 万。
