@@ -2,6 +2,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 商汤开源的8B小模型SenseNova-U1专注信息图生成，Apache 2.0协议免费商用。
+体积小但效果出色，支持私有部署保障数据安全，已在办公小浣熊等平台落地应用。
+https://github.com/OpenSenseNova/SenseNova-Skills
+
 ## Camofox Browser，专为AI设计的开源浏览器，能绕过验证码和Cloudflare验证。
 GitHub地址：github.com/jc-inc/camoflox-browser
 
