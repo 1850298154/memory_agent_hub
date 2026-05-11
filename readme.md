@@ -1,6 +1,19 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 项目核心：TypeScript大神Matt Pocock（前Vercel工程师）开源的"Skills for Real Engineers"，GitHub获6万+星标。
+
+三大亮点：
+1️⃣ 16个工程化skill，专治AI瞎写代码
+2️⃣ 首推"grill-me"技能：仅42词的追问机制，解决需求对齐难题
+3️⃣ TDD红绿灯工作流：强制AI先写失败测试再实现，防作弊
+
+安装：`npx skills@latest add mattpocock/skills`
+
+开源地址：github.com/mattpocock/skills
+
+
 ## Paperclip是个全AI驱动的虚拟公司系统，CEO、CTO全是AI角色，能自主开会写代码发布产品。GitHub地址：https://github.com/paperclipai/paperclip
 
 
