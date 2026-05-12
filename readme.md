@@ -1,7 +1,9 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 开源封神！AiToEarn 彻底解放自媒体，一键搞定创作变现全流程
 
+项目GitHub地址是：https://github.com/yikart/AiToEarn
 ## Jesse开源量化框架实现了策略开发到实盘交易的一站式打通，用极简Python语法就能构建复杂交易系统。核心优势是内置风控和多交易所支持。
 项目地址：https://github.com/jesse-ai/jesse
 
