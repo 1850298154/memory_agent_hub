@@ -1,6 +1,10 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## OpenSwarm是基于Claude Code的自主AI开发团队工具，支持Discord指令控制、自带记忆系统和Linear集成。
+项目地址：https://github.com/unnohee/OpenSwarm
+
 ## RecAI是微软开源的AI推荐系统工具箱，能让推荐系统从"猜你喜欢"升级为能理解需求、对话解释的AI导购。
 项目地址：https://github.com/microsoft/RecAI
 
