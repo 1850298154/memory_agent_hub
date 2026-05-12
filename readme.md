@@ -1,7 +1,27 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 已整理Spec-Kit全流程操作指南，关键步骤+执行命令如下：
 
+1️⃣【安装部署】
+▫️执行命令：npm install -g specify-cli --from-git https://github.com/github/spec-kit.git
+▫️验证安装：控制台输入specify，显示帮助文档即成功
+
+2️⃣【项目初始化】
+▫️新建项目：./specify init 项目名称
+▫️进入目录后执行：./specify init .
+▫️选择AI工具（Claude/GitHub Copilot等）和脚本类型(SH)
+
+3️⃣【七步开发法】
+① 项目定调：执行./constitution → 自动生成开发原则文档
+② 需求定义：执行./specify → 生成需求文档并创建git分支
+③ 需求澄清：执行clarify → 回答5个关键问题完善需求
+④ 技术设计：执行./plan → 输出API规范/数据模型等技术文档
+⑤ 任务拆解：执行./task → 自动拆解88+可执行任务（示例电商系统）
+⑥ 质量审查：执行./analyze → 全文档合规性检查
+⑦ 代码实现：执行./implement → 建议开启uo模式全程托管
+
+💡核心优势：无缝衔接现有AI工具，保留原工作流。初始化后自动生成scripts目录，所有命令通过./command调用，每步操作都会实时更新文档并打钩确...
 
 ## OpenAlgo开源算法交易平台，让散户也能实现专业级自动化交易。
 
