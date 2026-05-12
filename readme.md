@@ -2,6 +2,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 姚金刚提示词合集（yaojingang/yao-open-prompts）是GitHub开源的中文AI提示词库，整理了116个场景化模板，覆盖PPT框架、客服话术、短视频文案等实用场景。
+使用时复制对应分类的Markdown代码块，替换{{变量}}占位符即可。项目地址：github.com/yaojingang/yao-open-prompts
+
 
 ## Data-Analysis-Agent是GitHub开源项目（github.com/Zafer-Liu/Data-Analysis-Agent），对话式AI数据分析工具。
 支持自然语言转SQL、自动图表生成，演示站：data-analysis-agent-eight.vercel.app
