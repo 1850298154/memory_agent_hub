@@ -2,6 +2,11 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+## 四款黑客模拟游戏：
+1. 黑客精英UPLINK 2. 黑客网络Hacknet 3. HackTheGame 4. 黑客进化hacker evolution
+
+
 ## 姚金刚提示词合集（yaojingang/yao-open-prompts）是GitHub开源的中文AI提示词库，整理了116个场景化模板，覆盖PPT框架、客服话术、短视频文案等实用场景。
 使用时复制对应分类的Markdown代码块，替换{{变量}}占位符即可。项目地址：github.com/yaojingang/yao-open-prompts
 
