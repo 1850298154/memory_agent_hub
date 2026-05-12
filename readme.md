@@ -1,6 +1,13 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## Data-Analysis-Agent是GitHub开源项目（github.com/Zafer-Liu/Data-Analysis-Agent），对话式AI数据分析工具。
+支持自然语言转SQL、自动图表生成，演示站：data-analysis-agent-eight.vercel.app
+
+
+
 ## EduGPT是基于大语言模型的AI私教老师原型，通过两位AI代理协作实现个性化教学：
 一位设计课程大纲，一位担任讲师。它能让AI根据你的学习目标生成定制课程，特别适合教育产品开发者和在线教育团队。
 项目GitHub地址：https://github.com/hqanhl/EduGPT
