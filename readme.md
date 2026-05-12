@@ -5,6 +5,9 @@
 
 
 
+## mattpocock/skills是一套开源工具
+能让AI编程助手先问清需求、自动跑测试、关注架构，避免盲目写代码。安装命令：npx @skills/latest add mattpocock/skills
+
 
 ## PraisonAI项目核心亮点：
 
