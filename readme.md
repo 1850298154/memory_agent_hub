@@ -1,6 +1,8 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## AI Agent工程训练营代码库：https://github.com/ed-donner/agents。专教从零搭建AI工作流，含任务拆解、工具调用等实战内容，GitHub获4.9k星标。
+
 
 ## Paperclip开源颠覆认知，目前已在 GitHub 狂揽 64k Star🌟！
 AI企业编排系统来袭，可组建CEO、工程师等AI智能体团队，让AI自成一家公司，昼夜不息运转，快把梦想交给它吧。
