@@ -2,6 +2,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## Jesse开源量化框架实现了策略开发到实盘交易的一站式打通，用极简Python语法就能构建复杂交易系统。核心优势是内置风控和多交易所支持。
+项目地址：https://github.com/jesse-ai/jesse
 
 ## 四款黑客模拟游戏：
 1. 黑客精英UPLINK 2. 黑客网络Hacknet 3. HackTheGame 4. 黑客进化hacker evolution
