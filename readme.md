@@ -3,7 +3,8 @@
 
 
 
-
+## CocoIndex 是一个面向 AI Agent 与 LLM 应用的实时数据框架，
+可将代码库、会议记录、邮件、Slack、PDF、视频等异构源持续同步为新鲜上下文。用户用 Python 声明目标结构，引擎自动识别变更记录，沿 join 与 lookup 传播更新、淘汰过期行，仅对 Δ 重新嵌入，避免批处理漂移。核心由 Rust 编写，支持并行分块、零拷贝转换与故障隔离，从单仓库扩展到 PB 级语料，10 分钟即可上线生产。
 
 ## mattpocock/skills是一套开源工具
 能让AI编程助手先问清需求、自动跑测试、关注架构，避免盲目写代码。安装命令：npx @skills/latest add mattpocock/skills
