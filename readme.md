@@ -5,6 +5,37 @@
 
 
 
+
+## PraisonAI项目核心亮点：
+
+1. **项目架构**  
+基于多Agent系统设计，采用分层架构（框架层/Agent管理层/模型接口层），支持构建协同工作的AI团队。GitHub显示包含src、agents、api等核心模块，已获7.1k stars。
+
+2. **设计思路**  
+针对"手动编写单个Agent效率低"的痛点，通过标准化模块实现：  
+- 5行代码快速部署整支AI团队  
+- 24/7自主运行替代人工重复劳动  
+- Agent间任务自动分配与协作  
+
+3. **核心功能**  
+- 自动研究：实时检索分析外部信息  
+- 智能规划：拆解复杂任务执行路径  
+- 代码生成：自动编写调试程序  
+- 内置记忆+RAG：保留上下文并增强知识调用  
+- 支持100+大模型：灵活适配不同场景需求  
+- Agent自我进化：持续优化任务执行能力  
+
+4. **操作流程**  
+① 命令行安装：`curl -fsSL https://praison.ai/install.sh | bash`  
+② 配置模型API密钥  
+③ 定义任务目标与Agent角色  
+④ 启动团队执行（自动完成研究→规划→编码→交付全流程）  
+
+注：该项目已在GitHub开源，适用于自动化开发、研究辅助等场景，具体实现建议查阅官方文档。
+
+
+PraisonAI的GitHub链接：https://github.com/MervinPraison/PraisonAI
+
 ## Claude Code必装这10个Skill
 1. Superpowers - 20多个可组合Skill覆盖开发全流程，brainstorming和TDD最好用
 2. Planning with Files - 把规划写进文件，上下文压缩了也不丢状态
