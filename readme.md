@@ -1,6 +1,9 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## GitHub上的Webnovel Writer开源项目。使用步骤：1.克隆项目 2.配置Claude API 3.执行/webnovel-writing等命令。详细文档在项目docs目录，含37种题材模板和全流程指引。
 ## AI Agent工程训练营代码库：https://github.com/ed-donner/agents。专教从零搭建AI工作流，含任务拆解、工具调用等实战内容，GitHub获4.9k星标。
 
 
