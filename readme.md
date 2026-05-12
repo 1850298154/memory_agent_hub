@@ -1,6 +1,10 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## CloakBrowser是开源隐身浏览器，能通过Cloudflare等30+检测站点，reCAPTCHA得分达0.9。
+GitHub地址：https://github.com/CloakHQ/CloakBrowser。pip install cloakbrowser即可开箱使用。
 ## 仅0.1B的开源模型！效果炸裂！CPU上都能跑
 
 github.com/OpenMOSS/MOSS-TTS-Nano
