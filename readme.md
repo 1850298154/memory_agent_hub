@@ -1,8 +1,9 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 仅0.1B的开源模型！效果炸裂！CPU上都能跑
 
-
+github.com/OpenMOSS/MOSS-TTS-Nano
 
 ## 等保测评Skill开源地址：  
 https://github.com/openocta/openocta_skills  
