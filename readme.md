@@ -1,6 +1,12 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
+## 等保测评Skill开源地址：  
+https://github.com/openocta/openocta_skills  
+（主仓库，含完整测评工具链）
 ## 已整理Spec-Kit全流程操作指南，关键步骤+执行命令如下：
 
 1️⃣【安装部署】
