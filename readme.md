@@ -1,6 +1,11 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## EduGPT是基于大语言模型的AI私教老师原型，通过两位AI代理协作实现个性化教学：
+一位设计课程大纲，一位担任讲师。它能让AI根据你的学习目标生成定制课程，特别适合教育产品开发者和在线教育团队。
+项目GitHub地址：https://github.com/hqanhl/EduGPT
+
+
 
 ## OpenSwarm是基于Claude Code的自主AI开发团队工具，支持Discord指令控制、自带记忆系统和Linear集成。
 项目地址：https://github.com/unnohee/OpenSwarm
