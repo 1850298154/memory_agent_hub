@@ -3,6 +3,33 @@
 
 
 
+## OpenAlgo开源算法交易平台，让散户也能实现专业级自动化交易。
+
+① 开源性质
+AGPL-3.0许可的完全开源项目，代码透明可审计，社区驱动发展。
+
+② 技术架构
+基于Python Flask+React构建，支持本地自托管部署，保障交易数据安全。
+
+③ 多券商接入
+统一API对接30+印度券商（如Kotak、Zerodha），策略一键实盘无需手动操作。
+
+④ 策略开发
+提供Python策略编写环境，含回测、沙盒测试到实盘的全流程支持工具链。
+
+⑤ 社区生态
+GitHub获1.8k Stars、870 Forks，examples目录含NIFTY 50等实战策略模板。
+
+1 查阅文档：访问https://github.com/marketcalls/openalgo获取最新代码和部署指南
+2 环境搭建：按README配置Python环境或使用docker-compose快速启动
+3 券商对接：参照broker目录文档设置API密钥连接个人账户
+4 策略测试：先在sandbox模式验证策略有效性再转入实盘
+5 持续迭代：参与社区讨论获取优化建议并贡献策略模板
+
+当算法接手盯盘，你才真正掌控时间的价值。
+
+清晨咖啡未凉，你的Python策略已在全球市场完成当日交易。这不是华尔街的秘术，而是OpenAlgo赋予普通人的数字分身——它用代码解读K线语言，通过API与券商无声对话，在你安...
+
 ## GitHub上的Webnovel Writer开源项目。使用步骤：1.克隆项目 2.配置Claude API 3.执行/webnovel-writing等命令。详细文档在项目docs目录，含37种题材模板和全流程指引。
 ## AI Agent工程训练营代码库：https://github.com/ed-donner/agents。专教从零搭建AI工作流，含任务拆解、工具调用等实战内容，GitHub获4.9k星标。
 
