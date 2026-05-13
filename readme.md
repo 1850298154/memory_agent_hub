@@ -2,7 +2,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-
+## 用notion的记忆
+项目地址：https://github.com/supermemory
 
 ## ppt 优化
 
