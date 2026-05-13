@@ -1,6 +1,14 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## ppt 优化
+Frontend Slides（风格模板）、Marp Slides（SVG图表组件）、Slide Deck Generator（React动效组件）。这三个技能包能让AI生成的PPT摆脱千篇一律的AI感。
+
+## html-ppt-skill开源项目
+（GitHub: lewislulu/html-ppt-skill）让AI通过单句指令生成专业HTML幻灯片。作用是将"AI做PPT"从简单排版升级为完整演示系统，内置36主题、15模板和31布局，支持演讲者模式与逐字稿。原理基于CSS主题系统和iframe隔离渲染，通过data-anim实现动画层次。局限性在于需兼容AgentSkills平台，深度定制需技术基础，复杂交互设计可能受限，且依赖开源社区维护更新。
+
+
+
 ## 开源封神！AiToEarn 彻底解放自媒体，一键搞定创作变现全流程
 
 项目GitHub地址是：https://github.com/yikart/AiToEarn
