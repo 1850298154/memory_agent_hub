@@ -5,7 +5,8 @@
 
 
 
-
+##　Awesome AutoResearch Awesome , ai for science
+https://github.com/AI4Scientist/awesome-autoresearch
 
 ## 这个65行的CLAUDE.md文件专治AI编程"乱改代码"的毛病。核心是四大原则：想清楚再写、极简至上、精准修改、目标导向。直接复制到项目根目录就能规范AI行为。
 GitHub链接：https://github.com/forrestchang/andrej-karpathy-skills
