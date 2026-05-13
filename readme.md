@@ -4,8 +4,12 @@
 
 
 
+
+
+
 ## 这个65行的CLAUDE.md文件专治AI编程"乱改代码"的毛病。核心是四大原则：想清楚再写、极简至上、精准修改、目标导向。直接复制到项目根目录就能规范AI行为。
 GitHub链接：https://github.com/forrestchang/andrej-karpathy-skills
+
 ## StackPrism是网页技术栈识别浏览器插件，通过DOM、响应头、资源URL等6个维度检测网站技术架构，十几万条规则本地离线匹配。
 GitHub地址：github.com/setube/stackprism
 ## 用notion的记忆
