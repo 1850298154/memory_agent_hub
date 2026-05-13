@@ -1,7 +1,11 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+
 ## ppt 优化
+
 Frontend Slides（风格模板）、Marp Slides（SVG图表组件）、Slide Deck Generator（React动效组件）。这三个技能包能让AI生成的PPT摆脱千篇一律的AI感。
 
 ## html-ppt-skill开源项目
