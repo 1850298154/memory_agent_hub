@@ -1,6 +1,14 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 82.5k星！18个神级技能，专治AI写代码翻车！TypeScript大神Matt Pocock（前Vercel工程师）把他每天用Claude的真实工作流开源了！沟通不对齐、术语混乱、没反馈、代码越写越乱……四大痛点一次解决！/grill-me 深度拷问需求；
+/tdd 强制红绿重构；
+/caveman 砍掉75% token；
+还有代码库保养技能，越写越干净！《The Pragmatic Programmer》+ DDD + XP经验浓缩。一行安装：
+npx skills@latest add mattpocock/skills先试 /grill-with-docs，AI终于懂你在说什么了
+
+项目地址：github.com/mattpocock/skills。这是TypeScript大神Matt Pocock开源的工作流工具，含18个技能专治AI写代码痛点，如/grill-me深度拷问需求、/tdd强制红绿重构、/caveman砍减冗余代码等，一行命令即可安装使用。
 ## 4 个 skill，跑通整套科研流程（夸张了）
 上周翻 GitHub，被这个 repo 钉在屏幕上看了半小时。
 	
