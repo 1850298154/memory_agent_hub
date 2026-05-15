@@ -1,7 +1,11 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## “中小企业一体化办公管理平台”
+你可以把它理解成给中小企业搭了一个数字化总后台：专门帮企业把 OA 办公、HR 人事、CRM 客户、ERP 进销存、BPM 审批流、资产管理、仓储管理、数据报表和 AI 助手放到一套系统里。把业务流程、审批流程和经营数据统一起来。解决企业怎么从“表格管理”升级到“一体化系统管理”的问题。有需要可以关注看一下
 
+项目GitHub地址：https://github.com/yuqing2026/ruoyi-office  
+Gitee地址：https://gitee.com/yuqing2026/ruoyi-office
 ## 82.5k星！18个神级技能，专治AI写代码翻车！TypeScript大神Matt Pocock（前Vercel工程师）把他每天用Claude的真实工作流开源了！沟通不对齐、术语混乱、没反馈、代码越写越乱……四大痛点一次解决！/grill-me 深度拷问需求；
 /tdd 强制红绿重构；
 /caveman 砍掉75% token；
