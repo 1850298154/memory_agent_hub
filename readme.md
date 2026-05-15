@@ -1,6 +1,12 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+## 做桌面应用
+开发者Yetone把一篇跨平台开发的神级最佳实践，直接做成专属技能包。只要你是搞Electron或者Tauri开发的，把它装进你的Coding Agent。AI就会顺着顶级规范帮你重构代码，把性能体验调校得无限逼近原生App。别再满网搜教程抄作业了，让AI直接把最佳实践写进你的项目里
+
+github.com/yetone/native-feel-skill
+
 ## “中小企业一体化办公管理平台”
 你可以把它理解成给中小企业搭了一个数字化总后台：专门帮企业把 OA 办公、HR 人事、CRM 客户、ERP 进销存、BPM 审批流、资产管理、仓储管理、数据报表和 AI 助手放到一套系统里。把业务流程、审批流程和经营数据统一起来。解决企业怎么从“表格管理”升级到“一体化系统管理”的问题。有需要可以关注看一下
 
