@@ -1,9 +1,38 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 4 个 skill，跑通整套科研流程（夸张了）
+上周翻 GitHub，被这个 repo 钉在屏幕上看了半小时。
+	
+Imbad0202/academic-research-skills —— 学术研究 skill 全开源，4 个 skill 编成一条流水线，一行装。
+	
+单 skill 只解决"研究 → 写作 → 审稿 → 复现"中的一段，剩下手接。这套 4 个互相调用，整条线自动跑。
+	
+4 个 skill 各司其职：
+① deep-research（13 agents）：PRISMA 系统综述 + Socratic 引导式
+② academic-paper（12 agents）：Style Calibration 语言往期刊靠
+③ paper-reviewer（7 agents）：EIC + 3 审稿 + Devil's Advocate量化打分
+④ academic-pipeline（10 阶段）：串起前三个，每 stage 有 checkpoint
+	
+几个惊喜点：
+🛡 反谄媚：Devil's Advocate 不让 AI 一味顺你说"你对"
+🔍 引用核验：Semantic Scholar 检查，防 AI 编参考文献
+🚧 Integrity Gates：拦伪造数据/方法虚构/引用幻觉
+📦 Material Passport：跨会话恢复 + 复现锁文件
+	
+装两行（Claude Code v3.7+）：
+/plugin marketplace add Imbad0202/academic-research-skills
+/plugin install academic-research-skills
+	
+用：自然语言触发，不用记 prompt。
+	
+最戳我的是 README 那句："AI is your copilot, not the pilot." 整套设计都在防 AI 越俎代庖——每 stage 都给你 checkpoint 。
+	
 
 
 
+
+GitHub项目地址是：Imbad0202/academic-research-skills
 
 ##　Awesome AutoResearch Awesome , ai for science
 https://github.com/AI4Scientist/awesome-autoresearch
