@@ -32,7 +32,7 @@ https://github.com/momozi1996/awesome-ai-persona-skills
 
 5. 中国作家.skill : https://github.com/momozi1996/awesome-ai-persona-skills/blob/main/Novelists/readme.md
 
-#开源 #github #agent #AI #智能体 #skill
+
 
 ## OpenHuman，一个开源的AI智能体项目，近期在GitHub Trending连续登顶。
 它能自动整合你的各平台数据，建立本地记忆库，支持118+工具一键互联，相比之前的"养虾"(OpenClaw)玩法更侧重个人化智能服务，主打私密性和高效数据管理。
