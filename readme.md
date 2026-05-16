@@ -6,10 +6,39 @@
 
 
 
+## awesome-ai-persona-skills
 
-## OpenHuman，一个开源的AI智能体项目，近期在GitHub Trending连续登顶。它能自动整合你的各平台数据，建立本地记忆库，支持118+工具一键互联，相比之前的"养虾"(OpenClaw)玩法更侧重个人化智能服务，主打私密性和高效数据管理。
+🔥 仓库地址🔥
+https://github.com/momozi1996/awesome-ai-persona-skills
+
+感谢❤️自来水们❤️ 的关注
+我们这个github开源的小项目Star 破百啦～
+(๑＞ڡ＜)☆
+(⭐Star=108，冲+++ ！！ )
+
+
+喜欢这个项目的，期待大家帮忙 点点⭐ star和fork～～❤️
+♡ (´ε｀ ) You(=I)♡
+
+👭姐妹仓库🏚️ 指路: 👉🏻
+
+1. 天涯20大神多智能体智囊团【tianya-skills】: https://github.com/momozi1996/tianya-skills
+
+2. 31位中外顶级导演：多agent 导演智囊团【DirectorAgents】 ：https://github.com/momozi1996/DirectorAgents/tree/main
+
+3. 自媒体大V.skill : https://github.com/momozi1996/awesome-ai-persona-skills/blob/main/zimeiti/README.md
+
+4. 永乐大典.skill: https://github.com/momozi1996/yongledadian-skill
+
+5. 中国作家.skill : https://github.com/momozi1996/awesome-ai-persona-skills/blob/main/Novelists/readme.md
+
+#开源 #github #agent #AI #智能体 #skill
+
+## OpenHuman，一个开源的AI智能体项目，近期在GitHub Trending连续登顶。
+它能自动整合你的各平台数据，建立本地记忆库，支持118+工具一键互联，相比之前的"养虾"(OpenClaw)玩法更侧重个人化智能服务，主打私密性和高效数据管理。
 
 官网：tinyhumans.ai/openhuman，GitHub仓库：github.com/tinyhumansai/openhuman。
+
 ## 论文针对多轮智能体强化学习中的"熵坍缩"问题（智能体行为过早僵化），提出AEM自适应熵调节方案：
 不再使用固定熵系数，而是根据交互轮次和智能体状态动态调整，以维持探索能力。属训练技巧层面改进，复现需RL框架支持。原文链接：https://arxiv.org/abs/2605.00425
 
