@@ -2,6 +2,14 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+
+
+
+
+
+## OpenHuman，一个开源的AI智能体项目，近期在GitHub Trending连续登顶。它能自动整合你的各平台数据，建立本地记忆库，支持118+工具一键互联，相比之前的"养虾"(OpenClaw)玩法更侧重个人化智能服务，主打私密性和高效数据管理。
+
+官网：tinyhumans.ai/openhuman，GitHub仓库：github.com/tinyhumansai/openhuman。
 ## 论文针对多轮智能体强化学习中的"熵坍缩"问题（智能体行为过早僵化），提出AEM自适应熵调节方案：
 不再使用固定熵系数，而是根据交互轮次和智能体状态动态调整，以维持探索能力。属训练技巧层面改进，复现需RL框架支持。原文链接：https://arxiv.org/abs/2605.00425
 
