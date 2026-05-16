@@ -2,6 +2,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 论文针对多轮智能体强化学习中的"熵坍缩"问题（智能体行为过早僵化），提出AEM自适应熵调节方案：
+不再使用固定熵系数，而是根据交互轮次和智能体状态动态调整，以维持探索能力。属训练技巧层面改进，复现需RL框架支持。原文链接：https://arxiv.org/abs/2605.00425
+
+
 ## 做桌面应用
 开发者Yetone把一篇跨平台开发的神级最佳实践，直接做成专属技能包。只要你是搞Electron或者Tauri开发的，把它装进你的Coding Agent。AI就会顺着顶级规范帮你重构代码，把性能体验调校得无限逼近原生App。别再满网搜教程抄作业了，让AI直接把最佳实践写进你的项目里
 
