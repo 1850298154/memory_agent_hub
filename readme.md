@@ -1,6 +1,14 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+
+
+## claude-obsidian是一款Obsidian插件，实现Claude AI与笔记软件的深度集成。
+核心功能包括：AI直接访问笔记库进行智能对话、自动总结知识、建立概念关联、生成新笔记，并具备会话记忆和自动维护笔记库的能力。适合重度笔记用户提升"第二大脑"使用体验。
+
+项目地址：https://github.com/AgriciDaniel/claude-obsidian
+
+
 ## 面向中小企业的AI法律合规助手，能处理法律问答、合同审查和知识库检索，自动生成风险报告。
 技术上采用Spring Boot+Vue全栈架构，整合了LangChain和多种AI模型。项目已在GitHub开源，地址是：https://github.com/HeShen-1/AI-Powered-LegalComplianceAssistant
 
