@@ -1,6 +1,11 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 一个 Claude Code 的“装备库”。
+在Github上有欧21k的星标，你可以从里面安装现成的 AI 专家、快捷命令、MCP 外部工具连接、自动化触发器、配置模板和技能包，让 Claude Code 更像一个能分工协作的 AI 开发团队。有需要的铜须可以关注试一下
+
+Claude Code装备库提供AI专家、快捷命令和MCP工具等模块，帮助构建分工协作的AI开发团队。GitHub项目地址：https://github.com/davila7/claude-code-templates
+
 
 ## 马斯克开源的X推荐算法项目，支撑X平台"为你推荐"信息流的核心系统。
 整合网络内外内容，使用基于Grok的transformer模型进行内容排名。2026年5月15日更新了端到端推理管道等组件。项目地址：github.com/xai-org/x-algorithm
