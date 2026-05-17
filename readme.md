@@ -2,6 +2,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## 马斯克开源的X推荐算法项目，支撑X平台"为你推荐"信息流的核心系统。
+整合网络内外内容，使用基于Grok的transformer模型进行内容排名。2026年5月15日更新了端到端推理管道等组件。项目地址：github.com/xai-org/x-algorithm
+
 
 ## claude-obsidian是一款Obsidian插件，实现Claude AI与笔记软件的深度集成。
 核心功能包括：AI直接访问笔记库进行智能对话、自动总结知识、建立概念关联、生成新笔记，并具备会话记忆和自动维护笔记库的能力。适合重度笔记用户提升"第二大脑"使用体验。
