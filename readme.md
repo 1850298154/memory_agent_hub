@@ -1,6 +1,10 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 面向中小企业的AI法律合规助手，能处理法律问答、合同审查和知识库检索，自动生成风险报告。
+技术上采用Spring Boot+Vue全栈架构，整合了LangChain和多种AI模型。项目已在GitHub开源，地址是：https://github.com/HeShen-1/AI-Powered-LegalComplianceAssistant
+
+
 ## 港大开源的CLI-Anything能扫描任意软件源码，自动生成AI可调用的CLI接口，让智能体操控GIMP、Blender等无API桌面软件。
 GitHub地址：github.com/HKUDS/CLI-Anything，CLI-Hub官网：clianything.cc
 
