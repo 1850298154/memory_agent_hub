@@ -2,6 +2,11 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
+## AI工具导航站开源项目，帮你搭建专属的AI工具分类库。它能将写作、绘图、视频等各类AI工具按类别整理成"超市"，支持搜索、排行、提交审核功能，把零散工具信息转化为可运营的内容资产。项目采用现代化技术栈，界面支持深浅模式，适配多设备。
+
+项目GitHub地址：https://github.com/liyown/ai-navigation
+
+
 
 ## Follow Builders是一款AI信息聚合工具，追踪25位AI领域顶尖建造者动态，整理成中英文摘要推送。
 项目地址：https://github.com/zarazhangrui/follow-builders
