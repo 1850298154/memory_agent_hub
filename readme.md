@@ -2,6 +2,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
                                  
 
+## 清华大学NLP实验室开源的全球首个全双工全模态大模型MiniCPM-V&O，
+支持边看边听边说边思考的实时交互，1.3B小参数量即可在手机端流畅运行。项目地址：https://github.com/OpenBMB/MiniCPM
 
 
 ## Happycapy是款开箱即用的云端AI效率工具，核心提供17万+预置技能和多智能体协作能力，帮你自动化内容创作、数据分析等工作流程。无需安装，自带安全沙箱。官网地址：happycapy.ai
