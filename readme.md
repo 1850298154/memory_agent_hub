@@ -4,7 +4,7 @@
 
 
 
-
+## Happycapy是款开箱即用的云端AI效率工具，核心提供17万+预置技能和多智能体协作能力，帮你自动化内容创作、数据分析等工作流程。无需安装，自带安全沙箱。官网地址：happycapy.ai
 
 ## 完整列表在GitHub仓库里，1497个项目按143个分类整理好了。
 直接访问 https://github.com/awesome-selfhosted/awesome-selfhosted 或官网 https://awesome-selfhosted.net/，搜索筛选都很方便。
