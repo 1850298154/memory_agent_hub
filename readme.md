@@ -1,6 +1,8 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## 港大开源的CLI-Anything能扫描任意软件源码，自动生成AI可调用的CLI接口，让智能体操控GIMP、Blender等无API桌面软件。
+GitHub地址：github.com/HKUDS/CLI-Anything，CLI-Hub官网：clianything.cc
 
 ## 开源项目"动手学大模型"(dive-into-llms)，上海交大张绰胜教授团队开发，GitHub获22.7k星。
 项目地址：https://github.com/Lordog/dive-into-llms
