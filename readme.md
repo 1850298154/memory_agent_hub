@@ -1,5 +1,47 @@
 
-# 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
+# 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
+                                 
+
+
+
+
+
+
+## 主题：Claude Code第三方API缓存失效问题解析与解决方案
+
+① 问题现象  
+第三方API使用Claude Code时出现token消耗暴涨、推理速度骤降
+
+② 技术根源  
+x-anthropic-billing-header中的cch字段(5位hex)每次请求动态变化，如97bd6→24c2d→ead88
+
+③ 机制原理  
+第三方代理将billing header视为system prompt一部分计算缓存key，导致前缀哈希持续失效
+
+④ 影响范围  
+所有Anthropic兼容代理、Bedrock及本地vLLM服务均受此问题影响
+
+⑤ 根本原因  
+Anthropic服务器能识别并跳过该header，但第三方服务无法区分导致缓存命中率为零
+
+行動指南和步驟！
+
+1. 验证问题  
+使用claude-tap抓包确认请求中是否存在x-anthropic-billing-header字段
+
+2. 配置修改  
+在~/.claude/settings.json的env段添加：  
+"CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
+
+3. 服务重启  
+完全退出并重新启动Claude Code客户端使配置生效
+
+4. 效果验证  
+再次抓包确认system prompt中已移除billing header字段
+
+5. 性能监控  
+跟踪token...
+
 
 ## AI自动渗透平台，内置20多个专业安全工具 
 
