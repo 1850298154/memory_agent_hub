@@ -1,6 +1,10 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
+## AI自动渗透平台，内置20多个专业安全工具 
+
+
+视频中提到的PentAGI项目GitHub地址：https://github.com/vxcontrol/pentagi
 
 ## AI工具导航站开源项目，帮你搭建专属的AI工具分类库。它能将写作、绘图、视频等各类AI工具按类别整理成"超市"，支持搜索、排行、提交审核功能，把零散工具信息转化为可运营的内容资产。项目采用现代化技术栈，界面支持深浅模式，适配多设备。
 
