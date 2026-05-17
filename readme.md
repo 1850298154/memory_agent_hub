@@ -6,6 +6,10 @@
 
 
 
+## 完整列表在GitHub仓库里，1497个项目按143个分类整理好了。
+直接访问 https://github.com/awesome-selfhosted/awesome-selfhosted 或官网 https://awesome-selfhosted.net/，搜索筛选都很方便。
+
+超棒自托管项目GitHub地址：https://github.com/awesome-selfhosted/awesome-selfhosted
 
 ## 主题：Claude Code第三方API缓存失效问题解析与解决方案
 
