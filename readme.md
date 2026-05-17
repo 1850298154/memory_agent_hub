@@ -2,7 +2,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent集合
 
 
-
+## 开源项目"动手学大模型"(dive-into-llms)，上海交大张绰胜教授团队开发，GitHub获22.7k星。
+项目地址：https://github.com/Lordog/dive-into-llms
 
 ## 主题：翠猫翻译解决AI翻译"机翻味"问题
 
