@@ -1,6 +1,9 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
                                  
+## Open Design是GitHub上两周获4万星的开源AI设计工具，整合Claude Code、Codex等16个CLI作为设计引擎，支持本地优先运行。
+可根据需求生成网页、PPT、图片等内容，包含31个技能模块和129套设计系统。项目地址：github.com/nexu-io/open-design
+
 
 ## 清华大学NLP实验室开源的全球首个全双工全模态大模型MiniCPM-V&O，
 支持边看边听边说边思考的实时交互，1.3B小参数量即可在手机端流畅运行。项目地址：https://github.com/OpenBMB/MiniCPM
