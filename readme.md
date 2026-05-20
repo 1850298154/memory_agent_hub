@@ -5,6 +5,9 @@
                       
 
 
+## AnySearch专为AI Agent设计，打通传统搜索引擎无法覆盖的80%深层网络。
+核心功能：覆盖代码、金融、安全等23大垂直领域，降低60% Token消耗，准确率76.4%，支持批量并行查询。实现原理基于智能意图路由和深层网络爬取技术。项目地址：github.com/anysearch-ai/anysearch-skill，官网anysearch.com。
+
 
 ## ARS项目的GitHub主地址
 是：https://github.com/Imbad0202/academic-research-skills。视频里提到的6400+星标的论文流水线工具就在这里，支持Claude Code的多智能体协作流程。        
