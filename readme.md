@@ -1,6 +1,13 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
-                                 
+   
+
+                      
+
+
+
+## ARS项目的GitHub主地址
+是：https://github.com/Imbad0202/academic-research-skills。视频里提到的6400+星标的论文流水线工具就在这里，支持Claude Code的多智能体协作流程。        
 ## Open Design是GitHub上两周获4万星的开源AI设计工具，整合Claude Code、Codex等16个CLI作为设计引擎，支持本地优先运行。
 可根据需求生成网页、PPT、图片等内容，包含31个技能模块和129套设计系统。项目地址：github.com/nexu-io/open-design
 
