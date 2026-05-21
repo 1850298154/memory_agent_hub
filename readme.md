@@ -1,8 +1,14 @@
 
+
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
    
 
                       
+
+
+
+## Forge是通过五层防护层（救援解析/重试提示/步骤强制执行/错误恢复/上下文压缩）
+让8B小模型在26个真实Agent任务中达到86.5%准确率的框架。Forge 诞生记 Day16，终于要内部上线了，forge 1.0 is coming!!!https://github.com/pan94u/forge
 
 
 ## AnySearch专为AI Agent设计，打通传统搜索引擎无法覆盖的80%深层网络。
