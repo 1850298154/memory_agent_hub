@@ -32,7 +32,8 @@
 
 官网链接暂未公开，建议：①GitHub搜索"brows...
 
-该项目对应mooncloud/browser-pilot，GitHub地址为：https://github.com/mooncloud/browser-pilot。这是视频中演示的开源浏览器AI代理可视化驾驶舱实现。
+该项目对应mooncloud/browser-pilot，GitHub地址为：https://github.com/mooncloud/browser-pilot
+
 
 ## notebooklm-py是将Google NotebookLM程序化的开源工具
 
