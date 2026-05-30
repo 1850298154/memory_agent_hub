@@ -6,6 +6,8 @@
                       
 
 
+## awesome-ai-agents-2026开源地址：
+https://github.com/caramaschiHG/awesome-ai-agents-2026
 
 ## GitHub排名第一的LLM课程，含基础（数学/Python）、进阶（模型训练）、应用（开发部署）三阶段。
 项目地址：https://github.com/mlabonne/llm-course
