@@ -4,7 +4,10 @@
    
 
                       
+## 消耗1830亿token，Meta用AI把数学教材翻译成了一个超大Lean库
 
+ATLAS项目GitHub地址：https://github.com/facebookresearch/atlas-lean/  
+可视化浏览器：https://rammalahmad.github.io/atlas/
 
 ## awesome-ai-agents-2026开源地址：
 https://github.com/caramaschiHG/awesome-ai-agents-2026
