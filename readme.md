@@ -6,6 +6,12 @@
                       
 
 
+
+## cli-anything wps迎来重磅更新，新增可以操控学术文献管理器Zotero的harness
+同时增加27个Zotero 学术智能体，全面助力科研#claude code#codex#skill
+
+项目地址是：https://github.com/yb2460/cli-anything-wps
+
 ## GitHub排名第一的LLM课程，含基础（数学/Python）、进阶（模型训练）、应用（开发部署）三阶段。
 项目地址：https://github.com/mlabonne/llm-course
 
