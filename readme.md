@@ -4,6 +4,12 @@
    
 
                       
+
+
+
+## book-to-skill项目地址：主仓库 
+https://github.com/virgiliojr94/book-to-skill，中文版 https://github.com/apple-ouyang/book-to-skill
+
 ## 消耗1830亿token，Meta用AI把数学教材翻译成了一个超大Lean库
 
 ATLAS项目GitHub地址：https://github.com/facebookresearch/atlas-lean/  
