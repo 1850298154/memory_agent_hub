@@ -7,6 +7,13 @@
 
 
 
+## GitHub排名第一的LLM课程，含基础（数学/Python）、进阶（模型训练）、应用（开发部署）三阶段。
+项目地址：https://github.com/mlabonne/llm-course
+
+
+## OpenAlice开源项目地址：https://github.com/TraderAlice/OpenAlice。可直接git clone下载，需Node.js 22+和pnpm 10+环境。请注意这是实验性软件，不建议用于实盘交易。
+
+
 ## cli-anything wps迎来重磅更新，新增可以操控学术文献管理器Zotero的harness
 同时增加27个Zotero 学术智能体，全面助力科研#claude code#codex#skill
 
