@@ -3,7 +3,28 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
    
 
-                      
+ 
+
+
+
+
+## cli anything wps迎来爆炸更新，现在改名为harness-anything，突破单一的cli和wps限制。
+新增photoshop和illustrator的操控
+
+
+win地址：https://github.com/yb2460/harness-anything
+mac和Linux地址：https://github.com/yb2460/harness-anything-mac
+
+
+1. CLI Anything通过Windows COM自动化接口（或macOS AppleScript）间接操控Adobe软件，例如用`cli-anything illustrator text add "Brand"`命令控制文字图层，需满足Windows 10+/Adobe 2023+/Python 3.10+等前置条件  
+
+2. 与Office CLI的本质区别在于：前者依赖操作系统级自动化（需手动适配闭源软件），后者基于微软官方REST API；前者仅限Windows，后者跨平台；前者侧重本地办公软件，后者整合云端协作功能  
+
+3. 接入Trae的关键是封装适配层：先确保CLI命令支持`--json`输出，再编写解析器将JSON转换为Trae任务状态，最后将命令嵌入工作流节点（如批量导出PDF任务）  
+
+4. 实际应用需注意：Adobe软件因闭源限制，操作精度低于WPS原生支持；建议优先测试图层管理、文本插入等基础功能，复杂操作可通过组合CLI命令实现
+
+                     
 
 ## BetterFullstack是专治"项目启动焦虑"的全栈脚手架工具。
 它把前后端、数据库、认证、支付、AI等模块打包成可配置的积木，你只需勾选技术栈（支持TS/Rust/Python/Go等7大生态270+组合），一条命令就能生成可直接运行的项目骨架。从此不用再花几天时间配环境粘底座，直接进入核心业务开发。
