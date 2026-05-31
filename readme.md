@@ -5,7 +5,8 @@
 
                       
 
-
+## BetterFullstack是专治"项目启动焦虑"的全栈脚手架工具。
+它把前后端、数据库、认证、支付、AI等模块打包成可配置的积木，你只需勾选技术栈（支持TS/Rust/Python/Go等7大生态270+组合），一条命令就能生成可直接运行的项目骨架。从此不用再花几天时间配环境粘底座，直接进入核心业务开发。
 
 ## book-to-skill项目地址：主仓库 
 https://github.com/virgiliojr94/book-to-skill，中文版 https://github.com/apple-ouyang/book-to-skill
