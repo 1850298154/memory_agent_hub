@@ -26,7 +26,7 @@ https://github.com/caramaschiHG/awesome-ai-agents-2026
 
 
 ## cli-anything wps迎来重磅更新，新增可以操控学术文献管理器Zotero的harness
-同时增加27个Zotero 学术智能体，全面助力科研#claude code#codex#skill
+同时增加27个Zotero 学术智能体，全面助力科研
 
 项目地址是：https://github.com/yb2460/cli-anything-wps
 
@@ -59,7 +59,7 @@ https://github.com/caramaschiHG/awesome-ai-agents-2026
 
 "让AI操作可见可感，是人机协作的新起点"
 
-视频以技术纪录片形式展开：开场00:00霓虹光标划过浏览器界面，00:04焦点框扫描高亮思考流，00:12侧边栏滑动触发数据流实时填充，00:18右键弹出三栏摘要。全程伴随Python代码执行轨迹与DOM捕捉信号，最终定格在"项目已开源"字样上，如同给AI装上了透明驾驶舱。
+以技术纪录片形式展开：开场00:00霓虹光标划过浏览器界面，00:04焦点框扫描高亮思考流，00:12侧边栏滑动触发数据流实时填充，00:18右键弹出三栏摘要。全程伴随Python代码执行轨迹与DOM捕捉信号，最终定格在"项目已开源"字样上，如同给AI装上了透明驾驶舱。
 
 官网链接暂未公开，建议：①GitHub搜索"brows...
 
@@ -84,7 +84,7 @@ github.com/alibaba/page-agent
 
 
 ## ARS项目的GitHub主地址
-是：https://github.com/Imbad0202/academic-research-skills。视频里提到的6400+星标的论文流水线工具就在这里，支持Claude Code的多智能体协作流程。        
+是：https://github.com/Imbad0202/academic-research-skills。提到的6400+星标的论文流水线工具就在这里，支持Claude Code的多智能体协作流程。        
 ## Open Design是GitHub上两周获4万星的开源AI设计工具，整合Claude Code、Codex等16个CLI作为设计引擎，支持本地优先运行。
 可根据需求生成网页、PPT、图片等内容，包含31个技能模块和129套设计系统。项目地址：github.com/nexu-io/open-design
 
@@ -1885,7 +1885,7 @@ Penpot 的 GitHub 项目地址是 https://github.com/penpot/penpot，可以直�
 
 ## 人类满分程序员的Skill repo 登顶页全球第一，硬核实力碾压！
 
-视频里提到的Skill repo项目地址是：https://github.com/mattpocock/skills
+提到的Skill repo项目地址是：https://github.com/mattpocock/skills
 
 ## 上海创智学院与华东师范大学联合提出的新一代记忆智能体框架 MIA（Memory Intelligence Agent）
 
@@ -2701,7 +2701,7 @@ AI时代重构职业画像后必备的6种编程方法。以下是精简对比�
 ## M-FLOW技术
 
 由中国年轻团队开发，针对传统RAG仅做文本匹配、缺乏推理能力的短板。其核心是"倒锥图路由架构"，通过FacetPoint（原子断言）、Entity（命名事物）和Facet（截面维度）三层结构，实现多跳推理与跨文档关联。搭建方式有两种：1) Docker一键部署：克隆GitHub仓库后运行quickstart脚本；2) pip安装：使用pip install m_flow命令，并配置LLM API密钥。该方案在多项Benchmark测试中表现优异。
-GitHub上搜mflow-ai/m_flow就能找到源码和文档，视频里提到的一键部署脚本也在里面。
+GitHub上搜mflow-ai/m_flow就能找到源码和文档，提到的一键部署脚本也在里面。
 
 ## 预训练数据集
 
@@ -3527,7 +3527,7 @@ https://github.com/AI-App/OpenDevin.OpenDevin
 
 ## 1.120. coding skill 集合
 
-https://github.com/vercel-labs/agent-skills。使用时只需运行命令 `npx skills add vercel-labs/agent-skills`，就能安装这4000+种coding技能。视频里展示的是在OpenCode工具中操作的演示界面。
+https://github.com/vercel-labs/agent-skills。使用时只需运行命令 `npx skills add vercel-labs/agent-skills`，就能安装这4000+种coding技能。展示的是在OpenCode工具中操作的演示界面。
 
 ## 1.121. skill.empjs.dev
 
