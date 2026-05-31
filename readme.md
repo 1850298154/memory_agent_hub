@@ -5,7 +5,15 @@
 
  
 
+## AgentS开源电脑操作AI框架要点：
 
+1. 架构：GUI代理系统，含记忆/规划模块，支持Win/Mac/Linux跨平台
+2. 设计：模拟人类操作计算机，通过OSWorld基准测试验证能力
+3. 功能：自动操控鼠标键盘、打开软件、处理文件、编写代码
+4. 使用：单显示器环境，命令行部署，需注意安全权限管理
+5. 地址：GitHub - simular-ai/Agent-S
+
+视频显示AgentS3在OSWorld测试中达72.6%胜率，超过人类平均水平。
 
 ## LEAN量化交易引擎的GitHub官方地址：https://github.com/QuantConnect/Lean，包含完整源码和文档。
 
