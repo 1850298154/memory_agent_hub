@@ -7,6 +7,8 @@
 
 
 
+## LEAN量化交易引擎的GitHub官方地址：https://github.com/QuantConnect/Lean，包含完整源码和文档。
+
 
 ## cli anything wps迎来爆炸更新，现在改名为harness-anything，突破单一的cli和wps限制。
 新增photoshop和illustrator的操控
