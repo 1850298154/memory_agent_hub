@@ -3,7 +3,16 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
    
 
- 
+## AgentMemory是一款开源AI编程辅助工具，核心功能如下：
+1. 持久记忆系统：自动捕获会话操作、决策和上下文
+2. 兼容性强：支持Claude Code、Codex、Hermes等30+编程智能体
+3. 效率提升：准确率95.2%，节省92% Token消耗
+4. 本地化部署：无需外置数据库，保障数据安全
+5. 混合检索：通过关键词+向量+知识图谱精准定位历史上下文
+
+开源地址：github.com/rohitg00/agentmemory
+
+
 
 ## AgentS开源电脑操作AI框架要点：
 
