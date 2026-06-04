@@ -3,6 +3,37 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
    
 
+
+
+
+
+
+
+## AI记忆新突破：Supermemory开源项目重塑RAG体验  
+
+① 项目本质  
+AI记忆引擎 - 解决传统RAG的记忆碎片化问题  
+
+② 性能标杆  
+三项基准测试冠军，多项指标领先行业  
+
+③ 技术融合  
+RAG+记忆一体化，实现真正连贯的认知体验  
+
+④ 智能特性  
+自动构建用户画像，处理矛盾信息，减少遗忘  
+
+⑤ 社区认可  
+GitHub 25.1k星标，获Karpathy等顶尖专家推荐  
+
+1. 访问GitHub查看项目文档，了解部署方式  
+2. 尝试将其集成到个人AI工作流中提升效率  
+3. 探索在客服、知识管理等场景的实际应用  
+4. 关注社区讨论，把握AI记忆技术最新发展方向  
+
+记忆不再零散，AI从此拥有持续思考力。  
+https://github.com/supermemoryai/Supermemory
+
 ## AgentMemory是一款开源AI编程辅助工具，核心功能如下：
 1. 持久记忆系统：自动捕获会话操作、决策和上下文
 2. 兼容性强：支持Claude Code、Codex、Hermes等30+编程智能体
