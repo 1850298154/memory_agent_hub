@@ -6,8 +6,8 @@
 
 
 
-
-
+## 里海大学团队提出OpenSkill，让Agent无需目标任务监督信号即可自主获取并进化技能。
+OpenSkill需Node.js环境（≥18版本），先用`npm install -g openskills`安装命令行工具。之后执行`openskills install [技能名]`添加功能（如PDF处理），安装完成后在支持的应用中调用即可。具体技能列表和进阶用法可参考GitHub官方文档。
 
 ## AI记忆新突破：Supermemory开源项目重塑RAG体验  
 
