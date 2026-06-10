@@ -4,6 +4,16 @@
    
 
 
+## ARIS是全自动科研工具，通过跨模型协作实现从文献调研到论文撰写的全流程自动化。
+项目地址：https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
+
+
+## Awesome Architecture是专注"架构"的开源知识库，提供25+真实系统架构地图，涵盖电商支付、信息流等场景及Codex/ClaudeCode拆解。
+项目地址：https://github.com/study8677/awesome-architecture
+
+
+## OpenSwarm 开源 AI Agent，把开发任务拆给多个 Agent 协作处理：写代码、修 Bug、生成文档都能进一条自动化链路。
+github.com/VRSEN/OpenSwarm，这个MIT协议开源项目能让AI团队帮你写代码、修Bug、生成文档。
 
 
 ## 里海大学团队提出OpenSkill，让Agent无需目标任务监督信号即可自主获取并进化技能。
