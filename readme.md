@@ -5,6 +5,14 @@
 
 
 
+## Agent监控平台
+Agent Harness提供轻量级可观测方案，支持执行追踪和可视化调试；Langfuse则是全面的开源选择，适合全链路监控。两者都能与主流框架集成，可根据实际需求选用。
+
+
+LangSmith是LangChain的LLM应用DevOps平台，专注可观测性与调试；SmithDB则是专为Agent Trace数据设计的分布式数据库，解决海量嵌套Span的存储查询问题。目前SmithDB定价尚未公开，可能整合在LangSmith服务中，建议关注LangChain官方公告获取准确信息。
+
+
+SmithDB目前未独立开源，暂无专属GitHub地址。您可参考LangChain主仓库(https://github.com/langchain-ai/langchain)或LangSmith文档(smith.langchain.com)获取相关技术细节。
 
 
 ## 最佳学术skill
