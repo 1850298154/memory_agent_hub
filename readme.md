@@ -5,6 +5,18 @@
 
 
 
+## 阿里的code reviewer
+① 开源动作 → 阿里将内部使用两年的AI代码审查工具Open Code Review正式开源，25天获6.4k Star
+
+② 实战背书 → 作为阿里集团内部官方代码审查助手，服务数万开发者，识别数百万代码缺陷
+
+③ 痛点突破 → 专治普通AI审查三大硬伤：覆盖不全、位置漂移、质量不稳定
+
+④ 工程实现 → 从简单丢代码给模型升级为可约束、可并发、可接入CI的全自动审查流水线
+
+开发者可立即尝试将Open Code Review集成至现有开发流程，重点关注其工程化实现方式。建议先在小型项目中测试，评估对团队代码质量的实际提升效果。同时关注项目更新，把握AI代码审查从"辅助工具"向"生产环节"转变的趋势。
+
+阿里开源的Open Code Review已在GitHub上线：github.com/alibaba/open-code-review。这是他们内部实战两年的代码审查工具，推荐用NPM安装体验：npm install -g @alibaba-group/open-code-review。
 ## "Brainstorming Skill"这一AI Agent架构设计精华，仅用164行代码、2个文件实现精准控制。
 
 
