@@ -1,7 +1,13 @@
 
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
-   
+ 
+
+
+
+##  12-Factor Agents不是普通收藏夹项目，狠在它把Agent从Demo到生产的坑拆成12条工程规矩。23.1k到23.2k星能对上，但真正该看的，是开发者返工成本和小团队流程怎么重算。
+
+项目地址在这里：https://github.com/humanlayer/12-factor-agents
 
 ## 科研与推销
 
