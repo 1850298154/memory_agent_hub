@@ -5,6 +5,30 @@
 
 
 
+## "Brainstorming Skill"这一AI Agent架构设计精华，仅用164行代码、2个文件实现精准控制。
+
+
+Brainstorming Skill GitHub地址：  
+1. Superpowers项目：https://github.com/obra/superpowers  
+2. Matt Pocock技能库：https://github.com/mattpocock/skills  
+3. Claude技能合集：https://github.com/ComposioHQ/awesome-claude-skills
+
+核心内容如下：
+
+【七大决策】
+1. 硬门控：先设边界再行动，必须获用户批准才能写代码
+2. Anti-Pattern前置：预先拦截"任务太简单无需设计"的错误倾向
+3. Checklist+TodoWrite：9步流程编码确保不跳过关键环节
+4. 流程图心智模型：专为Agent设计的条件分支理解工具
+5. 渐进披露：按需加载可视化工具，仅在特定条件提议一次
+6. 单条消息规则：功能提议必须独立成消息，保障流程纯净
+7. 终端状态显式定义：明确指定后续动作消除决策歧义
+
+【六大原则】
+先设约束再讲流程｜预防已知错误模式｜复杂度显式化
+按需加载｜避免token浪费｜显式终态
+
+这些设计要素共同解决了Agent易跳过设计、盲目执行等痛点，每个组件都针对具体失效模式提供防护。视频中所有参考资料均来自创作者"硅基队长"的技术解析内容。
 ## Agent监控平台
 Agent Harness提供轻量级可观测方案，支持执行追踪和可视化调试；Langfuse则是全面的开源选择，适合全链路监控。两者都能与主流框架集成，可根据实际需求选用。
 
