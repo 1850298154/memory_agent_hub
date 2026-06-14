@@ -3,6 +3,16 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
 
+
+
+
+
+
+## 顶级会议 AAAI 2026：学术界历史上第一次在大型会议严苛的真实双盲投稿流程中，直接引入且官方部署的 AI 生成式评审体系。
+
+文章是《AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot》。该文目前以arXiv预印本形式存在（编号2604.13940），预印本通常无正式DOI。建议通过AAAI 2026会议论文集或访问arXiv页面（https://arxiv.org/abs/2604.13940）查询最终发表信息。
+
+
 ## Chrome团队工程主管Addy Osmani把高级工程师的工作流打包成开源技能包agent-skills
  7个斜杠命令覆盖规格、计划、构建、测试、评审、上线全周期; build auto模式批准一次计划就全自动逐任务实现,每步带测试验证。Claude Code、Cursor、Antigravity都能直接装,GitHub已5.6万星、单日暴涨2600+,免费开源
 GitHub项目地址：https://github.com/addyosmani/agent-skills。这是Chrome团队主管Addy Osmani开源的工程师工作流技能包，7个斜杠命令覆盖开发全流程，已获5.6万星。
