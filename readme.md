@@ -4,6 +4,10 @@
  
 
 
+## Iterative-Contextual-Refinements 
+这个框架的加持下, Qwen3.6-27B 跑分超过了 Anthropic Fable5!
+
+
 ## 学术写作工具GitHub地址是：https://github.com/Imbad0202/academic-research-skills
 ## 北大港大：大模型发现了，人类从未想到的纳什均衡算法
 纳什均衡算法主要用于寻找博弈中的稳定策略组合，让各方在知道彼此策略的情况下都没有动力单方面改变。视频中北大港大团队的新突破，是用大模型框架LegoANE将复杂证明转为优化问题，首次把三人博弈误差降到0.5+δ，为算法博弈论开辟了新路径。
