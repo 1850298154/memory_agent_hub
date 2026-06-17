@@ -7,6 +7,24 @@
 
 
 
+## 🔧 tutorial-any-repo
+
+一句话让 AI 把整个代码仓库变成一本「源码教程书」📖
+
+给它任意 repo，自动扫描所有代码 → 并行 Agent Team 写讲解 → 部署成可搜索的教程网站 🚀
+
+拿 verl（字节 RL 框架，397个文件）实测，全自动生成 411 页教程 🤯
+👉 https://tkoniy.github.io/verl/
+
+⚡ 安装：Claude Code 里执行
+/plugin marketplace add TKONIY/tutorial-any-repo
+/plugin install tutorial-any-repo
+
+读源码再也不用捧着电脑硬啃了 💪
+
+🔗 https://github.com/TKONIY/tutorial-any-repo
+
+个人经验：可以配合deepwiki使用，效果奇佳。
 ## 开源 AI 记忆项目 CogniFold！🔥
 告别传统 Agent Memory“被动检索”的死板模式，让 Agent 像人一样拥有长期记忆，能从日常碎念中主动沉淀出对你的理解，并产生行动意图！目前多项测试成绩领先。👇
 
