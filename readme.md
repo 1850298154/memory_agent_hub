@@ -6,6 +6,16 @@
 
 
 
+## 颠覆编程底层！Vercel 推出专属 AI Agent 编程语言 Zerolang
+
+编程格局彻底被改写！Vercel Labs 重磅新项目 Zerolang 爆火上线，上线斩获 5018 Star。
+
+定位极度超前：专门为 AI Agent 量身打造的编程语言。
+打破几十年常识：程序不再是单纯源码文本，直接等价成可验证语义图数据库。
+以后 AI Agent 不用纠结代码怎么修改、语法怎么适配，原生就能理解、迭代、调度程序，下一代 Agent 开发基础设施来了！
+
+
+https://github.com/vercel-labs/zerolang
 
 ## 🔧 tutorial-any-repo
 
