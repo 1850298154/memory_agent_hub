@@ -4,6 +4,17 @@
  
 
 
+
+
+
+## 开源 AI 记忆项目 CogniFold！🔥
+告别传统 Agent Memory“被动检索”的死板模式，让 Agent 像人一样拥有长期记忆，能从日常碎念中主动沉淀出对你的理解，并产生行动意图！目前多项测试成绩领先。👇
+
+📕 小红书：http://xhslink.com/o/9NANCRpE4Oy
+📄 arXiv：https://arxiv.org/abs/2605.13438
+💻 GitHub：https://github.com/OpenNorve/CogniFold
+
+OpenNorve 致力于 Open research at the edge of brains, AI, and Neural Interfaces. Neural-inspired everything. 欢迎大家持续关注！
 ## Iterative-Contextual-Refinements 
 这个框架的加持下, Qwen3.6-27B 跑分超过了 Anthropic Fable5!
 
