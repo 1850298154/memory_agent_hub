@@ -3,6 +3,9 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
 
+## EverOS开源主仓库地址：https://github.com/EverMind-AI/EverOS。
+包含核心模块EverCore、HyperMem及评测基准，采用Apache 2.0协议，支持Docker部署。其他资源如Claude插件可在子项目中查看。
+
 
 ## codebase-to-course是一款能将任意代码仓库自动生成离线交互式HTML教学课程的工具。
 它把源码与通俗解释并排展示，配有数据流动画和术语提示，无需安装即可使用。项目地址：
