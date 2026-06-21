@@ -3,6 +3,13 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
 
+
+## codebase-to-course是一款能将任意代码仓库自动生成离线交互式HTML教学课程的工具。
+它把源码与通俗解释并排展示，配有数据流动画和术语提示，无需安装即可使用。项目地址：
+https://github.com/zarazhangrui/codebase-to-course
+
+
+
 ## scipilot-figure-skill，一个专为科研设计的AI绘图工具。
 它先帮您理清研究结论，再推荐合适的图表类型，还能自动检查常见错误，确保符合学术出版标准。
 
