@@ -3,7 +3,8 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
 
-
+## scipilot-figure-skill，一个专为科研设计的AI绘图工具。
+它先帮您理清研究结论，再推荐合适的图表类型，还能自动检查常见错误，确保符合学术出版标准。
 
 ## AI精准革命：Probably初创公司破解幻觉困局  
 
