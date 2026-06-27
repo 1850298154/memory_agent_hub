@@ -9,6 +9,8 @@
 
 
 
+## rubric rl
+https://cameronrwolfe.substack.com/p/rubric-rl
 
 ## 科研绘图的解决方案：用ChatGPT生成高质量图片后，通过FigPad实现便捷的二次编辑。
 对比测试表明，相比Gemini、SVG编辑器等工具，FigPad在处理复杂科研图表（如NMR波谱仪结构图）时表现最优，支持文字修改和元素拖动。
