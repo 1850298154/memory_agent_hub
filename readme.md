@@ -8,7 +8,10 @@
 
 
 
+## "Linux指纹书馆"是个实用的Linux命令学习平台
+，把所有Linux命令按真实使用场景做了可视化分类，像shell脚本、系统管理、网络工具等几十个专题板块。特色是每个命令都有语法高亮和一键复制功能，特别适合新手快速查找和应用命令。
 
+遗憾的是，视频里没展示具体网址，我也查不到这个名称的确切项目地址。可能是创作者使用的非官方称呼，或者是某个技术社区的内部项目。如果你想找类似资源，可以试试Linux命令大全网站(linuxcommandlibrary.com)或ExplainShell这类工具。
 ## rubric rl
 https://cameronrwolfe.substack.com/p/rubric-rl
 
