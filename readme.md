@@ -3,6 +3,20 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
 
+
+
+
+
+
+
+
+
+## 科研绘图的解决方案：用ChatGPT生成高质量图片后，通过FigPad实现便捷的二次编辑。
+对比测试表明，相比Gemini、SVG编辑器等工具，FigPad在处理复杂科研图表（如NMR波谱仪结构图）时表现最优，支持文字修改和元素拖动。
+
+关于项目地址，视频中未提供FigPad官网链接，建议在应用商店搜索"FigPad"获取正版应用。
+
+
 ## EverOS开源主仓库地址：https://github.com/EverMind-AI/EverOS。
 包含核心模块EverCore、HyperMem及评测基准，采用Apache 2.0协议，支持Docker部署。其他资源如Claude插件可在子项目中查看。
 
