@@ -6,7 +6,9 @@
 
 
 
+## 1.6K Star 的元 Skill 工程框架：yao-meta-skill 
 
+开源地址：https://github.com/yaojingang/yao-meta-skill
 
 ## "Linux指纹书馆"是个实用的Linux命令学习平台
 ，把所有Linux命令按真实使用场景做了可视化分类，像shell脚本、系统管理、网络工具等几十个专题板块。特色是每个命令都有语法高亮和一键复制功能，特别适合新手快速查找和应用命令。
