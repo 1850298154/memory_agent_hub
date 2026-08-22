@@ -2,6 +2,10 @@
 
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
+## Qlib相当于AI量化研究的“实验室”，负责数据、训练、回测和组合分析；RD-Agent则像自动化研究员，能够提出想法、写代码、运行实验，再根据结果继续迭代。
+两者结合后，传统的“找因子—建模型—做回测”流程，可以变成由多个AI智能体协作的自动研究循环。
+#AI工具 #ai #量化 #开源项目
+
 
 ##AI科学家Kosmos实现科研全流程自动化，12小时内完成人类团队6个月工作量！#AI科学 Kosmos#自动化#AI#科学家系统#大模型#科研#博士#团队
 
