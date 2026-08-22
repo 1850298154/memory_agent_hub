@@ -3,6 +3,10 @@
 # 2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、verify、agentic RL 等 AI Agent
  
 
+##AI科学家Kosmos实现科研全流程自动化，12小时内完成人类团队6个月工作量！#AI科学 Kosmos#自动化#AI#科学家系统#大模型#科研#博士#团队
+
+开源实现地址是 github.com/jimmc414/Kosmos，原论文见 arXiv:2511.02824，作者方还放出了分析模式仓库 EdisonScientific/kosmos-figures，可以按需要取用。
+
 
 ## Leto 因靠投资赚到 3000 万、从字节辞职而出圈
 
